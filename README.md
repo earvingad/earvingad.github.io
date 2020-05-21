@@ -1,1 +1,0 @@
-# earvingad.github.io
