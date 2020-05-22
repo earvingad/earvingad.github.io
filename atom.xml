@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd thing and stuff.</subtitle>
-    <updated>2020-05-21T20:03:53-05:00</updated>
+    <updated>2020-05-21T22:18:49-05:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -14,20 +14,20 @@
             
                 <email>arciga.duran@gmail.com</email>
             </author>
-    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
+    <rights>Do not</rights>
     <generator uri="https://gohugo.io/" version="0.70.0">Hugo</generator>
         <entry>
             <title type="text">In the Beginning</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/in-the-beginning/" />
             <id>https://earvingad.github.io/posts/in-the-beginning/</id>
-            <updated>2020-05-21T19:41:49-05:00</updated>
+            <updated>2020-05-21T22:18:22-05:00</updated>
             <published>2020-05-20T22:25:18-05:00</published>
             <author>
                     <name>Earving Arciga</name>
                     <uri>https://earvingad.github.io/</uri>
                     <email>arciga.duran@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">First things first   This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.</summary>
+            <rights>Do not</rights><summary type="html">First things first   This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.</summary>
             
                 <content type="html">
 &lt;h2 id=&#34;headline-1&#34;&gt;
@@ -48,7 +48,7 @@ I have always though that Emacs is neat. Just reading the name in a &lt;code cla
 &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
-So you just have to press &lt;code class=&#34;verbatim&#34;&gt;C-x C-x&lt;/code&gt; … wait what??
+So you just have to press &lt;code class=&#34;verbatim&#34;&gt;C-u C-x C-c&lt;/code&gt; … wait what??
 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;
