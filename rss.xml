@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Nerd things and more...</title>
+        <link>https://earvingad.github.io/</link>
+        <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
+        <generator>Hugo 0.70.0 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+            <managingEditor>arciga.duran@gmail.com (Earving Arciga)</managingEditor>
+        
+        
+            <webMaster>arciga.duran@gmail.com (Earving Arciga)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+        
+        <lastBuildDate>Thu, 21 May 2020 19:42:19 -0500</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>In the Beginning</title>
+                <link>https://earvingad.github.io/posts/in-the-beginning/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/in-the-beginning/</guid>
+                <pubDate>Wed, 20 May 2020 22:25:18 -0500</pubDate>
+                
+                    <author>arciga.duran@gmail.com (Earving Arciga)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>
+&lt;h2 id=&#34;headline-1&#34;&gt;
+First things first
+&lt;/h2&gt;
+&lt;p&gt;
+This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people.
+Such things include: &lt;code class=&#34;verbatim&#34;&gt;Emacs, linux, vim, encryption&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;a e s t h e t i c s&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+This blog is hosted in &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt;, written in &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; with &lt;a href=&#34;https://orgmode.org/&#34;&gt;org-mode&lt;/a&gt; and posted with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; (This is one of the topics I&amp;#39;ll be posting later: &lt;em&gt;How to blog with github and Hugo&lt;/em&gt;).
+&lt;/p&gt;
+&lt;p&gt;
+Recently, I started using emacs at work due to &lt;code class=&#34;verbatim&#34;&gt;org-mode&lt;/code&gt;. I have used emacs in linux for a few months after loving LaTex previews (I am going to post about this later as well). However, at work I have to use windows under heavily firewalls and that complicate the Emacs installation.
+&lt;/p&gt;
+&lt;p&gt;
+I have always though that Emacs is neat. Just reading the name in a &lt;code class=&#34;verbatim&#34;&gt;monospaced&lt;/code&gt; font makes me think that Emacs is elegant. I love Emacs and I used the &lt;em&gt;vanilla&lt;/em&gt; key-bindings when I started using it, but never liked them. When I decided to used Emacs, I remember reading the documentation for minimal use and it went something like:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+So you just have to press &lt;code class=&#34;verbatim&#34;&gt;C-x C-x&lt;/code&gt; … wait what??
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+I was very used to vim key-bindings, so the Emacs learning curve was very long. After some months, I was able to use Emacs comfortably for taking quick notes at work meetings and organizing my pending tasks (Yes, TODO&amp;#39;s), but the key-bindings were tedious.
+&lt;/p&gt;
+&lt;p&gt;
+Luckily, there are frameworks that allows you to emulate vim key-bindings in Emacs. Some of these frameworks are: &lt;a href=&#34;https://www.spacemacs.org/&#34;&gt;Spacemacs&lt;/a&gt;, &lt;a href=&#34;https://github.com/seagle0128/.emacs.d&#34;&gt;Centaur Emacs&lt;/a&gt; and &lt;a href=&#34;https://github.com/hlissner/doom-emacs&#34;&gt;Doom-emacs&lt;/a&gt;. The latest, is the one I use now and installing in windows was and Odyssey but worth it!
+&lt;/p&gt;
+&lt;p&gt;
+The next posts are going to be about:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;em&gt;How to install Doom-emacs in windows&lt;/em&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;em&gt;Org-mode&lt;/em&gt; &amp;amp; &lt;em&gt;org-roam&lt;/em&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+… and we&amp;#39;ll see.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/introduction/">introduction</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/hugo/">hugo</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>

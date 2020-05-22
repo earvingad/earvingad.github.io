@@ -3,26 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://earvingad.github.io/tags/hugo/</loc>
+    <lastmod>2020-05-21T19:41:49-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://earvingad.github.io/posts/in-the-beginning/</loc>
-    <lastmod>2020-05-20T22:25:18-05:00</lastmod>
+    <lastmod>2020-05-21T19:41:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earvingad.github.io/tags/introduction/</loc>
+    <lastmod>2020-05-21T19:41:49-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://earvingad.github.io/</loc>
-    <lastmod>2020-05-20T22:25:18-05:00</lastmod>
+    <lastmod>2020-05-21T19:41:49-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://earvingad.github.io/posts/</loc>
-    <lastmod>2020-05-20T22:25:18-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://earvingad.github.io/categories/</loc>
+    <lastmod>2020-05-21T19:41:49-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://earvingad.github.io/tags/</loc>
+    <lastmod>2020-05-21T19:41:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earvingad.github.io/categories/</loc>
   </url>
   
 </urlset>
