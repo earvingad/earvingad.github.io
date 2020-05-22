@@ -9,7 +9,7 @@
     <channel>
         <title>Nerd things and more...</title>
         <link>https://earvingad.github.io/</link>
-        <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
+        <description>Hi, this is a blog about nerd thing and stuff.</description>
         <generator>Hugo 0.70.0 https://gohugo.io/</generator>
         
             <language>en</language>
@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Thu, 21 May 2020 19:46:35 -0500</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2020 20:03:53 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
