@@ -9,8 +9,8 @@
     <channel>
         <title>Nerd things and more...</title>
         <link>https://earvingad.github.io/</link>
-        <description>Hi, this is a blog about nerd thing and stuff.</description>
-        <generator>Hugo 0.70.0 https://gohugo.io/</generator>
+        <description>Hi, this is a blog about nerd things and stuff.</description>
+        <generator>Hugo 0.71.0 https://gohugo.io/</generator>
         
             <language>en</language>
         
@@ -23,10 +23,310 @@
         
             <copyright>Do not</copyright>
         
-        <lastBuildDate>Thu, 21 May 2020 22:18:49 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2020 21:44:25 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Doom, Emacs &amp; Windows</title>
+                <link>https://earvingad.github.io/posts/doom_emacs_windows/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/doom_emacs_windows/</guid>
+                <pubDate>Fri, 22 May 2020 20:10:08 -0500</pubDate>
+                
+                    <author>arciga.duran@gmail.com (Earving Arciga)</author>
+                
+                <copyright>Do not</copyright>
+                
+                    <description>
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/hlissner/doom-emacs&#34;&gt;Doom-emacs&lt;/a&gt;. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.
+&lt;/p&gt;
+&lt;p&gt;
+As I mentioned in the last post. I started using Emacs at work due to org-mode… and work PC&amp;#39;s use windows behind a Firewall, so using git, pip, melpa and some more are useless in my work desktop (In the Laptop all of them work if I connect to another network, which was what I did).
+&lt;/p&gt;
+&lt;p&gt;
+As you can imagine, Doom is for a GNU program so Windows support is limited (because, who cares?). The &lt;a href=&#34;https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#on-windows&#34;&gt;guide&lt;/a&gt; is poor, it describes how to install it with scoop/chocolatey (that don&amp;#39;t work with a firewall). However, you can use the git-bash to install Doom without scoop/chocolatey.
+Here is how you do it:
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+What you need
+&lt;/h2&gt;
+&lt;p&gt;
+If you have limited permissions in Windows PC (e.g. admin privileges), you might not be able to use Chocolatey/Scoop.
+However, you can still use &lt;code class=&#34;verbatim&#34;&gt;git-bash.exe&lt;/code&gt; portable version!
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Download &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;git&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Download &lt;a href=&#34;https://github.com/BurntSushi/ripgrep/releases&#34;&gt;Ripgrep&lt;/a&gt; and &lt;a href=&#34;https://github.com/sharkdp/fd/releases&#34;&gt;fd&lt;/a&gt;. Make sure you download the &lt;code class=&#34;verbatim&#34;&gt;windows-gnu&lt;/code&gt; version.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Of course, download &lt;a href=&#34;http://ftp.wayne.edu/gnu/emacs/windows/&#34;&gt;emacs&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Extract the binaries&lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; from &lt;code class=&#34;verbatim&#34;&gt;Ripgrep&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;fd&lt;/code&gt; to their respective folders and place them where you want.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+You should have one folder for &lt;code class=&#34;verbatim&#34;&gt;Ripgrep&lt;/code&gt; and another for &lt;code class=&#34;verbatim&#34;&gt;fd&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Extract emacs and place it where you want.
+It does not matter where they are, we will add them to the &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt; later (but keep them
+safe and where you can remember).
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Instructions
+&lt;/h2&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+Edit system environment variables
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Go to &lt;code class=&#34;verbatim&#34;&gt;Control panel -&amp;gt; User Accounts -&amp;gt; Change my environment variables&lt;/code&gt;.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;code class=&#34;verbatim&#34;&gt;New&lt;/code&gt;, type &lt;code class=&#34;verbatim&#34;&gt;HOME&lt;/code&gt; and set your &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add your &lt;code class=&#34;verbatim&#34;&gt;C:\path\to\the\emacs\bin&lt;/code&gt; folder and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add your &lt;code class=&#34;verbatim&#34;&gt;C:\path\to\the\ripgrep&lt;/code&gt; folder and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add your &lt;code class=&#34;verbatim&#34;&gt;C:\path\to\the\fd&lt;/code&gt; folder and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Click &lt;code class=&#34;verbatim&#34;&gt;Ok&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+We still need to add &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\bin&lt;/code&gt;; but first download Doom
+files.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+Install Doom
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Open &lt;code class=&#34;verbatim&#34;&gt;git-bash.exe&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Type &lt;code class=&#34;verbatim&#34;&gt;cd ~&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Run: &lt;code class=&#34;verbatim&#34;&gt;git clone https://github.com/hlissner/doom-emacs ~/.emacs.d&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+After the download is completed, type &lt;code class=&#34;verbatim&#34;&gt;cd =/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom install&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+If everything is fine, Doom is now installed.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Just in case run &lt;code class=&#34;verbatim&#34;&gt;./doom sync&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Go to &lt;code class=&#34;verbatim&#34;&gt;Control panel -&amp;gt; User Accounts -&amp;gt; Change my environment variables&lt;/code&gt;.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\bin&lt;/code&gt;, click &lt;code class=&#34;verbatim&#34;&gt;OK -&amp;gt; OK&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Now you can start emacs and will see the Doom dashboard!
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;headline-5&#34;&gt;
+All the icons
+&lt;/h3&gt;
+&lt;p&gt;
+By default all-the-icons will not be enabled in Windows.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+If all-the-icons is not installed. Open emacs and &lt;code class=&#34;verbatim&#34;&gt;M-x package-install RET all-the-icons RET&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;code class=&#34;verbatim&#34;&gt;M-x all-the-icons-install-fonts&lt;/code&gt; select where to download the fonts and
+install them (double click -&amp;gt; install).
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Restart emacs and there you go.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;headline-6&#34;&gt;
+From one PC to another
+&lt;/h3&gt;
+&lt;p&gt;
+If one of your PCs does not have internet connection or is under a firewall, you can:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Copy your &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d ~/.emacs.d ripgrep fd emacs&lt;/code&gt; folders directly to the
+other PC (&lt;code class=&#34;verbatim&#34;&gt;~/.domm.d ~/.emacs.d&lt;/code&gt; go in &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME&lt;/code&gt;)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Edit the system environment variables accordingly.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Copy and install the fonts you downloaded with &lt;code class=&#34;verbatim&#34;&gt;all-the-icons&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Open &lt;code class=&#34;verbatim&#34;&gt;git-bash.exe&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;cd ~/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom sync&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;em&gt;et voilà!&lt;/em&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;headline-7&#34;&gt;
+Emacs server
+&lt;/h3&gt;
+&lt;p&gt;
+If you use emacs server, Doom will place the server file in
+&lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\.local\cache\server&lt;/code&gt; folder.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Go to &lt;code class=&#34;verbatim&#34;&gt;Control panel -&amp;gt; User Accounts -&amp;gt; Change my environment variables&lt;/code&gt;.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;code class=&#34;verbatim&#34;&gt;New&lt;/code&gt; type &lt;code class=&#34;verbatim&#34;&gt;EMACS_SERVER_FILE&lt;/code&gt; and set the file path &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\.local\cache\server\server&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Create a &lt;code class=&#34;verbatim&#34;&gt;emacsclientw.exe&lt;/code&gt; shortcut with &lt;code class=&#34;verbatim&#34;&gt;emacsclientw.exe -nc&lt;/code&gt; in target,
+run emacs server and emacsclientw will work.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Now, rejoice!
+&lt;img src=&#34;img/cacochan.png&#34; alt=&#34;img/cacochan.png&#34; title=&#34;img/cacochan.png&#34; /&gt;
+&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr class=&#34;footnotes-separatator&#34;&gt;
+&lt;div class=&#34;footnote-definitions&#34;&gt;
+&lt;div class=&#34;footnote-definition&#34;&gt;
+&lt;sup id=&#34;footnote-1&#34;&gt;&lt;a href=&#34;#footnote-reference-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;footnote-body&#34;&gt;
+&lt;p&gt;
+ with binaries I mean the .exe
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/doom/">doom</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/emacs/">emacs</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/windows/">windows</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/git/">git</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>In the Beginning</title>
