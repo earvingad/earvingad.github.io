@@ -23,7 +23,7 @@
         
             <copyright>Do not</copyright>
         
-        <lastBuildDate>Fri, 22 May 2020 21:52:54 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2020 21:55:57 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
@@ -273,8 +273,12 @@ run emacs server and emacsclientw will work.
 &lt;/ul&gt;
 &lt;p&gt;
 Now, rejoice!
-&lt;a href=&#34;https://raw.githubusercontent.com/earvingad/earvingad.github.io/master/posts/img/cacochan.png&#34;&gt;Cacochan&lt;/a&gt;
 &lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/earvingad/earvingad.github.io/master/posts/img/cacochan.png&#34; alt=&#34;https://raw.githubusercontent.com/earvingad/earvingad.github.io/master/posts/img/cacochan.png&#34; title=&#34;https://raw.githubusercontent.com/earvingad/earvingad.github.io/master/posts/img/cacochan.png&#34; /&gt;&lt;figcaption&gt;
+Cacochan
+&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr class=&#34;footnotes-separatator&#34;&gt;
 &lt;div class=&#34;footnote-definitions&#34;&gt;
