@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2020-05-22T22:01:44-05:00</updated>
+    <updated>2020-05-22T22:03:57-05:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Doom, Emacs &amp; Windows</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/doom_emacs_windows/" />
             <id>https://earvingad.github.io/posts/doom_emacs_windows/</id>
-            <updated>2020-05-22T22:01:28-05:00</updated>
+            <updated>2020-05-22T22:03:54-05:00</updated>
             <published>2020-05-22T20:10:08-05:00</published>
             <author>
                     <name>Earving Arciga</name>
@@ -267,7 +267,7 @@ Now, rejoice!
 &lt;/p&gt;
 &lt;p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;/img/cacochan.png&#34;/&gt; &lt;figcaption&gt;
+    &lt;img src=&#34;/posts/img/cacochan.png&#34;/&gt; &lt;figcaption&gt;
             &lt;h4&gt;Cacochan&lt;/h4&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
