@@ -23,7 +23,7 @@
         
             <copyright>Do not</copyright>
         
-        <lastBuildDate>Fri, 22 May 2020 22:05:38 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2020 22:10:27 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
@@ -155,7 +155,7 @@ Run: &lt;code class=&#34;verbatim&#34;&gt;git clone https://github.com/hlissner/
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-After the download is completed, type &lt;code class=&#34;verbatim&#34;&gt;cd =/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom install&lt;/code&gt;
+After the download is completed, type &lt;code class=&#34;verbatim&#34;&gt;cd ~/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom install&lt;/code&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;

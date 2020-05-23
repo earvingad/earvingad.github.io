@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2020-05-22T22:05:38-05:00</updated>
+    <updated>2020-05-22T22:10:27-05:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Doom, Emacs &amp; Windows</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/doom_emacs_windows/" />
             <id>https://earvingad.github.io/posts/doom_emacs_windows/</id>
-            <updated>2020-05-22T22:05:36-05:00</updated>
+            <updated>2020-05-22T22:08:48-05:00</updated>
             <published>2020-05-22T20:10:08-05:00</published>
             <author>
                     <name>Earving Arciga</name>
@@ -146,7 +146,7 @@ Run: &lt;code class=&#34;verbatim&#34;&gt;git clone https://github.com/hlissner/
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;
-After the download is completed, type &lt;code class=&#34;verbatim&#34;&gt;cd =/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom install&lt;/code&gt;
+After the download is completed, type &lt;code class=&#34;verbatim&#34;&gt;cd ~/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom install&lt;/code&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
