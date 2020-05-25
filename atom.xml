@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2020-05-24T20:57:46-05:00</updated>
+    <updated>2020-05-24T21:00:16-05:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -16,6 +16,206 @@
             </author>
     <rights>Do not</rights>
     <generator uri="https://gohugo.io/" version="0.71.0">Hugo</generator>
+        <entry>
+            <title type="text">Org-mode</title>
+            <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/org_mode/" />
+            <id>https://earvingad.github.io/posts/org_mode/</id>
+            <updated>2020-05-24T21:00:02-05:00</updated>
+            <published>2020-05-24T17:38:08-05:00</published>
+            <author>
+                    <name>Earving Arciga</name>
+                    <uri>https://earvingad.github.io/</uri>
+                    <email>arciga.duran@gmail.com</email>
+                    </author>
+            <rights>Do not</rights><summary type="html">Org-mode is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to GTD). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information.</summary>
+            
+                <content type="html">
+&lt;p&gt;
+&lt;a href=&#34;https://orgmode.org/&#34;&gt;Org-mode&lt;/a&gt; is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to &lt;a href=&#34;https://en.wikipedia.org/wiki/Getting_Things_Done&#34;&gt;GTD&lt;/a&gt;). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information. I am going to focus in note taking and export.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+The org file
+&lt;/h2&gt;
+&lt;p&gt;
+It all starts with a file with a &lt;code class=&#34;verbatim&#34;&gt;.org&lt;/code&gt; extension. Create one in Doomemacs with &lt;code class=&#34;verbatim&#34;&gt;SPC .&lt;/code&gt; and name it &amp;#34;myfile.org&amp;#34;. By default a template should fill the title like:
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;#+TITLE: Myfile&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+This is part of the heading of the document. Here you can specify some options like the author, email, date or disable the table of contents (toc).
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;#+AUTHOR: Some Author
+#+EMAIL: Some@email.com
+#+OPTIONS: toc:nil&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+After this, the body of the document begins. You start a headline with &lt;code class=&#34;verbatim&#34;&gt;*&lt;/code&gt; and two of them &lt;code class=&#34;verbatim&#34;&gt;**&lt;/code&gt; indicate a subheadline. You can specify verbatim text between &lt;code class=&#34;verbatim&#34;&gt;~|~&lt;/code&gt;, code inside &lt;code class=&#34;verbatim&#34;&gt;=|=&lt;/code&gt;, italics surrounded by &lt;code class=&#34;verbatim&#34;&gt;/|/&lt;/code&gt; and bold text inside &lt;code class=&#34;verbatim&#34;&gt;*|*&lt;/code&gt;. (The | indicates the cursor position, or where you write your text).
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;* Heading 1
+** Heading 1.1
+This is ~verbatim~, =code=, /italics/, *bold* and _underlined_ as well.&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Lists and TODO&amp;#39;s
+&lt;/h2&gt;
+&lt;p&gt;
+For simple bullet list you can start it with:
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;- Item one
+- Item 2&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+or numbered list
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;1. First.
+2. Second.&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The cool thing, is that pressing &lt;code class=&#34;verbatim&#34;&gt;Alt-RET&lt;/code&gt; (alt-enter) will automatically take you to the next line keeping the counting of the items (e.g. If you are in item &amp;#34;2. Second&amp;#34; and press &lt;code class=&#34;verbatim&#34;&gt;Alt-RET&lt;/code&gt; the next item will be &amp;#34;3. |&amp;#34;).
+&lt;/p&gt;
+&lt;p&gt;
+To insert a TODO just type: &amp;#34;* Buy milk&amp;#34; and then press &lt;code class=&#34;verbatim&#34;&gt;SPC m t t&lt;/code&gt; to mark it as a TODO. Or press &lt;code class=&#34;verbatim&#34;&gt;Shift-Right/Left&lt;/code&gt; to change the state from &amp;#34;TODO&amp;#34; to &amp;#34;DONE&amp;#34;
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;* TODO Buy milk.
+* WAIT Get money to but milk.
+* DONE Get a Job.&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Blocks, comments &amp;amp; quotes
+&lt;/h2&gt;
+&lt;p&gt;
+To start a block just write (ignore the &amp;#34;.&amp;#34; at the beginning):
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;.#+BEGIN_SRC NameOfTheLanguageCode
+
+.#+END_SRC&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Quotes and comments are similar
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;#+begin_quote
+
+#+end_quote
+#+BEGIN_COMMENT
+
+#+END_COMMENT&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Tables, figures &amp;amp; links
+&lt;/h2&gt;
+&lt;p&gt;
+Yes, we can have tables. Use &amp;#34;|&amp;#34; and type &amp;#34;name&amp;#34;, again &amp;#34;|&amp;#34;, type &amp;#34;Phone&amp;#34; and press &lt;code class=&#34;verbatim&#34;&gt;TAB&lt;/code&gt;. You will see how Emacs starts to arrange the table fitting automatically the width according to the content.
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;| Name  | Phone | Age |
+|-------+-------+-----|
+| Peter |  1234 |  17 |
+| Anna  |  4321 |  25 |&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Inserting a figure is simple as typing: &lt;code class=&#34;verbatim&#34;&gt;[[/path/to/the/image][desciption]]&lt;/code&gt;. If you press &lt;code class=&#34;verbatim&#34;&gt;zi&lt;/code&gt; in DoomEmacs it will call the function &lt;code class=&#34;verbatim&#34;&gt;org-toggle-inline-images&lt;/code&gt; and will display the image you set in the document.
+&lt;/p&gt;
+&lt;p&gt;
+The same syntax is used for the links, just type: &lt;code class=&#34;verbatim&#34;&gt;[[url][desciption]]&lt;/code&gt;
+&lt;/p&gt;
+&lt;p&gt;
+In DoomEmacs you can press &lt;code class=&#34;verbatim&#34;&gt;SPC m l l&lt;/code&gt; to insert links and files/images.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;p&gt;
+The great thing about org-mode is that you can fold/unfold the sections of the document, to navigate quickly trough the notes, and export this plain text document (Yes, if you open the org file in a notepad you will see just plain text, is Emacs that renders the plain text) to a more common document types such as:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Org document –&amp;gt; LaTeX document -&amp;gt; PDF document.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Org document –&amp;gt; ODT document (the free alternative to Microsoft doc files, look at &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt; project).
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Org document –&amp;gt; &lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown&lt;/a&gt; document (another plain text format).
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Org document –&amp;gt; html document.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Org document –&amp;gt; Plain text document.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can export from one to another document with &lt;a href=&#34;https://pandoc.org/&#34;&gt;Pandoc&lt;/a&gt;, which was meant to convert from Markdown to any type of document. As the Pandoc&amp;#39;s page says:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+If you need to convert files from one markup format into another, pandoc is your swiss-army knife. Pandoc can convert between the following formats.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+And there are several formats. However, for simple day-life PDF, html, ODT and plain text (for emails) the Emacs org-export works fine.
+&lt;/p&gt;
+&lt;p&gt;
+As an example, an org document can look like this
+&lt;figure&gt;
+    &lt;img src=&#34;/posts/img/orgmode-sample.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/categories/emacs/" term="emacs" label="emacs" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/orgmode/" term="orgmode" label="orgmode" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/emacs/" term="emacs" label="emacs" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Doom, Emacs &amp; Windows</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/doom_emacs_windows/" />
