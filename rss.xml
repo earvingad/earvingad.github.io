@@ -23,10 +23,272 @@
         
             <copyright>Do not</copyright>
         
-        <lastBuildDate>Sun, 24 May 2020 21:00:16 -0500</lastBuildDate>
+        <lastBuildDate>Tue, 26 May 2020 23:49:25 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Org-roam &amp; Windows</title>
+                <link>https://earvingad.github.io/posts/org_roam_windows/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/org_roam_windows/</guid>
+                <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
+                
+                    <author>arciga.duran@gmail.com (Earving Arciga)</author>
+                
+                <copyright>Do not</copyright>
+                
+                    <description>
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Org-roam
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://org-roam.readthedocs.io/&#34;&gt;Org-roam&lt;/a&gt; is a note-taking tool for Emacs using Org-mode. It is a replica of &lt;a href=&#34;https://roamresearch.com/&#34;&gt;RoamResearch&lt;/a&gt;: &amp;#34;&lt;em&gt;A note-taking tool for networked thought&lt;/em&gt;&amp;#34;. Both are based in the Zettelkasten method, which is described as:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+The method was developed by Niklas Luhmann and the literal translation is:
+&lt;/p&gt;
+&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;
+Zettelkasten = &lt;em&gt;Box of notes&lt;/em&gt;.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In simple words: Org-roam allows you to make connections between your notes, in order to make a more efficient creative/learning process.
+&lt;/p&gt;
+&lt;p&gt;
+You can read a more detailed introduction to Zettelkasten in &lt;a href=&#34;https://medium.com/@mosessampaul/zettelkasten-method-of-knowledge-management-the-second-brain-218108942514&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1&#34;&gt;here&lt;/a&gt;. Further reading in the &lt;a href=&#34;https://zettelkasten.de/posts/overview/&#34;&gt;official site&lt;/a&gt; and some help for &lt;a href=&#34;https://org-roam.readthedocs.io/en/master/notetaking_workflow/&#34;&gt;workflow&lt;/a&gt;.
+&lt;/p&gt;
+&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;
+&lt;em&gt;&amp;#34;Your mind is for having ideas, not holding them.&amp;#34;&lt;/em&gt; &lt;br&gt;
+–David Allen
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+Installing Org-roam
+&lt;/h3&gt;
+&lt;p&gt;
+This post assumes you have already installed DoomEmacs in Windows (&lt;a href=&#34;https://earvingad.github.io/posts/doom_emacs_windows/&#34;&gt;Doom, Emacs &amp;amp; Windows&lt;/a&gt;). Most of the instructions were taken from &lt;a href=&#34;https://org-roam.readthedocs.io/en/master/installation/&#34;&gt;Org-roam official site&lt;/a&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Download the &lt;a href=&#34;https://sqlite.org/download.html&#34;&gt;Official binary&lt;/a&gt; of &lt;code class=&#34;verbatim&#34;&gt;sqlite3&lt;/code&gt; (the one that includes the &lt;code class=&#34;verbatim&#34;&gt;command-line shell program&lt;/code&gt; aka the &lt;code class=&#34;verbatim&#34;&gt;.exe&lt;/code&gt;)
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Extract it and add it to your &lt;code class=&#34;verbatim&#34;&gt;path&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+You can check &lt;a href=&#34;https://earvingad.github.io/posts/doom_emacs_windows/&#34;&gt;Doom, Emacs &amp;amp; Windows&lt;/a&gt; to see how to add it to your &lt;code class=&#34;verbatim&#34;&gt;path&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+In Emacs, install the &lt;code class=&#34;verbatim&#34;&gt;emacsql-sqlite3&lt;/code&gt; package
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Using DoomEmacs, just add &lt;code class=&#34;verbatim&#34;&gt;(package! emacsql-sqlite3)&lt;/code&gt; in your &lt;code class=&#34;verbatim&#34;&gt;packages.el&lt;/code&gt; (located in &lt;code class=&#34;verbatim&#34;&gt;C:\Users\yourusername\.doom.d\&lt;/code&gt;&lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; or &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d&lt;/code&gt;)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+and run &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/bin/doom sync&lt;/code&gt; in the git-bash.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Using a text editor (e.g. notepad) modify &lt;code class=&#34;verbatim&#34;&gt;org-roam-db.el&lt;/code&gt; (located in &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/.local/straight/repos/emacsql-sqlite3/&lt;/code&gt;):
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Replace &lt;code class=&#34;verbatim&#34;&gt;(require &amp;#39;emacsql-sqlite)&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;(require &amp;#39;emacsql-sqlite3)&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Comment/deactivate or delete the complete function &lt;code class=&#34;verbatim&#34;&gt;(defconst org-roam-db--sqlite-available-p ... )&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+In the function &lt;code class=&#34;verbatim&#34;&gt;(defun org-roam-db ...&lt;/code&gt;, replace &lt;code class=&#34;verbatim&#34;&gt;emacsql-sqlite&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;emacsql-sqlite3&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+If you compile &lt;code class=&#34;verbatim&#34;&gt;.el&lt;/code&gt; files, ensure to replace &lt;code class=&#34;verbatim&#34;&gt;org-roam-db.elc&lt;/code&gt; with the new source you modified.
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+In other words: delete the &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/.local/straight/build/org-roam-db.elc&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+And run &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/bin/doom sync&lt;/code&gt; once more.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Back in Emacs, install and configure org-roam
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Open &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d/init.el&lt;/code&gt; and replace &lt;code class=&#34;verbatim&#34;&gt;org&lt;/code&gt;, in &lt;code&gt;:lang&lt;/code&gt; section, with &lt;code class=&#34;verbatim&#34;&gt;(org +roam)&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Define your org-roam-directory in your &lt;code class=&#34;verbatim&#34;&gt;config.el&lt;/code&gt;:
+&lt;code class=&#34;verbatim&#34;&gt;(setq org-roam-directory &amp;#34;/path/of/your/roam/directory&amp;#34;)&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+To get graphics, download &lt;a href=&#34;https://graphviz.gitlab.io/_pages/Download/Download_windows.html&#34;&gt;Graphviz&lt;/a&gt; (the zip) and extract it where you prefer.
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Add this to your &lt;code class=&#34;verbatim&#34;&gt;config.el&lt;/code&gt;:
+&lt;code class=&#34;verbatim&#34;&gt;(setq org-roam-graph-executable &amp;#34;/path/to/dot.exe&amp;#34;)&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+You might want to add your preferred viewer (or graphs will be open in Firefox by default):
+&lt;code class=&#34;verbatim&#34;&gt;(setq org-roam-graph-viewer &amp;#34;/path/to/image-viewer&amp;#34;)&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Run &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/bin/doom sync&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;em&gt;et voilà!&lt;/em&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+Here is how taking notes looks in DoomEmacs (from the Org-rom github page).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://github.com/org-roam/org-roam/blob/master/doc/images/org-roam-graph.gif?raw=true&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+I still have some pending:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+TODO Set &lt;a href=&#34;https://org-roam.readthedocs.io/en/master/roam_protocol/&#34;&gt;Org-roam protocol&lt;/a&gt; in Windows
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr class=&#34;footnotes-separatator&#34;&gt;
+&lt;div class=&#34;footnote-definitions&#34;&gt;
+&lt;div class=&#34;footnote-definition&#34;&gt;
+&lt;sup id=&#34;footnote-1&#34;&gt;&lt;a href=&#34;#footnote-reference-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;footnote-body&#34;&gt;
+&lt;p&gt;
+&lt;code class=&#34;verbatim&#34;&gt;C:\Users\yourusername&lt;/code&gt; is your HOME folder &amp;#34;~&amp;#34;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/orgmode/">orgmode</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/roam/">roam</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/windows/">windows</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/org/">org</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/roam/">roam</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/windows/">windows</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/zettelkasten/">zettelkasten</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Org-mode</title>
