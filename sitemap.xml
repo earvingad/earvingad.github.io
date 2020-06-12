@@ -3,32 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://earvingad.github.io/tags/android/</loc>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://earvingad.github.io/categories/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earvingad.github.io/tags/dropbox/</loc>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earvingad.github.io/tags/mobile/</loc>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://earvingad.github.io/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://earvingad.github.io/tags/org/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://earvingad.github.io/posts/org_roam_windows/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
+    <loc>https://earvingad.github.io/tags/orgmode/</loc>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://earvingad.github.io/categories/orgmode/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earvingad.github.io/tags/orgzly/</loc>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earvingad.github.io/posts/orgzly/</loc>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://earvingad.github.io/posts/</loc>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earvingad.github.io/tags/</loc>
+    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://earvingad.github.io/posts/org_roam_windows/</loc>
     <lastmod>2020-05-26T23:48:50-05:00</lastmod>
   </url>
   
@@ -39,11 +74,6 @@
   
   <url>
     <loc>https://earvingad.github.io/categories/roam/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://earvingad.github.io/tags/</loc>
     <lastmod>2020-05-26T23:48:50-05:00</lastmod>
   </url>
   
@@ -74,11 +104,6 @@
   
   <url>
     <loc>https://earvingad.github.io/posts/org_mode/</loc>
-    <lastmod>2020-05-24T21:00:02-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://earvingad.github.io/tags/orgmode/</loc>
     <lastmod>2020-05-24T21:00:02-05:00</lastmod>
   </url>
   

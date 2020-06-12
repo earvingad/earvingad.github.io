@@ -23,10 +23,158 @@
         
             <copyright>Do not</copyright>
         
-        <lastBuildDate>Tue, 26 May 2020 23:49:25 -0500</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2020 23:18:08 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Orgzly and never lose your notes again</title>
+                <link>https://earvingad.github.io/posts/orgzly/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/orgzly/</guid>
+                <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
+                
+                    <author>arciga.duran@gmail.com (Earving Arciga)</author>
+                
+                <copyright>Do not</copyright>
+                
+                    <description>
+&lt;p&gt;
+I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.orgzly.com/&#34;&gt;Orgzly&lt;/a&gt; is an &lt;em&gt;outliner for notes and to-do lists&lt;/em&gt; for Android devices! It basically allows you to write notes as in &lt;a href=&#34;https://earvingad.github.io/posts/org_mode/&#34;&gt;org-mode&lt;/a&gt; in Emacs, but in your phone —because you wont be carrying your laptop all day.
+&lt;/p&gt;
+&lt;p&gt;
+You can use Orgzly to take notes, to-do list or manage your agenda. I am using it for remainders, pending tasks and write some good ass poems (I used to write poems in conventional note taking android apps and lost them all when my last phone was stolen).
+&lt;/p&gt;
+&lt;p&gt;
+The good thing is that you can sync your notes created in Orgzly with your PC/laptop using Dropbox.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Installation
+&lt;/h2&gt;
+&lt;p&gt;
+Just go to the playstore and look for Orgzly and no, there is no iOS version.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Dropbox sync
+&lt;/h2&gt;
+&lt;p&gt;
+Once Orgzly is installed in your phone you can enable sync trough Dropbox with:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Go to &lt;code class=&#34;verbatim&#34;&gt;Settings&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Click on &lt;code class=&#34;verbatim&#34;&gt;Sync&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Click on &lt;code class=&#34;verbatim&#34;&gt;Repositories&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Click on &lt;code class=&#34;verbatim&#34;&gt;Dropbox&lt;/code&gt; (if you already have some repositories, click the plus icon first)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Click on &lt;code class=&#34;verbatim&#34;&gt;Link to Dropbox&lt;/code&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+You will be prompted to login to Dropbox and authorize access to Orgzly.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Enter the directory inside Dropbox (without &amp;#34;Dropbox&amp;#34; part)
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+For example: If you have a folder named &lt;code&gt;org&lt;/code&gt; inside Dropbox just type: &lt;code class=&#34;verbatim&#34;&gt;/org&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Now every note you write will appear in your Dropbox and you can check it anytime you want from your laptop and phone.
+&lt;/p&gt;
+&lt;p&gt;
+How does it look like? Something like this:
+&lt;figure&gt;
+    &lt;img src=&#34;https://lh3.googleusercontent.com/wNWpgiOaN0SlID63Yn9ZgNagzzt260tt-IP4TQ2bCOIeQz9F1gkKts9J3f0Dvebp9w=w1360-h704-rw&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+Full documentation of Orgzly can be found &lt;a href=&#34;http://www.orgzly.com/help&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/orgmode/">orgmode</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/orgmode/">orgmode</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/orgzly/">orgzly</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/mobile/">mobile</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/dropbox/">dropbox</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/android/">android</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Org-roam &amp; Windows</title>
