@@ -1,175 +1,107 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://earvingad.github.io/tags/blog/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:05:25-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/categories/blog/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:05:25-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/posts/blogwithhugo/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:05:25-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/categories/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/emacs/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:46-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/git/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:06:36-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/categories/github/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:05:25-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/hugo/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:13-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/categories/hugo/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:05:25-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/posts/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/</loc>
-    <lastmod>2021-01-04T11:19:54-06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/android/</loc>
-    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/dropbox/</loc>
-    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/mobile/</loc>
-    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/orgmode/</loc>
-    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/categories/orgmode/</loc>
-    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/orgzly/</loc>
-    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/posts/orgzly/</loc>
-    <lastmod>2020-06-11T23:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/org/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/posts/org_roam_windows/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/roam/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/categories/roam/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/windows/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/categories/windows/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/zettelkasten/</loc>
-    <lastmod>2020-05-26T23:48:50-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:56-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/categories/emacs/</loc>
-    <lastmod>2020-05-24T21:00:02-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:46-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/posts/org_mode/</loc>
-    <lastmod>2020-05-24T21:00:02-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:46-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/doom/</loc>
-    <lastmod>2020-05-24T20:30:16-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:06:36-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/posts/doom_emacs_windows/</loc>
-    <lastmod>2020-05-24T20:30:16-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:06:36-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/categories/doomemacs/</loc>
-    <lastmod>2020-05-24T20:30:16-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:06:36-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/about/</loc>
     <lastmod>2020-05-21T19:46:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://earvingad.github.io/posts/in-the-beginning/</loc>
-    <lastmod>2020-05-21T22:18:22-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-12-05T16:07:13-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/introduction/</loc>
-    <lastmod>2020-05-21T22:18:22-05:00</lastmod>
+    <lastmod>2021-12-05T16:07:13-06:00</lastmod>
   </url>
-  
 </urlset>
