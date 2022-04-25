@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.89.4" /><meta name="theme-color" content="#16171d" />
+    <meta name="generator" content="Hugo 0.96.0" /><meta name="theme-color" content="#16171d" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -18,7 +18,7 @@
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.60d179c5ff466de3b06120305b4630abef0dfe4705aeb24c90767778c3f5cc08.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.557d02975c35885b02e8d5ac51a724cd31b55852a702469eaa191ea47d83ce54.js"></script>
 
     
 
@@ -71,7 +71,7 @@
             "url": "https://earvingad.github.io/",
             "name": "Earving"
         },
-        "license": "If you share, please give credit support.",
+        "license": "If you share, please give credit and support.",
         "publisher": {
             "@type": "Organization",
             "name": "Nerd things and more...",
@@ -289,18 +289,10 @@ Create the GitHub page host
 <div id="outline-text-headline-1" class="outline-text-2">
 <p>In order to publish your blog, you will need to create a host and as we said, we will be using GitHub Pages for that.</p>
 <ol>
-<li>
-<p>First create from GitHub a repository <code class="verbatim">&lt;USERNAME&gt;.github.io</code> to host your generated content. You can follow GitHub instructions <a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site" target="_blank" rel="noopener">here</a>, it&#39;s very simple and clear to understand.</p>
-</li>
-<li>
-<p>Make sure that under Settings of your <code class="verbatim">&lt;USERNAME&gt;.github.io</code> the <code class="verbatim">main(or master)</code> branch and the <code class="verbatim">/(root)</code> folder are selected as Source, to publish your GitHub Pages site.</p>
-</li>
-<li>
-<p>Be aware that the repository creation will take around 20-30 minutes to be available online.</p>
-</li>
-<li>
-<p>Also intall git <code class="verbatim">sudo pacman -S git</code> (Need <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank" rel="noopener">help</a> for installing?)</p>
-</li>
+<li>First create from GitHub a repository <code class="verbatim">&lt;USERNAME&gt;.github.io</code> to host your generated content. You can follow GitHub instructions <a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site" target="_blank" rel="noopener">here</a>, it&#39;s very simple and clear to understand.</li>
+<li>Make sure that under Settings of your <code class="verbatim">&lt;USERNAME&gt;.github.io</code> the <code class="verbatim">main(or master)</code> branch and the <code class="verbatim">/(root)</code> folder are selected as Source, to publish your GitHub Pages site.</li>
+<li>Be aware that the repository creation will take around 20-30 minutes to be available online.</li>
+<li>Also intall git <code class="verbatim">sudo pacman -S git</code> (Need <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank" rel="noopener">help</a> for installing?)</li>
 </ol>
 </div>
 </div>
@@ -310,29 +302,19 @@ Creating the blog with Hugo.
 </h2>
 <div id="outline-text-headline-2" class="outline-text-2">
 <ol>
-<li>
-<p>Install Hugo. In Archlinux just <code class="verbatim">sudo pacman -S hugo</code> (see <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener">Hugo Install Instructions</a> for other operating systems).</p>
-</li>
+<li>Install Hugo. In Archlinux just <code class="verbatim">sudo pacman -S hugo</code> (see <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener">Hugo Install Instructions</a> for other operating systems).</li>
 <li>
 <p>Create a site/blog with <code class="verbatim">hugo new site &#34;yourSite&#34;</code></p>
 <ol>
-<li>
-<p>This will create a folder name <code class="verbatim">yourSite</code></p>
-</li>
+<li>This will create a folder name <code class="verbatim">yourSite</code></li>
 </ol>
 </li>
-<li>
-<p>Enter to that folder <code class="verbatim">cd yourSite</code></p>
-</li>
-<li>
-<p>Add a theme. I am using <a href="https://github.com/reuixiy/hugo-theme-meme/" target="_blank" rel="noopener">Meme theme</a> which was added with <code class="verbatim">git submodule add --depth 1t https://github.com/reuixiy/hugo-theme-meme.git themes/meme</code> There are a lot of themes you can choose from the <a href="https://themes.gohugo.io/" target="_blank" rel="noopener">Hugo theme page</a>. Configuring the theme is not difficult —I will not detail it.</p>
-</li>
+<li>Enter to that folder <code class="verbatim">cd yourSite</code></li>
+<li>Add a theme. I am using <a href="https://github.com/reuixiy/hugo-theme-meme/" target="_blank" rel="noopener">Meme theme</a> which was added with <code class="verbatim">git submodule add --depth 1t https://github.com/reuixiy/hugo-theme-meme.git themes/meme</code> There are a lot of themes you can choose from the <a href="https://themes.gohugo.io/" target="_blank" rel="noopener">Hugo theme page</a>. Configuring the theme is not difficult —I will not detail it.</li>
 <li>
 <p>Now add a new post with <code class="verbatim">hugo new posts/NewPost.org</code>. As you can see, I am using an org to write the post (see a brief explanation of what <a href="https://earvingad.github.io/posts/org_mode/" target="_blank" rel="noopener">org mode</a> is), but it can be done using the markdown syntax as well.</p>
 <ol>
-<li>
-<p>You will see a new file <code class="verbatim">NewPost.org</code> created under <code class="verbatim">content/posts</code> folder. This file will include the content of your post/blog entry.</p>
-</li>
+<li>You will see a new file <code class="verbatim">NewPost.org</code> created under <code class="verbatim">content/posts</code> folder. This file will include the content of your post/blog entry.</li>
 <li>
 <p>The file will begin with something like this</p>
 <div class="src src-none">
@@ -345,9 +327,7 @@ draft: true
 </li>
 </ol>
 </li>
-<li>
-<p>Once you are done with editing and writing you can preview the results with <code class="verbatim">hugo server -D</code> this will create a local page (including Drafts, that&#39;s the reason of <code class="verbatim">-D</code>) which you can access from your browser in <code class="verbatim">http://localhost:1313/</code> You can close the server by pressing <code class="verbatim">Crtl+c</code>.</p>
-</li>
+<li>Once you are done with editing and writing you can preview the results with <code class="verbatim">hugo server -D</code> this will create a local page (including Drafts, that&#39;s the reason of <code class="verbatim">-D</code>) which you can access from your browser in <code class="verbatim">http://localhost:1313/</code> You can close the server by pressing <code class="verbatim">Crtl+c</code>.</li>
 <li>
 <p>Configure your <code class="verbatim">config.toml</code> file located inside <code class="verbatim">yourSite</code> folder. It might start with something like this:</p>
 <div class="src src-none">
@@ -357,26 +337,14 @@ title = &#34;My New Hugo Site&#34;
 theme = &#34;ananke&#34;</code></pre>
 </div>
 <ol>
-<li>
-<p>Replace the <code class="verbatim">baseURL</code> URL with your <code class="verbatim">&lt;USERNAME.github.io</code></p>
-</li>
-<li>
-<p>Change the tittle and select your theme. We are using here <code class="verbatim">meme</code> theme.</p>
-</li>
-<li>
-<p>This is pretty much all the config you need for now. I will not explain more since it depends on the theme you choose.</p>
-</li>
+<li>Replace the <code class="verbatim">baseURL</code> URL with your <code class="verbatim">&lt;USERNAME.github.io</code></li>
+<li>Change the tittle and select your theme. We are using here <code class="verbatim">meme</code> theme.</li>
+<li>This is pretty much all the config you need for now. I will not explain more since it depends on the theme you choose.</li>
 </ol>
 </li>
-<li>
-<p>Before proceeding run <code class="verbatim">rm -rf public</code> to completely remove the public directory.</p>
-</li>
-<li>
-<p>Change <code class="verbatim">draft: true</code> to false in your post and run <code class="verbatim">hugo</code> to export the <code class="verbatim">NewPost.org</code> as an html file.</p>
-</li>
-<li>
-<p>Finally, bind your GitHub repository to your public directory where Hugo will store the pages to be published with <code class="verbatim">git submodule add -b main https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public</code></p>
-</li>
+<li>Before proceeding run <code class="verbatim">rm -rf public</code> to completely remove the public directory.</li>
+<li>Change <code class="verbatim">draft: true</code> to false in your post and run <code class="verbatim">hugo</code> to export the <code class="verbatim">NewPost.org</code> as an html file.</li>
+<li>Finally, bind your GitHub repository to your public directory where Hugo will store the pages to be published with <code class="verbatim">git submodule add -b main https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public</code></li>
 </ol>
 </div>
 </div>
@@ -387,18 +355,10 @@ Update your git repository
 <div id="outline-text-headline-3" class="outline-text-2">
 <p>You have already exported your blog entry. Now it&#39;s time to make it public in the internet.</p>
 <ol>
-<li>
-<p>From inside your <code class="verbatim">public</code> folder (which is located inside <code class="verbatim">yourSite</code> folder) run <code class="verbatim">git add .</code> to upload all the files to your <code class="verbatim">&lt;USERNAME&gt;.github.io</code> repository.</p>
-</li>
-<li>
-<p>Now commit the changes <code class="verbatim">git commit -m &#34;My first blog&#34;</code></p>
-</li>
-<li>
-<p>And finally make it public with <code class="verbatim">git push origin master</code></p>
-</li>
-<li>
-<p>That&#39;s it. You are done. You are able to access to your blog in <code class="verbatim">&lt;USERNAME&gt;.github.io</code> domain.</p>
-</li>
+<li>From inside your <code class="verbatim">public</code> folder (which is located inside <code class="verbatim">yourSite</code> folder) run <code class="verbatim">git add .</code> to upload all the files to your <code class="verbatim">&lt;USERNAME&gt;.github.io</code> repository.</li>
+<li>Now commit the changes <code class="verbatim">git commit -m &#34;My first blog&#34;</code></li>
+<li>And finally make it public with <code class="verbatim">git push origin master</code></li>
+<li>That&#39;s it. You are done. You are able to access to your blog in <code class="verbatim">&lt;USERNAME&gt;.github.io</code> domain.</li>
 </ol>
 <p>More information about Hugo can be found <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank" rel="noopener">here</a> and <a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener">here</a>.</p>
 <p>
@@ -424,7 +384,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</code></pre>
                 
                 <li class="copyright-item link"><span class="copyright-item-text">Link</span>: <a href="/posts/blogwithhugo/" target="_blank" rel="noopener">https://earvingad.github.io/posts/blogwithhugo/</a></li>
             
-            <li class="copyright-item license"><span class="copyright-item-text">License</span>: If you share, please give credit support.</li>
+            <li class="copyright-item license"><span class="copyright-item-text">License</span>: If you share, please give credit and support.</li>
             
         </ul>
     
@@ -616,6 +576,10 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</code></pre>
     
         <ul class="post-nav">
             
+                <li class="post-nav-prev">
+                    <a href="/posts/syncthing/" rel="prev">&lt; Syncthing</a>
+                </li>
+            
             
                 <li class="post-nav-next">
                     <a href="/posts/orgzly/" rel="next">Orgzly and never lose your notes again &gt;</a>
@@ -642,7 +606,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</code></pre>
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">©&nbsp;2020–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Earving</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright">If you share, please give credit support.</div><div class="custom-footer">Please suport me BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</div>
+            <div class="site-info">©&nbsp;2020–2022&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Earving</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright">If you share, please give credit and support.</div><div class="custom-footer">Please suport me BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</div>
 
             
     

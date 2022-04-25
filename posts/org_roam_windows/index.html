@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.89.4" /><meta name="theme-color" content="#16171d" />
+    <meta name="generator" content="Hugo 0.96.0" /><meta name="theme-color" content="#16171d" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -18,7 +18,7 @@
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.60d179c5ff466de3b06120305b4630abef0dfe4705aeb24c90767778c3f5cc08.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.557d02975c35885b02e8d5ac51a724cd31b55852a702469eaa191ea47d83ce54.js"></script>
 
     
 
@@ -71,7 +71,7 @@
             "url": "https://earvingad.github.io/",
             "name": "Earving"
         },
-        "license": "If you share, please give credit support.",
+        "license": "If you share, please give credit and support.",
         "publisher": {
             "@type": "Organization",
             "name": "Nerd things and more...",
@@ -299,81 +299,51 @@ Installing Org-roam
 <li>
 <p>Download the <a href="https://sqlite.org/download.html" target="_blank" rel="noopener">Official binary</a> of <code class="verbatim">sqlite3</code> (the one that includes the <code class="verbatim">command-line shell program</code> aka the <code class="verbatim">.exe</code>)</p>
 <ol>
-<li>
-<p>Extract it and add it to your <code class="verbatim">path</code>.</p>
-</li>
-<li>
-<p>You can check <a href="https://earvingad.github.io/posts/doom_emacs_windows/" target="_blank" rel="noopener">Doom, Emacs &amp; Windows</a> to see how to add it to your <code class="verbatim">path</code>.</p>
-</li>
+<li>Extract it and add it to your <code class="verbatim">path</code>.</li>
+<li>You can check <a href="https://earvingad.github.io/posts/doom_emacs_windows/" target="_blank" rel="noopener">Doom, Emacs &amp; Windows</a> to see how to add it to your <code class="verbatim">path</code>.</li>
 </ol>
 </li>
 <li>
 <p>In Emacs, install the <code class="verbatim">emacsql-sqlite3</code> package</p>
 <ol>
-<li>
-<p>Using DoomEmacs, just add <code class="verbatim">(package! emacsql-sqlite3)</code> in your <code class="verbatim">packages.el</code> (located in <code class="verbatim">C:\Users\yourusername\.doom.d\</code><sup class="footnote-reference"><a id="footnote-reference-1" href="#footnote-1">1</a></sup> or <code class="verbatim">~/.doom.d</code>)</p>
-</li>
-<li>
-<p>and run <code class="verbatim">~/.emacs.d/bin/doom sync</code> in the git-bash.</p>
-</li>
+<li>Using DoomEmacs, just add <code class="verbatim">(package! emacsql-sqlite3)</code> in your <code class="verbatim">packages.el</code> (located in <code class="verbatim">C:\Users\yourusername\.doom.d\</code><sup class="footnote-reference"><a id="footnote-reference-1" href="#footnote-1">1</a></sup> or <code class="verbatim">~/.doom.d</code>)</li>
+<li>and run <code class="verbatim">~/.emacs.d/bin/doom sync</code> in the git-bash.</li>
 </ol>
 </li>
 <li>
 <p>Using a text editor (e.g. notepad) modify <code class="verbatim">org-roam-db.el</code> (located in <code class="verbatim">~/.emacs.d/.local/straight/repos/emacsql-sqlite3/</code>):</p>
 <ol>
-<li>
-<p>Replace <code class="verbatim">(require &#39;emacsql-sqlite)</code> with <code class="verbatim">(require &#39;emacsql-sqlite3)</code></p>
-</li>
-<li>
-<p>Comment/deactivate or delete the complete function <code class="verbatim">(defconst org-roam-db--sqlite-available-p ... )</code></p>
-</li>
+<li>Replace <code class="verbatim">(require &#39;emacsql-sqlite)</code> with <code class="verbatim">(require &#39;emacsql-sqlite3)</code></li>
+<li>Comment/deactivate or delete the complete function <code class="verbatim">(defconst org-roam-db--sqlite-available-p ... )</code></li>
 </ol>
 </li>
-<li>
-<p>In the function <code class="verbatim">(defun org-roam-db ...</code>, replace <code class="verbatim">emacsql-sqlite</code> with <code class="verbatim">emacsql-sqlite3</code></p>
-</li>
+<li>In the function <code class="verbatim">(defun org-roam-db ...</code>, replace <code class="verbatim">emacsql-sqlite</code> with <code class="verbatim">emacsql-sqlite3</code></li>
 <li>
 <p>If you compile <code class="verbatim">.el</code> files, ensure to replace <code class="verbatim">org-roam-db.elc</code> with the new source you modified.</p>
 <ol>
-<li>
-<p>In other words: delete the <code class="verbatim">~/.emacs.d/.local/straight/build/org-roam-db.elc</code></p>
-</li>
-<li>
-<p>And run <code class="verbatim">~/.emacs.d/bin/doom sync</code> once more.</p>
-</li>
+<li>In other words: delete the <code class="verbatim">~/.emacs.d/.local/straight/build/org-roam-db.elc</code></li>
+<li>And run <code class="verbatim">~/.emacs.d/bin/doom sync</code> once more.</li>
 </ol>
 </li>
 <li>
 <p>Back in Emacs, install and configure org-roam</p>
 <ol>
-<li>
-<p>Open <code class="verbatim">~/.doom.d/init.el</code> and replace <code class="verbatim">org</code>, in <code>:lang</code> section, with <code class="verbatim">(org +roam)</code></p>
-</li>
-<li>
-<p>Define your org-roam-directory in your <code class="verbatim">config.el</code>:
-<code class="verbatim">(setq org-roam-directory &#34;/path/of/your/roam/directory&#34;)</code></p>
-</li>
+<li>Open <code class="verbatim">~/.doom.d/init.el</code> and replace <code class="verbatim">org</code>, in <code>:lang</code> section, with <code class="verbatim">(org +roam)</code></li>
+<li>Define your org-roam-directory in your <code class="verbatim">config.el</code>:
+<code class="verbatim">(setq org-roam-directory &#34;/path/of/your/roam/directory&#34;)</code></li>
 </ol>
 </li>
 <li>
 <p>To get graphics, download <a href="https://graphviz.gitlab.io/_pages/Download/Download_windows.html" target="_blank" rel="noopener">Graphviz</a> (the zip) and extract it where you prefer.</p>
 <ol>
-<li>
-<p>Add this to your <code class="verbatim">config.el</code>:
-<code class="verbatim">(setq org-roam-graph-executable &#34;/path/to/dot.exe&#34;)</code></p>
-</li>
-<li>
-<p>You might want to add your preferred viewer (or graphs will be open in Firefox by default):
-<code class="verbatim">(setq org-roam-graph-viewer &#34;/path/to/image-viewer&#34;)</code></p>
-</li>
+<li>Add this to your <code class="verbatim">config.el</code>:
+<code class="verbatim">(setq org-roam-graph-executable &#34;/path/to/dot.exe&#34;)</code></li>
+<li>You might want to add your preferred viewer (or graphs will be open in Firefox by default):
+<code class="verbatim">(setq org-roam-graph-viewer &#34;/path/to/image-viewer&#34;)</code></li>
 </ol>
 </li>
-<li>
-<p>Run <code class="verbatim">~/.emacs.d/bin/doom sync</code></p>
-</li>
-<li>
-<p><em>et voilà!</em>.</p>
-</li>
+<li>Run <code class="verbatim">~/.emacs.d/bin/doom sync</code></li>
+<li><em>et voilà!</em>.</li>
 </ol>
 <p>Here is how taking notes looks in DoomEmacs (from the Org-rom github page).</p>
 <p>
@@ -383,9 +353,7 @@ Installing Org-roam
 <p>
 I still have some pending:</p>
 <ul>
-<li>
-<p>TODO Set <a href="https://org-roam.readthedocs.io/en/master/roam_protocol/" target="_blank" rel="noopener">Org-roam protocol</a> in Windows</p>
-</li>
+<li>TODO Set <a href="https://org-roam.readthedocs.io/en/master/roam_protocol/" target="_blank" rel="noopener">Org-roam protocol</a> in Windows</li>
 </ul>
 <div class="src src-none">
 <pre tabindex="0"><code class="language-none" data-lang="none">If you found this content useful, please support me:
@@ -421,7 +389,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</code></pre>
                 
                 <li class="copyright-item link"><span class="copyright-item-text">Link</span>: <a href="/posts/org_roam_windows/" target="_blank" rel="noopener">https://earvingad.github.io/posts/org_roam_windows/</a></li>
             
-            <li class="copyright-item license"><span class="copyright-item-text">License</span>: If you share, please give credit support.</li>
+            <li class="copyright-item license"><span class="copyright-item-text">License</span>: If you share, please give credit and support.</li>
             
         </ul>
     
@@ -639,7 +607,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</code></pre>
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">©&nbsp;2020–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Earving</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright">If you share, please give credit support.</div><div class="custom-footer">Please suport me BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</div>
+            <div class="site-info">©&nbsp;2020–2022&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Earving</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright">If you share, please give credit and support.</div><div class="custom-footer">Please suport me BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</div>
 
             
     

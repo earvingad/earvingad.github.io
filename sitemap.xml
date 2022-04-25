@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://earvingad.github.io/tags/backup/</loc>
+    <lastmod>2022-04-24T21:03:44-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/</loc>
+    <lastmod>2022-04-24T21:03:44-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/homelab/</loc>
+    <lastmod>2022-04-24T21:03:44-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/</loc>
+    <lastmod>2022-04-24T21:03:44-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/posts/</loc>
+    <lastmod>2022-04-24T21:03:44-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/synchronization/</loc>
+    <lastmod>2022-04-24T21:03:44-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/posts/syncthing/</loc>
+    <lastmod>2022-04-24T21:03:44-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/</loc>
+    <lastmod>2022-04-24T21:03:44-05:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/blog/</loc>
     <lastmod>2021-12-05T16:05:25-06:00</lastmod>
   </url><url>
@@ -10,9 +34,6 @@
   </url><url>
     <loc>https://earvingad.github.io/posts/blogwithhugo/</loc>
     <lastmod>2021-12-05T16:05:25-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/categories/</loc>
-    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/emacs/</loc>
     <lastmod>2021-12-05T16:07:46-06:00</lastmod>
@@ -28,15 +49,6 @@
   </url><url>
     <loc>https://earvingad.github.io/categories/hugo/</loc>
     <lastmod>2021-12-05T16:05:25-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/</loc>
-    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/posts/</loc>
-    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/</loc>
-    <lastmod>2021-12-05T16:14:56-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/android/</loc>
     <lastmod>2021-12-05T16:14:56-06:00</lastmod>

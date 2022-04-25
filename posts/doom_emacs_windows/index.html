@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.89.4" /><meta name="theme-color" content="#16171d" />
+    <meta name="generator" content="Hugo 0.96.0" /><meta name="theme-color" content="#16171d" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -18,7 +18,7 @@
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.60d179c5ff466de3b06120305b4630abef0dfe4705aeb24c90767778c3f5cc08.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.557d02975c35885b02e8d5ac51a724cd31b55852a702469eaa191ea47d83ce54.js"></script>
 
     
 
@@ -71,7 +71,7 @@
             "url": "https://earvingad.github.io/",
             "name": "Earving"
         },
-        "license": "If you share, please give credit support.",
+        "license": "If you share, please give credit and support.",
         "publisher": {
             "@type": "Organization",
             "name": "Nerd things and more...",
@@ -282,21 +282,13 @@ What you need
 <p>If you have limited permissions in Windows PC (e.g. admin privileges), you might not be able to use Chocolatey/Scoop.
 However, you can still use <code class="verbatim">git-bash.exe</code> portable version!</p>
 <ul>
-<li>
-<p>Download <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a>.</p>
-</li>
-<li>
-<p>Download <a href="https://github.com/BurntSushi/ripgrep/releases" target="_blank" rel="noopener">Ripgrep</a> and <a href="https://github.com/sharkdp/fd/releases" target="_blank" rel="noopener">fd</a>. Make sure you download the <code class="verbatim">windows-gnu</code> version.</p>
-</li>
-<li>
-<p>Of course, download <a href="http://ftp.wayne.edu/gnu/emacs/windows/" target="_blank" rel="noopener">emacs</a>.</p>
-</li>
+<li>Download <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a>.</li>
+<li>Download <a href="https://github.com/BurntSushi/ripgrep/releases" target="_blank" rel="noopener">Ripgrep</a> and <a href="https://github.com/sharkdp/fd/releases" target="_blank" rel="noopener">fd</a>. Make sure you download the <code class="verbatim">windows-gnu</code> version.</li>
+<li>Of course, download <a href="http://ftp.wayne.edu/gnu/emacs/windows/" target="_blank" rel="noopener">emacs</a>.</li>
 </ul>
 <p>Extract the binaries<sup class="footnote-reference"><a id="footnote-reference-1" href="#footnote-1">1</a></sup> from <code class="verbatim">Ripgrep</code> and <code class="verbatim">fd</code> to their respective folders and place them where you want.</p>
 <ul>
-<li>
-<p>You should have one folder for <code class="verbatim">Ripgrep</code> and another for <code class="verbatim">fd</code>.</p>
-</li>
+<li>You should have one folder for <code class="verbatim">Ripgrep</code> and another for <code class="verbatim">fd</code>.</li>
 </ul>
 <p>Extract emacs and place it where you want.
 It does not matter where they are, we will add them to the <code class="verbatim">Path</code> later (but keep them
@@ -317,27 +309,15 @@ Edit system environment variables
 <li>
 <p>Go to <code class="verbatim">Control panel -&gt; User Accounts -&gt; Change my environment variables</code>.</p>
 <ul>
-<li>
-<p><code class="verbatim">New</code>, type <code class="verbatim">HOME</code> and set your <code class="verbatim">C:\Users\USERNAME</code> and <code class="verbatim">OK</code>.</p>
-</li>
-<li>
-<p>Select <code class="verbatim">Path</code>, <code class="verbatim">edit</code> and add your <code class="verbatim">C:\path\to\the\emacs\bin</code> folder and <code class="verbatim">OK</code>.</p>
-</li>
-<li>
-<p>Select <code class="verbatim">Path</code>, <code class="verbatim">edit</code> and add your <code class="verbatim">C:\path\to\the\ripgrep</code> folder and <code class="verbatim">OK</code>.</p>
-</li>
-<li>
-<p>Select <code class="verbatim">Path</code>, <code class="verbatim">edit</code> and add your <code class="verbatim">C:\path\to\the\fd</code> folder and <code class="verbatim">OK</code>.</p>
-</li>
-<li>
-<p>Click <code class="verbatim">Ok</code>.</p>
-</li>
+<li><code class="verbatim">New</code>, type <code class="verbatim">HOME</code> and set your <code class="verbatim">C:\Users\USERNAME</code> and <code class="verbatim">OK</code>.</li>
+<li>Select <code class="verbatim">Path</code>, <code class="verbatim">edit</code> and add your <code class="verbatim">C:\path\to\the\emacs\bin</code> folder and <code class="verbatim">OK</code>.</li>
+<li>Select <code class="verbatim">Path</code>, <code class="verbatim">edit</code> and add your <code class="verbatim">C:\path\to\the\ripgrep</code> folder and <code class="verbatim">OK</code>.</li>
+<li>Select <code class="verbatim">Path</code>, <code class="verbatim">edit</code> and add your <code class="verbatim">C:\path\to\the\fd</code> folder and <code class="verbatim">OK</code>.</li>
+<li>Click <code class="verbatim">Ok</code>.</li>
 </ul>
 </li>
-<li>
-<p>We still need to add <code class="verbatim">C:\Users\USERNAME\.emacs.d\bin</code>; but first download Doom
-files.</p>
-</li>
+<li>We still need to add <code class="verbatim">C:\Users\USERNAME\.emacs.d\bin</code>; but first download Doom
+files.</li>
 </ul>
 </div>
 </div>
@@ -347,35 +327,19 @@ Install Doom
 </h3>
 <div id="outline-text-headline-4" class="outline-text-3">
 <ul>
-<li>
-<p>Open <code class="verbatim">git-bash.exe</code></p>
-</li>
-<li>
-<p>Type <code class="verbatim">cd ~</code></p>
-</li>
-<li>
-<p>Run: <code class="verbatim">git clone https://github.com/hlissner/doom-emacs ~/.emacs.d</code></p>
-</li>
-<li>
-<p>After the download is completed, type <code class="verbatim">cd ~/.emacs.d/bin</code> and run: <code class="verbatim">./doom install</code></p>
-</li>
-<li>
-<p>If everything is fine, Doom is now installed.</p>
-</li>
-<li>
-<p>Just in case run <code class="verbatim">./doom sync</code></p>
-</li>
+<li>Open <code class="verbatim">git-bash.exe</code></li>
+<li>Type <code class="verbatim">cd ~</code></li>
+<li>Run: <code class="verbatim">git clone https://github.com/hlissner/doom-emacs ~/.emacs.d</code></li>
+<li>After the download is completed, type <code class="verbatim">cd ~/.emacs.d/bin</code> and run: <code class="verbatim">./doom install</code></li>
+<li>If everything is fine, Doom is now installed.</li>
+<li>Just in case run <code class="verbatim">./doom sync</code></li>
 <li>
 <p>Go to <code class="verbatim">Control panel -&gt; User Accounts -&gt; Change my environment variables</code>.</p>
 <ul>
-<li>
-<p>Select <code class="verbatim">Path</code>, <code class="verbatim">edit</code> and add <code class="verbatim">C:\Users\USERNAME\.emacs.d\bin</code>, click <code class="verbatim">OK -&gt; OK</code>.</p>
-</li>
+<li>Select <code class="verbatim">Path</code>, <code class="verbatim">edit</code> and add <code class="verbatim">C:\Users\USERNAME\.emacs.d\bin</code>, click <code class="verbatim">OK -&gt; OK</code>.</li>
 </ul>
 </li>
-<li>
-<p>Now you can start emacs and will see the Doom dashboard!</p>
-</li>
+<li>Now you can start emacs and will see the Doom dashboard!</li>
 </ul>
 </div>
 </div>
@@ -386,16 +350,10 @@ All the icons
 <div id="outline-text-headline-5" class="outline-text-3">
 <p>By default all-the-icons will not be enabled in Windows.</p>
 <ul>
-<li>
-<p>If all-the-icons is not installed. Open emacs and <code class="verbatim">M-x package-install RET all-the-icons RET</code>.</p>
-</li>
-<li>
-<p><code class="verbatim">M-x all-the-icons-install-fonts</code> select where to download the fonts and
-install them (double click -&gt; install).</p>
-</li>
-<li>
-<p>Restart emacs and there you go.</p>
-</li>
+<li>If all-the-icons is not installed. Open emacs and <code class="verbatim">M-x package-install RET all-the-icons RET</code>.</li>
+<li><code class="verbatim">M-x all-the-icons-install-fonts</code> select where to download the fonts and
+install them (double click -&gt; install).</li>
+<li>Restart emacs and there you go.</li>
 </ul>
 </div>
 </div>
@@ -406,22 +364,12 @@ From one PC to another
 <div id="outline-text-headline-6" class="outline-text-3">
 <p>If one of your PCs does not have internet connection or is under a firewall, you can:</p>
 <ul>
-<li>
-<p>Copy your <code class="verbatim">~/.doom.d ~/.emacs.d ripgrep fd emacs</code> folders directly to the
-other PC (<code class="verbatim">~/.domm.d ~/.emacs.d</code> go in <code class="verbatim">C:\Users\USERNAME</code>)</p>
-</li>
-<li>
-<p>Edit the system environment variables accordingly.</p>
-</li>
-<li>
-<p>Copy and install the fonts you downloaded with <code class="verbatim">all-the-icons</code></p>
-</li>
-<li>
-<p>Open <code class="verbatim">git-bash.exe</code>, <code class="verbatim">cd ~/.emacs.d/bin</code> and run: <code class="verbatim">./doom sync</code></p>
-</li>
-<li>
-<p><em>et voilà!</em>.</p>
-</li>
+<li>Copy your <code class="verbatim">~/.doom.d ~/.emacs.d ripgrep fd emacs</code> folders directly to the
+other PC (<code class="verbatim">~/.domm.d ~/.emacs.d</code> go in <code class="verbatim">C:\Users\USERNAME</code>)</li>
+<li>Edit the system environment variables accordingly.</li>
+<li>Copy and install the fonts you downloaded with <code class="verbatim">all-the-icons</code></li>
+<li>Open <code class="verbatim">git-bash.exe</code>, <code class="verbatim">cd ~/.emacs.d/bin</code> and run: <code class="verbatim">./doom sync</code></li>
+<li><em>et voilà!</em>.</li>
 </ul>
 </div>
 </div>
@@ -436,13 +384,9 @@ Emacs server
 <li>
 <p>Go to <code class="verbatim">Control panel -&gt; User Accounts -&gt; Change my environment variables</code>.</p>
 <ul>
-<li>
-<p><code class="verbatim">New</code> type <code class="verbatim">EMACS_SERVER_FILE</code> and set the file path <code class="verbatim">C:\Users\USERNAME\.emacs.d\.local\cache\server\server</code>.</p>
-</li>
-<li>
-<p>Create a <code class="verbatim">emacsclientw.exe</code> shortcut with <code class="verbatim">emacsclientw.exe -nc</code> in target,
-run emacs server and emacsclientw will work.</p>
-</li>
+<li><code class="verbatim">New</code> type <code class="verbatim">EMACS_SERVER_FILE</code> and set the file path <code class="verbatim">C:\Users\USERNAME\.emacs.d\.local\cache\server\server</code>.</li>
+<li>Create a <code class="verbatim">emacsclientw.exe</code> shortcut with <code class="verbatim">emacsclientw.exe -nc</code> in target,
+run emacs server and emacsclientw will work.</li>
 </ul>
 </li>
 </ul>
@@ -485,7 +429,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</code></pre>
                 
                 <li class="copyright-item link"><span class="copyright-item-text">Link</span>: <a href="/posts/doom_emacs_windows/" target="_blank" rel="noopener">https://earvingad.github.io/posts/doom_emacs_windows/</a></li>
             
-            <li class="copyright-item license"><span class="copyright-item-text">License</span>: If you share, please give credit support.</li>
+            <li class="copyright-item license"><span class="copyright-item-text">License</span>: If you share, please give credit and support.</li>
             
         </ul>
     
@@ -707,7 +651,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</code></pre>
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">©&nbsp;2020–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Earving</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright">If you share, please give credit support.</div><div class="custom-footer">Please suport me BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</div>
+            <div class="site-info">©&nbsp;2020–2022&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Earving</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright">If you share, please give credit and support.</div><div class="custom-footer">Please suport me BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y</div>
 
             
     

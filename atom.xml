@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2021-12-05T16:24:35-06:00</updated>
+    <updated>2022-04-24T21:26:03-05:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -14,8 +14,137 @@
             
                 <email>gmail.com</email>
             </author>
-    <rights>If you share, please give credit support.</rights>
-    <generator uri="https://gohugo.io/" version="0.89.4">Hugo</generator>
+    <rights>If you share, please give credit and support.</rights>
+    <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
+        <entry>
+            <title type="text">Syncthing</title>
+            <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/syncthing/" />
+            <id>https://earvingad.github.io/posts/syncthing/</id>
+            <updated>2022-04-24T21:03:44-05:00</updated>
+            <published>2022-04-24T18:30:09-05:00</published>
+            <author>
+                    <name>Earving</name>
+                    <uri>https://earvingad.github.io/</uri>
+                    <email>gmail.com</email>
+                    </author>
+            <rights>If you share, please give credit and support.</rights><summary type="html">I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.</summary>
+            
+                <content type="html">
+&lt;p&gt;I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.&lt;/p&gt;
+&lt;p&gt;
+So, Let&amp;#39;s start with the entry:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Syncthing is a &lt;strong&gt;continuous file synchronization&lt;/strong&gt; program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it&amp;#39;s transmitted over the internet.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Yeah, just like that. I have add that &lt;a href=&#34;https://syncthing.net/&#34;&gt;Syncthing&lt;/a&gt; not only synchronizes your data (files, photos, blah blah) between computers. It has also a mobile app for your phone —which is free on Android and iPhone (under the name of Möbius Sync but I think you have to pay an extra for unlimited syncs).&lt;/p&gt;
+&lt;p&gt;
+So why would you want to use it?&lt;/p&gt;
+&lt;p&gt;
+Well if you have been unlucky as me, then you have lost your precious data due to a disk failure of your PC/laptop or got it stolen and you did not have a backup. You should have learned by now that you need backups of your data and might have listened of the 3-2-1 Backup Rule. And yeah, you can choose a cloud service like Google Drive, Dropbox, etc. but I will focus only on Syncthing as personal tool for backups at home.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+What you need
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;You can set up Syncthing easily on your pc or laptop, which we will assume it is the host. In other words: The computer that will serve as the Cloud of the devices you want to backup.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;So just download and install it on the Host.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Some guides for &lt;a href=&#34;https://www.youtube.com/watch?v=2QcO8ikxzxA&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/watch?v=foTxCfhxVLE&#34;&gt;Debian&lt;/a&gt;. Archlinux users will just &lt;code class=&#34;verbatim&#34;&gt;sudo pacman -S syncthing&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;After the installation, start syncthing and you can access the configuration page through &lt;code class=&#34;verbatim&#34;&gt;http://localhost:8384/&lt;/code&gt; from the webbrowser on your host.&lt;/li&gt;
+&lt;li&gt;Install syncthing on the devices your want to backup as well.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Configure your folders
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Initially, you will have a &lt;code&gt;Default Folder&lt;/code&gt; and it will be marked as &amp;#34;Unshared&amp;#34;, since you still have not added devices to share.
+Below, you will see the option &lt;code&gt;Add Folder&lt;/code&gt; where you can specify the path of the folders you want to share and the labels for identification.&lt;/p&gt;
+&lt;p&gt;
+I will assume you want to backup the photos of a phone.&lt;/p&gt;
+&lt;p&gt;
+On the Host:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;code class=&#34;verbatim&#34;&gt;http://localhost:8384/&lt;/code&gt; on the webbrowser of your host.&lt;/li&gt;
+&lt;li&gt;On the top right is the option &lt;code class=&#34;verbatim&#34;&gt;Actions&lt;/code&gt; and then &lt;code class=&#34;verbatim&#34;&gt;Show ID&lt;/code&gt;. A long ID and a QR code will appear.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src=&#34;https://docs.syncthing.net/_images/gs1.png&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;
+On the phone:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the app and go to Devices and tap on the &lt;code class=&#34;verbatim&#34;&gt;+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Scan the QR code of the host &lt;em&gt;et voilá&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src=&#34;https://play-lh.googleusercontent.com/DSXYbRHIOi8YrW2KfgOa93AqQ-ZxboQb1FYVqz8f1veSXj6Wq9PBBwJ_xUNnak8sSw=w1362-h654&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;
+Last step is to configure the folders that you want to share between both devices. Surely, you will not struggle, I find the UI is very intuitive.
+As a tip, path of camera folder on Androd is &lt;code class=&#34;verbatim&#34;&gt;/storage/emulated/0/DCIM/Camera&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;You have to keep in mind that synchronization will only occur when the devices are online.&lt;/li&gt;
+&lt;li&gt;Shared folders are initially configured as a &lt;code class=&#34;verbatim&#34;&gt;Send &amp;amp; Receive Folder&lt;/code&gt;. Which means everything the Host does in the folder (add/delete/modify) will be reflected on the Device, and viceversa. You can change this &lt;a href=&#34;https://docs.syncthing.net/users/foldertypes.html&#34;&gt;Folder Type&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Every Device you install Syncthing will act as a Host itself. This is helpfull if you want to keep synced data only within your Work Lap and your phone; you will need pair the Work Lap and phone with a shared folder that will only be shared between those devices but not in the Host PC (which you will most likely use to backup personal stuff).&lt;/li&gt;
+&lt;li&gt;Please check the &lt;a href=&#34;https://docs.syncthing.net/intro/getting-started.html&#34;&gt;Getting Started&lt;/a&gt; information and the whole set of &lt;a href=&#34;https://docs.syncthing.net/&#34;&gt;Syncthing’s documentation!&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/categories/homelab/" term="homelab" label="homelab" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/backup/" term="backup" label="backup" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/synchronization/" term="synchronization" label="synchronization" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Blog with Hugo (and GitHub Pages)</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/blogwithhugo/" />
@@ -27,7 +156,7 @@
                     <uri>https://earvingad.github.io/</uri>
                     <email>gmail.com</email>
                     </author>
-            <rights>If you share, please give credit support.</rights><summary type="html">Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+            <rights>If you share, please give credit and support.</rights><summary type="html">Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
  That&amp;#39;s in the Hugo website and I guess it&amp;#39;s true, since I find it very easy to use to publish this dumb blog when I have the time to.</summary>
             
                 <content type="html">
@@ -53,18 +182,10 @@ Create the GitHub page host
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;In order to publish your blog, you will need to create a host and as we said, we will be using GitHub Pages for that.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;First create from GitHub a repository &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt; to host your generated content. You can follow GitHub instructions &lt;a href=&#34;https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site&#34;&gt;here&lt;/a&gt;, it&amp;#39;s very simple and clear to understand.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Make sure that under Settings of your &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt; the &lt;code class=&#34;verbatim&#34;&gt;main(or master)&lt;/code&gt; branch and the &lt;code class=&#34;verbatim&#34;&gt;/(root)&lt;/code&gt; folder are selected as Source, to publish your GitHub Pages site.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Be aware that the repository creation will take around 20-30 minutes to be available online.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Also intall git &lt;code class=&#34;verbatim&#34;&gt;sudo pacman -S git&lt;/code&gt; (Need &lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&#34;&gt;help&lt;/a&gt; for installing?)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;First create from GitHub a repository &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt; to host your generated content. You can follow GitHub instructions &lt;a href=&#34;https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site&#34;&gt;here&lt;/a&gt;, it&amp;#39;s very simple and clear to understand.&lt;/li&gt;
+&lt;li&gt;Make sure that under Settings of your &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt; the &lt;code class=&#34;verbatim&#34;&gt;main(or master)&lt;/code&gt; branch and the &lt;code class=&#34;verbatim&#34;&gt;/(root)&lt;/code&gt; folder are selected as Source, to publish your GitHub Pages site.&lt;/li&gt;
+&lt;li&gt;Be aware that the repository creation will take around 20-30 minutes to be available online.&lt;/li&gt;
+&lt;li&gt;Also intall git &lt;code class=&#34;verbatim&#34;&gt;sudo pacman -S git&lt;/code&gt; (Need &lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&#34;&gt;help&lt;/a&gt; for installing?)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -74,29 +195,19 @@ Creating the blog with Hugo.
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Install Hugo. In Archlinux just &lt;code class=&#34;verbatim&#34;&gt;sudo pacman -S hugo&lt;/code&gt; (see &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo Install Instructions&lt;/a&gt; for other operating systems).&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Install Hugo. In Archlinux just &lt;code class=&#34;verbatim&#34;&gt;sudo pacman -S hugo&lt;/code&gt; (see &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo Install Instructions&lt;/a&gt; for other operating systems).&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Create a site/blog with &lt;code class=&#34;verbatim&#34;&gt;hugo new site &amp;#34;yourSite&amp;#34;&lt;/code&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;This will create a folder name &lt;code class=&#34;verbatim&#34;&gt;yourSite&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;This will create a folder name &lt;code class=&#34;verbatim&#34;&gt;yourSite&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Enter to that folder &lt;code class=&#34;verbatim&#34;&gt;cd yourSite&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Add a theme. I am using &lt;a href=&#34;https://github.com/reuixiy/hugo-theme-meme/&#34;&gt;Meme theme&lt;/a&gt; which was added with &lt;code class=&#34;verbatim&#34;&gt;git submodule add --depth 1t https://github.com/reuixiy/hugo-theme-meme.git themes/meme&lt;/code&gt; There are a lot of themes you can choose from the &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo theme page&lt;/a&gt;. Configuring the theme is not difficult —I will not detail it.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Enter to that folder &lt;code class=&#34;verbatim&#34;&gt;cd yourSite&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add a theme. I am using &lt;a href=&#34;https://github.com/reuixiy/hugo-theme-meme/&#34;&gt;Meme theme&lt;/a&gt; which was added with &lt;code class=&#34;verbatim&#34;&gt;git submodule add --depth 1t https://github.com/reuixiy/hugo-theme-meme.git themes/meme&lt;/code&gt; There are a lot of themes you can choose from the &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo theme page&lt;/a&gt;. Configuring the theme is not difficult —I will not detail it.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Now add a new post with &lt;code class=&#34;verbatim&#34;&gt;hugo new posts/NewPost.org&lt;/code&gt;. As you can see, I am using an org to write the post (see a brief explanation of what &lt;a href=&#34;https://earvingad.github.io/posts/org_mode/&#34;&gt;org mode&lt;/a&gt; is), but it can be done using the markdown syntax as well.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;You will see a new file &lt;code class=&#34;verbatim&#34;&gt;NewPost.org&lt;/code&gt; created under &lt;code class=&#34;verbatim&#34;&gt;content/posts&lt;/code&gt; folder. This file will include the content of your post/blog entry.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;You will see a new file &lt;code class=&#34;verbatim&#34;&gt;NewPost.org&lt;/code&gt; created under &lt;code class=&#34;verbatim&#34;&gt;content/posts&lt;/code&gt; folder. This file will include the content of your post/blog entry.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The file will begin with something like this&lt;/p&gt;
 &lt;div class=&#34;src src-none&#34;&gt;
@@ -109,9 +220,7 @@ draft: true
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Once you are done with editing and writing you can preview the results with &lt;code class=&#34;verbatim&#34;&gt;hugo server -D&lt;/code&gt; this will create a local page (including Drafts, that&amp;#39;s the reason of &lt;code class=&#34;verbatim&#34;&gt;-D&lt;/code&gt;) which you can access from your browser in &lt;code class=&#34;verbatim&#34;&gt;http://localhost:1313/&lt;/code&gt; You can close the server by pressing &lt;code class=&#34;verbatim&#34;&gt;Crtl+c&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Once you are done with editing and writing you can preview the results with &lt;code class=&#34;verbatim&#34;&gt;hugo server -D&lt;/code&gt; this will create a local page (including Drafts, that&amp;#39;s the reason of &lt;code class=&#34;verbatim&#34;&gt;-D&lt;/code&gt;) which you can access from your browser in &lt;code class=&#34;verbatim&#34;&gt;http://localhost:1313/&lt;/code&gt; You can close the server by pressing &lt;code class=&#34;verbatim&#34;&gt;Crtl+c&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Configure your &lt;code class=&#34;verbatim&#34;&gt;config.toml&lt;/code&gt; file located inside &lt;code class=&#34;verbatim&#34;&gt;yourSite&lt;/code&gt; folder. It might start with something like this:&lt;/p&gt;
 &lt;div class=&#34;src src-none&#34;&gt;
@@ -121,26 +230,14 @@ title = &amp;#34;My New Hugo Site&amp;#34;
 theme = &amp;#34;ananke&amp;#34;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Replace the &lt;code class=&#34;verbatim&#34;&gt;baseURL&lt;/code&gt; URL with your &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME.github.io&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Change the tittle and select your theme. We are using here &lt;code class=&#34;verbatim&#34;&gt;meme&lt;/code&gt; theme.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;This is pretty much all the config you need for now. I will not explain more since it depends on the theme you choose.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Replace the &lt;code class=&#34;verbatim&#34;&gt;baseURL&lt;/code&gt; URL with your &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Change the tittle and select your theme. We are using here &lt;code class=&#34;verbatim&#34;&gt;meme&lt;/code&gt; theme.&lt;/li&gt;
+&lt;li&gt;This is pretty much all the config you need for now. I will not explain more since it depends on the theme you choose.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Before proceeding run &lt;code class=&#34;verbatim&#34;&gt;rm -rf public&lt;/code&gt; to completely remove the public directory.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Change &lt;code class=&#34;verbatim&#34;&gt;draft: true&lt;/code&gt; to false in your post and run &lt;code class=&#34;verbatim&#34;&gt;hugo&lt;/code&gt; to export the &lt;code class=&#34;verbatim&#34;&gt;NewPost.org&lt;/code&gt; as an html file.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Finally, bind your GitHub repository to your public directory where Hugo will store the pages to be published with &lt;code class=&#34;verbatim&#34;&gt;git submodule add -b main https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Before proceeding run &lt;code class=&#34;verbatim&#34;&gt;rm -rf public&lt;/code&gt; to completely remove the public directory.&lt;/li&gt;
+&lt;li&gt;Change &lt;code class=&#34;verbatim&#34;&gt;draft: true&lt;/code&gt; to false in your post and run &lt;code class=&#34;verbatim&#34;&gt;hugo&lt;/code&gt; to export the &lt;code class=&#34;verbatim&#34;&gt;NewPost.org&lt;/code&gt; as an html file.&lt;/li&gt;
+&lt;li&gt;Finally, bind your GitHub repository to your public directory where Hugo will store the pages to be published with &lt;code class=&#34;verbatim&#34;&gt;git submodule add -b main https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -151,18 +248,10 @@ Update your git repository
 &lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;You have already exported your blog entry. Now it&amp;#39;s time to make it public in the internet.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;From inside your &lt;code class=&#34;verbatim&#34;&gt;public&lt;/code&gt; folder (which is located inside &lt;code class=&#34;verbatim&#34;&gt;yourSite&lt;/code&gt; folder) run &lt;code class=&#34;verbatim&#34;&gt;git add .&lt;/code&gt; to upload all the files to your &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt; repository.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Now commit the changes &lt;code class=&#34;verbatim&#34;&gt;git commit -m &amp;#34;My first blog&amp;#34;&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;And finally make it public with &lt;code class=&#34;verbatim&#34;&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;That&amp;#39;s it. You are done. You are able to access to your blog in &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt; domain.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;From inside your &lt;code class=&#34;verbatim&#34;&gt;public&lt;/code&gt; folder (which is located inside &lt;code class=&#34;verbatim&#34;&gt;yourSite&lt;/code&gt; folder) run &lt;code class=&#34;verbatim&#34;&gt;git add .&lt;/code&gt; to upload all the files to your &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt; repository.&lt;/li&gt;
+&lt;li&gt;Now commit the changes &lt;code class=&#34;verbatim&#34;&gt;git commit -m &amp;#34;My first blog&amp;#34;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;And finally make it public with &lt;code class=&#34;verbatim&#34;&gt;git push origin master&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;That&amp;#39;s it. You are done. You are able to access to your blog in &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt; domain.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;More information about Hugo can be found &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
@@ -244,7 +333,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
                     <uri>https://earvingad.github.io/</uri>
                     <email>gmail.com</email>
                     </author>
-            <rights>If you share, please give credit support.</rights><summary type="html">I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.</summary>
+            <rights>If you share, please give credit and support.</rights><summary type="html">I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.</summary>
             
                 <content type="html">
 &lt;p&gt;
@@ -270,32 +359,20 @@ Dropbox sync
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;Once Orgzly is installed in your phone you can enable sync trough Dropbox with:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Go to &lt;code class=&#34;verbatim&#34;&gt;Settings&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Click on &lt;code class=&#34;verbatim&#34;&gt;Sync&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Click on &lt;code class=&#34;verbatim&#34;&gt;Repositories&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Click on &lt;code class=&#34;verbatim&#34;&gt;Dropbox&lt;/code&gt; (if you already have some repositories, click the plus icon first)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Go to &lt;code class=&#34;verbatim&#34;&gt;Settings&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Click on &lt;code class=&#34;verbatim&#34;&gt;Sync&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Click on &lt;code class=&#34;verbatim&#34;&gt;Repositories&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Click on &lt;code class=&#34;verbatim&#34;&gt;Dropbox&lt;/code&gt; (if you already have some repositories, click the plus icon first)&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Click on &lt;code class=&#34;verbatim&#34;&gt;Link to Dropbox&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;You will be prompted to login to Dropbox and authorize access to Orgzly.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;You will be prompted to login to Dropbox and authorize access to Orgzly.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Enter the directory inside Dropbox (without &amp;#34;Dropbox&amp;#34; part)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;For example: If you have a folder named &lt;code&gt;org&lt;/code&gt; inside Dropbox just type: &lt;code class=&#34;verbatim&#34;&gt;/org&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;For example: If you have a folder named &lt;code&gt;org&lt;/code&gt; inside Dropbox just type: &lt;code class=&#34;verbatim&#34;&gt;/org&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -378,7 +455,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
                     <uri>https://earvingad.github.io/</uri>
                     <email>gmail.com</email>
                     </author>
-            <rights>If you share, please give credit support.</rights><summary type="html">Org-roam  Org-roam is a note-taking tool for Emacs using Org-mode. It is a replica of RoamResearch: &amp;#34;A note-taking tool for networked thought&amp;#34;. Both are based in the Zettelkasten method, which is described as:
+            <rights>If you share, please give credit and support.</rights><summary type="html">Org-roam  Org-roam is a note-taking tool for Emacs using Org-mode. It is a replica of RoamResearch: &amp;#34;A note-taking tool for networked thought&amp;#34;. Both are based in the Zettelkasten method, which is described as:
  Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.</summary>
             
                 <content type="html">
@@ -413,81 +490,51 @@ Installing Org-roam
 &lt;li&gt;
 &lt;p&gt;Download the &lt;a href=&#34;https://sqlite.org/download.html&#34;&gt;Official binary&lt;/a&gt; of &lt;code class=&#34;verbatim&#34;&gt;sqlite3&lt;/code&gt; (the one that includes the &lt;code class=&#34;verbatim&#34;&gt;command-line shell program&lt;/code&gt; aka the &lt;code class=&#34;verbatim&#34;&gt;.exe&lt;/code&gt;)&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Extract it and add it to your &lt;code class=&#34;verbatim&#34;&gt;path&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You can check &lt;a href=&#34;https://earvingad.github.io/posts/doom_emacs_windows/&#34;&gt;Doom, Emacs &amp;amp; Windows&lt;/a&gt; to see how to add it to your &lt;code class=&#34;verbatim&#34;&gt;path&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Extract it and add it to your &lt;code class=&#34;verbatim&#34;&gt;path&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;You can check &lt;a href=&#34;https://earvingad.github.io/posts/doom_emacs_windows/&#34;&gt;Doom, Emacs &amp;amp; Windows&lt;/a&gt; to see how to add it to your &lt;code class=&#34;verbatim&#34;&gt;path&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;In Emacs, install the &lt;code class=&#34;verbatim&#34;&gt;emacsql-sqlite3&lt;/code&gt; package&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Using DoomEmacs, just add &lt;code class=&#34;verbatim&#34;&gt;(package! emacsql-sqlite3)&lt;/code&gt; in your &lt;code class=&#34;verbatim&#34;&gt;packages.el&lt;/code&gt; (located in &lt;code class=&#34;verbatim&#34;&gt;C:\Users\yourusername\.doom.d\&lt;/code&gt;&lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;https://earvingad.github.io/posts/org_roam_windows/#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; or &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d&lt;/code&gt;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;and run &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/bin/doom sync&lt;/code&gt; in the git-bash.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Using DoomEmacs, just add &lt;code class=&#34;verbatim&#34;&gt;(package! emacsql-sqlite3)&lt;/code&gt; in your &lt;code class=&#34;verbatim&#34;&gt;packages.el&lt;/code&gt; (located in &lt;code class=&#34;verbatim&#34;&gt;C:\Users\yourusername\.doom.d\&lt;/code&gt;&lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;https://earvingad.github.io/posts/org_roam_windows/#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; or &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;and run &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/bin/doom sync&lt;/code&gt; in the git-bash.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Using a text editor (e.g. notepad) modify &lt;code class=&#34;verbatim&#34;&gt;org-roam-db.el&lt;/code&gt; (located in &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/.local/straight/repos/emacsql-sqlite3/&lt;/code&gt;):&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Replace &lt;code class=&#34;verbatim&#34;&gt;(require &amp;#39;emacsql-sqlite)&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;(require &amp;#39;emacsql-sqlite3)&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Comment/deactivate or delete the complete function &lt;code class=&#34;verbatim&#34;&gt;(defconst org-roam-db--sqlite-available-p ... )&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Replace &lt;code class=&#34;verbatim&#34;&gt;(require &amp;#39;emacsql-sqlite)&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;(require &amp;#39;emacsql-sqlite3)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Comment/deactivate or delete the complete function &lt;code class=&#34;verbatim&#34;&gt;(defconst org-roam-db--sqlite-available-p ... )&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;In the function &lt;code class=&#34;verbatim&#34;&gt;(defun org-roam-db ...&lt;/code&gt;, replace &lt;code class=&#34;verbatim&#34;&gt;emacsql-sqlite&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;emacsql-sqlite3&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;In the function &lt;code class=&#34;verbatim&#34;&gt;(defun org-roam-db ...&lt;/code&gt;, replace &lt;code class=&#34;verbatim&#34;&gt;emacsql-sqlite&lt;/code&gt; with &lt;code class=&#34;verbatim&#34;&gt;emacsql-sqlite3&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;If you compile &lt;code class=&#34;verbatim&#34;&gt;.el&lt;/code&gt; files, ensure to replace &lt;code class=&#34;verbatim&#34;&gt;org-roam-db.elc&lt;/code&gt; with the new source you modified.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;In other words: delete the &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/.local/straight/build/org-roam-db.elc&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;And run &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/bin/doom sync&lt;/code&gt; once more.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;In other words: delete the &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/.local/straight/build/org-roam-db.elc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;And run &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/bin/doom sync&lt;/code&gt; once more.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Back in Emacs, install and configure org-roam&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Open &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d/init.el&lt;/code&gt; and replace &lt;code class=&#34;verbatim&#34;&gt;org&lt;/code&gt;, in &lt;code&gt;:lang&lt;/code&gt; section, with &lt;code class=&#34;verbatim&#34;&gt;(org +roam)&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Define your org-roam-directory in your &lt;code class=&#34;verbatim&#34;&gt;config.el&lt;/code&gt;:
-&lt;code class=&#34;verbatim&#34;&gt;(setq org-roam-directory &amp;#34;/path/of/your/roam/directory&amp;#34;)&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Open &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d/init.el&lt;/code&gt; and replace &lt;code class=&#34;verbatim&#34;&gt;org&lt;/code&gt;, in &lt;code&gt;:lang&lt;/code&gt; section, with &lt;code class=&#34;verbatim&#34;&gt;(org +roam)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Define your org-roam-directory in your &lt;code class=&#34;verbatim&#34;&gt;config.el&lt;/code&gt;:
+&lt;code class=&#34;verbatim&#34;&gt;(setq org-roam-directory &amp;#34;/path/of/your/roam/directory&amp;#34;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;To get graphics, download &lt;a href=&#34;https://graphviz.gitlab.io/_pages/Download/Download_windows.html&#34;&gt;Graphviz&lt;/a&gt; (the zip) and extract it where you prefer.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Add this to your &lt;code class=&#34;verbatim&#34;&gt;config.el&lt;/code&gt;:
-&lt;code class=&#34;verbatim&#34;&gt;(setq org-roam-graph-executable &amp;#34;/path/to/dot.exe&amp;#34;)&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You might want to add your preferred viewer (or graphs will be open in Firefox by default):
-&lt;code class=&#34;verbatim&#34;&gt;(setq org-roam-graph-viewer &amp;#34;/path/to/image-viewer&amp;#34;)&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Add this to your &lt;code class=&#34;verbatim&#34;&gt;config.el&lt;/code&gt;:
+&lt;code class=&#34;verbatim&#34;&gt;(setq org-roam-graph-executable &amp;#34;/path/to/dot.exe&amp;#34;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;You might want to add your preferred viewer (or graphs will be open in Firefox by default):
+&lt;code class=&#34;verbatim&#34;&gt;(setq org-roam-graph-viewer &amp;#34;/path/to/image-viewer&amp;#34;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Run &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/bin/doom sync&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;et voilà!&lt;/em&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Run &lt;code class=&#34;verbatim&#34;&gt;~/.emacs.d/bin/doom sync&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;et voilà!&lt;/em&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Here is how taking notes looks in DoomEmacs (from the Org-rom github page).&lt;/p&gt;
 &lt;p&gt;
@@ -497,9 +544,7 @@ Installing Org-roam
 &lt;p&gt;
 I still have some pending:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;TODO Set &lt;a href=&#34;https://org-roam.readthedocs.io/en/master/roam_protocol/&#34;&gt;Org-roam protocol&lt;/a&gt; in Windows&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;TODO Set &lt;a href=&#34;https://org-roam.readthedocs.io/en/master/roam_protocol/&#34;&gt;Org-roam protocol&lt;/a&gt; in Windows&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;src src-none&#34;&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
@@ -591,7 +636,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
                     <uri>https://earvingad.github.io/</uri>
                     <email>gmail.com</email>
                     </author>
-            <rights>If you share, please give credit support.</rights><summary type="html">Org-mode is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to GTD). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information.</summary>
+            <rights>If you share, please give credit and support.</rights><summary type="html">Org-mode is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to GTD). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information.</summary>
             
                 <content type="html">
 &lt;p&gt;
@@ -692,21 +737,11 @@ Final thoughts
 &lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;The great thing about org-mode is that you can fold/unfold the sections of the document, to navigate quickly trough the notes, and export this plain text document (Yes, if you open the org file in a notepad you will see just plain text, is Emacs that renders the plain text) to a more common document types such as:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Org document –&amp;gt; LaTeX document -&amp;gt; PDF document.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Org document –&amp;gt; ODT document (the free alternative to Microsoft doc files, look at &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt; project).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Org document –&amp;gt; &lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown&lt;/a&gt; document (another plain text format).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Org document –&amp;gt; html document.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Org document –&amp;gt; Plain text document.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Org document –&amp;gt; LaTeX document -&amp;gt; PDF document.&lt;/li&gt;
+&lt;li&gt;Org document –&amp;gt; ODT document (the free alternative to Microsoft doc files, look at &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt; project).&lt;/li&gt;
+&lt;li&gt;Org document –&amp;gt; &lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown&lt;/a&gt; document (another plain text format).&lt;/li&gt;
+&lt;li&gt;Org document –&amp;gt; html document.&lt;/li&gt;
+&lt;li&gt;Org document –&amp;gt; Plain text document.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can export from one to another document with &lt;a href=&#34;https://pandoc.org/&#34;&gt;Pandoc&lt;/a&gt;, which was meant to convert from Markdown to any type of document. As the Pandoc&amp;#39;s page says:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -771,7 +806,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
                     <uri>https://earvingad.github.io/</uri>
                     <email>gmail.com</email>
                     </author>
-            <rights>If you share, please give credit support.</rights><summary type="html">Doom-emacs. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.
+            <rights>If you share, please give credit and support.</rights><summary type="html">Doom-emacs. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.
  As I mentioned in the last post. I started using Emacs at work due to org-mode… and work PC&amp;#39;s use windows behind a Firewall, so using git, pip, melpa and some more are useless in my work desktop (In the Laptop all of them work if I connect to another network, which was what I did).</summary>
             
                 <content type="html">
@@ -789,21 +824,13 @@ What you need
 &lt;p&gt;If you have limited permissions in Windows PC (e.g. admin privileges), you might not be able to use Chocolatey/Scoop.
 However, you can still use &lt;code class=&#34;verbatim&#34;&gt;git-bash.exe&lt;/code&gt; portable version!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Download &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;git&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Download &lt;a href=&#34;https://github.com/BurntSushi/ripgrep/releases&#34;&gt;Ripgrep&lt;/a&gt; and &lt;a href=&#34;https://github.com/sharkdp/fd/releases&#34;&gt;fd&lt;/a&gt;. Make sure you download the &lt;code class=&#34;verbatim&#34;&gt;windows-gnu&lt;/code&gt; version.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Of course, download &lt;a href=&#34;http://ftp.wayne.edu/gnu/emacs/windows/&#34;&gt;emacs&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;git&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://github.com/BurntSushi/ripgrep/releases&#34;&gt;Ripgrep&lt;/a&gt; and &lt;a href=&#34;https://github.com/sharkdp/fd/releases&#34;&gt;fd&lt;/a&gt;. Make sure you download the &lt;code class=&#34;verbatim&#34;&gt;windows-gnu&lt;/code&gt; version.&lt;/li&gt;
+&lt;li&gt;Of course, download &lt;a href=&#34;http://ftp.wayne.edu/gnu/emacs/windows/&#34;&gt;emacs&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Extract the binaries&lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;https://earvingad.github.io/posts/doom_emacs_windows/#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; from &lt;code class=&#34;verbatim&#34;&gt;Ripgrep&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;fd&lt;/code&gt; to their respective folders and place them where you want.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;You should have one folder for &lt;code class=&#34;verbatim&#34;&gt;Ripgrep&lt;/code&gt; and another for &lt;code class=&#34;verbatim&#34;&gt;fd&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;You should have one folder for &lt;code class=&#34;verbatim&#34;&gt;Ripgrep&lt;/code&gt; and another for &lt;code class=&#34;verbatim&#34;&gt;fd&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Extract emacs and place it where you want.
 It does not matter where they are, we will add them to the &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt; later (but keep them
@@ -824,27 +851,15 @@ Edit system environment variables
 &lt;li&gt;
 &lt;p&gt;Go to &lt;code class=&#34;verbatim&#34;&gt;Control panel -&amp;gt; User Accounts -&amp;gt; Change my environment variables&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&#34;verbatim&#34;&gt;New&lt;/code&gt;, type &lt;code class=&#34;verbatim&#34;&gt;HOME&lt;/code&gt; and set your &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add your &lt;code class=&#34;verbatim&#34;&gt;C:\path\to\the\emacs\bin&lt;/code&gt; folder and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add your &lt;code class=&#34;verbatim&#34;&gt;C:\path\to\the\ripgrep&lt;/code&gt; folder and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add your &lt;code class=&#34;verbatim&#34;&gt;C:\path\to\the\fd&lt;/code&gt; folder and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Click &lt;code class=&#34;verbatim&#34;&gt;Ok&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;New&lt;/code&gt;, type &lt;code class=&#34;verbatim&#34;&gt;HOME&lt;/code&gt; and set your &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add your &lt;code class=&#34;verbatim&#34;&gt;C:\path\to\the\emacs\bin&lt;/code&gt; folder and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add your &lt;code class=&#34;verbatim&#34;&gt;C:\path\to\the\ripgrep&lt;/code&gt; folder and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add your &lt;code class=&#34;verbatim&#34;&gt;C:\path\to\the\fd&lt;/code&gt; folder and &lt;code class=&#34;verbatim&#34;&gt;OK&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Click &lt;code class=&#34;verbatim&#34;&gt;Ok&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We still need to add &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\bin&lt;/code&gt;; but first download Doom
-files.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;We still need to add &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\bin&lt;/code&gt;; but first download Doom
+files.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -854,35 +869,19 @@ Install Doom
 &lt;/h3&gt;
 &lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Open &lt;code class=&#34;verbatim&#34;&gt;git-bash.exe&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Type &lt;code class=&#34;verbatim&#34;&gt;cd ~&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Run: &lt;code class=&#34;verbatim&#34;&gt;git clone https://github.com/hlissner/doom-emacs ~/.emacs.d&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;After the download is completed, type &lt;code class=&#34;verbatim&#34;&gt;cd ~/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom install&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If everything is fine, Doom is now installed.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Just in case run &lt;code class=&#34;verbatim&#34;&gt;./doom sync&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Open &lt;code class=&#34;verbatim&#34;&gt;git-bash.exe&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Type &lt;code class=&#34;verbatim&#34;&gt;cd ~&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run: &lt;code class=&#34;verbatim&#34;&gt;git clone https://github.com/hlissner/doom-emacs ~/.emacs.d&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;After the download is completed, type &lt;code class=&#34;verbatim&#34;&gt;cd ~/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If everything is fine, Doom is now installed.&lt;/li&gt;
+&lt;li&gt;Just in case run &lt;code class=&#34;verbatim&#34;&gt;./doom sync&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Go to &lt;code class=&#34;verbatim&#34;&gt;Control panel -&amp;gt; User Accounts -&amp;gt; Change my environment variables&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\bin&lt;/code&gt;, click &lt;code class=&#34;verbatim&#34;&gt;OK -&amp;gt; OK&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Select &lt;code class=&#34;verbatim&#34;&gt;Path&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;edit&lt;/code&gt; and add &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\bin&lt;/code&gt;, click &lt;code class=&#34;verbatim&#34;&gt;OK -&amp;gt; OK&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Now you can start emacs and will see the Doom dashboard!&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Now you can start emacs and will see the Doom dashboard!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -893,16 +892,10 @@ All the icons
 &lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;By default all-the-icons will not be enabled in Windows.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;If all-the-icons is not installed. Open emacs and &lt;code class=&#34;verbatim&#34;&gt;M-x package-install RET all-the-icons RET&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&#34;verbatim&#34;&gt;M-x all-the-icons-install-fonts&lt;/code&gt; select where to download the fonts and
-install them (double click -&amp;gt; install).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Restart emacs and there you go.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;If all-the-icons is not installed. Open emacs and &lt;code class=&#34;verbatim&#34;&gt;M-x package-install RET all-the-icons RET&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;M-x all-the-icons-install-fonts&lt;/code&gt; select where to download the fonts and
+install them (double click -&amp;gt; install).&lt;/li&gt;
+&lt;li&gt;Restart emacs and there you go.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -913,22 +906,12 @@ From one PC to another
 &lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;If one of your PCs does not have internet connection or is under a firewall, you can:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Copy your &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d ~/.emacs.d ripgrep fd emacs&lt;/code&gt; folders directly to the
-other PC (&lt;code class=&#34;verbatim&#34;&gt;~/.domm.d ~/.emacs.d&lt;/code&gt; go in &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME&lt;/code&gt;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Edit the system environment variables accordingly.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Copy and install the fonts you downloaded with &lt;code class=&#34;verbatim&#34;&gt;all-the-icons&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Open &lt;code class=&#34;verbatim&#34;&gt;git-bash.exe&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;cd ~/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom sync&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;et voilà!&lt;/em&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Copy your &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d ~/.emacs.d ripgrep fd emacs&lt;/code&gt; folders directly to the
+other PC (&lt;code class=&#34;verbatim&#34;&gt;~/.domm.d ~/.emacs.d&lt;/code&gt; go in &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Edit the system environment variables accordingly.&lt;/li&gt;
+&lt;li&gt;Copy and install the fonts you downloaded with &lt;code class=&#34;verbatim&#34;&gt;all-the-icons&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Open &lt;code class=&#34;verbatim&#34;&gt;git-bash.exe&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;cd ~/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom sync&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;et voilà!&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -943,13 +926,9 @@ Emacs server
 &lt;li&gt;
 &lt;p&gt;Go to &lt;code class=&#34;verbatim&#34;&gt;Control panel -&amp;gt; User Accounts -&amp;gt; Change my environment variables&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&#34;verbatim&#34;&gt;New&lt;/code&gt; type &lt;code class=&#34;verbatim&#34;&gt;EMACS_SERVER_FILE&lt;/code&gt; and set the file path &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\.local\cache\server\server&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Create a &lt;code class=&#34;verbatim&#34;&gt;emacsclientw.exe&lt;/code&gt; shortcut with &lt;code class=&#34;verbatim&#34;&gt;emacsclientw.exe -nc&lt;/code&gt; in target,
-run emacs server and emacsclientw will work.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;New&lt;/code&gt; type &lt;code class=&#34;verbatim&#34;&gt;EMACS_SERVER_FILE&lt;/code&gt; and set the file path &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\.local\cache\server\server&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create a &lt;code class=&#34;verbatim&#34;&gt;emacsclientw.exe&lt;/code&gt; shortcut with &lt;code class=&#34;verbatim&#34;&gt;emacsclientw.exe -nc&lt;/code&gt; in target,
+run emacs server and emacsclientw will work.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1042,7 +1021,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
                     <uri>https://earvingad.github.io/</uri>
                     <email>gmail.com</email>
                     </author>
-            <rights>If you share, please give credit support.</rights><summary type="html">First things first  This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.</summary>
+            <rights>If you share, please give credit and support.</rights><summary type="html">First things first  This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.</summary>
             
                 <content type="html">
 &lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
@@ -1067,15 +1046,9 @@ Luckily, there are frameworks that allows you to emulate vim key-bindings in Ema
 &lt;p&gt;
 The next posts are going to be about:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;How to install Doom-emacs in windows&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;Org-mode&lt;/em&gt; &amp;amp; &lt;em&gt;org-roam&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;… and we&amp;#39;ll see.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;How to install Doom-emacs in windows&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Org-mode&lt;/em&gt; &amp;amp; &lt;em&gt;org-roam&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;… and we&amp;#39;ll see.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;src src-none&#34;&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
