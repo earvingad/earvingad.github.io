@@ -10,7 +10,7 @@
         <title>Nerd things and more...</title>
         <link>https://earvingad.github.io/</link>
         <description>Hi, this is a blog about nerd things and stuff.</description>
-        <generator>Hugo 0.96.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.97.3 https://gohugo.io/</generator>
         
             <language>en</language>
         
@@ -23,10 +23,142 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Sun, 24 Apr 2022 21:26:03 -0500</lastBuildDate>
+        <lastBuildDate>Sun, 01 May 2022 17:47:04 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Ad Blocking, simple &amp; fast</title>
+                <link>https://earvingad.github.io/posts/adblocking/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/adblocking/</guid>
+                <pubDate>Wed, 27 Apr 2022 21:24:55 -0500</pubDate>
+                
+                    <author>gmail.com (Earving)</author>
+                
+                <copyright>If you share, please give credit and support.</copyright>
+                
+                    <description>
+&lt;p&gt;
+We all hate ads.&lt;/p&gt;
+&lt;p&gt;
+According to Wikipedia,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ad blocking or ad filtering is a software capability for blocking or altering online advertising in a web browser, an application or a network. This may be done using browser extensions or other methods.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+So you have choices&lt;/p&gt;
+&lt;p&gt;
+I am not going to detail but give the practical and useful information about the fastest and easiest way to block ads&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Browser extensions
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;You need, always, no matter what, a web browser ad block extension. It will, of course, block ads only for the web browser. Main alternatives are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://getadblock.com/en/&#34;&gt;AdBlock&lt;/a&gt;, which allows &lt;em&gt;Acceptable Ads&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://adblockplus.org/&#34;&gt;Adblock Plus&lt;/a&gt;, which also allows &lt;em&gt;Acceptable Ads&lt;/em&gt; and&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gorhill/uBlock&#34;&gt;uBlock Origin&lt;/a&gt;, which gives a fuck about &lt;em&gt;Acceptable Ads&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The term &lt;em&gt;&lt;a href=&#34;https://acceptableads.com/&#34;&gt;Acceptable Ads&lt;/a&gt;&lt;/em&gt; means that publishers and advertisers still profit from advertisement by whitelisting their &amp;#34;high quality ads&amp;#34; in the ad block extension, allowing them to pop-up when users visit the pages where they advertise. It might be obvious that in this way, developers of the ad block extension profit too.&lt;/p&gt;
+&lt;p&gt;
+uBlock Origin is Open Source and it is &lt;a href=&#34;https://github.com/gorhill/uBlock/blob/master/MANIFESTO.md&#34;&gt;against the &amp;#34;Acceptable advertisement program&amp;#34;&lt;/a&gt;. It is described as a &lt;em&gt;wide-spectrum blocker, which happens to be able to function as a mere &amp;#34;ad blocker&amp;#34;&lt;/em&gt;. In other words, it just blocks and gives a fuck.&lt;/p&gt;
+&lt;p&gt;
+It does not ask for donations, as stated in the &lt;a href=&#34;https://github.com/gorhill/uBlock/blob/master/README.md&#34;&gt;README&lt;/a&gt; it expresses that if you want to contribute you should do it to the people that maintain the filter lists. These list are  &lt;a href=&#34;https://easylist.github.io/#easylist&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;EasyList&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://easylist.github.io/#easyprivacy&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;EasyPrivacy&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://pgl.yoyo.org/adservers/policy.php&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Peter Lowe’s ad/tracking/malware servers&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://gitlab.com/curben/urlhaus-filter#urlhaus-malicious-url-blocklist&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Online Malicious URL Blocklist&lt;/span&gt;&lt;/a&gt;, and uBlock Origin&amp;#39;s &lt;a href=&#34;https://github.com/uBlockOrigin/uAssets/tree/master/filters&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;own filter lists&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+You can install uBlock Origin even in the mobile version of the web browsers and oh yeah, this will block YouTube Ads when using the web browser.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Block by DNS
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;In simple terms it is a plain text file with the addresses allowed and disallowed to reach by the device. You can either modify the host file of your PC (for mobile devices it is complicated), rely on ad blocking DNS services (usually it will not block many ads) or use a software to handle this for your local network.&lt;/p&gt;
+&lt;p&gt;
+I will recommend the latter and the use of:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://pi-hole.net/&#34;&gt;Pi-hole&lt;/a&gt; an adblock and DHCP server for the Raspberry Pi. It is very easy to configure and it is a separated devices from the router. The drawback is precisely that: it is a separated device that you need to buy and it must be always turned on alongside your router.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openwrt.org/docs/guide-user/services/ad-blocking&#34;&gt;OpenWrt ad blocking capabilities&lt;/a&gt;, you can either set &lt;a href=&#34;https://openwrt.org/packages/pkgdata/adblock&#34;&gt;adblock&lt;/a&gt; and &lt;a href=&#34;https://openwrt.org/packages/pkgdata/simple-adblock&#34;&gt;simple-adblock&lt;/a&gt; packages for low CPU-power routers or &lt;a href=&#34;https://openwrt.org/docs/guide-user/services/dns/adguard-home&#34;&gt;AdGuard Home&lt;/a&gt; for a nice UI.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Setting an DNS blocker on your local network, either a pi-hole or on the OpenWrt router, will block ads for all the devices connected to the network (SmartTVs, phones and all of the smart devices) and you can add or remove filter lists according your needs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Others (?)
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Here I might say Ad Blocking Apps, but if I am not mistaken, apps connect to a DNS service that blocks the ads. I could say the same for VPN ad blocking, but VPN is more desirable for privacy rather than ad blocking.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;Go get an ad block extension for your web browser. You might find that some web pages restrict the access when using an Ad Blocker and will ask you to disable it to access, but you the general web browsing experience will improve considerably.&lt;/li&gt;
+&lt;li&gt;There is also &lt;a href=&#34;https://brave.com/&#34;&gt;Brave a Secure, Fast &amp;amp; Private Web Browser with Adblocker&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If able, set a Pi-hole or OpenWrt with blocking capabilities.&lt;/li&gt;
+&lt;li&gt;Removing ads from installed apps in your phones is more complicated, as the ads &amp;#34;live&amp;#34; inside the app.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homelab/">homelab</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/openwrt/">OpenWrt</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/adblock/">adblock</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/router/">router</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/openwrt/">OpenWrt</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/linux/">linux</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Syncthing</title>
