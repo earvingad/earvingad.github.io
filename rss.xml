@@ -23,7 +23,7 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Sun, 01 May 2022 17:47:04 -0500</lastBuildDate>
+        <lastBuildDate>Sun, 01 May 2022 17:53:08 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
@@ -104,6 +104,10 @@ Final thoughts
 &lt;li&gt;If able, set a Pi-hole or OpenWrt with blocking capabilities.&lt;/li&gt;
 &lt;li&gt;Removing ads from installed apps in your phones is more complicated, as the ads &amp;#34;live&amp;#34; inside the app.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
