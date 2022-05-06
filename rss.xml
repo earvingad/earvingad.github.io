@@ -23,10 +23,196 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Fri, 06 May 2022 14:08:45 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 06 May 2022 14:15:49 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>OpenWrt or How to give your router steroids</title>
+                <link>https://earvingad.github.io/posts/openwrt/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/openwrt/</guid>
+                <pubDate>Fri, 06 May 2022 14:14:48 -0500</pubDate>
+                
+                    <author>gmail.com (Earving)</author>
+                
+                <copyright>If you share, please give credit and support.</copyright>
+                
+                    <description>
+&lt;blockquote&gt;
+&lt;p&gt;The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Yeeeah baby! good soup!&lt;/p&gt;
+&lt;p&gt;
+Have you ever hated your wireless router so much that you wanted to smash it to the wall because it is just a piece of useless shit?&lt;/p&gt;
+&lt;p&gt;
+Well, I have. Because, let&amp;#39;s face it, Internet provider&amp;#39;s routers are pretty limited and might freeze with more than 5 connected devices. So you opt to buy a more powerfull with a better processor and more downloadable ram (yes, downloading more ram is still a thing), and yes, the vendor router performs better, but it is still just a router, you are limited to the vendor software (which is close to nothing), it freezes from time to time and you still lag when gaming online!&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://openwrt.org/&#34;&gt;OpenWrt&lt;/a&gt;, as you previously read, is a filesystem which can replace vendor filesystem and comes with a package management that will allow you to install applications to expand the functionality of the router. This is like uninstalling Windows from your PC and install Linux (or doing it the wrong way, installing windows on a Mac…. Why?).&lt;/p&gt;
+&lt;p&gt;
+Also, OpenWrt is more secure and stable than vendor systems due to continuous updates, since its code is open to the community and developers. This also means that it can support more and more devices in the future.&lt;/p&gt;
+&lt;p&gt;
+At the end, this is the goal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stable internet connection,&lt;/li&gt;
+&lt;li&gt;Router stability for more device connections,&lt;/li&gt;
+&lt;li&gt;Network security and&lt;/li&gt;
+&lt;li&gt;Additional functionalities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Installing OpenWrt
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;You have to be aware that if your going to modify something on your devices, you need to have at least basic knowledge of what you attempt to do, because you will void the device warranty or brick it and make it useless.&lt;/p&gt;
+&lt;p&gt;
+OpenWrt officially supports a wide variety of devices (see the &lt;a href=&#34;https://openwrt.org/toh/views/toh_fwdownload?dataflt%5B0%5D=supported%20current%20rel_%3D21.02.3&#34;&gt;Table of Hardware for Firmware downloads&lt;/a&gt;) and each of them comes with specific instructions depending on the model and version, but most of the times you will just need to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Download and install the OpenWrt Factory Firmware through the WebUI of the vendor using the “Firmware Upgrade” option.&lt;/li&gt;
+&lt;li&gt;Flash a &amp;#34;…sysupgrade.bin&amp;#34; specific for your device.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It might sound complicated at first sight, but there are plenty of tutorials online and a &lt;a href=&#34;https://forum.openwrt.org/&#34;&gt;Forum&lt;/a&gt; where you can look for help.&lt;/p&gt;
+&lt;p&gt;
+Popular devices offer the most help, available tutorials and sometimes the easiest installation methods. So which routers are the best choices to buy?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+How to choose?
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Well, recommended specs are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;At least 16 MB of flash memory and&lt;/li&gt;
+&lt;li&gt;128MB of RAM&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Then you can focus on other needs such as:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How many USB ports does it have? are they 3.0?&lt;/li&gt;
+&lt;li&gt;Does it have 5G antenna or just 2.4G? are both antennas supported?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Routers from Linksys, TP-Link, Netgear, ASUS or Xiaomi are good options.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+Other elaborated alternatives
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;What I mean with &lt;em&gt;elaborated&lt;/em&gt; it that you need another more extra steps than the usual OpenWrt installation in a built-in router.&lt;/p&gt;
+&lt;p&gt;
+The great thing of OpenWrt is that it is not limited only to routers. It can also be installed in PCs as it has &lt;a href=&#34;https://openwrt.org/docs/guide-user/installation/openwrt_x86&#34;&gt;x86/64 support&lt;/a&gt; and have you heard of Raspberry Pi? Well yes, you can &lt;a href=&#34;https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi&#34;&gt;install OpenWrt on a Raspberry Pi&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;
+Of course the drawback is that you will lose WiFi capabilities but you can solve it with a wireless &lt;a href=&#34;https://en.wikipedia.org/wiki/Wireless_access_point&#34;&gt;Access Point&lt;/a&gt; (AP) like TP-Link, Cisco, blah blah and a USB 3.0 to Gigabit Ethernet adapter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Now what? Give me more steroids!
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Once you successfully installed OpenWrt, you have so many options to install through LuCI, the web interface of OpenWrt:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://openwrt.org/docs/guide-user/services/ad-blocking&#34;&gt;Ad Blocking&lt;/a&gt;: This will not block ads from YouTube App, but will block most of the ads when surfing the net (what a 90&amp;#39;s expression!) and will speed internet navigation on your devices. It can also block trackers and other abuse sites, like your SmartTV annoying need to send information and reach vendor&amp;#39;s website.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Minimal ad blocking can be achieved with: &lt;a href=&#34;https://openwrt.org/packages/pkgdata/adblock&#34;&gt;adblock&lt;/a&gt; and &lt;a href=&#34;https://openwrt.org/packages/pkgdata/simple-adblock&#34;&gt;simple-adblock&lt;/a&gt; packages.&lt;/li&gt;
+&lt;li&gt;A more user friendly option is: &lt;a href=&#34;https://openwrt.org/docs/guide-user/services/dns/adguard-home&#34;&gt;AdGuard Home&lt;/a&gt; which is similar to the popular &lt;a href=&#34;https://pi-hole.net/&#34;&gt;Pi-hole&lt;/a&gt; an adblock and DHCP server for the Raspberry Pi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openwrt.org/docs/guide-user/services/vpn/start&#34;&gt;VPN Client and Server&lt;/a&gt;: This is important if you want privacy and/or bypass firewalls. The router will encrypt all the internet traffic of all the devices connected to the router. Also, while setting a VPN server you will be able to connect securely to your home network while you are away and perform task remotely.&lt;/li&gt;
+&lt;li&gt;Download Manager: Achieved through &lt;a href=&#34;https://aria2.github.io/&#34;&gt;aria2&lt;/a&gt; and the &lt;a href=&#34;https://github.com/ziahamza/webui-aria2&#34;&gt;webui-aria2&lt;/a&gt;, you can download files directly to the router, torrent directly in the router! Just load the torrent in the webui-aria2, poweroff your laptop/PC and go to sleep, all your Linux ISOs torrents will continue to download in the router.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openwrt.org/docs/guide-user/services/nas/start&#34;&gt;File Sharing&lt;/a&gt;: You can set a Samba server or ftp, to share files among your devices. Remember those ISOs you downloaded? This is the way to copy them into your devices. Or if you installed OpenWrt on a PC, you could create a own &lt;a href=&#34;https://en.wikipedia.org/wiki/Network-attached_storage&#34;&gt;Network-attached storage&lt;/a&gt; (NAS). The simplest and lightweight implementation of Samba for OpenWrt is ksmbd through its &lt;a href=&#34;https://openwrt.org/packages/pkgdata/luci-app-ksmbd&#34;&gt;luci app&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openwrt.org/docs/guide-user/services/media_server/dlna&#34;&gt;Media Server&lt;/a&gt;: Maybe you downloaded some ISOs on your router, that you want to watch immediately on your SmartTV. You can achieve this by setting a DLNA Media Server (with the &lt;a href=&#34;https://wiki.debian.org/FreedomBox/Manual/MiniDLNA&#34;&gt;MiniDLNA&lt;/a&gt; implementation) in order to allow the ISOs be visble to the SmartTV connected to the router.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openwrt.org/docs/guide-user/network/traffic-shaping/sqm&#34;&gt;SQM (Smart Queue Management)&lt;/a&gt;: Or in other words, your ally against &lt;a href=&#34;https://en.wikipedia.org/wiki/Bufferbloat&#34;&gt;Bufferbloat&lt;/a&gt; and best partner to improve streaming, general internet navigation and reduce latency for gaming online. &lt;a href=&#34;https://forum.openwrt.org/t/so-you-have-500mbps-1gbps-fiber-and-need-a-router-read-this-first/90305&#34;&gt;SQM is heavily CPU-based&lt;/a&gt;, so if you need +500mbps speeds, you better consider a x86/64 router and some APs. You can also do &lt;a href=&#34;https://github.com/rosywrt/nft-qos&#34;&gt;QoS over Nftables&lt;/a&gt; for User Bandwidth Management.&lt;/li&gt;
+&lt;li&gt;Virtualization: Since the OpenWrt 20.xx release, you can run &lt;a href=&#34;https://openwrt.org/docs/guide-user/virtualization/docker_host&#34;&gt;Docker containers on OpenWrt&lt;/a&gt;, at least for the x86/64 version, because virtualization requires more power than a router can offer. But just imagine this: You have your x86/64 OpenWrt with some APs, a few HDD with some Terabytes for NAS where you download your Linux ISOs and &lt;a href=&#34;https://www.plex.tv/&#34;&gt;Plex&lt;/a&gt; installed in a Docker container to stream some ISOs to your SmartTV. Oooh yeah baby.&lt;/li&gt;
+&lt;li&gt;Theming: It might not be important to some people, but it is always pleasant to have a nice theme. Some examples are &lt;a href=&#34;https://github.com/LuttyYang/luci-theme-material/&#34;&gt;Material&lt;/a&gt; and &lt;a href=&#34;https://github.com/jerrykuku/luci-theme-argon&#34;&gt;Argon&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The above described is just a tip of the iceberg. There are a lot of &lt;a href=&#34;https://openwrt.org/reasons_to_use_openwrt&#34;&gt;reasons to use OpenWrt&lt;/a&gt;, some more are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DNS encryption, DNS hijacking and access to several DDNS services (not only the provided for the vendor of your router).&lt;/li&gt;
+&lt;li&gt;Create a guest WiFi allowing access to internet, but not your personal devices.&lt;/li&gt;
+&lt;li&gt;Parental control.&lt;/li&gt;
+&lt;li&gt;Add webcams and interact with IoT devices for home automation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are over 3000 steroids for OpenWrt. You can try and find the ones suitable for your needs and remember: it&amp;#39;s Open Source, it&amp;#39;s Linux and &lt;a href=&#34;https://static.wikia.nocookie.net/ragefaces/images/d/d1/Its_free.jpg/revision/latest?cb=20120525010459&amp;amp;path-prefix=es&#34;&gt;it&amp;#39;s free&lt;/a&gt; (but if you are able to &lt;a href=&#34;https://openwrt.org/donate&#34;&gt;donate&lt;/a&gt; to the project, please do).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;I mean, OpenWrt team is still working on the project so better and better improvements might come.&lt;/li&gt;
+&lt;li&gt;If you already have a router, it might not be officially supported due to proprietary drivers, but since OpenWrt code in open to everyone, there are some forks of the project that might have support for your device such as &lt;a href=&#34;https://x-wrt.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;X-Wrt&lt;/span&gt;&lt;/a&gt; which is based on the Snapshots of OpenWrt (the most updated version). Another and more popular fork is &lt;a href=&#34;https://github.com/coolsnowwolf/lede&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Lean&amp;#39;s OpenWrt&lt;/span&gt;&lt;/a&gt; (which at the time this entry is posted, it is compiling the 21.xx version of OpenWrt). Don&amp;#39;t be afraid of Chinese language, grab a translator, be a man and do not fear what you don&amp;#39;t understand.&lt;/li&gt;
+&lt;li&gt;There are other alternatives to OpenWrt like: &lt;a href=&#34;https://dd-wrt.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;DD-WRT&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://freshtomato.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;FreshTomato&lt;/span&gt;&lt;/a&gt; and &lt;a href=&#34;https://www.gargoyle-router.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Gargoyle&lt;/span&gt;&lt;/a&gt;, but I personally recommend OpenWrt.&lt;/li&gt;
+&lt;li&gt;If you are thinking about a x86/64 device + APs combo, you may want to take a look on &lt;a href=&#34;https://opnsense.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;OPNsense&lt;/span&gt;&lt;/a&gt; and &lt;a href=&#34;https://www.pfsense.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;pfSense&lt;/span&gt;&lt;/a&gt; projects. They are more Firewall-enterprise oriented but I have seen many post of people using them for homelab.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As for me, I use a X-Wrt build on a ASUS router that is not officially supported by OpenWrt in which I injected the following steroids:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Argon themed,&lt;/li&gt;
+&lt;li&gt;Ad Blocking with AdGuard Home,&lt;/li&gt;
+&lt;li&gt;SQM,&lt;/li&gt;
+&lt;li&gt;aria2 and webui-aria2,&lt;/li&gt;
+&lt;li&gt;ksmbd and ftp for file sharing and&lt;/li&gt;
+&lt;li&gt;MiniDLNA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I think this is long enough. I might write about Plex and File Sharing on separate entries (and maybe how to build your custom X-Wrt/OpenWrt).&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homelab/">homelab</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/openwrt/">OpenWrt</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/router/">router</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/openwrt/">OpenWrt</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/linux/">linux</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Ad Blocking, simple &amp; fast</title>
