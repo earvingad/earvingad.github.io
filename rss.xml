@@ -10,7 +10,7 @@
         <title>Nerd things and more...</title>
         <link>https://earvingad.github.io/</link>
         <description>Hi, this is a blog about nerd things and stuff.</description>
-        <generator>Hugo 0.97.3 https://gohugo.io/</generator>
+        <generator>Hugo 0.98.0 https://gohugo.io/</generator>
         
             <language>en</language>
         
@@ -23,7 +23,7 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Sun, 01 May 2022 17:53:08 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 06 May 2022 14:08:45 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
