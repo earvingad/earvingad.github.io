@@ -23,10 +23,179 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Fri, 06 May 2022 14:15:49 -0500</lastBuildDate>
+        <lastBuildDate>Sun, 15 May 2022 13:25:28 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>AdGuardHome, like Pi-hole but…better(?)</title>
+                <link>https://earvingad.github.io/posts/adguardhome/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/adguardhome/</guid>
+                <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
+                
+                    <author>gmail.com (Earving)</author>
+                
+                <copyright>If you share, please give credit and support.</copyright>
+                
+                    <description>
+&lt;p&gt;
+&lt;a href=&#34;https://adguard.com/en/welcome.html&#34;&gt;AdGuard Home&lt;/a&gt; is a…&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Privacy protection center for you and your devices&lt;/p&gt;
+&lt;p&gt;
+Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a &lt;a href=&#34;https://openwrt.org/docs/guide-user/services/dns/adguard-home&#34;&gt;package&lt;/a&gt; for OpenWrt. We will focus on the latter, I wrote briefly about it the &lt;a href=&#34;https://earvingad.github.io/posts/adblocking/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Ad Blocking, simple &amp;amp; fast&lt;/span&gt;&lt;/a&gt; entry.&lt;/p&gt;
+&lt;p&gt;
+This post is based on &lt;a href=&#34;https://forum.openwrt.org/t/howto-running-adguard-home-on-openwrt/51678&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;this&lt;/span&gt;&lt;/a&gt; forum entry. The only difference is that it will be installed in an external HDD connected to the OpenWrt router.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Installation
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;Login to the router &lt;code class=&#34;verbatim&#34;&gt;ssh root@192.168.1.1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Update the packages and install wget &lt;code class=&#34;verbatim&#34;&gt;opkg update &amp;amp;&amp;amp; opkg install wget&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Go to the mounted HDD location and create a folder for AdGuardHome &lt;code class=&#34;verbatim&#34;&gt;cd /mnt/sda1 &amp;amp;&amp;amp; mkdir AdGuardHome &amp;amp;&amp;amp; cd AdGuardHome&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now download the package &lt;code class=&#34;verbatim&#34;&gt;wget -c https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.6/AdGuardHome_linux_armv7.tar.gz&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Please note that there are different platform downloads in every &lt;a href=&#34;https://github.com/AdguardTeam/AdGuardHome/releases&#34;&gt;release&lt;/a&gt;. In this case the selected download is Linux armv7 for OpenWrt installed in a router with an ARMv7 CPU architecture.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Unpack it &lt;code class=&#34;verbatim&#34;&gt;tar xfvz AdGuardHome_linux_armv7.tar.gz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Remove the unused &lt;code class=&#34;verbatim&#34;&gt;rm AdGuardHome_linux_armv7.tar.gz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And install it with &lt;code class=&#34;verbatim&#34;&gt;/mnt/sda1/AdGuardHome/AdGuardHome -s install&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;This will create a service to start, restart and stop the package.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable and start the service with &lt;code class=&#34;verbatim&#34;&gt;/etc/init.d/AdGuardHome enable&lt;/code&gt; and then &lt;code class=&#34;verbatim&#34;&gt;/etc/init.d/AdGuardHome start&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;In the browser go to &lt;code class=&#34;verbatim&#34;&gt;http://192.168.1.1:3000/&lt;/code&gt; (If your router IP is not &lt;code class=&#34;verbatim&#34;&gt;192.168.1.1&lt;/code&gt;, change this accordingly)&lt;/li&gt;
+&lt;li&gt;Setup the Admin Web Interface to listen on &lt;code class=&#34;verbatim&#34;&gt;192.168.1.1&lt;/code&gt; at port &lt;code class=&#34;verbatim&#34;&gt;8080&lt;/code&gt;. (Changing the web interface port is optional)&lt;/li&gt;
+&lt;li&gt;Set DNS server to listen on &lt;code class=&#34;verbatim&#34;&gt;192.168.1.1&lt;/code&gt; at port &lt;code class=&#34;verbatim&#34;&gt;5353&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Finally, create an user and choose a strong password.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Configure OpenWrt to use AdGuardHome
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;Login into LuCi and go to &lt;code class=&#34;verbatim&#34;&gt;Network -&amp;gt; DHCP and DNS&lt;/code&gt;, in General Settings set DNS forwardings to &lt;code class=&#34;verbatim&#34;&gt;192.168.1.1#5353&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Go to Resolv and Hosts Files tab and check the Ignore resolv file option.&lt;/li&gt;
+&lt;li&gt;Go to &lt;code class=&#34;verbatim&#34;&gt;Network -&amp;gt; Firewall&lt;/code&gt; and in Custom Rules tab add the following:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;iptables -t nat -A PREROUTING -i br-lan -p udp --dport 53 -j DNAT --to 192.168.1.1:5353
+iptables -t nat -A PREROUTING -i br-lan -p tcp --dport 53 -j DNAT --to 192.168.1.1:5353&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+For OpenWrt 22.xx this will not work, since it &lt;a href=&#34;https://openwrt.org/releases/22.03/notes-22.03.0-rc1#firewall4_based_on_nftables&#34;&gt;is not using fw3 but fw4&lt;/a&gt;. So it will ignore the custom rules but the workaround is the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;code class=&#34;verbatim&#34;&gt;Network -&amp;gt; Firewall -&amp;gt; Port Forwards&lt;/code&gt; and create a the following rule:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;Name: AdGuardHome
+Protocol: TCP, UDP
+Source zone: lan
+External port: 53
+Destination zone: lan
+Internal IP address: 192.168.1.1
+Internal port: 5353&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+This rule will force that any traffic originated on &lt;code class=&#34;verbatim&#34;&gt;lan&lt;/code&gt; will go to the OpenWrt router on port &lt;code class=&#34;verbatim&#34;&gt;5353&lt;/code&gt;. &lt;a href=&#34;https://jeff.vtkellers.com/posts/technology/force-all-dns-queries-through-pihole-with-openwrt/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;This blog entry&lt;/span&gt;&lt;/a&gt; explains it and adds a second rule (NAT rule) that is useful when using a separate DNS blocking device, in that scenario a Pi-hole. The second rule will have the source IP rewritten to match the original.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Modify Blocklists
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;You can add and remove Blocklists as you wish. You can check list from &lt;a href=&#34;https://firebog.net/&#34;&gt;Firebog&lt;/a&gt; and &lt;a href=&#34;https://oisd.nl/&#34;&gt;oisd&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open in the web browser &lt;code class=&#34;verbatim&#34;&gt;http://192.168.1.1:8080/&lt;/code&gt; and go to &lt;code class=&#34;verbatim&#34;&gt;Filters -&amp;gt; DNS blocklists&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;You can use &lt;a href=&#34;https://github.com/mmotti/adguard-home-filters/blob/master/regex.txt&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;this&lt;/span&gt;&lt;/a&gt; regex rules to block ads. Go to &lt;code class=&#34;verbatim&#34;&gt;Filters -&amp;gt; Custom filtering rules&lt;/code&gt;. This will block by itself around 50% of ads.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;Since AdGuardHome is running from an external HDD connected to the router, all configuration and logs will survive reboots.&lt;/li&gt;
+&lt;li&gt;You can do more things with AdGuardHome, like set DNS-over-TLS for more privacy or configure it as a DHCP sever.&lt;/li&gt;
+&lt;li&gt;Maybe you want to block complete access to TikTok. AdGuardHome can block popular sites and services and offers parental control.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src=&#34;https://camo.githubusercontent.com/42b91eda808e2f68c98250679e29bcb0b0b4ef0364a4f67b6821982f4c87b1b3/68747470733a2f2f63646e2e616467756172642e636f6d2f7075626c69632f416467756172642f436f6d6d6f6e2f616467756172645f686f6d652e676966&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homelab/">homelab</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/openwrt/">OpenWrt</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/adblock/">adblock</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/router/">router</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/openwrt/">OpenWrt</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/linux/">linux</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>OpenWrt or How to give your router steroids</title>
