@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2022-05-15T13:25:28-05:00</updated>
+    <updated>2022-05-25T18:45:34-05:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -15,7 +15,508 @@
                 <email>gmail.com</email>
             </author>
     <rights>If you share, please give credit and support.</rights>
-    <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.99.1">Hugo</generator>
+        <entry>
+            <title type="text">Tor a hidden friend to SSH your home network</title>
+            <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/torssh/" />
+            <id>https://earvingad.github.io/posts/torssh/</id>
+            <updated>2022-05-25T18:42:54-05:00</updated>
+            <published>2022-05-22T18:55:17-05:00</published>
+            <author>
+                    <name>Earving</name>
+                    <uri>https://earvingad.github.io/</uri>
+                    <email>gmail.com</email>
+                    </author>
+            <rights>If you share, please give credit and support.</rights><summary type="html">You might had heard of the Dark web or the Deep web, well the first one is just a small part of the latter. The Dark web is populated with darknets which is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization.</summary>
+            
+                <content type="html">
+&lt;p&gt;
+You might had heard of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dark_web&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Dark web&lt;/span&gt;&lt;/a&gt; or the &lt;a href=&#34;https://en.wikipedia.org/wiki/Deep_web&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Deep web&lt;/span&gt;&lt;/a&gt;, well the first one is just a small part of the latter. The Dark web is populated with darknets which &lt;em&gt;is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;
+These darknets can be small peer-to-peer networks or large as the &lt;a href=&#34;https://geti2p.net/en/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;I2P Anonymous Network&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://freenetproject.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Freenet&lt;/span&gt;&lt;/a&gt; and the most popular &lt;a href=&#34;https://www.torproject.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tor Project&lt;/span&gt;&lt;/a&gt;. In this case, we will focus in the Tor network and how to use it to connect to your home network for remote control.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Why Tor and not a safer choice: WireGuard
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;If you have a public IP on your router (and you are able to set &lt;a href=&#34;https://en.wikipedia.org/wiki/Port_forwarding&#34;&gt;Port forwarding&lt;/a&gt;), I highly encourage the use of &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;WireGuard&lt;/span&gt;&lt;/a&gt; which is a fast, modern and secure VPN tunnel to connect to your home network. It encrypts all data and is faster than we will experience with the Tor network (and it is even &lt;a href=&#34;https://www.wireguard.com/performance/&#34;&gt;faster&lt;/a&gt; than other alternatives such as OpenVPN and IPSec, without compromising security). And with the help of a &lt;a href=&#34;https://en.wikipedia.org/wiki/Dynamic_DNS&#34;&gt;Dynamic DNS&lt;/a&gt; (DDNS) you could easily connect to your home network even if you have a dynamic IP.&lt;/p&gt;
+&lt;p&gt;
+On the other hand, you could rent a &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_server&#34;&gt;Virtual private server&lt;/a&gt; (VPS), connect both your home network and client devices (e.g. your phone) to the VPS and forward, within the VPS, all the traffic from the client devices to your home network. However, this implies that you have to pay monthly fee for the rent. If you can afford it, go for it, if not keep reading.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Tor network
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;The main reason to use of tor is user privacy, circumvent censorship and surveillance by means of encryption and layers. Therefore, it is not recommended to be implemented for other uses such as streaming, file sharing and more, due to slow speed performance (because the relays, multiple ips, blah blah).&lt;/p&gt;
+&lt;p&gt;
+The Tor network is a free, worldwide, volunteer overlay network, consisting of more than six thousand relays and can be accessed through the tor software and easily with the &lt;a href=&#34;https://www.torproject.org/download/&#34;&gt;Tor browser&lt;/a&gt;. On android it is also available &lt;a href=&#34;https://en.wikipedia.org/wiki/Orbot&#34;&gt;Orbot&lt;/a&gt; from the playstore or F-droid.&lt;/p&gt;
+&lt;p&gt;
+Tor websites, better known as: onion services or hidden services, can only be accessed when connected to the tor network and are not the usual &lt;code class=&#34;verbatim&#34;&gt;.com&lt;/code&gt; sites, but more like &lt;code class=&#34;verbatim&#34;&gt;duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion&lt;/code&gt; which is the onion site for &lt;a href=&#34;https://duckduckgo.com/&#34;&gt;DuckDuckGo&lt;/a&gt;. You can create your own onion/hidden service which will be available only through the tor network. This can be the equivalent as creating a website and then expose it to the normal internet (by the means of a VPS, DDNS, etc).&lt;/p&gt;
+&lt;p&gt;
+With this in mind, we will create our own onion service and we will use it to access our home network via SSH as secure as possible.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+OpenWrt and Tor
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;In this case we will create the onion service in a OpenWrt router and since OpenWrt is Linux, and Linux is free and open source, installing a free software like Tor is one of the simplest task. I am using the &lt;a href=&#34;https://openwrt.org/docs/guide-user/services/tor/hs&#34;&gt;OpenWrt official guide&lt;/a&gt; for this matter.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Update the list of packages: &lt;code class=&#34;verbatim&#34;&gt;opkg update&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Install the needed packages: &lt;code class=&#34;verbatim&#34;&gt;opkg install tor-hs openssl-util coreutils-base32&lt;/code&gt;. This will install tor and required libraries with ssl to create the authorization keys to secure access to your site.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Create the Onion service in OpenWrt
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;In the OpenWrt router edit the &lt;code class=&#34;verbatim&#34;&gt;/etc/config/tor-hs&lt;/code&gt; file and add the following (or uncomment it):&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;config hidden-service
+    option Name &amp;#39;sshd&amp;#39;
+    option Description &amp;#34;Hidden service for ssh&amp;#34;
+    option Enabled &amp;#39;false&amp;#39;
+    option IPv4 &amp;#39;127.0.0.1&amp;#39;
+    #public port=2222, local port=22
+    list PublicLocalPort &amp;#39;2222;22&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Edit the &lt;code class=&#34;verbatim&#34;&gt;/etc/tor/torrc&lt;/code&gt; and add the following (this configuration is enough for what we want to do):&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;Log notice syslog
+RunAsDaemon 1
+User tor
+SOCKSPort 0
+DataDirectory /etc/tor/data/
+HiddenServiceDir /etc/tor/hidden_service/
+HiddenServicePort 22 127.0.0.1:22&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This will enable:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tor notifications on the system log of OpenWrt&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;User tor&lt;/code&gt; tells that tor user is in charge of tor related tasks (and not the root user).&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;SOCKSPort 0&lt;/code&gt; will only set Tor as a relay. It will not allow other devices (or services running in the OpenWrt router) in the home network to connect to the Tor network.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;DataDirectory&lt;/code&gt; will store Tor required data.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;HiddenServiceDir&lt;/code&gt; is the folder of our Onion service. Named here as hidden_service, but you can name the folder as you please.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;HiddenServicePort&lt;/code&gt; will the Tor which port to expose to the Tor network and will redirect traffic to the internal port of the router (syntax: ExposedPort LocalIP:InternalPort). We are using here port 22 which is used for SSH connections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alternatively you could use a socket to avoid exposing things on your server that are restricted to the local machine. To do this you need to install &lt;code class=&#34;verbatim&#34;&gt;socat&lt;/code&gt; in the OpenWrt router, create the socket and change ownership to tor user&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;socat UNIX-LISTEN:/etc/tor/hidden.sock,fork TCP4:127.0.0.1:22
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chown tor /etc/tor/hidden.sock&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Then change the &lt;code class=&#34;verbatim&#34;&gt;HiddenServicePort&lt;/code&gt; line to &lt;code class=&#34;verbatim&#34;&gt;HiddenServicePort 22 unix:/etc/tor/hidden.sock&lt;/code&gt; in the &lt;code class=&#34;verbatim&#34;&gt;torrc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+Create the folders and change user permissions&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir /etc/tor/data/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir /etc/tor/hidden_service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chown -R tor:tor /etc/tor/hidden_service
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chown -R tor /etc/tor&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;And restart tor with &lt;div class=&#34;src src-inline src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/etc/init.d/tor restart&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-5&#34;&gt;
+Enabling Client Authorization
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Since the Onion service will be exposed to the Tor network, it is convenient to enable &lt;a href=&#34;https://community.torproject.org/onion-services/advanced/client-auth/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Client Authorization&lt;/span&gt;&lt;/a&gt;, this way the site will require clients to provide an authentication credential in order to connect to the Onion Service. In other words, clients need to provide a their private pair key which will be checked against the public pair key (stored in the OpenWrt router) in order to access the site content. Once client authorization is enabled, more security is added to the site: &lt;em&gt;No valid key, no access&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;
+SSH to the OpenWrt router and create keys for secure connection of authorized clients&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openssl genpkey -algorithm x25519 -out /etc/tor/hidden_service.pem&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Create private key (this one is for the client)&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;TOR_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;openssl pkey &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;-in /etc/tor/hidden_service.pem -outform der &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tail -c &lt;span class=&#34;m&#34;&gt;32&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; base32 &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sed -e &lt;span class=&#34;s2&#34;&gt;&amp;#34;s/=//g&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Create the public key (this will be stored in our router)&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;TOR_PUB&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;openssl pkey &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;-in /etc/tor/hidden_service.pem -outform der -pubout &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tail -c &lt;span class=&#34;m&#34;&gt;32&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; base32 &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sed -e &lt;span class=&#34;s2&#34;&gt;&amp;#34;s/=//g&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Show your Onion service address (this is the address to be accessed through the tor network) and assign it to a variable:&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat /etc/tor/hidden_service/hostname
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;TOR_HOST&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;cat /etc/tor/hidden_service/hostname&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Create the private key file (to be stored in your client)&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat &lt;span class=&#34;s&#34;&gt;&amp;lt;&amp;lt; EOF &amp;gt; client.auth_private
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;${TOR_HOST%.onion}:descriptor:x25519:${TOR_KEY}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;EOF&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Create the public key file in the authorized clients folder (in the router)&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat &lt;span class=&#34;s&#34;&gt;&amp;lt;&amp;lt; EOF &amp;gt; /etc/tor/hidden_service/authorized_clients/client.auth
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;descriptor:x25519:${TOR_PUB}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;EOF&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-6&#34;&gt;
+Configure access key on Client
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Here we have three options:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tor software in a Linux machine&lt;/strong&gt; &lt;br&gt;
+You might need to be root. Add the following to the tor configuration file &lt;code class=&#34;verbatim&#34;&gt;/etc/tor/torrc&lt;/code&gt;, which will point to the path where you will store your private authentication keys&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ClientOnionAuthDir /etc/tor/onion_auth&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Create the folder&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir /etc/tor/onion_auth&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Then just simply copy the &lt;code class=&#34;verbatim&#34;&gt;client.auth_private&lt;/code&gt; file inside the &lt;code class=&#34;verbatim&#34;&gt;/etc/tor/onion_auth&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tor Browser&lt;/strong&gt; &lt;br&gt;
+When trying to connect to the site, you will be asked by the browser to provide the key. Just paste the key, if you open the file &lt;code class=&#34;verbatim&#34;&gt;client.auth_private&lt;/code&gt; you will see the key at the end, which was our &lt;code class=&#34;verbatim&#34;&gt;TOR_KEY&lt;/code&gt;, it might look something like this: &lt;code class=&#34;verbatim&#34;&gt;BBBEAUAO3PIFAH7SBGBI6A2QFAZBXG2NVN7HMBXFCZENJVF6C5AQ&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Orbot&lt;/strong&gt; &lt;br&gt;
+Tor browser on android &lt;a href=&#34;https://tb-manual.torproject.org/mobile-tor/#known-issues&#34;&gt;is not able to connect to Client Authorization Onion service&lt;/a&gt;, but Orbot can. Enable this by going in the app to &lt;code class=&#34;verbatim&#34;&gt;⋮ -&amp;gt; Onion Services -&amp;gt; Client Authorization -&amp;gt; +&lt;/code&gt; and add the Onion service address and the &lt;code class=&#34;verbatim&#34;&gt;TOR_KEY&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;At this point, you will be able to reach the Onion service, but will be unable to perform anything yet due to: On Tor browser connection will be refused since site is configured to expose only port 22 and this port is commonly used for SSH connections.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-7&#34;&gt;
+OpenWrt and SSH
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;By this point you might be familiar with how to SSH to your OpenWrt router and have already set a password to access. We could easily SSH connect to the Onion service using password authentication, but for more security we will disable this and configure it to just allow key authentication.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-8&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-8&#34;&gt;
+Create the SSH Key on client
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-8&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Since I am planning to access from my Android phone these are the steps I performed. This is reproducible in a Linux machine just skipping the &lt;a href=&#34;https://termux.com/&#34;&gt;Termux&lt;/a&gt; install.&lt;/p&gt;
+&lt;p&gt;
+On Android install termux from F-droid, open it and the install OpenSSH&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pkg upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pkg install openssh&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Create the ssh key with the following command (here we are using the Ed25519 algorithm for small keys without compromising security and adding a comment with the &lt;code class=&#34;verbatim&#34;&gt;-C &amp;#34;...&amp;#34;&lt;/code&gt; option). Setting a pasword is optional when prompted:&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen -t ed25519 -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;whoami&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;uname -n&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;date -I&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A file &lt;code class=&#34;verbatim&#34;&gt;/.ssh/id_ed25519.pub&lt;/code&gt; will be created in the phone. Then send this key to the OpenWrt and add it to dropbear to make it persistent&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-copy-id -i .ssh/id_ed25519.pub root@192.168.1.1 &lt;span class=&#34;c1&#34;&gt;#192.168.1.1 is the gateway of yout OpenWrt router, change it if yours is different&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh root@192.168.1.1 &lt;span class=&#34;s2&#34;&gt;&amp;#34;tee -a /etc/dropbear/authorized_keys&amp;#34;&lt;/span&gt; &amp;lt; ~/.ssh/id_rsa.pub&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Or print on screen the key, copy it and paste it into the Luci &lt;code class=&#34;verbatim&#34;&gt;System -&amp;gt; Administration -&amp;gt; SSH-Keys&lt;/code&gt; and click &lt;code class=&#34;verbatim&#34;&gt;add key&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat .ssh/id_ed25519.pub&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-9&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-9&#34;&gt;
+Disable SSH password authentication on OpenWrt
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-9&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;This is just as simple as login to the Luci and go to &lt;code class=&#34;verbatim&#34;&gt;System -&amp;gt; Administration -&amp;gt; SSH Access&lt;/code&gt; and in Interface select &lt;code class=&#34;verbatim&#34;&gt;Unspecified&lt;/code&gt; and uncheck &lt;code class=&#34;verbatim&#34;&gt;Password authentication&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;Allow root logins with password&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+Or from terminal, ssh to the router (you will still be asked for password if set) and run&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;uci &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; dropbear.@dropbear&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;0&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;.PasswordAuth&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;uci &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; dropbear.@dropbear&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;0&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;.RootPasswordAuth&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;uci commit dropbear
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/etc/init.d/dropbear restart&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;em&gt;et voila&lt;/em&gt;, test it by connecting to the router using your phone from termux by running&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh root@192.168.1.1&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This time you will not be asked for a password but will be logged automatically and if you or anyone attempt to login without having the authorized key (e.g. from another PC or phone), the connection will be refused.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-10&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-10&#34;&gt;
+SSH to router from the Tor network
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-10&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Finally, we have Tor running in our router and it is running our Onion service. We just need to connect to the  Tor network with our phone and then ssh to the Onion service.&lt;br&gt;
+Again, check that you have already set the Client Public Key in Orbot or you will not be able to reach the site. Then just run Orbot in VPN mode, open Termux and from Termux run&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh root@&lt;span class=&#34;s2&#34;&gt;&amp;#34;Your onion service/host.onion&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;You should now be logged into the OpenWrt router and now you can control the services running on the router or ssh to another server inside your home network.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-11&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-11&#34;&gt;
+Tunnel ports
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-11&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;You may want to access to services running on specific ports (like the Luci interface), then you use&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh root@&lt;span class=&#34;s2&#34;&gt;&amp;#34;Your onion service/host.onion&amp;#34;&lt;/span&gt; -L 99:127.0.0.1:80&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This will tunnel traffic from your server port 80 (used for websites) and will make it available in the &lt;code class=&#34;verbatim&#34;&gt;127.0.0.1:99&lt;/code&gt; address which can be accessed with a browser from the phone. You can tunnel as many ports as you want &lt;code class=&#34;verbatim&#34;&gt;-L 99:127.0.0.1:80 -L 100:127.0.0.1:81 ...&lt;/code&gt; Open Firefox go to that address and see the result.&lt;/p&gt;
+&lt;p&gt;
+I use this to access remotely to the &lt;a href=&#34;https://github.com/ziahamza/webui-aria2&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;WebUI-Aria2&lt;/span&gt;&lt;/a&gt; interface to load torrents from my phone, so they will be downloaded when I am not at home and be available when I arrive. I also use it to wake-on-lan my plex server, etc, etc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-12&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-12&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-12&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;Jesus f*kin&amp;#39; Christ, it took me a week to figure out how to set correctly the Onion service with Client authentication and once I set it I was like &amp;#34;Dude, it&amp;#39;s not even that hard&amp;#34;. But I was struggling due to I was reading tutorials for setting a v2 Onion service and mixing information with the new v3 Onion service.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once you set everything you have two key authentication factors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From Tor service with Client authentication (with x25519 algorithm) and&lt;/li&gt;
+&lt;li&gt;From the SSH public key authentication (with ed25519 algorithm)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This security level should be enough&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Expect response delays, you should be aware that Tor network is a bit slow.&lt;/li&gt;
+&lt;li&gt;Again, if you have a public IP and/or are able to perform port forwarding, I encourage you to set a WireGuard connection (+ a free DDNS). This will be faster and secure than this Tor solution.&lt;/li&gt;
+&lt;li&gt;I don&amp;#39;t think you should be afraid of using Tor, despite the bad reputation that media gave it after the Silk Road scandal. Tor is a great implementation to circumvent censorship and stay anonymous, but as it happens with many great developments, people will use it for bad practices. Tor network is not bad, people is bad.&lt;/li&gt;
+&lt;li&gt;You are most likely to be hacked by a pishing attack on normal internet ussage than in the Tor network.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/categories/homelab/" term="homelab" label="homelab" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/categories/openwrt/" term="OpenWrt" label="OpenWrt" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/tor/" term="tor" label="tor" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/ssh/" term="ssh" label="ssh" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/vpn/" term="vpn" label="vpn" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/openwrt/" term="OpenWrt" label="OpenWrt" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">AdGuardHome, like Pi-hole but…better(?)</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/adguardhome/" />
