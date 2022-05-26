@@ -23,7 +23,7 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Wed, 25 May 2022 18:45:34 -0500</lastBuildDate>
+        <lastBuildDate>Wed, 25 May 2022 19:04:06 -0500</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
@@ -39,6 +39,10 @@
                 <copyright>If you share, please give credit and support.</copyright>
                 
                     <description>
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.torproject.org/static/images/tor-project-logo-onions.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;
 You might had heard of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dark_web&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Dark web&lt;/span&gt;&lt;/a&gt; or the &lt;a href=&#34;https://en.wikipedia.org/wiki/Deep_web&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Deep web&lt;/span&gt;&lt;/a&gt;, well the first one is just a small part of the latter. The Dark web is populated with darknets which &lt;em&gt;is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;
@@ -464,7 +468,8 @@ Final thoughts
 &lt;li&gt;Expect response delays, you should be aware that Tor network is a bit slow.&lt;/li&gt;
 &lt;li&gt;Again, if you have a public IP and/or are able to perform port forwarding, I encourage you to set a WireGuard connection (+ a free DDNS). This will be faster and secure than this Tor solution.&lt;/li&gt;
 &lt;li&gt;I don&amp;#39;t think you should be afraid of using Tor, despite the bad reputation that media gave it after the Silk Road scandal. Tor is a great implementation to circumvent censorship and stay anonymous, but as it happens with many great developments, people will use it for bad practices. Tor network is not bad, people is bad.&lt;/li&gt;
-&lt;li&gt;You are most likely to be hacked by a pishing attack on normal internet ussage than in the Tor network.&lt;/li&gt;
+&lt;li&gt;You are most likely to be hacked by a phishing attack on normal internet usage than in the Tor network.&lt;/li&gt;
+&lt;li&gt;Also, you might take to &lt;a href=&#34;https://onionshare.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;OnionShare&lt;/span&gt;&lt;/a&gt; tool. It is very nice.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;src src-none&#34;&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
