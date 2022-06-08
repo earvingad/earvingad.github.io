@@ -3,36 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://earvingad.github.io/categories/</loc>
-    <lastmod>2022-05-26T13:56:22-05:00</lastmod>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/headscale/</loc>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/categories/homelab/</loc>
-    <lastmod>2022-05-26T13:56:22-05:00</lastmod>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/</loc>
-    <lastmod>2022-05-26T13:56:22-05:00</lastmod>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/netmaker/</loc>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/openwrt/</loc>
-    <lastmod>2022-05-26T13:56:22-05:00</lastmod>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/categories/openwrt/</loc>
-    <lastmod>2022-05-26T13:56:22-05:00</lastmod>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/posts/</loc>
-    <lastmod>2022-05-26T13:56:22-05:00</lastmod>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/ssh/</loc>
-    <lastmod>2022-05-26T13:56:22-05:00</lastmod>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/</loc>
-    <lastmod>2022-05-26T13:56:22-05:00</lastmod>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/tailscale/</loc>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/posts/tailscale/</loc>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/vpn/</loc>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/zerotier/</loc>
+    <lastmod>2022-06-07T19:16:26-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/tor/</loc>
     <lastmod>2022-05-26T13:56:22-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/posts/torssh/</loc>
-    <lastmod>2022-05-26T13:56:22-05:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/vpn/</loc>
     <lastmod>2022-05-26T13:56:22-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/adblock/</loc>

@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2022-05-26T13:56:40-05:00</updated>
+    <updated>2022-06-07T19:16:45-05:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -16,6 +16,220 @@
             </author>
     <rights>If you share, please give credit and support.</rights>
     <generator uri="https://gohugo.io/" version="0.99.1">Hugo</generator>
+        <entry>
+            <title type="text">Tailscale, making WireGuard simpler for home networks</title>
+            <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/tailscale/" />
+            <id>https://earvingad.github.io/posts/tailscale/</id>
+            <updated>2022-06-07T19:16:26-05:00</updated>
+            <published>2022-06-06T19:46:42-05:00</published>
+            <author>
+                    <name>Earving</name>
+                    <uri>https://earvingad.github.io/</uri>
+                    <email>gmail.com</email>
+                    </author>
+            <rights>If you share, please give credit and support.</rights><summary type="html">Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the Tor a hidden friend to SSH your home network entry. However, I recommended to use WireGuard to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.</summary>
+            
+                <content type="html">
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://tailscale.com/static/images/marketing/home-illustration-2080w.webp&#34;/&gt;
+&lt;/figure&gt;
+
+Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tor a hidden friend to SSH your home network&lt;/span&gt;&lt;/a&gt; entry. However, I recommended to use &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;WireGuard&lt;/span&gt;&lt;/a&gt; to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.&lt;/p&gt;
+&lt;p&gt;
+The other option was to pay and make use of a VPS and here is where &lt;a href=&#34;https://tailscale.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; comes into play and from their website: Tailscale is&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. It enables encrypted point-to-point connections using the open source WireGuard protocol, which means only devices on your private network can communicate with each other&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+So Tailscale is a VPN that uses WireGuard, which means it is fast and secure. But WireGuard is used by other VPN providers… well the difference is that &lt;em&gt;Unlike traditional VPNs, which tunnel all network traffic through a central gateway server, Tailscale creates a peer-to-peer mesh network (called a tailnet)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;
+So, in short it &amp;#34;removes the man in the middle&amp;#34; (VPN hub) and allows your phone to connect directly to your Plex server, without routing in between.&lt;br&gt;
+Here I am saying that it &amp;#34;removes the man in the middle&amp;#34;, but it is not completely true, since you have to login all your devices into the tailscale website through their app, so it is not completely private. The app will take care of all the needed configurations, this is the great thing because all you just need to do is to login. You will not need open ports and/or configure forwardings.&lt;/p&gt;
+&lt;p&gt;
+It might not be completely private and it does not fully removes the man in the middle, but for now it is free, you can register for 1 account and login until 20 devices.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Tailscale install on OpenWrt
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;You can install the app on every devices you want (remember you are limited to 20 in a free account) and by authorizing the login the website each device will be able to communicate between them directly.&lt;/p&gt;
+&lt;p&gt;
+Installation is very simple, as they claim it is a &lt;em&gt;&lt;strong&gt;Zero config VPN&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;A secure network that just works&lt;/strong&gt;&lt;/em&gt;. Go ahead and create your tailscale account first.&lt;/p&gt;
+&lt;p&gt;
+On OpenWrt you just have to run the following commands (or install it through Luci):&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;opkg update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;opkg install tailscale tailscaled&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Once completed, enable the daemon and start it:&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/etc/init.d/tailscale &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/etc/init.d/tailscale start&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now simply run:&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tailscale up&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A link will show, go to that link in your browser and login. &lt;em&gt;et voila!&lt;/em&gt; the OpenWrt router is completely registered.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Tailscale on Android
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Yeah, just go to the Play Store, install the app and login. &lt;em&gt;C&amp;#39;est tout&lt;/em&gt;!&lt;br&gt;
+Once logged in, start it, you will see your OpenWrt router. You can tap the router name to copy the address, paste it in the browser and you will be directed to the Luci page (assuming yours is OpenWrt).&lt;/p&gt;
+&lt;p&gt;
+You can repeat this within all your servers, &lt;em&gt;it just works&lt;/em&gt;!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Alternatives
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+headscale
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;If you are able to set a VPS or can do port forwarding and are willing the keep running 24/7 a server, you could set &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt;, which is &lt;em&gt;an open source, self-hosted implementation of the Tailscale control server.&lt;/em&gt; This way you will be in full control of your devices without the need to register to tailscale. Using tailscale apps will work with headscale. Android app will not work, you will have to compile it your self or as explained &lt;a href=&#34;https://icloudnative.io/posts/how-to-set-up-or-migrate-headscale/#android&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;in this post from icloudnative (in chinese)&lt;/span&gt;&lt;/a&gt;, you could use the &lt;a href=&#34;https://github.com/FZR-forks/tailscale-android&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;FZR-forks Tailscale Android Client&lt;/span&gt;&lt;/a&gt; (look in the Actions section to download the last compiled version) that allow custom urls for the Tailscale control server. This way the Android app will work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-5&#34;&gt;
+Netmaker
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Another alternative is &lt;a href=&#34;https://github.com/gravitl/netmaker&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Netmaker&lt;/span&gt;&lt;/a&gt;, which does practically the same as tailscale or headscale using the WireGuard protocol. As headscale, you will need a VPS or perform port forwarding to keep your server running 24/7 the control server. They have app support for Linux, FreeBSD, Windows, Mac, etc… and for the ones that do not have app support, the official WireGuard app can be used without problem.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-6&#34;&gt;
+ZeroTier
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;There is also &lt;a href=&#34;https://www.zerotier.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;ZeroTier&lt;/span&gt;&lt;/a&gt;, which will do the same as the previous but without WireGuard. ZeroTier offers a self hosted controller (as headscale and Netmaker), a free ZeroTier Hosted Controller (as tailscale) and professional/enterprice plans. ZeroTier has support for practically all platforms.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-7&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;I have installed Tailscale now in my OpenWrt router, where I connect, using my phone, to access the &lt;a href=&#34;https://github.com/ziahamza/webui-aria2&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;webui-aria2&lt;/span&gt;&lt;/a&gt; (or you can choose &lt;a href=&#34;https://github.com/mayswind/AriaNg/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;AriaNg&lt;/span&gt;&lt;/a&gt; or &lt;a href=&#34;https://github.com/jjling2011/AriaNgMod&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;jjling2011&amp;#39;s AriaNgMod&lt;/span&gt;&lt;/a&gt;), so I can download Linux ISOs when I am away from home and will be ready when I arrive.&lt;/li&gt;
+&lt;li&gt;I also have Wake-on-Lan (WoL) on the OpenWrt, which I use to wake a &lt;a href=&#34;https://www.plex.tv/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Plex&lt;/span&gt;&lt;/a&gt; server when I need it, since I do not like to have it powered on 24/7.&lt;/li&gt;
+&lt;li&gt;Tailscale uses WireGuard, so all traffic is encrypted and it is faster that OpenVPN and IPsec.&lt;/li&gt;
+&lt;li&gt;It is unsure how long the free service of Tailscale will last, you might have to pay later a fee to keep using it, but for now use it as much as you can. Remember that you have to create an account, so data usage might be sent to a third party.&lt;/li&gt;
+&lt;li&gt;Tailscale was founded in 2019, while WireGuard has been under development since 2015/2016. Yeah, WireGuard is relatively new but has proved to be effective.&lt;/li&gt;
+&lt;li&gt;By default Tailscale will only create an overlay to route traffic within devices, but will not touch the public traffic of the devices. You can configure an &lt;a href=&#34;https://tailscale.com/kb/1103/exit-nodes/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;exit node&lt;/span&gt;&lt;/a&gt; so all the public traffic would be routed to one device to perform the internet connection, like a normal VPN.&lt;/li&gt;
+&lt;li&gt;My ISP refuse to open ports in the router that sold me and I hate it for that. I will insist again so I can configure WireGuard peer-to-peer without any third party.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/categories/homelab/" term="homelab" label="homelab" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/categories/openwrt/" term="OpenWrt" label="OpenWrt" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/tailscale/" term="tailscale" label="tailscale" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/headscale/" term="headscale" label="headscale" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/netmaker/" term="netmaker" label="netmaker" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/zerotier/" term="zerotier" label="zerotier" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/ssh/" term="ssh" label="ssh" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/vpn/" term="vpn" label="vpn" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://earvingad.github.io/tags/openwrt/" term="OpenWrt" label="OpenWrt" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Tor a hidden friend to SSH your home network</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/torssh/" />
