@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2022-09-03T13:08:36-05:00</updated>
+    <updated>2022-09-03T13:12:32-05:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Netdata, real-time server monitoring</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/netdata/" />
             <id>https://earvingad.github.io/posts/netdata/</id>
-            <updated>2022-09-03T13:08:04-05:00</updated>
+            <updated>2022-09-03T13:12:28-05:00</updated>
             <published>2022-09-02T13:06:12-05:00</published>
             <author>
                     <name>Earving</name>
@@ -248,6 +248,10 @@ Final thoughts
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content>
