@@ -10,7 +10,7 @@
         <title>Nerd things and more...</title>
         <link>https://earvingad.github.io/</link>
         <description>Hi, this is a blog about nerd things and stuff.</description>
-        <generator>Hugo 0.102.3 https://gohugo.io/</generator>
+        <generator>Hugo 0.109.0 https://gohugo.io/</generator>
         
             <language>en</language>
         
@@ -23,10 +23,145 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Sat, 03 Sep 2022 13:12:32 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 24 Feb 2023 19:18:14 -0600</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Duckdns</title>
+                <link>https://earvingad.github.io/posts/duckdns/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/duckdns/</guid>
+                <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
+                
+                    <author>gmail.com (Earving)</author>
+                
+                <copyright>If you share, please give credit and support.</copyright>
+                
+                    <description>
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://www.duckdns.org/img/ducky_icon.png&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;em&gt;Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+In other words, you can create:&lt;/p&gt;
+&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;that will point to the ip of your homelab or VPS.&lt;/p&gt;
+&lt;p&gt;
+Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;
+&lt;p&gt;
+So, usually you will ssh your homelab with:&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh user@ip-of-the-server&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Where the ip-of-the-server will be something like &lt;code class=&#34;verbatim&#34;&gt;186.120.64.13&lt;/code&gt; and if you do not have a static ip, it will change to a different one every certain time, which will be difficult to keep track. In order to avoid this hassle, it is easier to create a DNS entry and configure your home server to update automatically the ip. Here is where DuckDNS comes in play.&lt;/p&gt;
+&lt;p&gt;
+DuckDNS allows you to create up to 5 sites for free and provides easy to use &lt;a href=&#34;https://www.duckdns.org/install.jsp&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;scripts to update&lt;/span&gt;&lt;/a&gt; the ip. All you need is to register using a twitter, github or google account to obtain your token and then you can create your domain like: &lt;code class=&#34;verbatim&#34;&gt;enchilada.duckdns.org&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+Now you could ssh to your homelab like:&lt;/p&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh user@enchilada.duckdns.org&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Now it won&amp;#39;t matter if your homelab changes the ip, &lt;code class=&#34;verbatim&#34;&gt;enchilada.duckdns.org&lt;/code&gt; will always redirect to the correct one. This is also usefull if you want to host a website.&lt;/p&gt;
+&lt;p&gt;
+I would go into detail of how to install the script, but you can check the instructions and practically do copy and paste. They have instructions for windows, linux, osx and even routers running OpenWrt, dd-wrt or a synology NAS.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;There are other dynamic DNS (DDNS) providers like &lt;a href=&#34;https://www.noip.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;noip&lt;/span&gt;&lt;/a&gt;, that will allow you up to 3 free domains and another paid options.&lt;/li&gt;
+&lt;li&gt;Next topics: create a free WireGuard hub server with Oracle Cloud free tier and how to set up headscale on the free Oracle Cloud free tier and making use of DuckDNS.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homelab/">homelab</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/openwrt/">OpenWrt</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/dns/">dns</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/ip/">ip</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/server/">server</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/remote/">remote</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/duckdns/">duckdns</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/openwrt/">OpenWrt</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Netdata, real-time server monitoring</title>
@@ -396,6 +531,16 @@ Once completed, enable the daemon and start it:&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class=&#34;src src-shell&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tailscale up --login-server&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;lt;url of your headscale server&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;A link will show, go to that link in your browser and login. &lt;em&gt;et voila!&lt;/em&gt; the OpenWrt router is completely registered.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -420,7 +565,7 @@ Alternatives
 headscale
 &lt;/h3&gt;
 &lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;p&gt;If you are able to set a VPS or can do port forwarding and are willing the keep running 24/7 a server, you could set &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt;, which is &lt;em&gt;an open source, self-hosted implementation of the Tailscale control server.&lt;/em&gt; This way you will be in full control of your devices without the need to register to tailscale. Using tailscale apps will work with headscale. Android app will not work, you will have to compile it your self or as explained &lt;a href=&#34;https://icloudnative.io/posts/how-to-set-up-or-migrate-headscale/#android&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;in this post from icloudnative (in chinese)&lt;/span&gt;&lt;/a&gt;, you could use the &lt;a href=&#34;https://github.com/FZR-forks/tailscale-android&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;FZR-forks Tailscale Android Client&lt;/span&gt;&lt;/a&gt; (look in the Actions section to download the last compiled version) that allow custom urls for the Tailscale control server. This way the Android app will work.&lt;/p&gt;
+&lt;p&gt;If you are able to set a VPS or can do port forwarding and are willing the keep running 24/7 a server, you could set &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt;, which is &lt;em&gt;an open source, self-hosted implementation of the Tailscale control server.&lt;/em&gt; This way you will be in full control of your devices without the need to register to tailscale. Using tailscale apps will work with headscale. &lt;del&gt;Android app will not work, you will have to compile it your self or as explained &lt;a href=&#34;https://icloudnative.io/posts/how-to-set-up-or-migrate-headscale/#android&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;in this post from icloudnative (in chinese)&lt;/span&gt;&lt;/a&gt;, you could use the &lt;a href=&#34;https://github.com/FZR-forks/tailscale-android&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;FZR-forks Tailscale Android Client&lt;/span&gt;&lt;/a&gt; (look in the Actions section to download the last compiled version) that allow custom urls for the Tailscale control server. This way the Android app will work.&lt;/del&gt;&lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;https://earvingad.github.io/posts/tailscale/#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
@@ -458,6 +603,22 @@ Final thoughts
 &lt;div class=&#34;src src-none&#34;&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
 BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-8&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-8&#34;&gt;
+Footnotes
+&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr class=&#34;footnotes-separatator&#34;&gt;
+&lt;div class=&#34;footnote-definitions&#34;&gt;
+&lt;div class=&#34;footnote-definition&#34;&gt;
+&lt;sup id=&#34;footnote-1&#34;&gt;&lt;a href=&#34;https://earvingad.github.io/posts/tailscale/#footnote-reference-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;footnote-body&#34;&gt;
+&lt;p&gt;Actually now, the official Tailscale android app allows you to select a custom server to make it work with headscale.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1738,9 +1899,9 @@ theme = &amp;#34;ananke&amp;#34;&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;This is pretty much all the config you need for now. I will not explain more since it depends on the theme you choose.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;Before proceeding run &lt;code class=&#34;verbatim&#34;&gt;rm -rf public&lt;/code&gt; to completely remove the public directory.&lt;/li&gt;
+&lt;li&gt;Before proceeding run &lt;code class=&#34;verbatim&#34;&gt;rm -rf public&lt;/code&gt; to completely remove the public directory (this does not need to be done on every update).&lt;/li&gt;
 &lt;li&gt;Change &lt;code class=&#34;verbatim&#34;&gt;draft: true&lt;/code&gt; to false in your post and run &lt;code class=&#34;verbatim&#34;&gt;hugo&lt;/code&gt; to export the &lt;code class=&#34;verbatim&#34;&gt;NewPost.org&lt;/code&gt; as an html file.&lt;/li&gt;
-&lt;li&gt;Finally, bind your GitHub repository to your public directory where Hugo will store the pages to be published with &lt;code class=&#34;verbatim&#34;&gt;git submodule add -b main https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finally, bind your GitHub repository to your public directory where Hugo will store the pages to be published with &lt;code class=&#34;verbatim&#34;&gt;git submodule add -b main https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public&lt;/code&gt; (this does not need to be done on every update).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;/div&gt;
