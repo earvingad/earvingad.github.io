@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dns on Nerd things and more...</title>
+    <link>https://earvingad.github.io/tags/dns/</link>
+    <description>Recent content in dns on Nerd things and more...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gmail.com (Earving)</managingEditor>
+    <webMaster>gmail.com (Earving)</webMaster>
+    <copyright>If you share, please give credit and support.</copyright>
+    <lastBuildDate>Thu, 23 Feb 2023 20:51:55 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DuckDNS, forget your ip</title>
+      <link>https://earvingad.github.io/posts/duckdns/</link>
+      <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/duckdns/</guid>
+      <description>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
+In other words, you can create:
+yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org
+that will point to the ip of your homelab or VPS.
+Why? Well, I already wrote about how to access remotely to your homelab using the Tor network.</description>
+    </item>
+    
+  </channel>
+</rss>

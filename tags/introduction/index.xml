@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>introduction on Nerd things and more...</title>
+    <link>https://earvingad.github.io/tags/introduction/</link>
+    <description>Recent content in introduction on Nerd things and more...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gmail.com (Earving)</managingEditor>
+    <webMaster>gmail.com (Earving)</webMaster>
+    <copyright>If you share, please give credit and support.</copyright>
+    <lastBuildDate>Wed, 20 May 2020 22:25:18 -0500</lastBuildDate><atom:link href="https://earvingad.github.io/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In the Beginning</title>
+      <link>https://earvingad.github.io/posts/in-the-beginning/</link>
+      <pubDate>Wed, 20 May 2020 22:25:18 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/in-the-beginning/</guid>
+      <description>First things first This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.</description>
+    </item>
+    
+  </channel>
+</rss>

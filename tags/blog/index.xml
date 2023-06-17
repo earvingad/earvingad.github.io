@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Nerd things and more...</title>
+    <link>https://earvingad.github.io/tags/blog/</link>
+    <description>Recent content in blog on Nerd things and more...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gmail.com (Earving)</managingEditor>
+    <webMaster>gmail.com (Earving)</webMaster>
+    <copyright>If you share, please give credit and support.</copyright>
+    <lastBuildDate>Sun, 03 Jan 2021 19:37:05 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog with Hugo (and GitHub Pages)</title>
+      <link>https://earvingad.github.io/posts/blogwithhugo/</link>
+      <pubDate>Sun, 03 Jan 2021 19:37:05 -0600</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/blogwithhugo/</guid>
+      <description>Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+That&amp;#39;s in the Hugo website and I guess it&amp;#39;s true, since I find it very easy to use to publish this dumb blog when I have the time to.</description>
+    </item>
+    
+  </channel>
+</rss>

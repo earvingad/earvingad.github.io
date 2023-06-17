@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>server on Nerd things and more...</title>
+    <link>https://earvingad.github.io/tags/server/</link>
+    <description>Recent content in server on Nerd things and more...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gmail.com (Earving)</managingEditor>
+    <webMaster>gmail.com (Earving)</webMaster>
+    <copyright>If you share, please give credit and support.</copyright>
+    <lastBuildDate>Thu, 23 Feb 2023 20:51:55 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DuckDNS, forget your ip</title>
+      <link>https://earvingad.github.io/posts/duckdns/</link>
+      <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/duckdns/</guid>
+      <description>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
+In other words, you can create:
+yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org
+that will point to the ip of your homelab or VPS.
+Why? Well, I already wrote about how to access remotely to your homelab using the Tor network.</description>
+    </item>
+    
+    <item>
+      <title>Netdata, real-time server monitoring</title>
+      <link>https://earvingad.github.io/posts/netdata/</link>
+      <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/netdata/</guid>
+      <description>If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.
+There are plenty of options: monit, monitorix, munin, Netdata and Grafana (coupled with one data collector like: collectd, influxdb, Graphite or Prometheus)</description>
+    </item>
+    
+  </channel>
+</rss>

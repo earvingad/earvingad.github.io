@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenWrt on Nerd things and more...</title>
+    <link>https://earvingad.github.io/categories/openwrt/</link>
+    <description>Recent content in OpenWrt on Nerd things and more...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gmail.com (Earving)</managingEditor>
+    <webMaster>gmail.com (Earving)</webMaster>
+    <copyright>If you share, please give credit and support.</copyright>
+    <lastBuildDate>Sat, 25 Feb 2023 12:15:56 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/categories/openwrt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Headscale, how to self-host tailscale</title>
+      <link>https://earvingad.github.io/posts/headscale/</link>
+      <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/headscale/</guid>
+      <description>Previously, we spoke of how easy is to set a mesh network between your devices with tailscale. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to selfhost this kind of services of their homelab).</description>
+    </item>
+    
+    <item>
+      <title>DuckDNS, forget your ip</title>
+      <link>https://earvingad.github.io/posts/duckdns/</link>
+      <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/duckdns/</guid>
+      <description>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
+In other words, you can create:
+yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org
+that will point to the ip of your homelab or VPS.
+Why? Well, I already wrote about how to access remotely to your homelab using the Tor network.</description>
+    </item>
+    
+    <item>
+      <title>Netdata, real-time server monitoring</title>
+      <link>https://earvingad.github.io/posts/netdata/</link>
+      <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/netdata/</guid>
+      <description>If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.
+There are plenty of options: monit, monitorix, munin, Netdata and Grafana (coupled with one data collector like: collectd, influxdb, Graphite or Prometheus)</description>
+    </item>
+    
+    <item>
+      <title>Tailscale, making WireGuard simpler for home networks</title>
+      <link>https://earvingad.github.io/posts/tailscale/</link>
+      <pubDate>Mon, 06 Jun 2022 19:46:42 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/tailscale/</guid>
+      <description>Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the Tor a hidden friend to SSH your home network entry. However, I recommended to use WireGuard to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.</description>
+    </item>
+    
+    <item>
+      <title>Tor a hidden friend to SSH your home network</title>
+      <link>https://earvingad.github.io/posts/torssh/</link>
+      <pubDate>Sun, 22 May 2022 18:55:17 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/torssh/</guid>
+      <description>You might had heard of the Dark web or the Deep web, well the first one is just a small part of the latter. The Dark web is populated with darknets which is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization.</description>
+    </item>
+    
+    <item>
+      <title>AdGuardHome, like Pi-hole but...better(?)</title>
+      <link>https://earvingad.github.io/posts/adguardhome/</link>
+      <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/adguardhome/</guid>
+      <description>AdGuard Home is a…
+Privacy protection center for you and your devices
+Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.
+It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a package for OpenWrt.</description>
+    </item>
+    
+    <item>
+      <title>OpenWrt or How to give your router steroids</title>
+      <link>https://earvingad.github.io/posts/openwrt/</link>
+      <pubDate>Fri, 06 May 2022 14:14:48 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/openwrt/</guid>
+      <description>The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)</description>
+    </item>
+    
+    <item>
+      <title>Ad Blocking, simple &amp; fast</title>
+      <link>https://earvingad.github.io/posts/adblocking/</link>
+      <pubDate>Wed, 27 Apr 2022 21:24:55 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/adblocking/</guid>
+      <description>We all hate ads.
+According to Wikipedia,
+Ad blocking or ad filtering is a software capability for blocking or altering online advertising in a web browser, an application or a network. This may be done using browser extensions or other methods.</description>
+    </item>
+    
+  </channel>
+</rss>

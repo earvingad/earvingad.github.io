@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>router on Nerd things and more...</title>
+    <link>https://earvingad.github.io/tags/router/</link>
+    <description>Recent content in router on Nerd things and more...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gmail.com (Earving)</managingEditor>
+    <webMaster>gmail.com (Earving)</webMaster>
+    <copyright>If you share, please give credit and support.</copyright>
+    <lastBuildDate>Sun, 15 May 2022 13:23:58 -0500</lastBuildDate><atom:link href="https://earvingad.github.io/tags/router/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AdGuardHome, like Pi-hole but...better(?)</title>
+      <link>https://earvingad.github.io/posts/adguardhome/</link>
+      <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/adguardhome/</guid>
+      <description>AdGuard Home is a…
+Privacy protection center for you and your devices
+Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.
+It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a package for OpenWrt.</description>
+    </item>
+    
+    <item>
+      <title>OpenWrt or How to give your router steroids</title>
+      <link>https://earvingad.github.io/posts/openwrt/</link>
+      <pubDate>Fri, 06 May 2022 14:14:48 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/openwrt/</guid>
+      <description>The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)</description>
+    </item>
+    
+    <item>
+      <title>Ad Blocking, simple &amp; fast</title>
+      <link>https://earvingad.github.io/posts/adblocking/</link>
+      <pubDate>Wed, 27 Apr 2022 21:24:55 -0500</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/adblocking/</guid>
+      <description>We all hate ads.
+According to Wikipedia,
+Ad blocking or ad filtering is a software capability for blocking or altering online advertising in a web browser, an application or a network. This may be done using browser extensions or other methods.</description>
+    </item>
+    
+  </channel>
+</rss>
