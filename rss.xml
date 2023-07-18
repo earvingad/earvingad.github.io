@@ -23,10 +23,173 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Sat, 17 Jun 2023 12:07:43 -0600</lastBuildDate>
+        <lastBuildDate>Mon, 17 Jul 2023 18:57:18 -0600</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Home-Assistant, being lazy at home</title>
+                <link>https://earvingad.github.io/posts/homeassistant/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/homeassistant/</guid>
+                <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
+                
+                    <author>gmail.com (Earving)</author>
+                
+                <copyright>If you share, please give credit and support.</copyright>
+                
+                    <description>
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;em&gt;Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_things&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;IoT&lt;/span&gt;&lt;/a&gt; devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events. I will just cover the basics.&lt;/p&gt;
+&lt;p&gt;
+Usually the automations that come to my mind are easy but time consuming:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Feeling lazy to get up of the bed to turn off the light? Easy.&lt;/li&gt;
+&lt;li&gt;Turn off all the lights if nobody it at home? No problem.&lt;/li&gt;
+&lt;li&gt;Activate alarm if movement is detected while you are sleeping? Of course!&lt;/li&gt;
+&lt;li&gt;Who the fuck enjoys watering the plants? Exactly!&lt;/li&gt;
+&lt;li&gt;Start the coffee machine so coffee is ready when you get up? Yes sir!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Installation
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;There are several ways to &lt;a href=&#34;https://www.home-assistant.io/installation/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;install HomeAssistant&lt;/span&gt;&lt;/a&gt;, from using a raspberry pi, a docker container, full OS installation of virtualization. Depending on your needs, your experience and available hardware you may chose from the  &lt;a href=&#34;https://www.home-assistant.io/installation/#compare-installation-methods&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;different options&lt;/span&gt;&lt;/a&gt;. Ususally the full OS is recommended. Either on a low power consumption hardware, like the raspberry or a tiny pc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Integrations
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Once you have installed HomeAssistant, you can start adding &lt;a href=&#34;https://www.home-assistant.io/integrations/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;integrations&lt;/span&gt;&lt;/a&gt;. &lt;em&gt;Integrations can listen for or trigger events, offer services, and maintain states.&lt;/em&gt; So, an integration can be described as the main of communication between the instructions you give to HomeAssistant and the IoT device.&lt;/p&gt;
+&lt;p&gt;
+As an example, lets say you have a smart switch and you want to turn on your bedroom ligh and it is connected to &amp;#34;light integration&amp;#34; for homeassistant:&lt;/p&gt;
+&lt;p&gt;
+&lt;code class=&#34;verbatim&#34;&gt;You (tur on) -&amp;gt; HomeAssistant -&amp;gt; Light integration -&amp;gt; Light (state: OFF)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+then the light will turn on and you will see a change of the state of the light from off to on&lt;/p&gt;
+&lt;p&gt;
+&lt;code class=&#34;verbatim&#34;&gt;You &amp;lt;- HomeAssistant &amp;lt;- Light integration &amp;lt;- Light (state: ON)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Automations
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.home-assistant.io/getting-started/automation/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Automations&lt;/span&gt;&lt;/a&gt; are that, a series of instructions that will run automatically when a trigger event occurs. The trigger can be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An specific time: Everyday at 20:00 h start irrigation system.&lt;/li&gt;
+&lt;li&gt;Motion triggered: When movement is detected, turn on hallway light.&lt;/li&gt;
+&lt;li&gt;Sensor triggered: If temperature of kitchen rises to 30°C turn on fan extraction system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are many pre-made automations called &lt;a href=&#34;https://www.home-assistant.io/examples/#popular-blueprints&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;blueprints&lt;/span&gt;&lt;/a&gt;, where you can start looking around. Also, automations are easy to set up in HomeAssistant by just selecting from drop down menus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+&lt;a href=&#34;https://demo.home-assistant.io/#/lovelace/0&#34;&gt;Please ake a look at this demo to give you an idea of how it looks&lt;/a&gt;
+&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+What smart devices should I use?
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;This is probably the most important part, since it will later define the integrations in your HomeAssistant.&lt;/p&gt;
+&lt;p&gt;
+Most popular devices are the SonOff switches, bases on ESP chips, that work with the eWeLink App, then is probably Tuya devices, based now on Beken chips that work with Tuya Smart App and Smar Life App. You&amp;#39;ll be safe with this devices, later I&amp;#39;ll write about how to re-flash some devices to avoid using the apps like eWeLink and Tuya.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-6&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;I just covered quickly HomeAssistant, since there is plenty of information about it and the &lt;a href=&#34;community&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;community&lt;/span&gt;&lt;/a&gt; is very active.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can integrate Google home and alexa and make use of voice commands.&lt;/li&gt;
+&lt;li&gt;There are alternatives like &lt;a href=&#34;https://www.openhab.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;OpenHAB&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://www.domoticz.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Domoticz&lt;/span&gt;&lt;/a&gt; or &lt;a href=&#34;https://homebridge.io/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Homebridge&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Remember, you must run HomeAssistant 24/7 to work correctly, so a low power consumption hardware is recommended (like the raspberry pi).&lt;/li&gt;
+&lt;li&gt;I just wanted to bring HomeAssistant to your radar, I hope this post helped.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homelab/">homelab</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homeassistant/">homeassistant</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/smarthome/">smarthome</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/server/">server</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/remote/">remote</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/smart/">smart</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/iot/">iot</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/homeassistant/">homeassistant</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Headscale, how to self-host tailscale</title>
