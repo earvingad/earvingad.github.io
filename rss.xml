@@ -23,10 +23,234 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Mon, 17 Jul 2023 18:57:18 -0600</lastBuildDate>
+        <lastBuildDate>Sun, 23 Jul 2023 14:36:54 -0600</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>IoT devices, local control</title>
+                <link>https://earvingad.github.io/posts/esphometasmota/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/esphometasmota/</guid>
+                <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
+                
+                    <author>gmail.com (Earving)</author>
+                
+                <copyright>If you share, please give credit and support.</copyright>
+                
+                    <description>
+&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+ESPHome
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://esphome.io/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;ESPHome&lt;/span&gt;&lt;/a&gt; &lt;em&gt;is a system to control your ESP8266/ESP32 and RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+This is by far the most popular software, highly customizable and configurable through &lt;a href=&#34;https://www.redhat.com/en/topics/automation/what-is-yaml&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;YAML files&lt;/span&gt;&lt;/a&gt; that make the programming easily readable. There many devices supported, if they have and ESP82XX/ESP32 chip surely there is already a template for the device. You can also experiment with ESP devkit boards for your specific needs.&lt;/p&gt;
+&lt;p&gt;
+PROS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fully integrated with HomeAssistant.&lt;/li&gt;
+&lt;li&gt;No need to know how to program, YAML files are used to instruct the programming of the devices.&lt;/li&gt;
+&lt;li&gt;Easy to install.&lt;/li&gt;
+&lt;li&gt;Documentation is very extensive.&lt;/li&gt;
+&lt;li&gt;Very active community to find support.&lt;/li&gt;
+&lt;li&gt;OTA updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CONS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Need to recompile the software if you want to change something in the device configuration.&lt;/li&gt;
+&lt;li&gt;Web UI component is very limited to control the device from the Web.&lt;/li&gt;
+&lt;li&gt;Time to read the documentation (is it really a con?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+LibreTiny (AKA LibreTuya)
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.libretiny.eu/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;LibreTiny&lt;/span&gt;&lt;/a&gt; is a port of ESPHome to work with non-ESP chips, like devices with Beken chips (e.g. BK7231N/T devices, CBU, CB3s, WB3L chips, etc.). This means, it is fully compatible with ESPHome configurations through YAML and it can be installed through &lt;a href=&#34;https://github.com/tuya-cloudcutter/tuya-cloudcutter&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tuya-CloudCutter&lt;/span&gt;&lt;/a&gt; for supported devices, so opening the device and solder wires is not needed.&lt;/p&gt;
+&lt;p&gt;
+PROS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fully integrated with HomeAssistant.&lt;/li&gt;
+&lt;li&gt;No need to know how to program, YAML files are used to instruct the programming of the devices.&lt;/li&gt;
+&lt;li&gt;Can be installed through &lt;a href=&#34;https://github.com/tuya-cloudcutter/tuya-cloudcutter&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tuya-CloudCutter&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Easy to install.&lt;/li&gt;
+&lt;li&gt;You can get YAML templates for specific supported devices &lt;a href=&#34;https://upk.libretiny.eu/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Documentation is the same as ESPHome for YAML configuration.&lt;/li&gt;
+&lt;li&gt;Very active community to find support.&lt;/li&gt;
+&lt;li&gt;OTA updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CONS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Need to recompile the software if you want to change something in the device configuration.&lt;/li&gt;
+&lt;li&gt;Some Tuya devices now work with a TuyaMCU, which is an extra layer of communication between the device and you. This requires extra steps.&lt;/li&gt;
+&lt;li&gt;Web UI component is very limited to control the device from the Web.&lt;/li&gt;
+&lt;li&gt;Time to read the documentation (is it really a con?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Tasmota
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://tasmota.github.io/docs/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tasmota&lt;/span&gt;&lt;/a&gt; &lt;em&gt;is an open source firmware for Espressif ESP8266, ESP32, ESP32-S or ESP32-C3 chipset based devices created and maintained by Theo Arends&lt;/em&gt;. Tasmota allows you to control the device using MQTT, Web UI and HTTP. Automate using timers, rules or scripts within the device using the Web UI.&lt;/p&gt;
+&lt;p&gt;
+PROS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fully integrated with HomeAssistant through MQTT.&lt;/li&gt;
+&lt;li&gt;Everything can be configured from the Web UI.&lt;/li&gt;
+&lt;li&gt;No need to know how to program.&lt;/li&gt;
+&lt;li&gt;Easy to install.&lt;/li&gt;
+&lt;li&gt;No need to recompile for single changes.&lt;/li&gt;
+&lt;li&gt;Documentation is very extensive.&lt;/li&gt;
+&lt;li&gt;Very active community to find support.&lt;/li&gt;
+&lt;li&gt;OTA updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CONS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Needs a MQTT broker to be fully integrated with homeassistant.&lt;/li&gt;
+&lt;li&gt;I found some of the documentation instructions outdated.&lt;/li&gt;
+&lt;li&gt;Time to read the documentation (is it really a con?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+OpenBeken
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://openbekeniot.github.io/webapp/devicesList.html&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;OpenBeken&lt;/span&gt;&lt;/a&gt; &lt;em&gt;is a Tasmota/ESPHome replacement for new Tuya modules featuring MQTT and Home Assistant compatibility.&lt;/em&gt; It is designed to work with Beken chips (e.g. BK7231N/T devices, CBU, CB3s, WB3L chips, etc.). In appearance it is very similar to Tasmota, but it is not a port like LibreTiny to ESPHome. OpenBeken is a new firmware. It can be installed through &lt;a href=&#34;https://github.com/tuya-cloudcutter/tuya-cloudcutter&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tuya-CloudCutter&lt;/span&gt;&lt;/a&gt; for supported devices, so opening the device and solder wires is not needed.&lt;/p&gt;
+&lt;p&gt;
+PROS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fully integrated with HomeAssistant through MQTT.&lt;/li&gt;
+&lt;li&gt;Everything can be configured from the Web UI.&lt;/li&gt;
+&lt;li&gt;No need to know how to program.&lt;/li&gt;
+&lt;li&gt;Easy to install.&lt;/li&gt;
+&lt;li&gt;No need to recompile for single changes.&lt;/li&gt;
+&lt;li&gt;Can be installed through &lt;a href=&#34;https://github.com/tuya-cloudcutter/tuya-cloudcutter&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tuya-CloudCutter&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You can get configuration templates for specific supported devices &lt;a href=&#34;https://openbekeniot.github.io/webapp/devicesList.html&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;OTA updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CONS:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Needs a MQTT broker to be fully integrated with homeassistant.&lt;/li&gt;
+&lt;li&gt;Documentation is still a work in progress.&lt;/li&gt;
+&lt;li&gt;Some Tuya devices now work with a TuyaMCU, which is an extra layer of communication between the device and you. This requires extra steps.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+No re-flash solutions
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;If you do not want to re-flash the devices, there a another few alternatives&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jasonacox/tinytuya&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;TinyTuya&lt;/span&gt;&lt;/a&gt;, is a &lt;em&gt;python module controls and reads state of Tuya compatible WiFi Smart Devices (Plugs, Switches, Lights, Window Covers, etc.) using the local area network (LAN)&lt;/em&gt;. First you need to use Tuya-CloudCutter to disconnect the device from the cloud.&lt;/li&gt;
+&lt;li&gt;ZigBee, is &lt;em&gt;a low-power wireless mesh network standard targeted at battery-powered devices in wireless control and monitoring applications.&lt;/em&gt; ZigBee devices can be integrated to HomeAssistant through &lt;a href=&#34;https://www.zigbee2mqtt.io/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Zigbee2MQTT&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://www.home-assistant.io/integrations/zha/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;ZHA&lt;/span&gt;&lt;/a&gt; or &lt;a href=&#34;https://www.home-assistant.io/integrations/deconz/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;deCONZ&lt;/span&gt;&lt;/a&gt; but you will need a Zigbee Gateway.&lt;/li&gt;
+&lt;li&gt;Matter (and Thread), &lt;em&gt;is a local protocol. Device control is done without the need of any cloud. From a technical perspective, you can use a Matter-compatible device with Home Assistant without connecting to a vendor-specific cloud.&lt;/em&gt; It allows to  control devices through a protocol that runs on top of the existing network infrastructure, using your existing Wi-Fi/Ethernet routers and Thread. It is still &lt;a href=&#34;https://www.home-assistant.io/blog/2023/02/08/state-of-matter-and-thread/&#34;&gt;_under HomeAssistant development.&lt;/a&gt; Similarly to ZigBee, you will need a Matter bridge in order to connect/use the devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homelab/">homelab</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homeassistant/">homeassistant</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/smarthome/">smarthome</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/remote/">remote</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/smart/">smart</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/iot/">iot</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/homeassistant/">homeassistant</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/esphome/">esphome</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/tasmota/">tasmota</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/openbeken/">openbeken</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/libretuya/">libretuya</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/libretiny/">libretiny</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Home-Assistant, being lazy at home</title>

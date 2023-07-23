@@ -9,7 +9,16 @@
     <managingEditor>gmail.com (Earving)</managingEditor>
     <webMaster>gmail.com (Earving)</webMaster>
     <copyright>If you share, please give credit and support.</copyright>
-    <lastBuildDate>Sun, 16 Jul 2023 12:52:44 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/categories/smarthome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jul 2023 12:13:58 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/categories/smarthome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IoT devices, local control</title>
+      <link>https://earvingad.github.io/posts/esphometasmota/</link>
+      <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
+      <description>If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices.</description>
+    </item>
+    
     <item>
       <title>Home-Assistant, being lazy at home</title>
       <link>https://earvingad.github.io/posts/homeassistant/</link>
