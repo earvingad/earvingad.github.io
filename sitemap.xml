@@ -3,22 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://earvingad.github.io/categories/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/esphome/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/homeassistant/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/categories/homeassistant/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/categories/homelab/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/iot/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/light/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/posts/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/smart/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/smarthome/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/sonoff/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/posts/sonoffminir2repair/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/switch/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/tasmota/</loc>
+    <lastmod>2023-07-26T21:40:26-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/posts/esphometasmota/</loc>
     <lastmod>2023-07-23T14:36:15-06:00</lastmod>
@@ -29,28 +59,10 @@
     <loc>https://earvingad.github.io/tags/libretuya/</loc>
     <lastmod>2023-07-23T14:36:15-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
-  </url><url>
     <loc>https://earvingad.github.io/tags/openbeken/</loc>
     <lastmod>2023-07-23T14:36:15-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
-  </url><url>
     <loc>https://earvingad.github.io/tags/remote/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/smart/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/categories/smarthome/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/</loc>
-    <lastmod>2023-07-23T14:36:15-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/tasmota/</loc>
     <lastmod>2023-07-23T14:36:15-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/posts/homeassistant/</loc>

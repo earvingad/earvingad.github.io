@@ -23,10 +23,139 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Sun, 23 Jul 2023 14:36:54 -0600</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jul 2023 21:40:38 -0600</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Sonoff mini r2, my screw up and repair</title>
+                <link>https://earvingad.github.io/posts/sonoffminir2repair/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/sonoffminir2repair/</guid>
+                <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
+                
+                    <author>gmail.com (Earving)</author>
+                
+                <copyright>If you share, please give credit and support.</copyright>
+                
+                    <description>&lt;p&gt;I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…&lt;/p&gt;
+&lt;p&gt;
+I accidentally connected the neutral wire in the S1 input (which is actually connected to ground) of the sonoff while wiring the manual switch and I blew up the D4 diode.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://earvingad.github.io/posts/img/sonoffminir2rapair/minir2D4.webp&#34; width=&#34;250&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Luckily, nothing else was damaged. I just lost the feature of the manual switch. Nevertheless, If I connected the S2 (which is GPIO04) to another exposed ground, the manual switch worked. So I ended up making a &amp;#34;bridge&amp;#34; (I think the English term is &amp;#34;jumper&amp;#34;) between the ground and the S1 connection. This is the result:&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;figure&gt;&lt;img src=&#34;https://earvingad.github.io/posts/img/sonoffminir2rapair/minir2GND.webp&#34;/&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;figure&gt;&lt;img src=&#34;https://earvingad.github.io/posts/img/sonoffminir2rapair/minir2repair.jpg&#34; width=&#34;1200&#34;/&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+The drawback is that if by accident, again, I connect the hot or neutral wire to the S1, the whole device is going to be fried. I tried to solder a diode for protection but due to the small space in the enclosure, sometimes the relay got stuck, like if it was inducted by the diode, so I decided to remove the diode.&lt;/p&gt;
+&lt;p&gt;
+Anyway, if someone face the same problem I hope this helps them out.&lt;/p&gt;
+&lt;p&gt;
+BTW, I ended up removing the sonoff mini r2 and instead installed a smart light bulb.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://media.tenor.com/PMobGgF0ppAAAAAd/pedro-pascal-pedro-pascal-smile.gif&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homelab/">homelab</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/homeassistant/">homeassistant</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/smarthome/">smarthome</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/smart/">smart</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/iot/">iot</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/homeassistant/">homeassistant</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/esphome/">esphome</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/tasmota/">tasmota</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/light/">light</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/switch/">switch</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/sonoff/">sonoff</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>IoT devices, local control</title>

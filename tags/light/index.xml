@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>light on Nerd things and more...</title>
+    <link>https://earvingad.github.io/tags/light/</link>
+    <description>Recent content in light on Nerd things and more...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gmail.com (Earving)</managingEditor>
+    <webMaster>gmail.com (Earving)</webMaster>
+    <copyright>If you share, please give credit and support.</copyright>
+    <lastBuildDate>Wed, 26 Jul 2023 19:06:18 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/light/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sonoff mini r2, my screw up and repair</title>
+      <link>https://earvingad.github.io/posts/sonoffminir2repair/</link>
+      <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/sonoffminir2repair/</guid>
+      <description>I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire.</description>
+    </item>
+    
+  </channel>
+</rss>
