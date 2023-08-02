@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2023-07-31T18:53:30-06:00</updated>
+    <updated>2023-08-01T18:16:47-06:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -546,7 +546,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <title type="text">Headscale, how to self-host tailscale</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/headscale/" />
             <id>https://earvingad.github.io/posts/headscale/</id>
-            <updated>2023-07-31T18:49:36-06:00</updated>
+            <updated>2023-08-01T18:15:58-06:00</updated>
             <published>2023-02-25T12:15:56-06:00</published>
             <author>
                     <name>Earving</name>
@@ -653,12 +653,15 @@ Registrations to headscale
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;Now, everytime that you add a device with one of the steps above, you will be redirect to a webpage with instructions like this:
-&lt;figure&gt;&lt;img src=&#34;https://blog.gurucomputing.com.au/smart-vpns-with-headscale/04-configuring-the-headscale-ui-08.png&#34;
+&lt;figure&gt;&lt;img src=&#34;https://blog.gurucomputing.com.au/Smart%20VPNS%20with%20Headscale/uploads/acdcc812-abbb-4284-b385-b65eb6f7368b/d4ab0f7e-cccb-4efa-98a8-c26fe6cca8ef/image.png&#34;
          alt=&#34;Image taken from the GuruComputingBlog.&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Image taken from the GuruComputingBlog.&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
-
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;NOTE: In recent version of Headscale the &lt;code class=&#34;verbatim&#34;&gt;-n&lt;/code&gt; command was substituted by &lt;code class=&#34;verbatim&#34;&gt;--user&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
 The instruction tells you to run the following command (as sudo in our case) in our headscale server:&lt;/p&gt;
 &lt;div class=&#34;src src-shell&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

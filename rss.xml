@@ -23,7 +23,7 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Mon, 31 Jul 2023 18:53:30 -0600</lastBuildDate>
+        <lastBuildDate>Tue, 01 Aug 2023 18:16:47 -0600</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
@@ -652,12 +652,15 @@ Registrations to headscale
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;Now, everytime that you add a device with one of the steps above, you will be redirect to a webpage with instructions like this:
-&lt;figure&gt;&lt;img src=&#34;https://blog.gurucomputing.com.au/smart-vpns-with-headscale/04-configuring-the-headscale-ui-08.png&#34;
+&lt;figure&gt;&lt;img src=&#34;https://blog.gurucomputing.com.au/Smart%20VPNS%20with%20Headscale/uploads/acdcc812-abbb-4284-b385-b65eb6f7368b/d4ab0f7e-cccb-4efa-98a8-c26fe6cca8ef/image.png&#34;
          alt=&#34;Image taken from the GuruComputingBlog.&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Image taken from the GuruComputingBlog.&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
-
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;NOTE: In recent version of Headscale the &lt;code class=&#34;verbatim&#34;&gt;-n&lt;/code&gt; command was substituted by &lt;code class=&#34;verbatim&#34;&gt;--user&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
 The instruction tells you to run the following command (as sudo in our case) in our headscale server:&lt;/p&gt;
 &lt;div class=&#34;src src-shell&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
