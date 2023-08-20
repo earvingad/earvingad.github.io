@@ -1,0 +1,70 @@
+esphome:
+  name: minir2watersensor
+
+esp8266:
+  board: esp8285
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+#Web server
+web_server:
+  port: 80
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Fallback Hotspot"
+
+captive_portal:
+    
+status_led:
+  pin:
+    number: GPIO13
+    inverted: true
+
+output:
+  - platform: gpio
+    id: relay_1
+    pin: GPIO12
+switch:
+  - platform: output
+    id: switch_1
+    name: "minir2 relay state"
+    output: relay_1
+    on_turn_on:
+      - output.turn_on: relay_1
+    on_turn_off:
+      - output.turn_off: relay_1
+
+binary_sensor:
+  - platform: gpio
+    pin: GPIO00
+    id: reset
+    internal: true
+    filters:
+      - invert:
+      - delayed_off: 10ms
+    on_press:
+      - switch.toggle: 
+          id: switch_1
+
+
+  - platform: gpio
+    id: water_1
+    name: "Water tank"
+    device_class: moisture
+    pin: 
+      number: GPIO04
+      inverted: true
+      mode: INPUT_PULLUP
