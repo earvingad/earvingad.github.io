@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
     <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2023-10-18T21:12:42-06:00</updated>
+    <updated>2023-10-19T18:38:05-06:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -3332,7 +3332,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <title type="text">Org-roam &amp; Windows</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/org_roam_windows/" />
             <id>https://earvingad.github.io/posts/org_roam_windows/</id>
-            <updated>2023-10-15T15:40:50-06:00</updated>
+            <updated>2023-10-19T18:28:54-06:00</updated>
             <published>2020-05-26T22:18:24-05:00</published>
             <author>
                     <name>Earving</name>
@@ -3374,7 +3374,7 @@ Installing Org-roam
 &lt;li&gt;
 &lt;p&gt;Download a C compiler, I am using: &lt;a href=&#34;https://github.com/niXman/mingw-builds-binaries&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;MinGW-64&lt;/span&gt;&lt;/a&gt; and add it to your path (use the online installer for ease).&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Run &lt;code class=&#34;verbatim&#34;&gt;(executable-find &amp;#34;cc&amp;#34;)&lt;/code&gt; in emacs, it should evaluate to non-nil if the C compiler is correctly installed.&lt;/li&gt;
+&lt;li&gt;Run &lt;code class=&#34;verbatim&#34;&gt;(executable-find &amp;#34;gcc&amp;#34;)&lt;/code&gt; in emacs, it should evaluate to non-nil if the C compiler is correctly installed.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -3650,7 +3650,7 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <title type="text">Doom, Emacs &amp; Windows</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/doom_emacs_windows/" />
             <id>https://earvingad.github.io/posts/doom_emacs_windows/</id>
-            <updated>2021-12-05T16:06:36-06:00</updated>
+            <updated>2023-10-19T18:37:54-06:00</updated>
             <published>2020-05-22T20:10:08-05:00</published>
             <author>
                     <name>Earving</name>
@@ -3738,14 +3738,13 @@ Install Doom
 &lt;/div&gt;
 &lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-5&#34;&gt;
-All the icons
+Nerd icons
 &lt;/h3&gt;
 &lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;p&gt;By default all-the-icons will not be enabled in Windows.&lt;/p&gt;
+&lt;p&gt;By default icons will not be enabled in Windows.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If all-the-icons is not installed. Open emacs and &lt;code class=&#34;verbatim&#34;&gt;M-x package-install RET all-the-icons RET&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;M-x all-the-icons-install-fonts&lt;/code&gt; select where to download the fonts and
-install them (double click -&amp;gt; install).&lt;/li&gt;
+&lt;li&gt;If icons is not installed. Open emacs and &lt;code class=&#34;verbatim&#34;&gt;M-x nerd-icons-install-fonts RET&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Select where to download the fonts and install them (double click -&amp;gt; install).&lt;/li&gt;
 &lt;li&gt;Restart emacs and there you go.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -3760,7 +3759,7 @@ From one PC to another
 &lt;li&gt;Copy your &lt;code class=&#34;verbatim&#34;&gt;~/.doom.d ~/.emacs.d ripgrep fd emacs&lt;/code&gt; folders directly to the
 other PC (&lt;code class=&#34;verbatim&#34;&gt;~/.domm.d ~/.emacs.d&lt;/code&gt; go in &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;Edit the system environment variables accordingly.&lt;/li&gt;
-&lt;li&gt;Copy and install the fonts you downloaded with &lt;code class=&#34;verbatim&#34;&gt;all-the-icons&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Copy and install the fonts you downloaded with &lt;code class=&#34;verbatim&#34;&gt;nerd-icons-install-fonts&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Open &lt;code class=&#34;verbatim&#34;&gt;git-bash.exe&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;cd ~/.emacs.d/bin&lt;/code&gt; and run: &lt;code class=&#34;verbatim&#34;&gt;./doom sync&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;et voilà!&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -3772,12 +3771,12 @@ Emacs server
 &lt;/h3&gt;
 &lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;If you use emacs server, Doom will place the server file in
-&lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\.local\cache\server&lt;/code&gt; folder.&lt;/p&gt;
+&lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\.local\server&lt;/code&gt; folder.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Go to &lt;code class=&#34;verbatim&#34;&gt;Control panel -&amp;gt; User Accounts -&amp;gt; Change my environment variables&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;New&lt;/code&gt; type &lt;code class=&#34;verbatim&#34;&gt;EMACS_SERVER_FILE&lt;/code&gt; and set the file path &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\.local\cache\server\server&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&#34;verbatim&#34;&gt;New&lt;/code&gt; type &lt;code class=&#34;verbatim&#34;&gt;EMACS_SERVER_FILE&lt;/code&gt; and set the file path &lt;code class=&#34;verbatim&#34;&gt;C:\Users\USERNAME\.emacs.d\.local\server\server&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Create a &lt;code class=&#34;verbatim&#34;&gt;emacsclientw.exe&lt;/code&gt; shortcut with &lt;code class=&#34;verbatim&#34;&gt;emacsclientw.exe -nc&lt;/code&gt; in target,
 run emacs server and emacsclientw will work.&lt;/li&gt;
 &lt;/ul&gt;
