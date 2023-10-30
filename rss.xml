@@ -23,10 +23,153 @@
         
             <copyright>If you share, please give credit and support.</copyright>
         
-        <lastBuildDate>Thu, 19 Oct 2023 18:40:51 -0600</lastBuildDate>
+        <lastBuildDate>Sun, 29 Oct 2023 18:53:36 -0600</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://earvingad.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Automating with Python: A start</title>
+                <link>https://earvingad.github.io/posts/automatewithpython/</link>
+                <guid isPermaLink="true">https://earvingad.github.io/posts/automatewithpython/</guid>
+                <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
+                
+                    <author>gmail.com (Earving)</author>
+                
+                <copyright>If you share, please give credit and support.</copyright>
+                
+                    <description>
+&lt;p&gt;I remember once hearing &amp;#34;No matter what you do for living, learn a programming language it will ease your life.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Although, using Linux takes you to a long trip of practicing scripting with bash, I was never really into programming (still not, eventhough I would have liked at some point).&lt;/p&gt;
+&lt;p&gt;
+From my school years, I think the first programming language I was in touch with was C++ in highschool.&lt;/p&gt;
+&lt;p&gt;
+Then at university, studying engineering,  I was introduced to Java, since the professor was more into IT and front ends, so for an engineering point of view was not really great. Also I hated the syntax of Java. It was just to confusing for me.&lt;/p&gt;
+&lt;p&gt;
+A couple of years later, learning numerical methods applied to engineering, long iterations to solve differential equations, I was introduced to Fortran. The syntax was simpler and easier to follow.&lt;/p&gt;
+&lt;p&gt;
+Finally I learned a bit of Matlab, you know for Lapace and all things I already forgot. I felt the syntax friendlier than Fortran and having several libraries to use I found it to be comfortable.&lt;/p&gt;
+&lt;p&gt;
+I never really used any of those languages outside school.&lt;/p&gt;
+&lt;p&gt;
+Then, somehow I heard about Python. The syntax was the cleanest I&amp;#39;ve ever found, the code looked very clean and easy to read. To me, it looked like and elegant programming language, but I never had the opportunity to learn it.&lt;/p&gt;
+&lt;p&gt;
+One day, having free time I decided to translate some of my Fortran code to Python, so I decided to take an online course from EdX that was called &amp;#39;Mathematical Modelling basics&amp;#39;, which was similar to what I used to do with Fortran. Following the course I was able to write the codes of the course and also translate my Fortran codes to Python. Still lacked the basics of Python since the course was very straight forward, but at least I learned a bit about the syntax.&lt;/p&gt;
+&lt;p&gt;
+I continued keeping an eye in Python and then I discovered the so many applications of Python, from data science to web development and even a Window Manager called Qtile and webbrowser called qutebrowser (based on PyQT5). I was overwhelmed…&lt;/p&gt;
+&lt;p&gt;
+Still I didn&amp;#39;t enrolled to learn Python, I didn&amp;#39;t know where to start, I started working, so free time was lacking and then in reddit I learned about &lt;a href=&#34;https://automatetheboringstuff.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Automate the Boring Stuff with Python&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Automate the Boring Stuff with Python
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In Automate the Boring Stuff with Python, you&amp;#39;ll learn how to use Python to write programs that do in minutes what would take you hours to do by hand - no prior programming experience required.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+The course was created by Al Sweigart and it is &lt;a href=&#34;https://automatetheboringstuff.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;free to read&lt;/span&gt;&lt;/a&gt; under a CC license.&lt;/p&gt;
+&lt;p&gt;
+It was a no brainier for me, it was covering what I was looking for: Basics of Python, examples, automating tasks, working with spreadsheets, web scraping and controlling the keyboard and mouse. Although it is free, you can still buy it&amp;#39;s book to support it or take his Udemy course (which by the way, he sometimes gives free coupons to take the course for free in the Python or LearningPython subreddits, I don&amp;#39;t really remember which one).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+What was useful for me
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Anyways, I completed the course not long ago and now I feel more confident with my Python programming skills. I have already wrote 5-6 scripts to automate tedious task at work like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extracting data from spreadsheets, get a summary and update the main spreadsheets (like databases) used by PowerBI for weekly and monthly reports. I used to spend about 30-60 minutes doing this, now the script takes like 5 seconds. The script makes use of &lt;code class=&#34;verbatim&#34;&gt;os&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;shutil&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;openpyxl&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;for&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;if&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;while loops&lt;/code&gt; together with dictionaries. Now I am thinking about using &lt;code class=&#34;verbatim&#34;&gt;pandas&lt;/code&gt; for this to reduce code lines, since the code contains around 200 lines including the dictionaries (which are not that long), but the loops reduce the readability of the code.&lt;/li&gt;
+&lt;li&gt;Uploading files using the webbrowser. I have to upload files to some webpages and these webpages do not allow bulk upload, so it is one by one. Somedays I have to upload 20-30 files per webpage, which is time consuming so I created a script that reads the files in a specific folder, store them in an list, identify screen webpage elements to allow the program to continue or wait until webpage loads correctly, compare the information displayed on screen with the one contained in the file, upload the file if it finds a match and continue with the next one. The script makes use of &lt;code class=&#34;verbatim&#34;&gt;os&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;pyautogui&lt;/code&gt;, &lt;code class=&#34;verbatim&#34;&gt;pyperclip&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;xml.etree.ElementTree&lt;/code&gt;. I would&amp;#39;ve loved to use &lt;code class=&#34;verbatim&#34;&gt;selenium&lt;/code&gt; for this, but the webpage does not display the information as &lt;code class=&#34;verbatim&#34;&gt;selenium&lt;/code&gt; reads, I don&amp;#39;t know why, I need to investigate more.&lt;/li&gt;
+&lt;li&gt;Manipulate a company application to create orders, extract data and create entries. Some tasks, like creating entries, had to be repeated like 100 times. You can imagine the hassle. The script I created uses &lt;code class=&#34;verbatim&#34;&gt;pyautogui&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;pyperclip&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Autologging to webpages and web scraping using &lt;code class=&#34;verbatim&#34;&gt;selenium&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Some more.
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Al Sweigart has more free books in his webpage from creating games to cryptography. Give it a look. I am very gratefull for his work.&lt;/li&gt;
+&lt;li&gt;Microsoft have developed Power Automate, which should be available in many companies. It is well integrated with the microsoft apps and really makes easy daily work routines like schedule meetings based on an email subject/content, save attachments from emails in specific folders. Even manipulate excel spreadsheets, word documents, webbrowsers (to do scraping) and more apps. You don&amp;#39;t need to know anything about programming, everything is done by dropdown menus. It can also be integrated with AI. I&amp;#39;ve been using this as well to automate as many things as I can.&lt;/li&gt;
+&lt;li&gt;There is &lt;a href=&#34;https://micropython.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;MicroPython&lt;/span&gt;&lt;/a&gt; which is dedicated for microcontrollers (e.g. ESP devices, arduino, raspberry pi). I haven&amp;#39;t tried it, since I still prefer ESPHome or Tasmota for IoT devices just for simplicity and laziness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;farewell&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39; Thanks &amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39; for &amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39; reading. &amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;word&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;farewell&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;word&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;-^78&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;pre class=&#34;example&#34;&gt;
+----------------------------------- Thanks -----------------------------------
+------------------------------------ for -------------------------------------
+---------------------------------- reading. ----------------------------------
+&lt;/pre&gt;
+&lt;div class=&#34;src src-none&#34;&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/python/">python</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/categories/programming/">programming</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/python/">python</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/automate/">automate</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://earvingad.github.io/tags/programming/">programming</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Make smart a dumb coffee machine with ESPHome</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>automate on Nerd things and more...</title>
+    <link>https://earvingad.github.io/tags/automate/</link>
+    <description>Recent content in automate on Nerd things and more...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gmail.com (Earving)</managingEditor>
+    <webMaster>gmail.com (Earving)</webMaster>
+    <copyright>If you share, please give credit and support.</copyright>
+    <lastBuildDate>Sun, 29 Oct 2023 12:08:13 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/automate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating with Python: A start</title>
+      <link>https://earvingad.github.io/posts/automatewithpython/</link>
+      <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
+      <author>gmail.com (Earving)</author>
+      <guid>https://earvingad.github.io/posts/automatewithpython/</guid>
+      <description>I remember once hearing &amp;#34;No matter what you do for living, learn a programming language it will ease your life.&amp;#34;
+Although, using Linux takes you to a long trip of practicing scripting with bash, I was never really into programming (still not, eventhough I would have liked at some point).</description>
+    </item>
+    
+  </channel>
+</rss>
