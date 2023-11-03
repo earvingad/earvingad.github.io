@@ -3,8 +3,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Nerd things and more...</title>
-    <subtitle type="html">Hi, this is a blog about nerd things and stuff.</subtitle>
-    <updated>2023-10-29T19:04:00-06:00</updated>
+    <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
+    <updated>2023-11-02T22:08:17-06:00</updated>
     <id>https://earvingad.github.io/</id>
     <link rel="alternate" type="text/html" href="https://earvingad.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://earvingad.github.io/atom.xml" />
@@ -12,22 +12,22 @@
             <name>Earving</name>
             <uri>https://earvingad.github.io/</uri>
             
-                <email>gmail.com</email>
+                <email>@gmail.com</email>
             </author>
-    <rights>If you share, please give credit and support.</rights>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.118.2">Hugo</generator>
         <entry>
             <title type="text">Automating with Python: A start</title>
             <link rel="alternate" type="text/html" href="https://earvingad.github.io/posts/automatewithpython/" />
             <id>https://earvingad.github.io/posts/automatewithpython/</id>
-            <updated>2023-10-29T19:02:13-06:00</updated>
+            <updated>2023-11-02T22:07:34-06:00</updated>
             <published>2023-10-29T12:08:13-06:00</published>
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">I remember once hearing &amp;#34;No matter what you do for living, learn a programming language it will ease your life.&amp;#34;
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">I remember once hearing &amp;#34;No matter what you do for living, learn a programming language it will ease your life.&amp;#34;
 Although, using Linux takes you to a long trip of practicing scripting with bash, I was never really into programming (still not, eventhough I would have liked at some point).</summary>
             
                 <content type="html">
@@ -40,7 +40,7 @@ Although, using Linux takes you to a long trip of practicing scripting with bash
 &lt;p&gt;
 From my school years, I think the first programming language I was in touch with was C++ in highschool.&lt;/p&gt;
 &lt;p&gt;
-Then at university, studying engineering,  I was introduced to Java, since the professor was more into IT and front ends, so for an engineering point of view was not really great. Also I hated the syntax of Java. It was just to confusing for me.&lt;/p&gt;
+Then at university, studying engineering,  I was introduced to Java, since the professor was more into IT and front ends, for an engineering point of view was not really great. Also I hated the syntax of Java. It was just too confusing for me.&lt;/p&gt;
 &lt;p&gt;
 A couple of years later, learning numerical methods applied to engineering, long iterations to solve differential equations, I was introduced to Fortran. The syntax was simpler and easier to follow.&lt;/p&gt;
 &lt;p&gt;
@@ -103,18 +103,20 @@ Some more.
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;farewell&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39; Thanks &amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39; for &amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39; reading. &amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;word&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;farewell&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;word&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;-^78&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;word&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;-^50&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;pre class=&#34;example&#34;&gt;
------------------------------------ Thanks -----------------------------------
------------------------------------- for -------------------------------------
----------------------------------- reading. ----------------------------------
+--------------------- Thanks ---------------------
+---------------------- for -----------------------
+-------------------- reading. --------------------
 &lt;/pre&gt;
 &lt;div class=&#34;src src-none&#34;&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-none&#34; data-lang=&#34;none&#34;&gt;If you found this content useful, please support me:
-BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
+BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y
+
+Do not forget to share.&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -175,9 +177,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">As a Coffee lover… of course this post had to start that way.
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">As a Coffee lover… of course this post had to start that way.
 I have a dumb coffee machine for my morning coffee on my way to work. It is just an on-off coffee machine, the brewing cycle last around 10 min and then it just keeps warm the jar.</summary>
             
                 <content type="html">
@@ -616,9 +618,9 @@ Final thoughts
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire.</summary>
             
                 <content type="html">&lt;p&gt;I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…&lt;/p&gt;
 &lt;p&gt;
@@ -748,9 +750,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices.</summary>
             
                 <content type="html">
 &lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;
@@ -975,9 +977,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 HomeAssistant is basically an OS (?) where you can add all the IoT devices (e.</summary>
             
                 <content type="html">
@@ -1142,9 +1144,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">Previously, we spoke of how easy is to set a mesh network between your devices with tailscale. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to selfhost this kind of services of their homelab).</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Previously, we spoke of how easy is to set a mesh network between your devices with tailscale. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to selfhost this kind of services of their homelab).</summary>
             
                 <content type="html">
 &lt;p&gt;
@@ -1377,9 +1379,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
 In other words, you can create:
 yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org
 that will point to the ip of your homelab or VPS.
@@ -1519,9 +1521,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.
 There are plenty of options: monit, monitorix, munin, Netdata and Grafana (coupled with one data collector like: collectd, influxdb, Graphite or Prometheus)</summary>
             
                 <content type="html">
@@ -1817,9 +1819,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the Tor a hidden friend to SSH your home network entry. However, I recommended to use WireGuard to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the Tor a hidden friend to SSH your home network entry. However, I recommended to use WireGuard to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.</summary>
             
                 <content type="html">
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://tailscale.com/static/images/marketing/home-illustration-2080w.webp&#34;/&gt;
@@ -2049,9 +2051,9 @@ Footnotes
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">You might had heard of the Dark web or the Deep web, well the first one is just a small part of the latter. The Dark web is populated with darknets which is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">You might had heard of the Dark web or the Deep web, well the first one is just a small part of the latter. The Dark web is populated with darknets which is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization.</summary>
             
                 <content type="html">
 &lt;p&gt;
@@ -2554,9 +2556,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">AdGuard Home is a…
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">AdGuard Home is a…
 Privacy protection center for you and your devices
 Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.
 It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a package for OpenWrt.</summary>
@@ -2729,9 +2731,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)</summary>
             
                 <content type="html">
 &lt;blockquote&gt;
@@ -2918,9 +2920,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">We all hate ads.
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">We all hate ads.
 According to Wikipedia,
 Ad blocking or ad filtering is a software capability for blocking or altering online advertising in a web browser, an application or a network. This may be done using browser extensions or other methods.</summary>
             
@@ -3059,9 +3061,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.</summary>
             
                 <content type="html">
 &lt;p&gt;I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.&lt;/p&gt;
@@ -3188,9 +3190,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 That&amp;#39;s in the Hugo website and I guess it&amp;#39;s true, since I find it very easy to use to publish this dumb blog when I have the time to.</summary>
             
                 <content type="html">
@@ -3365,9 +3367,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.</summary>
             
                 <content type="html">
 &lt;p&gt;
@@ -3487,9 +3489,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">Org-roam Org-roam is a note-taking tool for Emacs using Org-mode. It is a replica of RoamResearch: &amp;#34;A note-taking tool for networked thought&amp;#34;. Both are based in the Zettelkasten method, which is described as:
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Org-roam Org-roam is a note-taking tool for Emacs using Org-mode. It is a replica of RoamResearch: &amp;#34;A note-taking tool for networked thought&amp;#34;. Both are based in the Zettelkasten method, which is described as:
 Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.</summary>
             
                 <content type="html">
@@ -3635,9 +3637,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">Org-mode is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to GTD). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Org-mode is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to GTD). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information.</summary>
             
                 <content type="html">
 &lt;p&gt;
@@ -3805,9 +3807,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">Doom-emacs. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Doom-emacs. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.
 As I mentioned in the last post. I started using Emacs at work due to org-mode… and work PC&amp;#39;s use windows behind a Firewall, so using git, pip, melpa and some more are useless in my work desktop (In the Laptop all of them work if I connect to another network, which was what I did).</summary>
             
                 <content type="html">
@@ -4019,9 +4021,9 @@ BTC: 1E2YjL6ysiPxRF4AEdXChpzpesRuyzgE1y&lt;/code&gt;&lt;/pre&gt;
             <author>
                     <name>Earving</name>
                     <uri>https://earvingad.github.io/</uri>
-                    <email>gmail.com</email>
+                    <email>@gmail.com</email>
                     </author>
-            <rights>If you share, please give credit and support.</rights><summary type="html">First things first This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">First things first This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.</summary>
             
                 <content type="html">
 &lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
