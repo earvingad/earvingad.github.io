@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>adblock on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/adblock/</link>
     <description>Recent content in adblock on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>gmail.com (Earving)</managingEditor>
-    <webMaster>gmail.com (Earving)</webMaster>
-    <copyright>If you share, please give credit and support.</copyright>
     <lastBuildDate>Sun, 15 May 2022 13:23:58 -0500</lastBuildDate><atom:link href="https://earvingad.github.io/tags/adblock/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AdGuardHome, like Pi-hole but...better(?)</title>
       <link>https://earvingad.github.io/posts/adguardhome/</link>
       <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
-      <author>gmail.com (Earving)</author>
+      
       <guid>https://earvingad.github.io/posts/adguardhome/</guid>
       <description>AdGuard Home is a…
 Privacy protection center for you and your devices
 Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.
-It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a package for OpenWrt.</description>
+It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a package for OpenWrt. We will focus on the latter, I wrote briefly about it the Ad Blocking, simple &amp;amp; fast entry.</description>
     </item>
     
     <item>
       <title>Ad Blocking, simple &amp; fast</title>
       <link>https://earvingad.github.io/posts/adblocking/</link>
       <pubDate>Wed, 27 Apr 2022 21:24:55 -0500</pubDate>
-      <author>gmail.com (Earving)</author>
+      
       <guid>https://earvingad.github.io/posts/adblocking/</guid>
       <description>We all hate ads.
 According to Wikipedia,
-Ad blocking or ad filtering is a software capability for blocking or altering online advertising in a web browser, an application or a network. This may be done using browser extensions or other methods.</description>
+Ad blocking or ad filtering is a software capability for blocking or altering online advertising in a web browser, an application or a network. This may be done using browser extensions or other methods.
+So you have choices
+I am not going to detail but give the practical and useful information about the fastest and easiest way to block ads
+Browser extensions You need, always, no matter what, a web browser ad block extension.</description>
     </item>
     
   </channel>

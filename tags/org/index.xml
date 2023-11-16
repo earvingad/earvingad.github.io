@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>org on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/org/</link>
     <description>Recent content in org on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>gmail.com (Earving)</managingEditor>
-    <webMaster>gmail.com (Earving)</webMaster>
-    <copyright>If you share, please give credit and support.</copyright>
     <lastBuildDate>Tue, 26 May 2020 22:18:24 -0500</lastBuildDate><atom:link href="https://earvingad.github.io/tags/org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Org-roam &amp; Windows</title>
       <link>https://earvingad.github.io/posts/org_roam_windows/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      <author>gmail.com (Earving)</author>
+      
       <guid>https://earvingad.github.io/posts/org_roam_windows/</guid>
       <description>Org-roam Org-roam is a note-taking tool for Emacs using Org-mode. It is a replica of RoamResearch: &amp;#34;A note-taking tool for networked thought&amp;#34;. Both are based in the Zettelkasten method, which is described as:
-Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.</description>
+Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.
+The method was developed by Niklas Luhmann and the literal translation is:
+Zettelkasten = Box of notes.
+In simple words: Org-roam allows you to make connections between your notes, in order to make a more efficient creative/learning process.</description>
     </item>
     
   </channel>

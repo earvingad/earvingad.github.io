@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Nerd things and more...</title>
+    <link>https://earvingad.github.io/posts/</link>
+    <description>Recent content in Posts on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Nov 2023 11:41:24 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable blog comments in GitHub pages with utterance</title>
+      <link>https://earvingad.github.io/posts/blogcommentsutterance/</link>
+      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/blogcommentsutterance/</guid>
+      <description>It&amp;#39;s been three years since I started this blog using Hugo and GitHub pages, but I never enabled comments since this blog makes use of static pages, some users commented my posts using github issues and I thought it was a good idea. There were many workarounds to enable comments in github pages, but I wasn&amp;#39;t convinced. Luckily, yesterday I found out about utterances.
+A lightweight comments widget built on GitHub issues.</description>
+    </item>
+    
+    <item>
+      <title>Automating with Python: A start</title>
+      <link>https://earvingad.github.io/posts/automatewithpython/</link>
+      <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/automatewithpython/</guid>
+      <description>I remember once hearing &amp;#34;No matter what you do for living, learn a programming language it will ease your life.&amp;#34;
+Although, using Linux takes you to a long trip of practicing scripting with bash, I was never really into programming (still not, eventhough I would have liked at some point).
+From my school years, I think the first programming language I was in touch with was C++ in highschool.</description>
+    </item>
+    
+    <item>
+      <title>Make smart a dumb coffee machine with ESPHome</title>
+      <link>https://earvingad.github.io/posts/smartdumbcoffe/</link>
+      <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/smartdumbcoffe/</guid>
+      <description>As a Coffee lover… of course this post had to start that way.
+I have a dumb coffee machine for my morning coffee on my way to work. It is just an on-off coffee machine, the brewing cycle last around 10 min and then it just keeps warm the jar. Wouldn&amp;#39;t it be a good idea to make it smart so the coffee will be ready when I wake up?</description>
+    </item>
+    
+    <item>
+      <title>Sonoff mini r2, my screw up and repair</title>
+      <link>https://earvingad.github.io/posts/sonoffminir2repair/</link>
+      <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/sonoffminir2repair/</guid>
+      <description>I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…</description>
+    </item>
+    
+    <item>
+      <title>IoT devices, local control</title>
+      <link>https://earvingad.github.io/posts/esphometasmota/</link>
+      <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
+      <description>If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally.</description>
+    </item>
+    
+    <item>
+      <title>Home-Assistant, being lazy at home</title>
+      <link>https://earvingad.github.io/posts/homeassistant/</link>
+      <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/homeassistant/</guid>
+      <description>Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+HomeAssistant is basically an OS (?) where you can add all the IoT devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events.</description>
+    </item>
+    
+    <item>
+      <title>Headscale, how to self-host tailscale</title>
+      <link>https://earvingad.github.io/posts/headscale/</link>
+      <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/headscale/</guid>
+      <description>Previously, we spoke of how easy is to set a mesh network between your devices with tailscale. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to selfhost this kind of services of their homelab).</description>
+    </item>
+    
+    <item>
+      <title>DuckDNS, forget your ip</title>
+      <link>https://earvingad.github.io/posts/duckdns/</link>
+      <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/duckdns/</guid>
+      <description>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
+In other words, you can create:
+yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org
+that will point to the ip of your homelab or VPS.
+Why? Well, I already wrote about how to access remotely to your homelab using the Tor network. Also how it can be simplified using Tailscale and to avoid sending data to tailscale servers you could use headscale to selfhost.</description>
+    </item>
+    
+    <item>
+      <title>Netdata, real-time server monitoring</title>
+      <link>https://earvingad.github.io/posts/netdata/</link>
+      <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/netdata/</guid>
+      <description>If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.
+There are plenty of options: monit, monitorix, munin, Netdata and Grafana (coupled with one data collector like: collectd, influxdb, Graphite or Prometheus)
+Despite Grafana is one of the most popular choices, I decided to use Netdata, since it is pre-configured out of the box and it does both collect data and create graphs displayed through a http server.</description>
+    </item>
+    
+    <item>
+      <title>Tailscale, making WireGuard simpler for home networks</title>
+      <link>https://earvingad.github.io/posts/tailscale/</link>
+      <pubDate>Mon, 06 Jun 2022 19:46:42 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/tailscale/</guid>
+      <description>Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the Tor a hidden friend to SSH your home network entry. However, I recommended to use WireGuard to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.</description>
+    </item>
+    
+    <item>
+      <title>Tor a hidden friend to SSH your home network</title>
+      <link>https://earvingad.github.io/posts/torssh/</link>
+      <pubDate>Sun, 22 May 2022 18:55:17 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/torssh/</guid>
+      <description>You might had heard of the Dark web or the Deep web, well the first one is just a small part of the latter. The Dark web is populated with darknets which is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization.
+These darknets can be small peer-to-peer networks or large as the I2P Anonymous Network, Freenet and the most popular Tor Project.</description>
+    </item>
+    
+    <item>
+      <title>AdGuardHome, like Pi-hole but...better(?)</title>
+      <link>https://earvingad.github.io/posts/adguardhome/</link>
+      <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/adguardhome/</guid>
+      <description>AdGuard Home is a…
+Privacy protection center for you and your devices
+Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.
+It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a package for OpenWrt. We will focus on the latter, I wrote briefly about it the Ad Blocking, simple &amp;amp; fast entry.</description>
+    </item>
+    
+    <item>
+      <title>OpenWrt or How to give your router steroids</title>
+      <link>https://earvingad.github.io/posts/openwrt/</link>
+      <pubDate>Fri, 06 May 2022 14:14:48 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/openwrt/</guid>
+      <description>The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)
+Yeeeah baby! good soup!
+Have you ever hated your wireless router so much that you wanted to smash it to the wall because it is just a piece of useless shit?</description>
+    </item>
+    
+    <item>
+      <title>Ad Blocking, simple &amp; fast</title>
+      <link>https://earvingad.github.io/posts/adblocking/</link>
+      <pubDate>Wed, 27 Apr 2022 21:24:55 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/adblocking/</guid>
+      <description>We all hate ads.
+According to Wikipedia,
+Ad blocking or ad filtering is a software capability for blocking or altering online advertising in a web browser, an application or a network. This may be done using browser extensions or other methods.
+So you have choices
+I am not going to detail but give the practical and useful information about the fastest and easiest way to block ads
+Browser extensions You need, always, no matter what, a web browser ad block extension.</description>
+    </item>
+    
+    <item>
+      <title>Syncthing</title>
+      <link>https://earvingad.github.io/posts/syncthing/</link>
+      <pubDate>Sun, 24 Apr 2022 18:30:09 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/syncthing/</guid>
+      <description>I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.
+So, Let&amp;#39;s start with the entry:
+Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.</description>
+    </item>
+    
+    <item>
+      <title>Blog with Hugo (and GitHub Pages)</title>
+      <link>https://earvingad.github.io/posts/blogwithhugo/</link>
+      <pubDate>Sun, 03 Jan 2021 19:37:05 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/blogwithhugo/</guid>
+      <description>Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+That&amp;#39;s in the Hugo website and I guess it&amp;#39;s true, since I find it very easy to use to publish this dumb blog when I have the time to.
+Now, Hugo will generate the static site in your PC but how can you make it accessible from the Internet?</description>
+    </item>
+    
+    <item>
+      <title>Orgzly and never lose your notes again</title>
+      <link>https://earvingad.github.io/posts/orgzly/</link>
+      <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/orgzly/</guid>
+      <description>I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.
+Orgzly is an outliner for notes and to-do lists for Android devices! It basically allows you to write notes as in org-mode in Emacs, but in your phone —because you wont be carrying your laptop all day.</description>
+    </item>
+    
+    <item>
+      <title>Org-roam &amp; Windows</title>
+      <link>https://earvingad.github.io/posts/org_roam_windows/</link>
+      <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/org_roam_windows/</guid>
+      <description>Org-roam Org-roam is a note-taking tool for Emacs using Org-mode. It is a replica of RoamResearch: &amp;#34;A note-taking tool for networked thought&amp;#34;. Both are based in the Zettelkasten method, which is described as:
+Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.
+The method was developed by Niklas Luhmann and the literal translation is:
+Zettelkasten = Box of notes.
+In simple words: Org-roam allows you to make connections between your notes, in order to make a more efficient creative/learning process.</description>
+    </item>
+    
+    <item>
+      <title>Org-mode</title>
+      <link>https://earvingad.github.io/posts/org_mode/</link>
+      <pubDate>Sun, 24 May 2020 17:38:08 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/org_mode/</guid>
+      <description>Org-mode is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to GTD). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information. I am going to focus in note taking and export.
+The org file It all starts with a file with a .</description>
+    </item>
+    
+    <item>
+      <title>Doom, Emacs &amp; Windows</title>
+      <link>https://earvingad.github.io/posts/doom_emacs_windows/</link>
+      <pubDate>Fri, 22 May 2020 20:10:08 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/doom_emacs_windows/</guid>
+      <description>Doom-emacs. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.
+As I mentioned in the last post. I started using Emacs at work due to org-mode… and work PC&amp;#39;s use windows behind a Firewall, so using git, pip, melpa and some more are useless in my work desktop (In the Laptop all of them work if I connect to another network, which was what I did).</description>
+    </item>
+    
+    <item>
+      <title>In the Beginning</title>
+      <link>https://earvingad.github.io/posts/in-the-beginning/</link>
+      <pubDate>Wed, 20 May 2020 22:25:18 -0500</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/in-the-beginning/</guid>
+      <description>First things first This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.
+This blog is hosted in github, written in Emacs with org-mode and posted with Hugo (This is one of the topics I&amp;#39;ll be posting later: How to blog with github and Hugo).</description>
+    </item>
+    
+  </channel>
+</rss>

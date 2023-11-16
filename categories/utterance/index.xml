@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>utterance on Nerd things and more...</title>
+    <link>https://earvingad.github.io/categories/utterance/</link>
+    <description>Recent content in utterance on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Nov 2023 11:41:24 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/categories/utterance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable blog comments in GitHub pages with utterance</title>
+      <link>https://earvingad.github.io/posts/blogcommentsutterance/</link>
+      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
+      
+      <guid>https://earvingad.github.io/posts/blogcommentsutterance/</guid>
+      <description>It&amp;#39;s been three years since I started this blog using Hugo and GitHub pages, but I never enabled comments since this blog makes use of static pages, some users commented my posts using github issues and I thought it was a good idea. There were many workarounds to enable comments in github pages, but I wasn&amp;#39;t convinced. Luckily, yesterday I found out about utterances.
+A lightweight comments widget built on GitHub issues.</description>
+    </item>
+    
+  </channel>
+</rss>

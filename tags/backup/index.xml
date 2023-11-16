@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>backup on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/backup/</link>
     <description>Recent content in backup on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>gmail.com (Earving)</managingEditor>
-    <webMaster>gmail.com (Earving)</webMaster>
-    <copyright>If you share, please give credit and support.</copyright>
     <lastBuildDate>Sun, 24 Apr 2022 18:30:09 -0500</lastBuildDate><atom:link href="https://earvingad.github.io/tags/backup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Syncthing</title>
       <link>https://earvingad.github.io/posts/syncthing/</link>
       <pubDate>Sun, 24 Apr 2022 18:30:09 -0500</pubDate>
-      <author>gmail.com (Earving)</author>
+      
       <guid>https://earvingad.github.io/posts/syncthing/</guid>
-      <description>I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.</description>
+      <description>I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.
+So, Let&amp;#39;s start with the entry:
+Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.</description>
     </item>
     
   </channel>

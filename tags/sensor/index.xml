@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>sensor on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/sensor/</link>
     <description>Recent content in sensor on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>gmail.com (Earving)</managingEditor>
-    <webMaster>gmail.com (Earving)</webMaster>
-    <copyright>If you share, please give credit and support.</copyright>
     <lastBuildDate>Sun, 20 Aug 2023 12:58:52 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/sensor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make smart a dumb coffee machine with ESPHome</title>
       <link>https://earvingad.github.io/posts/smartdumbcoffe/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <author>gmail.com (Earving)</author>
+      
       <guid>https://earvingad.github.io/posts/smartdumbcoffe/</guid>
       <description>As a Coffee lover… of course this post had to start that way.
-I have a dumb coffee machine for my morning coffee on my way to work. It is just an on-off coffee machine, the brewing cycle last around 10 min and then it just keeps warm the jar.</description>
+I have a dumb coffee machine for my morning coffee on my way to work. It is just an on-off coffee machine, the brewing cycle last around 10 min and then it just keeps warm the jar. Wouldn&amp;#39;t it be a good idea to make it smart so the coffee will be ready when I wake up?</description>
     </item>
     
   </channel>

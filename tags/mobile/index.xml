@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>mobile on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/mobile/</link>
     <description>Recent content in mobile on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>gmail.com (Earving)</managingEditor>
-    <webMaster>gmail.com (Earving)</webMaster>
-    <copyright>If you share, please give credit and support.</copyright>
     <lastBuildDate>Thu, 11 Jun 2020 22:13:00 -0500</lastBuildDate><atom:link href="https://earvingad.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Orgzly and never lose your notes again</title>
       <link>https://earvingad.github.io/posts/orgzly/</link>
       <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
-      <author>gmail.com (Earving)</author>
+      
       <guid>https://earvingad.github.io/posts/orgzly/</guid>
-      <description>I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.</description>
+      <description>I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.
+Orgzly is an outliner for notes and to-do lists for Android devices! It basically allows you to write notes as in org-mode in Emacs, but in your phone —because you wont be carrying your laptop all day.</description>
     </item>
     
   </channel>

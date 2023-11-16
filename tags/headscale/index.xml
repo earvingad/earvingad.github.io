@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>headscale on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/headscale/</link>
     <description>Recent content in headscale on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>gmail.com (Earving)</managingEditor>
-    <webMaster>gmail.com (Earving)</webMaster>
-    <copyright>If you share, please give credit and support.</copyright>
     <lastBuildDate>Sat, 25 Feb 2023 12:15:56 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/headscale/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Headscale, how to self-host tailscale</title>
       <link>https://earvingad.github.io/posts/headscale/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <author>gmail.com (Earving)</author>
+      
       <guid>https://earvingad.github.io/posts/headscale/</guid>
       <description>Previously, we spoke of how easy is to set a mesh network between your devices with tailscale. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to selfhost this kind of services of their homelab).</description>
     </item>
@@ -23,7 +25,7 @@
       <title>Tailscale, making WireGuard simpler for home networks</title>
       <link>https://earvingad.github.io/posts/tailscale/</link>
       <pubDate>Mon, 06 Jun 2022 19:46:42 -0500</pubDate>
-      <author>gmail.com (Earving)</author>
+      
       <guid>https://earvingad.github.io/posts/tailscale/</guid>
       <description>Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the Tor a hidden friend to SSH your home network entry. However, I recommended to use WireGuard to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.</description>
     </item>
