@@ -2,13 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://earvingad.github.io/categories/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/emacs/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/emacs/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/posts/orgreveal/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/orgmode/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/orgmode/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/posts/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/reveal/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/</loc>
+    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/blog/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/categories/blog/</loc>
-    <lastmod>2023-11-05T11:41:24-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/categories/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/posts/blogcommentsutterance/</loc>
@@ -24,15 +51,6 @@
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/categories/hugo/</loc>
-    <lastmod>2023-11-05T11:41:24-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/</loc>
-    <lastmod>2023-11-05T11:41:24-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/posts/</loc>
-    <lastmod>2023-11-05T11:41:24-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/utterance/</loc>
@@ -221,9 +239,6 @@
     <loc>https://earvingad.github.io/posts/blogwithhugo/</loc>
     <lastmod>2021-01-03T19:37:05-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/emacs/</loc>
-    <lastmod>2021-01-03T19:37:05-06:00</lastmod>
-  </url><url>
     <loc>https://earvingad.github.io/tags/git/</loc>
     <lastmod>2021-01-03T19:37:05-06:00</lastmod>
   </url><url>
@@ -234,12 +249,6 @@
     <lastmod>2020-06-11T22:13:00-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/mobile/</loc>
-    <lastmod>2020-06-11T22:13:00-05:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/orgmode/</loc>
-    <lastmod>2020-06-11T22:13:00-05:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/categories/orgmode/</loc>
     <lastmod>2020-06-11T22:13:00-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/orgzly/</loc>
@@ -268,9 +277,6 @@
   </url><url>
     <loc>https://earvingad.github.io/tags/zettelkasten/</loc>
     <lastmod>2020-05-26T22:18:24-05:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/categories/emacs/</loc>
-    <lastmod>2020-05-24T17:38:08-05:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/posts/org_mode/</loc>
     <lastmod>2020-05-24T17:38:08-05:00</lastmod>

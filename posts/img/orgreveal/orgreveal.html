@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Make elegant presentations with org and reveal</title>
+<meta name="author" content="Earving"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/league.css" id="theme"/>
+
+<link rel="stylesheet" href="./nord.css"/>
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/nord.css"/><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Make elegant presentations with org and reveal</h1><p class="subtitle"></p>
+<h2 class="author">Earving</h2>
+</section>
+<section id="sec-table-of-contents"><div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#/slide-org566b74e">Reveal.js</a></li>
+<li><a href="#/slide-org46ea274">Org-Reveal</a></li>
+<li><a href="#/slide-org9b7bede">Install (in Doom)</a></li>
+<li><a href="#/slide-orgb47f9e1">Extra configuration</a></li>
+<li><a href="#/slide-orgca03bfa">Cool features</a></li>
+<li><a href="#/slide-orgbedf7c8">Final thoughts</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section>
+<section id="slide-org566b74e">
+<h2 id="org566b74e">Reveal.js</h2>
+<p>
+<a href="https://revealjs.com/">Reveal.js</a> <i>is an open source HTML presentation framework. It&rsquo;s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.</i>
+</p>
+
+<p>
+You can either write the presentation with HTML, Markdown or using a plan in <a href="https://slides.com/">Slides</a>, but there is an easier way.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org46ea274">
+<h2 id="org46ea274">Org-Reveal</h2>
+<p>
+<a href="https://github.com/yjwen/org-reveal">Org-Reveal</a> <i>exports your Org documents to reveal.js presentations. With Org-reveal, you can create beautiful presentations with 3D effects from simple but powerful Org contents.</i>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org9b7bede">
+<h2 id="org9b7bede">Install (in Doom)</h2>
+<div class="outline-text-2" id="text-org9b7bede">
+</div>
+</section>
+<section id="slide-orga638b1c">
+<h3 id="orga638b1c">Option 1 (org-re-reveal)</h3>
+<p>
+In Doom emacs just add the <code>+present</code> flag in the <code>:lang</code> section of the <code>init.el</code> file. <b>NOTE:</b> It will install a fork called <code>org-re-reveal</code>
+</p>
+
+<div class="org-src-container">
+
+<pre   ><code class="org" >(org +roam2 +present)               ; organize your plain life in plain text
+</code></pre>
+</div>
+<p>
+Then run <code>doom sync</code> and it will install all the required packages, including reveal.js
+</p>
+</section>
+<section id="slide-org0df95de">
+<h3 id="org0df95de">Option 2 (org-reveal)</h3>
+<p>
+<a href="https://github.com/yjwen/org-reveal#requirements-and-installation">Installation</a> is pretty straight-forward. For Doom emacs add these lines to your <code>packages.el</code>:
+</p>
+<div class="org-src-container">
+
+<pre   ><code class="org" >(package! org-reveal)
+(package! ox-reveal)
+</code></pre>
+</div>
+<p>
+Then add the following to your <code>config.el</code>.
+</p>
+<div class="org-src-container">
+
+<pre   ><code class="org" >(after! org
+  (load-library "ox-reveal"))
+</code></pre>
+</div>
+<p>
+Then run <code>doom sync</code> and it will install all the required packages, including reveal.js
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgb47f9e1">
+<h2 id="orgb47f9e1">Extra configuration</h2>
+<p>
+In short, you are now set to go.
+</p>
+
+<p>
+Write an org document as usual and then export with: <code>SPC m e v b</code> (for the <code>+present</code> flag) or <code>SPC m e R B</code> (for the org-reveal package).
+</p>
+
+<p>
+Some other configuration can be included in the header as:
+</p>
+
+<p>
+ <div class="fragment" data-fragment-index="1">
+</p>
+<ul>
+<li>This wil remove the creation time stamp and limit the table of contents to major.</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre   ><code class="org" >#+OPTIONS: timestamp:nil toc:1 num:nil
+</code></pre>
+</div>
+<p>
+ </div>
+ <div class="fragment" data-fragment-index="2">
+</p>
+<ul>
+<li>Setting the reveal root is not required if you chose Option 1, since doom already downloaded the package locally, but it is useful when publishing online.</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre   ><code class="org" >#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+</code></pre>
+</div>
+<p>
+ </div>
+</p>
+</section>
+<section id="slide-orgb47f9e1-split">
+<ul>
+<li>Set your <a href="https://revealjs.com/themes/">theme</a> preference and include some extra css for personal tunning/config preferences.</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre   ><code class="org" >#+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: ./nord.css
+</code></pre>
+</div>
+<p>
+ <div class="fragment" data-fragment-index="1">
+</p>
+<ul>
+<li>Enable <a href="https://revealjs.com/code/">code highlighting</a> and select your preferred theme. It includes by default Zenburn and Monokai, but you can set yours locally or if available online.</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre   ><code class="org" >#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_HIGHLIGHT_CSS: https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/nord.css
+</code></pre>
+</div>
+<p>
+ </div>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgca03bfa">
+<h2 id="orgca03bfa">Cool features</h2>
+<p>
+By placing the <code>#+ATTR_REVEAL:</code> above the source code/paragraphs/list you can configure how it will be displayed.
+</p>
+
+<p>
+For example, you can add <a href="https://github.com/yjwen/org-reveal#highlight-source-code">code highlight</a> with:
+</p>
+<div class="org-src-container">
+
+<pre   ><code class="org" >#+ATTR_REVEAL: :code_attribs data-line-numbers='1|2|3'
+</code></pre>
+</div>
+
+<div class="org-src-container">
+
+<pre   ><code class="python" data-line-numbers='1|2|3'>farewell = {' Thanks ', ' for ', ' reading. '}
+for word in farewell:
+    print(f'{word:-^50}')
+</code></pre>
+</div>
+</section>
+<section id="slide-org37a1384" data-auto-animate>
+<h3 id="org37a1384">Auto animation</h3>
+<p>
+You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block. For this you need to place <code>:PROPERTIES:</code> block below the header as:
+</p>
+<div class="org-src-container">
+
+<pre   ><code class="org" >** Auto animation
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+</code></pre>
+</div>
+<p>
+And  then the <code>#+ATTR_REVEAL:</code> above the source code:
+</p>
+<div class="org-src-container">
+
+<pre   ><code class="org" >#+ATTR_REVEAL: :code_attribs :data_id example
+</code></pre>
+</div>
+<p>
+See the next example.
+</p>
+</section>
+<section id="slide-org259d64b" data-auto-animate>
+<h3 id="org259d64b">Auto animation</h3>
+<p>
+You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block.
+</p>
+
+<div class="org-src-container">
+
+<pre    data-id="example"><code class="python" >farewell = {' Thanks ', ' for ', ' reading. '}
+</code></pre>
+</div>
+</section>
+<section id="slide-org3691387" data-auto-animate>
+<h3 id="org3691387">Auto animation</h3>
+<p>
+You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block.
+</p>
+
+<div class="org-src-container">
+
+<pre    data-id="example"><code class="python" >farewell = {' Thanks ', ' for ', ' reading. '}
+
+def goodbye(sentence):
+</code></pre>
+</div>
+</section>
+<section id="slide-org9a4defa" data-auto-animate>
+<h3 id="org9a4defa">Auto animation</h3>
+<p>
+You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block.
+</p>
+
+<div class="org-src-container">
+
+<pre    data-id="example"><code class="python" >farewell = {' Thanks ', ' for ', ' reading. '}
+
+def goodbye(sentence):
+    for word in sentence:
+        print(f'{word:-^50}')
+</code></pre>
+</div>
+</section>
+<section id="slide-orgd3e1223" data-auto-animate>
+<h3 id="orgd3e1223">Auto animation</h3>
+<p>
+You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block.
+</p>
+
+<div class="org-src-container">
+
+<pre    data-id="example"><code class="python" >farewell = {' Thanks ', ' for ', ' reading. '}
+
+def goodbye(sentence):
+    for word in sentence:
+        print(f'{word:-^50}')
+
+goodbye(farewell)
+</code></pre>
+</div>
+</section>
+<section id="slide-org1f16420">
+<h3 id="org1f16420">Auto animation with lists</h3>
+<p>
+And there are many styles for <a href="https://github.com/yjwen/org-reveal#list-fragments">fragments</a> that you can use for animation.
+</p>
+<div class="org-src-container">
+
+<pre   ><code class="org" >#+ATTR_REVEAL: :frag (grow shrink roll-in fade-out none highlight-blue) :frag_idx (4 3 2 1 5 6)
+</code></pre>
+</div>
+<ol>
+<li data-fragment-index="4" class="fragment grow">I will grow.</li>
+<li data-fragment-index="3" class="fragment shrink">I will shrink.</li>
+<li data-fragment-index="2" class="fragment roll-in">I rolled in.</li>
+<li data-fragment-index="1" class="fragment fade-out">I will fade out.</li>
+<li>I don&rsquo;t fragment.</li>
+<li data-fragment-index="6" class="fragment highlight-blue">I turn blue</li>
+
+</ol>
+
+<p class="fragment fade-in">
+Paragraphs can also be&#x2026;
+</p>
+<p class="fragment fade-in">
+Fragmented.
+</p>
+</section>
+<section id="slide-orge5ac386">
+<h3 id="orge5ac386">LaTeX equations</h3>
+<p>
+Also you can render LaTeX code directly, although it requires internet connection to <a href="http://mathjax.org/">mathjax</a> or have it installed <a href="https://github.com/yjwen/org-reveal#mathjax">locally</a>.
+</p>
+
+<p>
+This:
+</p>
+<div class="org-src-container">
+
+<pre   ><code class="org" >${n! \over k!(n-k)!} = {n \choose k}$
+</code></pre>
+</div>
+<p>
+will be displayed as:
+</p>
+
+<p class="fragment fade-in">
+\({n! \over k!(n-k)!} = {n \choose k}\)
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgbedf7c8">
+<h2 id="orgbedf7c8">Final thoughts</h2>
+<ul>
+<li>There are many many more things you can do. A lot of <a href="https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware">third party plugins</a>, see how to <a href="https://github.com/yjwen/org-reveal#third-party-plugins">use them here</a>.</li>
+<li>It might still be easier to use the already know presenting alternatives like powerpoint, but for simple things and teaching I find org-reveal very didactic.</li>
+<li>This is also cross platform, the produced html file can work on any webbrowser.</li>
+<li>There are another alternatives, but I am too tired to write about them right now. I&rsquo;ll leave it to you.</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealHighlight]
+});
+
+</script>
+</body>
+</html>
