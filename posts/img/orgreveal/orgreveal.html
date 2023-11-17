@@ -3,42 +3,53 @@
 <head>
 <meta charset="utf-8"/>
 <title>Make elegant presentations with org and reveal</title>
-<meta name="author" content="Earving"/>
+<meta name="author" content="earvingad"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+<link rel="stylesheet" href="/home/earving/.config/emacs/.local/straight/build-29.1/revealjs/dist/reveal.css"/>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/league.css" id="theme"/>
+<link rel="stylesheet" href="/home/earving/.config/emacs/.local/straight/build-29.1/revealjs/dist/theme/league.css" id="theme"/>
 
 <link rel="stylesheet" href="./nord.css"/>
-<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/nord.css"/><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/nord.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '/home/earving/.config/emacs/.local/straight/build-29.1/revealjs/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 <body>
 <div class="reveal">
 <div class="slides">
 <section id="sec-title-slide"><h1 class="title">Make elegant presentations with org and reveal</h1><p class="subtitle"></p>
-<h2 class="author">Earving</h2>
+<h2 class="author">earvingad</h2>
 </section>
 <section id="sec-table-of-contents"><div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#/slide-org566b74e">Reveal.js</a></li>
-<li><a href="#/slide-org46ea274">Org-Reveal</a></li>
-<li><a href="#/slide-org9b7bede">Install (in Doom)</a></li>
-<li><a href="#/slide-orgb47f9e1">Extra configuration</a></li>
-<li><a href="#/slide-orgca03bfa">Cool features</a></li>
-<li><a href="#/slide-orgbedf7c8">Final thoughts</a></li>
+<li><a href="#/slide-orgfec49c8">Reveal.js</a></li>
+<li><a href="#/slide-org8a87635">Org-Reveal</a></li>
+<li><a href="#/slide-org217dc16">Install (in Doom)</a></li>
+<li><a href="#/slide-org0488d9f">Extra configuration</a></li>
+<li><a href="#/slide-org0479bec">Cool features</a></li>
+<li><a href="#/slide-org29f4a0f">Final thoughts</a></li>
 </ul>
 </div>
 </div>
 </section>
 <section>
-<section id="slide-org566b74e">
-<h2 id="org566b74e">Reveal.js</h2>
+<section id="slide-orgfec49c8">
+<h2 id="orgfec49c8">Reveal.js</h2>
 <p>
 <a href="https://revealjs.com/">Reveal.js</a> <i>is an open source HTML presentation framework. It&rsquo;s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.</i>
 </p>
@@ -49,21 +60,21 @@ You can either write the presentation with HTML, Markdown or using a plan in <a 
 </section>
 </section>
 <section>
-<section id="slide-org46ea274">
-<h2 id="org46ea274">Org-Reveal</h2>
+<section id="slide-org8a87635">
+<h2 id="org8a87635">Org-Reveal</h2>
 <p>
 <a href="https://github.com/yjwen/org-reveal">Org-Reveal</a> <i>exports your Org documents to reveal.js presentations. With Org-reveal, you can create beautiful presentations with 3D effects from simple but powerful Org contents.</i>
 </p>
 </section>
 </section>
 <section>
-<section id="slide-org9b7bede">
-<h2 id="org9b7bede">Install (in Doom)</h2>
-<div class="outline-text-2" id="text-org9b7bede">
+<section id="slide-org217dc16">
+<h2 id="org217dc16">Install (in Doom)</h2>
+<div class="outline-text-2" id="text-org217dc16">
 </div>
 </section>
-<section id="slide-orga638b1c">
-<h3 id="orga638b1c">Option 1 (org-re-reveal)</h3>
+<section id="slide-org97ab076">
+<h3 id="org97ab076">Option 1 (org-re-reveal)</h3>
 <p>
 In Doom emacs just add the <code>+present</code> flag in the <code>:lang</code> section of the <code>init.el</code> file. <b>NOTE:</b> It will install a fork called <code>org-re-reveal</code>
 </p>
@@ -77,8 +88,8 @@ In Doom emacs just add the <code>+present</code> flag in the <code>:lang</code> 
 Then run <code>doom sync</code> and it will install all the required packages, including reveal.js
 </p>
 </section>
-<section id="slide-org0df95de">
-<h3 id="org0df95de">Option 2 (org-reveal)</h3>
+<section id="slide-orgba5b24a">
+<h3 id="orgba5b24a">Option 2 (org-reveal)</h3>
 <p>
 <a href="https://github.com/yjwen/org-reveal#requirements-and-installation">Installation</a> is pretty straight-forward. For Doom emacs add these lines to your <code>packages.el</code>:
 </p>
@@ -103,8 +114,8 @@ Then run <code>doom sync</code> and it will install all the required packages, i
 </section>
 </section>
 <section>
-<section id="slide-orgb47f9e1">
-<h2 id="orgb47f9e1">Extra configuration</h2>
+<section id="slide-org0488d9f">
+<h2 id="org0488d9f">Extra configuration</h2>
 <p>
 In short, you are now set to go.
 </p>
@@ -146,7 +157,7 @@ Some other configuration can be included in the header as:
  </div>
 </p>
 </section>
-<section id="slide-orgb47f9e1-split">
+<section id="slide-org0488d9f-split">
 <ul>
 <li>Set your <a href="https://revealjs.com/themes/">theme</a> preference and include some extra css for personal tunning/config preferences.</li>
 
@@ -176,8 +187,8 @@ Some other configuration can be included in the header as:
 </section>
 </section>
 <section>
-<section id="slide-orgca03bfa">
-<h2 id="orgca03bfa">Cool features</h2>
+<section id="slide-org0479bec">
+<h2 id="org0479bec">Cool features</h2>
 <p>
 By placing the <code>#+ATTR_REVEAL:</code> above the source code/paragraphs/list you can configure how it will be displayed.
 </p>
@@ -199,8 +210,8 @@ for word in farewell:
 </code></pre>
 </div>
 </section>
-<section id="slide-org37a1384" data-auto-animate>
-<h3 id="org37a1384">Auto animation</h3>
+<section id="slide-orgebcb300" data-auto-animate>
+<h3 id="orgebcb300">Auto animation</h3>
 <p>
 You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block. For this you need to place <code>:PROPERTIES:</code> block below the header as:
 </p>
@@ -224,8 +235,8 @@ And  then the <code>#+ATTR_REVEAL:</code> above the source code:
 See the next example.
 </p>
 </section>
-<section id="slide-org259d64b" data-auto-animate>
-<h3 id="org259d64b">Auto animation</h3>
+<section id="slide-org9079c22" data-auto-animate>
+<h3 id="org9079c22">Auto animation</h3>
 <p>
 You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block.
 </p>
@@ -236,8 +247,8 @@ You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation
 </code></pre>
 </div>
 </section>
-<section id="slide-org3691387" data-auto-animate>
-<h3 id="org3691387">Auto animation</h3>
+<section id="slide-org72a0338" data-auto-animate>
+<h3 id="org72a0338">Auto animation</h3>
 <p>
 You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block.
 </p>
@@ -250,8 +261,8 @@ def goodbye(sentence):
 </code></pre>
 </div>
 </section>
-<section id="slide-org9a4defa" data-auto-animate>
-<h3 id="org9a4defa">Auto animation</h3>
+<section id="slide-org6a3d2f9" data-auto-animate>
+<h3 id="org6a3d2f9">Auto animation</h3>
 <p>
 You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block.
 </p>
@@ -266,8 +277,8 @@ def goodbye(sentence):
 </code></pre>
 </div>
 </section>
-<section id="slide-orgd3e1223" data-auto-animate>
-<h3 id="orgd3e1223">Auto animation</h3>
+<section id="slide-org04d13ec" data-auto-animate>
+<h3 id="org04d13ec">Auto animation</h3>
 <p>
 You can add <a href="https://github.com/yjwen/org-reveal#auto-animate">animation</a> to the code block.
 </p>
@@ -284,8 +295,8 @@ goodbye(farewell)
 </code></pre>
 </div>
 </section>
-<section id="slide-org1f16420">
-<h3 id="org1f16420">Auto animation with lists</h3>
+<section id="slide-org700ed96">
+<h3 id="org700ed96">Auto animation with lists</h3>
 <p>
 And there are many styles for <a href="https://github.com/yjwen/org-reveal#list-fragments">fragments</a> that you can use for animation.
 </p>
@@ -311,8 +322,8 @@ Paragraphs can also be&#x2026;
 Fragmented.
 </p>
 </section>
-<section id="slide-orge5ac386">
-<h3 id="orge5ac386">LaTeX equations</h3>
+<section id="slide-org2ef9472">
+<h3 id="org2ef9472">LaTeX equations</h3>
 <p>
 Also you can render LaTeX code directly, although it requires internet connection to <a href="http://mathjax.org/">mathjax</a> or have it installed <a href="https://github.com/yjwen/org-reveal#mathjax">locally</a>.
 </p>
@@ -335,8 +346,8 @@ will be displayed as:
 </section>
 </section>
 <section>
-<section id="slide-orgbedf7c8">
-<h2 id="orgbedf7c8">Final thoughts</h2>
+<section id="slide-org29f4a0f">
+<h2 id="org29f4a0f">Final thoughts</h2>
 <ul>
 <li>There are many many more things you can do. A lot of <a href="https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware">third party plugins</a>, see how to <a href="https://github.com/yjwen/org-reveal#third-party-plugins">use them here</a>.</li>
 <li>It might still be easier to use the already know presenting alternatives like powerpoint, but for simple things and teaching I find org-reveal very didactic.</li>
@@ -348,8 +359,8 @@ will be displayed as:
 </section>
 </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+<script src="/home/earving/.config/emacs/.local/straight/build-29.1/revealjs/dist/reveal.js"></script>
+<script src="/home/earving/.config/emacs/.local/straight/build-29.1/revealjs/plugin/highlight/highlight.js"></script>
 
 
 <script>
