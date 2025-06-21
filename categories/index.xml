@@ -9,143 +9,121 @@
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Nov 2023 19:00:25 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jun 2025 14:33:20 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>emacs</title>
-      <link>https://earvingad.github.io/categories/emacs/</link>
-      <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      
-      <guid>https://earvingad.github.io/categories/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>orgmode</title>
-      <link>https://earvingad.github.io/categories/orgmode/</link>
-      <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      
-      <guid>https://earvingad.github.io/categories/orgmode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://earvingad.github.io/categories/blog/</link>
-      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      
-      <guid>https://earvingad.github.io/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://earvingad.github.io/categories/github/</link>
-      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      
-      <guid>https://earvingad.github.io/categories/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://earvingad.github.io/categories/hugo/</link>
-      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      
-      <guid>https://earvingad.github.io/categories/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>utterance</title>
-      <link>https://earvingad.github.io/categories/utterance/</link>
-      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      
-      <guid>https://earvingad.github.io/categories/utterance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://earvingad.github.io/categories/programming/</link>
-      <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
-      
-      <guid>https://earvingad.github.io/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://earvingad.github.io/categories/python/</link>
-      <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
-      
-      <guid>https://earvingad.github.io/categories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>homeassistant</title>
-      <link>https://earvingad.github.io/categories/homeassistant/</link>
-      <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      
-      <guid>https://earvingad.github.io/categories/homeassistant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>homelab</title>
+      <title>Homelab</title>
       <link>https://earvingad.github.io/categories/homelab/</link>
-      <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      
+      <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
       <guid>https://earvingad.github.io/categories/homelab/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>smarthome</title>
+      <title>Server</title>
+      <link>https://earvingad.github.io/categories/server/</link>
+      <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emacs</title>
+      <link>https://earvingad.github.io/categories/emacs/</link>
+      <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/emacs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orgmode</title>
+      <link>https://earvingad.github.io/categories/orgmode/</link>
+      <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/orgmode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://earvingad.github.io/categories/blog/</link>
+      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://earvingad.github.io/categories/github/</link>
+      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://earvingad.github.io/categories/hugo/</link>
+      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Utterance</title>
+      <link>https://earvingad.github.io/categories/utterance/</link>
+      <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/utterance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://earvingad.github.io/categories/programming/</link>
+      <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://earvingad.github.io/categories/python/</link>
+      <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homeassistant</title>
+      <link>https://earvingad.github.io/categories/homeassistant/</link>
+      <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/homeassistant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smarthome</title>
       <link>https://earvingad.github.io/categories/smarthome/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/categories/smarthome/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OpenWrt</title>
       <link>https://earvingad.github.io/categories/openwrt/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/categories/openwrt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>roam</title>
+      <title>Roam</title>
       <link>https://earvingad.github.io/categories/roam/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/categories/roam/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>windows</title>
+      <title>Windows</title>
       <link>https://earvingad.github.io/categories/windows/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/categories/windows/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DoomEmacs</title>
       <link>https://earvingad.github.io/categories/doomemacs/</link>
       <pubDate>Fri, 22 May 2020 20:10:08 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/categories/doomemacs/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

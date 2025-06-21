@@ -1,51 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>orgmode on Nerd things and more...</title>
+    <title>Orgmode on Nerd things and more...</title>
     <link>https://earvingad.github.io/categories/orgmode/</link>
-    <description>Recent content in orgmode on Nerd things and more...</description>
+    <description>Recent content in Orgmode on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Nov 2023 19:00:25 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/categories/orgmode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Nov 2023 19:00:25 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/categories/orgmode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make elegant presentations with org and reveal</title>
       <link>https://earvingad.github.io/posts/orgreveal/</link>
       <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/orgreveal/</guid>
-      <description>Please see the presentation version of this post
-Reveal.js is an open source HTML presentation framework. It&amp;#39;s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.
-You can either write the presentation with HTML, Markdown or using a plan in Slides, but there is an easier way.
-Org-Reveal Org-Reveal exports your Org documents to reveal.js presentations. With Org-reveal, you can create beautiful presentations with 3D effects from simple but powerful Org contents.</description>
+      <description>&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;Please see the &lt;a href=&#34;https://earvingad.github.io/posts/img/orgreveal/orgreveal.html&#34;&gt;presentation version of this post&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://revealjs.com/&#34;&gt;Reveal.js&lt;/a&gt; &lt;em&gt;is an open source HTML presentation framework. It&amp;#39;s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+You can either write the presentation with HTML, Markdown or using a plan in &lt;a href=&#34;https://slides.com/&#34;&gt;Slides&lt;/a&gt;, but there is an easier way.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Org-Reveal
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yjwen/org-reveal&#34;&gt;Org-Reveal&lt;/a&gt; &lt;em&gt;exports your Org documents to reveal.js presentations. With Org-reveal, you can create beautiful presentations with 3D effects from simple but powerful Org contents.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Orgzly and never lose your notes again</title>
       <link>https://earvingad.github.io/posts/orgzly/</link>
       <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/orgzly/</guid>
-      <description>I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.
-Orgzly is an outliner for notes and to-do lists for Android devices! It basically allows you to write notes as in org-mode in Emacs, but in your phone —because you wont be carrying your laptop all day.</description>
+      <description>&lt;p&gt;
+I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.orgzly.com/&#34;&gt;Orgzly&lt;/a&gt; is an &lt;em&gt;outliner for notes and to-do lists&lt;/em&gt; for Android devices! It basically allows you to write notes as in &lt;a href=&#34;https://earvingad.github.io/posts/org_mode/&#34;&gt;org-mode&lt;/a&gt; in Emacs, but in your phone —because you wont be carrying your laptop all day.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Org-roam &amp; Windows</title>
       <link>https://earvingad.github.io/posts/org_roam_windows/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/org_roam_windows/</guid>
-      <description>Org-roam Org-roam is a note-taking tool for Emacs using Org-mode. It is a replica of RoamResearch: &amp;#34;A note-taking tool for networked thought&amp;#34;. Both are based in the Zettelkasten method, which is described as:
-Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.
-The method was developed by Niklas Luhmann and the literal translation is:
-Zettelkasten = Box of notes.
-In simple words: Org-roam allows you to make connections between your notes, in order to make a more efficient creative/learning process.</description>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Org-roam
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://org-roam.readthedocs.io/&#34;&gt;Org-roam&lt;/a&gt; is a note-taking tool for Emacs using Org-mode. It is a replica of &lt;a href=&#34;https://roamresearch.com/&#34;&gt;RoamResearch&lt;/a&gt;: &amp;#34;&lt;em&gt;A note-taking tool for networked thought&lt;/em&gt;&amp;#34;. Both are based in the Zettelkasten method, which is described as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The method was developed by Niklas Luhmann and the literal translation is:&lt;/p&gt;
+&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;Zettelkasten = &lt;em&gt;Box of notes&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In simple words: Org-roam allows you to make connections between your notes, in order to make a more efficient creative/learning process.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

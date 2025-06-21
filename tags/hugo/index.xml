@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>hugo on Nerd things and more...</title>
+    <title>Hugo on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on Nerd things and more...</description>
+    <description>Recent content in Hugo on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Nov 2023 11:41:24 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Nov 2023 11:41:24 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enable blog comments in GitHub pages with utterance</title>
       <link>https://earvingad.github.io/posts/blogcommentsutterance/</link>
       <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/blogcommentsutterance/</guid>
-      <description>It&amp;#39;s been three years since I started this blog using Hugo and GitHub pages, but I never enabled comments since this blog makes use of static pages, some users commented my posts using github issues and I thought it was a good idea. There were many workarounds to enable comments in github pages, but I wasn&amp;#39;t convinced. Luckily, yesterday I found out about utterances.
-A lightweight comments widget built on GitHub issues.</description>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://avatars3.githubusercontent.com/u/27908738?v=3&amp;amp;s=88&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s been three years since I started this blog using &lt;a href=&#34;https://earvingad.github.io/posts/blogwithhugo/&#34;&gt;Hugo and GitHub pages&lt;/a&gt;, but I never enabled comments since this blog makes use of static pages, some users commented my posts using github issues and I thought it was a good idea. There were many workarounds to enable comments in github pages, but I wasn&amp;#39;t convinced. Luckily, yesterday I found out about &lt;a href=&#34;https://utteranc.es/&#34;&gt;utterances&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A lightweight comments widget built on GitHub issues. Use GitHub issues for blog comments, wiki pages and more!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Blog with Hugo (and GitHub Pages)</title>
       <link>https://earvingad.github.io/posts/blogwithhugo/</link>
       <pubDate>Sun, 03 Jan 2021 19:37:05 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/blogwithhugo/</guid>
-      <description>Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
-That&amp;#39;s in the Hugo website and I guess it&amp;#39;s true, since I find it very easy to use to publish this dumb blog when I have the time to.
-Now, Hugo will generate the static site in your PC but how can you make it accessible from the Internet?</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That&amp;#39;s in the Hugo website and I guess it&amp;#39;s true, since I find it very easy to use to publish this dumb blog when I have the time to.&lt;/p&gt;
+&lt;p&gt;
+Now, Hugo will generate the static site in your PC but how can you make it accessible from the Internet? Well… GitHub Pages is the savior.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>In the Beginning</title>
       <link>https://earvingad.github.io/posts/in-the-beginning/</link>
       <pubDate>Wed, 20 May 2020 22:25:18 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/in-the-beginning/</guid>
-      <description>First things first This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.
-This blog is hosted in github, written in Emacs with org-mode and posted with Hugo (This is one of the topics I&amp;#39;ll be posting later: How to blog with github and Hugo).</description>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+First things first
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people.
+Such things include: &lt;code class=&#34;verbatim&#34;&gt;Emacs, linux, vim, encryption&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;a e s t h e t i c s&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+This blog is hosted in &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt;, written in &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; with &lt;a href=&#34;https://orgmode.org/&#34;&gt;org-mode&lt;/a&gt; and posted with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; (This is one of the topics I&amp;#39;ll be posting later: &lt;em&gt;How to blog with github and Hugo&lt;/em&gt;).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

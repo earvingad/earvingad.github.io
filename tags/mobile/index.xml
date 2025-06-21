@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mobile on Nerd things and more...</title>
+    <title>Mobile on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/mobile/</link>
-    <description>Recent content in mobile on Nerd things and more...</description>
+    <description>Recent content in Mobile on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2020 22:13:00 -0500</lastBuildDate><atom:link href="https://earvingad.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jun 2020 22:13:00 -0500</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Orgzly and never lose your notes again</title>
       <link>https://earvingad.github.io/posts/orgzly/</link>
       <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/orgzly/</guid>
-      <description>I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.
-Orgzly is an outliner for notes and to-do lists for Android devices! It basically allows you to write notes as in org-mode in Emacs, but in your phone —because you wont be carrying your laptop all day.</description>
+      <description>&lt;p&gt;
+I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.orgzly.com/&#34;&gt;Orgzly&lt;/a&gt; is an &lt;em&gt;outliner for notes and to-do lists&lt;/em&gt; for Android devices! It basically allows you to write notes as in &lt;a href=&#34;https://earvingad.github.io/posts/org_mode/&#34;&gt;org-mode&lt;/a&gt; in Emacs, but in your phone —because you wont be carrying your laptop all day.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

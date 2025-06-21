@@ -1,48 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>remote on Nerd things and more...</title>
+    <title>Remote on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/remote/</link>
-    <description>Recent content in remote on Nerd things and more...</description>
+    <description>Recent content in Remote on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Jul 2023 12:13:58 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/remote/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jul 2023 12:13:58 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/remote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IoT devices, local control</title>
       <link>https://earvingad.github.io/posts/esphometasmota/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
-      <description>If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally.</description>
+      <description>&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Home-Assistant, being lazy at home</title>
       <link>https://earvingad.github.io/posts/homeassistant/</link>
       <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/homeassistant/</guid>
-      <description>Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
-HomeAssistant is basically an OS (?) where you can add all the IoT devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;em&gt;Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_things&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;IoT&lt;/span&gt;&lt;/a&gt; devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events. I will just cover the basics.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DuckDNS, forget your ip</title>
       <link>https://earvingad.github.io/posts/duckdns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/duckdns/</guid>
-      <description>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
-In other words, you can create:
-yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org
-that will point to the ip of your homelab or VPS.
-Why? Well, I already wrote about how to access remotely to your homelab using the Tor network. Also how it can be simplified using Tailscale and to avoid sending data to tailscale servers you could use headscale to selfhost.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.duckdns.org/img/ducky_icon.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;em&gt;Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+In other words, you can create:&lt;/p&gt;
+&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;that will point to the ip of your homelab or VPS.&lt;/p&gt;
+&lt;p&gt;
+Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

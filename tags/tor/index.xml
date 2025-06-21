@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tor on Nerd things and more...</title>
+    <title>Tor on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/tor/</link>
-    <description>Recent content in tor on Nerd things and more...</description>
+    <description>Recent content in Tor on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 May 2022 18:55:17 -0500</lastBuildDate><atom:link href="https://earvingad.github.io/tags/tor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 18:55:17 -0500</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/tor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tor a hidden friend to SSH your home network</title>
       <link>https://earvingad.github.io/posts/torssh/</link>
       <pubDate>Sun, 22 May 2022 18:55:17 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/torssh/</guid>
-      <description>You might had heard of the Dark web or the Deep web, well the first one is just a small part of the latter. The Dark web is populated with darknets which is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization.
-These darknets can be small peer-to-peer networks or large as the I2P Anonymous Network, Freenet and the most popular Tor Project.</description>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.torproject.org/static/images/tor-project-logo-onions.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+You might had heard of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dark_web&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Dark web&lt;/span&gt;&lt;/a&gt; or the &lt;a href=&#34;https://en.wikipedia.org/wiki/Deep_web&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Deep web&lt;/span&gt;&lt;/a&gt;, well the first one is just a small part of the latter. The Dark web is populated with darknets which &lt;em&gt;is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;
+These darknets can be small peer-to-peer networks or large as the &lt;a href=&#34;https://geti2p.net/en/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;I2P Anonymous Network&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://freenetproject.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Freenet&lt;/span&gt;&lt;/a&gt; and the most popular &lt;a href=&#34;https://www.torproject.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tor Project&lt;/span&gt;&lt;/a&gt;. In this case, we will focus in the Tor network and how to use it to connect to your home network for remote control.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

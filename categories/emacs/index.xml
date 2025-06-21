@@ -1,38 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>emacs on Nerd things and more...</title>
+    <title>Emacs on Nerd things and more...</title>
     <link>https://earvingad.github.io/categories/emacs/</link>
-    <description>Recent content in emacs on Nerd things and more...</description>
+    <description>Recent content in Emacs on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Nov 2023 19:00:25 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Nov 2023 19:00:25 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make elegant presentations with org and reveal</title>
       <link>https://earvingad.github.io/posts/orgreveal/</link>
       <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/orgreveal/</guid>
-      <description>Please see the presentation version of this post
-Reveal.js is an open source HTML presentation framework. It&amp;#39;s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.
-You can either write the presentation with HTML, Markdown or using a plan in Slides, but there is an easier way.
-Org-Reveal Org-Reveal exports your Org documents to reveal.js presentations. With Org-reveal, you can create beautiful presentations with 3D effects from simple but powerful Org contents.</description>
+      <description>&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;Please see the &lt;a href=&#34;https://earvingad.github.io/posts/img/orgreveal/orgreveal.html&#34;&gt;presentation version of this post&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://revealjs.com/&#34;&gt;Reveal.js&lt;/a&gt; &lt;em&gt;is an open source HTML presentation framework. It&amp;#39;s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+You can either write the presentation with HTML, Markdown or using a plan in &lt;a href=&#34;https://slides.com/&#34;&gt;Slides&lt;/a&gt;, but there is an easier way.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Org-Reveal
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yjwen/org-reveal&#34;&gt;Org-Reveal&lt;/a&gt; &lt;em&gt;exports your Org documents to reveal.js presentations. With Org-reveal, you can create beautiful presentations with 3D effects from simple but powerful Org contents.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Org-mode</title>
       <link>https://earvingad.github.io/posts/org_mode/</link>
       <pubDate>Sun, 24 May 2020 17:38:08 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/org_mode/</guid>
-      <description>Org-mode is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to GTD). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information. I am going to focus in note taking and export.
-The org file It all starts with a file with a .</description>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://orgmode.org/&#34;&gt;Org-mode&lt;/a&gt; is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to &lt;a href=&#34;https://en.wikipedia.org/wiki/Getting_Things_Done&#34;&gt;GTD&lt;/a&gt;). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information. I am going to focus in note taking and export.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+The org file
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;It all starts with a file with a &lt;code class=&#34;verbatim&#34;&gt;.org&lt;/code&gt; extension. Create one in Doomemacs with &lt;code class=&#34;verbatim&#34;&gt;SPC .&lt;/code&gt; and name it &amp;#34;myfile.org&amp;#34;. By default a template should fill the title like:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

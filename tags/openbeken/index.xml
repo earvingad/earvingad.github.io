@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>openbeken on Nerd things and more...</title>
+    <title>Openbeken on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/openbeken/</link>
-    <description>Recent content in openbeken on Nerd things and more...</description>
+    <description>Recent content in Openbeken on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Jul 2023 12:13:58 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/openbeken/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jul 2023 12:13:58 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/openbeken/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IoT devices, local control</title>
       <link>https://earvingad.github.io/posts/esphometasmota/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
-      <description>If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally.</description>
+      <description>&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

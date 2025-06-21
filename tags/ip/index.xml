@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ip on Nerd things and more...</title>
+    <title>Ip on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/ip/</link>
-    <description>Recent content in ip on Nerd things and more...</description>
+    <description>Recent content in Ip on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Feb 2023 20:51:55 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/ip/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 20:51:55 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/ip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DuckDNS, forget your ip</title>
       <link>https://earvingad.github.io/posts/duckdns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/duckdns/</guid>
-      <description>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
-In other words, you can create:
-yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org
-that will point to the ip of your homelab or VPS.
-Why? Well, I already wrote about how to access remotely to your homelab using the Tor network. Also how it can be simplified using Tailscale and to avoid sending data to tailscale servers you could use headscale to selfhost.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.duckdns.org/img/ducky_icon.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;em&gt;Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+In other words, you can create:&lt;/p&gt;
+&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;that will point to the ip of your homelab or VPS.&lt;/p&gt;
+&lt;p&gt;
+Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

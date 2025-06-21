@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>homeassistant on Nerd things and more...</title>
+    <title>Homeassistant on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/homeassistant/</link>
-    <description>Recent content in homeassistant on Nerd things and more...</description>
+    <description>Recent content in Homeassistant on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Aug 2023 12:58:52 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/homeassistant/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 12:58:52 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/homeassistant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make smart a dumb coffee machine with ESPHome</title>
       <link>https://earvingad.github.io/posts/smartdumbcoffe/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/smartdumbcoffe/</guid>
-      <description>As a Coffee lover… of course this post had to start that way.
-I have a dumb coffee machine for my morning coffee on my way to work. It is just an on-off coffee machine, the brewing cycle last around 10 min and then it just keeps warm the jar. Wouldn&amp;#39;t it be a good idea to make it smart so the coffee will be ready when I wake up?</description>
+      <description>&lt;p&gt;
+&lt;em&gt;As a Coffee lover…&lt;/em&gt; of course this post had to start that way.&lt;/p&gt;
+&lt;p&gt;
+I have a dumb coffee machine for my morning coffee on my way to work. It is just an on-off coffee machine, the brewing cycle last around 10 min and then it just keeps warm the jar. Wouldn&amp;#39;t it be a good idea to make it smart so the coffee will be ready when I wake up?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sonoff mini r2, my screw up and repair</title>
       <link>https://earvingad.github.io/posts/sonoffminir2repair/</link>
       <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/sonoffminir2repair/</guid>
-      <description>I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…</description>
+      <description>&lt;p&gt;I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>IoT devices, local control</title>
       <link>https://earvingad.github.io/posts/esphometasmota/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
-      <description>If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally.</description>
+      <description>&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Home-Assistant, being lazy at home</title>
       <link>https://earvingad.github.io/posts/homeassistant/</link>
       <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/homeassistant/</guid>
-      <description>Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
-HomeAssistant is basically an OS (?) where you can add all the IoT devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;em&gt;Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_things&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;IoT&lt;/span&gt;&lt;/a&gt; devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events. I will just cover the basics.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

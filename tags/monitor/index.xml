@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>monitor on Nerd things and more...</title>
+    <title>Monitor on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/monitor/</link>
-    <description>Recent content in monitor on Nerd things and more...</description>
+    <description>Recent content in Monitor on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Sep 2022 13:06:12 -0500</lastBuildDate><atom:link href="https://earvingad.github.io/tags/monitor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 13:06:12 -0500</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/monitor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netdata, real-time server monitoring</title>
       <link>https://earvingad.github.io/posts/netdata/</link>
       <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/netdata/</guid>
-      <description>If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.
-There are plenty of options: monit, monitorix, munin, Netdata and Grafana (coupled with one data collector like: collectd, influxdb, Graphite or Prometheus)
-Despite Grafana is one of the most popular choices, I decided to use Netdata, since it is pre-configured out of the box and it does both collect data and create graphs displayed through a http server.</description>
+      <description>&lt;p&gt;
+If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.&lt;/p&gt;
+&lt;p&gt;
+There are plenty of options: &lt;a href=&#34;https://mmonit.com/monit/&#34;&gt;monit&lt;/a&gt;, &lt;a href=&#34;https://www.monitorix.org/&#34;&gt;monitorix&lt;/a&gt;, &lt;a href=&#34;https://munin-monitoring.org/&#34;&gt;munin&lt;/a&gt;, &lt;a href=&#34;https://github.com/netdata/netdata&#34;&gt;Netdata&lt;/a&gt; and &lt;a href=&#34;https://grafana.com&#34;&gt;Grafana&lt;/a&gt; (coupled with one data collector like: &lt;a href=&#34;https://collectd.org/&#34;&gt;collectd&lt;/a&gt;, &lt;a href=&#34;https://github.com/influxdata/influxdb&#34;&gt;influxdb&lt;/a&gt;, &lt;a href=&#34;https://graphiteapp.org/&#34;&gt;Graphite&lt;/a&gt; or &lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;
+Despite Grafana is one of the most popular choices, I decided to use Netdata, since it is pre-configured out of the box and it does both collect data and create graphs displayed through a http server. It is lightweight that will only require 1% CPU usage and around 12 MiB of RAM (at least in my OpenWrt router). Munin is my second choice, but decided to go with Netdata just because it just worked fine after install without too much hassle to configure.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

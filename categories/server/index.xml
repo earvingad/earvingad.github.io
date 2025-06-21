@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Server on Nerd things and more...</title>
+    <link>https://earvingad.github.io/categories/server/</link>
+    <description>Recent content in Server on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Jun 2025 14:33:20 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Folder share from Proxmox to LXC, for Samba</title>
+      <link>https://earvingad.github.io/posts/nas_share_proxmox/</link>
+      <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/nas_share_proxmox/</guid>
+      <description>&lt;p&gt;
+Since I installed Proxmox for my small home server, I struggled a bit with nas shares due to user ownership and permissions, but after searching a bit I encountered a tutorial (I can remember where) to do it easily. So, before I forget it I will write here how I nailed it.&lt;/p&gt;
+&lt;p&gt;
+It works to share a mountpoint from Proxmox to the LXCs, so if you have an ssd/hdd in that directory, it will share the whole disk.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

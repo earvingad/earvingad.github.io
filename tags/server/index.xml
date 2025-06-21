@@ -1,50 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>server on Nerd things and more...</title>
+    <title>Server on Nerd things and more...</title>
     <link>https://earvingad.github.io/tags/server/</link>
-    <description>Recent content in server on Nerd things and more...</description>
+    <description>Recent content in Server on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Jul 2023 12:52:44 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jun 2025 14:33:20 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Folder share from Proxmox to LXC, for Samba</title>
+      <link>https://earvingad.github.io/posts/nas_share_proxmox/</link>
+      <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/nas_share_proxmox/</guid>
+      <description>&lt;p&gt;
+Since I installed Proxmox for my small home server, I struggled a bit with nas shares due to user ownership and permissions, but after searching a bit I encountered a tutorial (I can remember where) to do it easily. So, before I forget it I will write here how I nailed it.&lt;/p&gt;
+&lt;p&gt;
+It works to share a mountpoint from Proxmox to the LXCs, so if you have an ssd/hdd in that directory, it will share the whole disk.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Home-Assistant, being lazy at home</title>
       <link>https://earvingad.github.io/posts/homeassistant/</link>
       <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/homeassistant/</guid>
-      <description>Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
-HomeAssistant is basically an OS (?) where you can add all the IoT devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;em&gt;Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_things&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;IoT&lt;/span&gt;&lt;/a&gt; devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events. I will just cover the basics.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DuckDNS, forget your ip</title>
       <link>https://earvingad.github.io/posts/duckdns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/duckdns/</guid>
-      <description>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
-In other words, you can create:
-yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org
-that will point to the ip of your homelab or VPS.
-Why? Well, I already wrote about how to access remotely to your homelab using the Tor network. Also how it can be simplified using Tailscale and to avoid sending data to tailscale servers you could use headscale to selfhost.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.duckdns.org/img/ducky_icon.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;em&gt;Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+In other words, you can create:&lt;/p&gt;
+&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;that will point to the ip of your homelab or VPS.&lt;/p&gt;
+&lt;p&gt;
+Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Netdata, real-time server monitoring</title>
       <link>https://earvingad.github.io/posts/netdata/</link>
       <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/netdata/</guid>
-      <description>If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.
-There are plenty of options: monit, monitorix, munin, Netdata and Grafana (coupled with one data collector like: collectd, influxdb, Graphite or Prometheus)
-Despite Grafana is one of the most popular choices, I decided to use Netdata, since it is pre-configured out of the box and it does both collect data and create graphs displayed through a http server.</description>
+      <description>&lt;p&gt;
+If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.&lt;/p&gt;
+&lt;p&gt;
+There are plenty of options: &lt;a href=&#34;https://mmonit.com/monit/&#34;&gt;monit&lt;/a&gt;, &lt;a href=&#34;https://www.monitorix.org/&#34;&gt;monitorix&lt;/a&gt;, &lt;a href=&#34;https://munin-monitoring.org/&#34;&gt;munin&lt;/a&gt;, &lt;a href=&#34;https://github.com/netdata/netdata&#34;&gt;Netdata&lt;/a&gt; and &lt;a href=&#34;https://grafana.com&#34;&gt;Grafana&lt;/a&gt; (coupled with one data collector like: &lt;a href=&#34;https://collectd.org/&#34;&gt;collectd&lt;/a&gt;, &lt;a href=&#34;https://github.com/influxdata/influxdb&#34;&gt;influxdb&lt;/a&gt;, &lt;a href=&#34;https://graphiteapp.org/&#34;&gt;Graphite&lt;/a&gt; or &lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;
+Despite Grafana is one of the most popular choices, I decided to use Netdata, since it is pre-configured out of the box and it does both collect data and create graphs displayed through a http server. It is lightweight that will only require 1% CPU usage and around 12 MiB of RAM (at least in my OpenWrt router). Munin is my second choice, but decided to go with Netdata just because it just worked fine after install without too much hassle to configure.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

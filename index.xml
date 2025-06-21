@@ -9,244 +9,373 @@
       <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Nov 2023 19:00:25 -0600</lastBuildDate><atom:link href="https://earvingad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jun 2025 14:33:20 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Folder share from Proxmox to LXC, for Samba</title>
+      <link>https://earvingad.github.io/posts/nas_share_proxmox/</link>
+      <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/nas_share_proxmox/</guid>
+      <description>&lt;p&gt;
+Since I installed Proxmox for my small home server, I struggled a bit with nas shares due to user ownership and permissions, but after searching a bit I encountered a tutorial (I can remember where) to do it easily. So, before I forget it I will write here how I nailed it.&lt;/p&gt;
+&lt;p&gt;
+It works to share a mountpoint from Proxmox to the LXCs, so if you have an ssd/hdd in that directory, it will share the whole disk.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Make elegant presentations with org and reveal</title>
       <link>https://earvingad.github.io/posts/orgreveal/</link>
       <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/orgreveal/</guid>
-      <description>Please see the presentation version of this post
-Reveal.js is an open source HTML presentation framework. It&amp;#39;s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.
-You can either write the presentation with HTML, Markdown or using a plan in Slides, but there is an easier way.
-Org-Reveal Org-Reveal exports your Org documents to reveal.js presentations. With Org-reveal, you can create beautiful presentations with 3D effects from simple but powerful Org contents.</description>
+      <description>&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;Please see the &lt;a href=&#34;https://earvingad.github.io/posts/img/orgreveal/orgreveal.html&#34;&gt;presentation version of this post&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://revealjs.com/&#34;&gt;Reveal.js&lt;/a&gt; &lt;em&gt;is an open source HTML presentation framework. It&amp;#39;s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+You can either write the presentation with HTML, Markdown or using a plan in &lt;a href=&#34;https://slides.com/&#34;&gt;Slides&lt;/a&gt;, but there is an easier way.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Org-Reveal
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yjwen/org-reveal&#34;&gt;Org-Reveal&lt;/a&gt; &lt;em&gt;exports your Org documents to reveal.js presentations. With Org-reveal, you can create beautiful presentations with 3D effects from simple but powerful Org contents.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Enable blog comments in GitHub pages with utterance</title>
       <link>https://earvingad.github.io/posts/blogcommentsutterance/</link>
       <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/blogcommentsutterance/</guid>
-      <description>It&amp;#39;s been three years since I started this blog using Hugo and GitHub pages, but I never enabled comments since this blog makes use of static pages, some users commented my posts using github issues and I thought it was a good idea. There were many workarounds to enable comments in github pages, but I wasn&amp;#39;t convinced. Luckily, yesterday I found out about utterances.
-A lightweight comments widget built on GitHub issues.</description>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://avatars3.githubusercontent.com/u/27908738?v=3&amp;amp;s=88&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s been three years since I started this blog using &lt;a href=&#34;https://earvingad.github.io/posts/blogwithhugo/&#34;&gt;Hugo and GitHub pages&lt;/a&gt;, but I never enabled comments since this blog makes use of static pages, some users commented my posts using github issues and I thought it was a good idea. There were many workarounds to enable comments in github pages, but I wasn&amp;#39;t convinced. Luckily, yesterday I found out about &lt;a href=&#34;https://utteranc.es/&#34;&gt;utterances&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A lightweight comments widget built on GitHub issues. Use GitHub issues for blog comments, wiki pages and more!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Automating with Python: A start</title>
       <link>https://earvingad.github.io/posts/automatewithpython/</link>
       <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/automatewithpython/</guid>
-      <description>I remember once hearing &amp;#34;No matter what you do for living, learn a programming language it will ease your life.&amp;#34;
-Although, using Linux takes you to a long trip of practicing scripting with bash, I was never really into programming (still not, eventhough I would have liked at some point).
-From my school years, I think the first programming language I was in touch with was C++ in highschool.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.python.org/static/img/python-logo.png&#34;/&gt; 
+&lt;/figure&gt;
+
+I remember once hearing &amp;#34;No matter what you do for living, learn a programming language it will ease your life.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Although, using Linux takes you to a long trip of practicing scripting with bash, I was never really into programming (still not, eventhough I would have liked at some point).&lt;/p&gt;
+&lt;p&gt;
+From my school years, I think the first programming language I was in touch with was C++ in highschool.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Make smart a dumb coffee machine with ESPHome</title>
       <link>https://earvingad.github.io/posts/smartdumbcoffe/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/smartdumbcoffe/</guid>
-      <description>As a Coffee lover… of course this post had to start that way.
-I have a dumb coffee machine for my morning coffee on my way to work. It is just an on-off coffee machine, the brewing cycle last around 10 min and then it just keeps warm the jar. Wouldn&amp;#39;t it be a good idea to make it smart so the coffee will be ready when I wake up?</description>
+      <description>&lt;p&gt;
+&lt;em&gt;As a Coffee lover…&lt;/em&gt; of course this post had to start that way.&lt;/p&gt;
+&lt;p&gt;
+I have a dumb coffee machine for my morning coffee on my way to work. It is just an on-off coffee machine, the brewing cycle last around 10 min and then it just keeps warm the jar. Wouldn&amp;#39;t it be a good idea to make it smart so the coffee will be ready when I wake up?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sonoff mini r2, my screw up and repair</title>
       <link>https://earvingad.github.io/posts/sonoffminir2repair/</link>
       <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/sonoffminir2repair/</guid>
-      <description>I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…</description>
+      <description>&lt;p&gt;I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>IoT devices, local control</title>
       <link>https://earvingad.github.io/posts/esphometasmota/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
-      <description>If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally.</description>
+      <description>&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Home-Assistant, being lazy at home</title>
       <link>https://earvingad.github.io/posts/homeassistant/</link>
       <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/homeassistant/</guid>
-      <description>Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
-HomeAssistant is basically an OS (?) where you can add all the IoT devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;em&gt;Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_things&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;IoT&lt;/span&gt;&lt;/a&gt; devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events. I will just cover the basics.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Headscale, how to self-host tailscale</title>
       <link>https://earvingad.github.io/posts/headscale/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/headscale/</guid>
-      <description>Previously, we spoke of how easy is to set a mesh network between your devices with tailscale. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to selfhost this kind of services of their homelab).</description>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/juanfont/headscale/main/docs/logo/headscale3_header_stacked_left.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Previously, we spoke of how easy is to set a mesh network between your devices with &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;tailscale&lt;/span&gt;&lt;/a&gt;. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to &lt;a href=&#34;https://www.reddit.com/r/selfhosted/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;selfhost&lt;/span&gt;&lt;/a&gt; this kind of services of their &lt;a href=&#34;https://www.reddit.com/r/homelab/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;homelab&lt;/span&gt;&lt;/a&gt;). Luckily, &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; exist as &lt;em&gt;An open source, self-hosted implementation of the Tailscale control server.&lt;/em&gt; It has support for most of the OS&amp;#39;s&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DuckDNS, forget your ip</title>
       <link>https://earvingad.github.io/posts/duckdns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/duckdns/</guid>
-      <description>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
-In other words, you can create:
-yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org
-that will point to the ip of your homelab or VPS.
-Why? Well, I already wrote about how to access remotely to your homelab using the Tor network. Also how it can be simplified using Tailscale and to avoid sending data to tailscale servers you could use headscale to selfhost.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.duckdns.org/img/ducky_icon.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;em&gt;Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+In other words, you can create:&lt;/p&gt;
+&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;yourverycoolandawesomewebsitethatnooneknowsabout.duckdns.org&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;that will point to the ip of your homelab or VPS.&lt;/p&gt;
+&lt;p&gt;
+Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Netdata, real-time server monitoring</title>
       <link>https://earvingad.github.io/posts/netdata/</link>
       <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/netdata/</guid>
-      <description>If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.
-There are plenty of options: monit, monitorix, munin, Netdata and Grafana (coupled with one data collector like: collectd, influxdb, Graphite or Prometheus)
-Despite Grafana is one of the most popular choices, I decided to use Netdata, since it is pre-configured out of the box and it does both collect data and create graphs displayed through a http server.</description>
+      <description>&lt;p&gt;
+If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.&lt;/p&gt;
+&lt;p&gt;
+There are plenty of options: &lt;a href=&#34;https://mmonit.com/monit/&#34;&gt;monit&lt;/a&gt;, &lt;a href=&#34;https://www.monitorix.org/&#34;&gt;monitorix&lt;/a&gt;, &lt;a href=&#34;https://munin-monitoring.org/&#34;&gt;munin&lt;/a&gt;, &lt;a href=&#34;https://github.com/netdata/netdata&#34;&gt;Netdata&lt;/a&gt; and &lt;a href=&#34;https://grafana.com&#34;&gt;Grafana&lt;/a&gt; (coupled with one data collector like: &lt;a href=&#34;https://collectd.org/&#34;&gt;collectd&lt;/a&gt;, &lt;a href=&#34;https://github.com/influxdata/influxdb&#34;&gt;influxdb&lt;/a&gt;, &lt;a href=&#34;https://graphiteapp.org/&#34;&gt;Graphite&lt;/a&gt; or &lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;
+Despite Grafana is one of the most popular choices, I decided to use Netdata, since it is pre-configured out of the box and it does both collect data and create graphs displayed through a http server. It is lightweight that will only require 1% CPU usage and around 12 MiB of RAM (at least in my OpenWrt router). Munin is my second choice, but decided to go with Netdata just because it just worked fine after install without too much hassle to configure.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tailscale, making WireGuard simpler for home networks</title>
       <link>https://earvingad.github.io/posts/tailscale/</link>
       <pubDate>Mon, 06 Jun 2022 19:46:42 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/tailscale/</guid>
-      <description>Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the Tor a hidden friend to SSH your home network entry. However, I recommended to use WireGuard to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.</description>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://tailscale.com/static/images/marketing/home-illustration-2080w.webp&#34;/&gt; 
+&lt;/figure&gt;
+
+Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tor a hidden friend to SSH your home network&lt;/span&gt;&lt;/a&gt; entry. However, I recommended to use &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;WireGuard&lt;/span&gt;&lt;/a&gt; to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tor a hidden friend to SSH your home network</title>
       <link>https://earvingad.github.io/posts/torssh/</link>
       <pubDate>Sun, 22 May 2022 18:55:17 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/torssh/</guid>
-      <description>You might had heard of the Dark web or the Deep web, well the first one is just a small part of the latter. The Dark web is populated with darknets which is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization.
-These darknets can be small peer-to-peer networks or large as the I2P Anonymous Network, Freenet and the most popular Tor Project.</description>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.torproject.org/static/images/tor-project-logo-onions.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+You might had heard of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dark_web&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Dark web&lt;/span&gt;&lt;/a&gt; or the &lt;a href=&#34;https://en.wikipedia.org/wiki/Deep_web&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Deep web&lt;/span&gt;&lt;/a&gt;, well the first one is just a small part of the latter. The Dark web is populated with darknets which &lt;em&gt;is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;
+These darknets can be small peer-to-peer networks or large as the &lt;a href=&#34;https://geti2p.net/en/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;I2P Anonymous Network&lt;/span&gt;&lt;/a&gt;, &lt;a href=&#34;https://freenetproject.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Freenet&lt;/span&gt;&lt;/a&gt; and the most popular &lt;a href=&#34;https://www.torproject.org/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tor Project&lt;/span&gt;&lt;/a&gt;. In this case, we will focus in the Tor network and how to use it to connect to your home network for remote control.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AdGuardHome, like Pi-hole but...better(?)</title>
       <link>https://earvingad.github.io/posts/adguardhome/</link>
       <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/adguardhome/</guid>
-      <description>AdGuard Home is a…
-Privacy protection center for you and your devices
-Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.
-It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a package for OpenWrt. We will focus on the latter, I wrote briefly about it the Ad Blocking, simple &amp;amp; fast entry.</description>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://adguard.com/en/welcome.html&#34;&gt;AdGuard Home&lt;/a&gt; is a…&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Privacy protection center for you and your devices&lt;/p&gt;
+&lt;p&gt;
+Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a &lt;a href=&#34;https://openwrt.org/docs/guide-user/services/dns/adguard-home&#34;&gt;package&lt;/a&gt; for OpenWrt. We will focus on the latter, I wrote briefly about it the &lt;a href=&#34;https://earvingad.github.io/posts/adblocking/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Ad Blocking, simple &amp;amp; fast&lt;/span&gt;&lt;/a&gt; entry.&lt;/p&gt;
+&lt;p&gt;
+This post is based on &lt;a href=&#34;https://forum.openwrt.org/t/howto-running-adguard-home-on-openwrt/51678&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;this&lt;/span&gt;&lt;/a&gt; forum entry. The only difference is that it will be installed in an external HDD connected to the OpenWrt router.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>OpenWrt or How to give your router steroids</title>
       <link>https://earvingad.github.io/posts/openwrt/</link>
       <pubDate>Fri, 06 May 2022 14:14:48 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/openwrt/</guid>
-      <description>The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)
-Yeeeah baby! good soup!
-Have you ever hated your wireless router so much that you wanted to smash it to the wall because it is just a piece of useless shit?</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Yeeeah baby! good soup!&lt;/p&gt;
+&lt;p&gt;
+Have you ever hated your wireless router so much that you wanted to smash it to the wall because it is just a piece of useless shit?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ad Blocking, simple &amp; fast</title>
       <link>https://earvingad.github.io/posts/adblocking/</link>
       <pubDate>Wed, 27 Apr 2022 21:24:55 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/adblocking/</guid>
-      <description>We all hate ads.
-According to Wikipedia,
-Ad blocking or ad filtering is a software capability for blocking or altering online advertising in a web browser, an application or a network. This may be done using browser extensions or other methods.
-So you have choices
-I am not going to detail but give the practical and useful information about the fastest and easiest way to block ads
-Browser extensions You need, always, no matter what, a web browser ad block extension.</description>
+      <description>&lt;p&gt;
+We all hate ads.&lt;/p&gt;
+&lt;p&gt;
+According to Wikipedia,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ad blocking or ad filtering is a software capability for blocking or altering online advertising in a web browser, an application or a network. This may be done using browser extensions or other methods.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+So you have choices&lt;/p&gt;
+&lt;p&gt;
+I am not going to detail but give the practical and useful information about the fastest and easiest way to block ads&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Browser extensions
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;You need, always, no matter what, a web browser ad block extension. It will, of course, block ads only for the web browser. Main alternatives are:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Syncthing</title>
       <link>https://earvingad.github.io/posts/syncthing/</link>
       <pubDate>Sun, 24 Apr 2022 18:30:09 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/syncthing/</guid>
-      <description>I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.
-So, Let&amp;#39;s start with the entry:
-Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.</description>
+      <description>&lt;p&gt;I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.&lt;/p&gt;
+&lt;p&gt;
+So, Let&amp;#39;s start with the entry:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Syncthing is a &lt;strong&gt;continuous file synchronization&lt;/strong&gt; program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it&amp;#39;s transmitted over the internet.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Blog with Hugo (and GitHub Pages)</title>
       <link>https://earvingad.github.io/posts/blogwithhugo/</link>
       <pubDate>Sun, 03 Jan 2021 19:37:05 -0600</pubDate>
-      
       <guid>https://earvingad.github.io/posts/blogwithhugo/</guid>
-      <description>Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
-That&amp;#39;s in the Hugo website and I guess it&amp;#39;s true, since I find it very easy to use to publish this dumb blog when I have the time to.
-Now, Hugo will generate the static site in your PC but how can you make it accessible from the Internet?</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That&amp;#39;s in the Hugo website and I guess it&amp;#39;s true, since I find it very easy to use to publish this dumb blog when I have the time to.&lt;/p&gt;
+&lt;p&gt;
+Now, Hugo will generate the static site in your PC but how can you make it accessible from the Internet? Well… GitHub Pages is the savior.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Orgzly and never lose your notes again</title>
       <link>https://earvingad.github.io/posts/orgzly/</link>
       <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/orgzly/</guid>
-      <description>I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.
-Orgzly is an outliner for notes and to-do lists for Android devices! It basically allows you to write notes as in org-mode in Emacs, but in your phone —because you wont be carrying your laptop all day.</description>
+      <description>&lt;p&gt;
+I wanted to write a post about Orgzly for a few days, but I have been very busy these days. As I told in previous posts, I started using orgmode at work, but not for my everyday personal tasks… and suddenly I came across with Orgzly.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.orgzly.com/&#34;&gt;Orgzly&lt;/a&gt; is an &lt;em&gt;outliner for notes and to-do lists&lt;/em&gt; for Android devices! It basically allows you to write notes as in &lt;a href=&#34;https://earvingad.github.io/posts/org_mode/&#34;&gt;org-mode&lt;/a&gt; in Emacs, but in your phone —because you wont be carrying your laptop all day.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Org-roam &amp; Windows</title>
       <link>https://earvingad.github.io/posts/org_roam_windows/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/org_roam_windows/</guid>
-      <description>Org-roam Org-roam is a note-taking tool for Emacs using Org-mode. It is a replica of RoamResearch: &amp;#34;A note-taking tool for networked thought&amp;#34;. Both are based in the Zettelkasten method, which is described as:
-Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.
-The method was developed by Niklas Luhmann and the literal translation is:
-Zettelkasten = Box of notes.
-In simple words: Org-roam allows you to make connections between your notes, in order to make a more efficient creative/learning process.</description>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Org-roam
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://org-roam.readthedocs.io/&#34;&gt;Org-roam&lt;/a&gt; is a note-taking tool for Emacs using Org-mode. It is a replica of &lt;a href=&#34;https://roamresearch.com/&#34;&gt;RoamResearch&lt;/a&gt;: &amp;#34;&lt;em&gt;A note-taking tool for networked thought&lt;/em&gt;&amp;#34;. Both are based in the Zettelkasten method, which is described as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Using a Zettelkasten is about optimizing a workflow of learning and producing knowledge.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The method was developed by Niklas Luhmann and the literal translation is:&lt;/p&gt;
+&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;p&gt;Zettelkasten = &lt;em&gt;Box of notes&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In simple words: Org-roam allows you to make connections between your notes, in order to make a more efficient creative/learning process.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Org-mode</title>
       <link>https://earvingad.github.io/posts/org_mode/</link>
       <pubDate>Sun, 24 May 2020 17:38:08 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/org_mode/</guid>
-      <description>Org-mode is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to GTD). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information. I am going to focus in note taking and export.
-The org file It all starts with a file with a .</description>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://orgmode.org/&#34;&gt;Org-mode&lt;/a&gt; is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to &lt;a href=&#34;https://en.wikipedia.org/wiki/Getting_Things_Done&#34;&gt;GTD&lt;/a&gt;). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information. I am going to focus in note taking and export.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+The org file
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;It all starts with a file with a &lt;code class=&#34;verbatim&#34;&gt;.org&lt;/code&gt; extension. Create one in Doomemacs with &lt;code class=&#34;verbatim&#34;&gt;SPC .&lt;/code&gt; and name it &amp;#34;myfile.org&amp;#34;. By default a template should fill the title like:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Doom, Emacs &amp; Windows</title>
       <link>https://earvingad.github.io/posts/doom_emacs_windows/</link>
       <pubDate>Fri, 22 May 2020 20:10:08 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/doom_emacs_windows/</guid>
-      <description>Doom-emacs. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.
-As I mentioned in the last post. I started using Emacs at work due to org-mode… and work PC&amp;#39;s use windows behind a Firewall, so using git, pip, melpa and some more are useless in my work desktop (In the Laptop all of them work if I connect to another network, which was what I did).</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/hlissner/doom-emacs&#34;&gt;Doom-emacs&lt;/a&gt;. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.&lt;/p&gt;
+&lt;p&gt;
+As I mentioned in the last post. I started using Emacs at work due to org-mode… and work PC&amp;#39;s use windows behind a Firewall, so using git, pip, melpa and some more are useless in my work desktop (In the Laptop all of them work if I connect to another network, which was what I did).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>In the Beginning</title>
       <link>https://earvingad.github.io/posts/in-the-beginning/</link>
       <pubDate>Wed, 20 May 2020 22:25:18 -0500</pubDate>
-      
       <guid>https://earvingad.github.io/posts/in-the-beginning/</guid>
-      <description>First things first This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people. Such things include: Emacs, linux, vim, encryption and a e s t h e t i c s.
-This blog is hosted in github, written in Emacs with org-mode and posted with Hugo (This is one of the topics I&amp;#39;ll be posting later: How to blog with github and Hugo).</description>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+First things first
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;This place is going to be my personal blog. I am going to write about nerd things I don&amp;#39;t generally speak with people.
+Such things include: &lt;code class=&#34;verbatim&#34;&gt;Emacs, linux, vim, encryption&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;a e s t h e t i c s&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+This blog is hosted in &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt;, written in &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; with &lt;a href=&#34;https://orgmode.org/&#34;&gt;org-mode&lt;/a&gt; and posted with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; (This is one of the topics I&amp;#39;ll be posting later: &lt;em&gt;How to blog with github and Hugo&lt;/em&gt;).&lt;/p&gt;</description>
     </item>
-    
-    
+    <item>
+      <title></title>
+      <link>https://earvingad.github.io/posts/img/orgreveal/orgreveal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://earvingad.github.io/posts/img/orgreveal/orgreveal/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+&lt;meta charset=&#34;utf-8&#34;/&gt;
+&lt;title&gt;Make elegant presentations with org and reveal&lt;/title&gt;
+&lt;meta name=&#34;author&#34; content=&#34;earvingad&#34;/&gt;
+&lt;meta name=&#34;description&#34; content=&#34;&#34;/&gt;
+&lt;meta name=&#34;keywords&#34; content=&#34;&#34;/&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.underline { text-decoration: underline; }
+&lt;/style&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css&#34;/&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/league.css&#34; id=&#34;theme&#34;/&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;./nord.css&#34;/&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/nord.css&#34;/&gt;&lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;reveal&#34;&gt;
+&lt;div class=&#34;slides&#34;&gt;
+&lt;section id=&#34;sec-title-slide&#34;&gt;&lt;h1 class=&#34;title&#34;&gt;Make elegant presentations with org and reveal&lt;/h1&gt;&lt;p class=&#34;subtitle&#34;&gt;&lt;/p&gt;
+&lt;h2 class=&#34;author&#34;&gt;earvingad&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&#34;sec-table-of-contents&#34;&gt;&lt;div id=&#34;table-of-contents&#34; role=&#34;doc-toc&#34;&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;div id=&#34;text-table-of-contents&#34; role=&#34;doc-toc&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#/slide-orga1f1394&#34;&gt;Reveal.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#/slide-orge400e42&#34;&gt;Org-Reveal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#/slide-org555945c&#34;&gt;Install (in Doom)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#/slide-org0c54d9d&#34;&gt;Extra configuration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#/slide-org218b6df&#34;&gt;Cool features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#/slide-orga41b006&#34;&gt;Final thoughts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;section id=&#34;slide-orga1f1394&#34;&gt;
+&lt;h2 id=&#34;orga1f1394&#34;&gt;Reveal.js&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://revealjs.com/&#34;&gt;Reveal.js&lt;/a&gt; &lt;i&gt;is an open source HTML presentation framework. It&amp;rsquo;s a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.&lt;/i&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+You can either write the presentation with HTML, Markdown or using a plan in &lt;a href=&#34;https://slides.com/&#34;&gt;Slides&lt;/a&gt;, but there is an easier way.
+&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
