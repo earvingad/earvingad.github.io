@@ -11,8 +11,39 @@
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Jun 2025 14:33:20 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jun 2025 12:01:43 -0600</lastBuildDate>
     <atom:link href="https://earvingad.github.io/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mount samba shares with systemctl</title>
+      <link>https://earvingad.github.io/posts/samba_systemctl/</link>
+      <pubDate>Sun, 22 Jun 2025 12:01:43 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/samba_systemctl/</guid>
+      <description>&lt;p&gt;
+This comes directly from the &lt;a href=&#34;https://wiki.archlinux.org/title/Samba#As_systemd_unit&#34;&gt;archwiki&lt;/a&gt;, due to I got tired of mount the nas shares using dolphin (or similar) and have to go to the &lt;code&gt;/run/media....&lt;/code&gt; path everytime, or by manually running:&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mount --mkdir -t cifs //SERVER/sharename /mnt/mountpoint -o &lt;span class=&#34;nv&#34;&gt;username&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;username,password&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;password,workgroup&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;workgroup,iocharset&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;utf8,uid&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;username,gid&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;group&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Instead, I will just manually run:&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;systemctl start mnt-nas.mount&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Or enable it to mount it automatically during boot and to unmount I just have to stop the service.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Folder share from Proxmox to LXC, for Samba</title>
       <link>https://earvingad.github.io/posts/nas_share_proxmox/</link>

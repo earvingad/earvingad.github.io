@@ -2,40 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://earvingad.github.io/categories/</loc>
+    <lastmod>2025-06-22T12:01:43-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/homelab/</loc>
+    <lastmod>2025-06-22T12:01:43-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/posts/samba_systemctl/</loc>
+    <lastmod>2025-06-22T12:01:43-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/nas/</loc>
+    <lastmod>2025-06-22T12:01:43-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/posts/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/</loc>
-    <lastmod>2025-06-21T14:33:20-06:00</lastmod>
+    <loc>https://earvingad.github.io/tags/samba/</loc>
+    <lastmod>2025-06-22T12:01:43-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/server/</loc>
+    <lastmod>2025-06-22T12:01:43-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/systemctl/</loc>
+    <lastmod>2025-06-22T12:01:43-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/</loc>
+    <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/posts/nas_share_proxmox/</loc>
-    <lastmod>2025-06-21T14:33:20-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/categories/homelab/</loc>
     <lastmod>2025-06-21T14:33:20-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/lxc/</loc>
     <lastmod>2025-06-21T14:33:20-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/nas/</loc>
-    <lastmod>2025-06-21T14:33:20-06:00</lastmod>
-  </url><url>
     <loc>https://earvingad.github.io/tags/proxmox/</loc>
     <lastmod>2025-06-21T14:33:20-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/samba/</loc>
-    <lastmod>2025-06-21T14:33:20-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/categories/server/</loc>
-    <lastmod>2025-06-21T14:33:20-06:00</lastmod>
-  </url><url>
     <loc>https://earvingad.github.io/tags/server/</loc>
-    <lastmod>2025-06-21T14:33:20-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/</loc>
     <lastmod>2025-06-21T14:33:20-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/categories/emacs/</loc>

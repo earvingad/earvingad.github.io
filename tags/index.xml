@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Jun 2025 14:33:20 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jun 2025 12:01:43 -0600</lastBuildDate>
     <atom:link href="https://earvingad.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nas</title>
+      <link>https://earvingad.github.io/tags/nas/</link>
+      <pubDate>Sun, 22 Jun 2025 12:01:43 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/nas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Samba</title>
+      <link>https://earvingad.github.io/tags/samba/</link>
+      <pubDate>Sun, 22 Jun 2025 12:01:43 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/samba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Systemctl</title>
+      <link>https://earvingad.github.io/tags/systemctl/</link>
+      <pubDate>Sun, 22 Jun 2025 12:01:43 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/systemctl/</guid>
+      <description></description>
+    </item>
     <item>
       <title>LXC</title>
       <link>https://earvingad.github.io/tags/lxc/</link>
@@ -21,24 +42,10 @@
       <description></description>
     </item>
     <item>
-      <title>Nas</title>
-      <link>https://earvingad.github.io/tags/nas/</link>
-      <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/nas/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Proxmox</title>
       <link>https://earvingad.github.io/tags/proxmox/</link>
       <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
       <guid>https://earvingad.github.io/tags/proxmox/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Samba</title>
-      <link>https://earvingad.github.io/tags/samba/</link>
-      <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/samba/</guid>
       <description></description>
     </item>
     <item>

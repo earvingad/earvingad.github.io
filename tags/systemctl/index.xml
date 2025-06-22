@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Systemctl on Nerd things and more...</title>
-    <link>http://localhost:1313/tags/systemctl/</link>
+    <link>https://earvingad.github.io/tags/systemctl/</link>
     <description>Recent content in Systemctl on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Jun 2025 12:01:43 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/systemctl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://earvingad.github.io/tags/systemctl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mount samba shares with systemctl</title>
-      <link>http://localhost:1313/posts/samba_systemctl/</link>
+      <link>https://earvingad.github.io/posts/samba_systemctl/</link>
       <pubDate>Sun, 22 Jun 2025 12:01:43 -0600</pubDate>
-      <guid>http://localhost:1313/posts/samba_systemctl/</guid>
+      <guid>https://earvingad.github.io/posts/samba_systemctl/</guid>
       <description>&lt;p&gt;
-This comes directly from the &lt;a href=&#34;https://wiki.archlinux.org/title/Samba#As_systemd_unit&#34;&gt;archwiki&lt;/a&gt;, due to I got tired of mount the nas shares using dolphin (or similar) and having to go to the &lt;code&gt;/run/media....&lt;/code&gt; path everytime, or by manually running:&lt;/p&gt;
+This comes directly from the &lt;a href=&#34;https://wiki.archlinux.org/title/Samba#As_systemd_unit&#34;&gt;archwiki&lt;/a&gt;, due to I got tired of mount the nas shares using dolphin (or similar) and have to go to the &lt;code&gt;/run/media....&lt;/code&gt; path everytime, or by manually running:&lt;/p&gt;
 &lt;div class=&#34;src src-bash&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -42,7 +42,7 @@ Instead, I will just manually run:&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Or enable it to mount it automatically during boot and to unmount I just have to stop the sevice.&lt;/p&gt;</description>
+&lt;p&gt;Or enable it to mount it automatically during boot and to unmount I just have to stop the service.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
