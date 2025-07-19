@@ -2,22 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Homelab on Nerd things and more...</title>
-    <link>http://10.1.1.205:1313/categories/homelab/</link>
+    <link>https://earvingad.github.io/categories/homelab/</link>
     <description>Recent content in Homelab on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Jun 2025 12:01:43 -0600</lastBuildDate>
-    <atom:link href="http://10.1.1.205:1313/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jul 2025 13:19:47 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reverse proxy, no more 192.168.1.25:8080</title>
+      <link>https://earvingad.github.io/posts/reverseproxy/</link>
+      <pubDate>Sat, 19 Jul 2025 13:19:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/reverseproxy/</guid>
+      <description>&lt;p&gt;
+From &lt;a href=&#34;https://en.m.wikipedia.org/wiki/Reverse_proxy&#34;&gt;Wikipedia&lt;/a&gt;;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A proxy server that appears to any client to be an ordinary web server, but in reality merely acts as an intermediary that forwards the client&amp;#39;s requests to one or more ordinary web servers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+In other words, it is like a man in the middle that redirects traffic. The most common case is for visiting severs for a name or fully qualified domain name (FQDN), like &lt;code&gt;www.enchilada.lan&lt;/code&gt;, instead of the ip of the server (e.g. &lt;code&gt;192.168.1.25&lt;/code&gt;).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mount samba shares with systemctl</title>
-      <link>http://10.1.1.205:1313/posts/samba_systemctl/</link>
+      <link>https://earvingad.github.io/posts/samba_systemctl/</link>
       <pubDate>Sun, 22 Jun 2025 12:01:43 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/samba_systemctl/</guid>
+      <guid>https://earvingad.github.io/posts/samba_systemctl/</guid>
       <description>&lt;p&gt;
 This comes directly from the &lt;a href=&#34;https://wiki.archlinux.org/title/Samba#As_systemd_unit&#34;&gt;archwiki&lt;/a&gt;, due to I got tired of mount the nas shares using dolphin (or similar) and have to go to the &lt;code&gt;/run/media....&lt;/code&gt; path everytime, or by manually running:&lt;/p&gt;
 &lt;div class=&#34;src src-bash&#34;&gt;
@@ -46,32 +59,19 @@ Instead, I will just manually run:&lt;/p&gt;
     </item>
     <item>
       <title>Folder share from Proxmox to LXC, for Samba</title>
-      <link>http://10.1.1.205:1313/posts/nas_share_proxmox/</link>
+      <link>https://earvingad.github.io/posts/nas_share_proxmox/</link>
       <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/nas_share_proxmox/</guid>
+      <guid>https://earvingad.github.io/posts/nas_share_proxmox/</guid>
       <description>&lt;p&gt;
 Since I installed Proxmox for my small home server, I struggled a bit with nas shares due to user ownership and permissions, but after searching a bit I encountered a tutorial (I can remember where) to do it easily. So, before I forget it I will write here how I nailed it.&lt;/p&gt;
 &lt;p&gt;
 It works to share a mountpoint from Proxmox to the LXCs, so if you have an ssd/hdd in that directory, it will share the whole disk.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Reverse proxy</title>
-      <link>http://10.1.1.205:1313/posts/reverseproxy/</link>
-      <pubDate>Sat, 30 Mar 2024 14:19:47 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/reverseproxy/</guid>
-      <description>&lt;p&gt;
-From &lt;a href=&#34;https://en.m.wikipedia.org/wiki/Reverse_proxy&#34;&gt;Wikipedia&lt;/a&gt;;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A proxy server that appears to any client to be an ordinary web server, but in reality merely acts as an intermediary that forwards the client&amp;#39;s requests to one or more ordinary web servers.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-In other words, it is like a man in the middle that redirects traffic. The most common case is for visiting severs for a name or fully qualified domain name (FQDN), like &lt;code&gt;www.enchilada.org&lt;/code&gt;, instead of the ip of the server (e.g. &lt;code&gt;192.168.1.25&lt;/code&gt;).&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Make smart a dumb coffee machine with ESPHome</title>
-      <link>http://10.1.1.205:1313/posts/smartdumbcoffe/</link>
+      <link>https://earvingad.github.io/posts/smartdumbcoffe/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/smartdumbcoffe/</guid>
+      <guid>https://earvingad.github.io/posts/smartdumbcoffe/</guid>
       <description>&lt;p&gt;
 &lt;em&gt;As a Coffee lover…&lt;/em&gt; of course this post had to start that way.&lt;/p&gt;
 &lt;p&gt;
@@ -79,23 +79,23 @@ I have a dumb coffee machine for my morning coffee on my way to work. It is just
     </item>
     <item>
       <title>Sonoff mini r2, my screw up and repair</title>
-      <link>http://10.1.1.205:1313/posts/sonoffminir2repair/</link>
+      <link>https://earvingad.github.io/posts/sonoffminir2repair/</link>
       <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/sonoffminir2repair/</guid>
+      <guid>https://earvingad.github.io/posts/sonoffminir2repair/</guid>
       <description>&lt;p&gt;I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…&lt;/p&gt;</description>
     </item>
     <item>
       <title>IoT devices, local control</title>
-      <link>http://10.1.1.205:1313/posts/esphometasmota/</link>
+      <link>https://earvingad.github.io/posts/esphometasmota/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/esphometasmota/</guid>
+      <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
       <description>&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Home-Assistant, being lazy at home</title>
-      <link>http://10.1.1.205:1313/posts/homeassistant/</link>
+      <link>https://earvingad.github.io/posts/homeassistant/</link>
       <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/homeassistant/</guid>
+      <guid>https://earvingad.github.io/posts/homeassistant/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt; 
 &lt;/figure&gt;
@@ -106,22 +106,22 @@ HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;h
     </item>
     <item>
       <title>Headscale, how to self-host tailscale</title>
-      <link>http://10.1.1.205:1313/posts/headscale/</link>
+      <link>https://earvingad.github.io/posts/headscale/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/headscale/</guid>
+      <guid>https://earvingad.github.io/posts/headscale/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/juanfont/headscale/main/docs/logo/headscale3_header_stacked_left.png&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
-Previously, we spoke of how easy is to set a mesh network between your devices with &lt;a href=&#34;http://10.1.1.205:1313/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;tailscale&lt;/span&gt;&lt;/a&gt;. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to &lt;a href=&#34;https://www.reddit.com/r/selfhosted/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;selfhost&lt;/span&gt;&lt;/a&gt; this kind of services of their &lt;a href=&#34;https://www.reddit.com/r/homelab/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;homelab&lt;/span&gt;&lt;/a&gt;). Luckily, &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; exist as &lt;em&gt;An open source, self-hosted implementation of the Tailscale control server.&lt;/em&gt; It has support for most of the OS&amp;#39;s&lt;/p&gt;</description>
+Previously, we spoke of how easy is to set a mesh network between your devices with &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;tailscale&lt;/span&gt;&lt;/a&gt;. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to &lt;a href=&#34;https://www.reddit.com/r/selfhosted/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;selfhost&lt;/span&gt;&lt;/a&gt; this kind of services of their &lt;a href=&#34;https://www.reddit.com/r/homelab/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;homelab&lt;/span&gt;&lt;/a&gt;). Luckily, &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; exist as &lt;em&gt;An open source, self-hosted implementation of the Tailscale control server.&lt;/em&gt; It has support for most of the OS&amp;#39;s&lt;/p&gt;</description>
     </item>
     <item>
       <title>DuckDNS, forget your ip</title>
-      <link>http://10.1.1.205:1313/posts/duckdns/</link>
+      <link>https://earvingad.github.io/posts/duckdns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/duckdns/</guid>
+      <guid>https://earvingad.github.io/posts/duckdns/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.duckdns.org/img/ducky_icon.png&#34;/&gt; 
 &lt;/figure&gt;
@@ -134,13 +134,13 @@ In other words, you can create:&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;that will point to the ip of your homelab or VPS.&lt;/p&gt;
 &lt;p&gt;
-Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;http://10.1.1.205:1313/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;http://10.1.1.205:1313/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
+Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Netdata, real-time server monitoring</title>
-      <link>http://10.1.1.205:1313/posts/netdata/</link>
+      <link>https://earvingad.github.io/posts/netdata/</link>
       <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
-      <guid>http://10.1.1.205:1313/posts/netdata/</guid>
+      <guid>https://earvingad.github.io/posts/netdata/</guid>
       <description>&lt;p&gt;
 If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.&lt;/p&gt;
 &lt;p&gt;
@@ -150,20 +150,20 @@ Despite Grafana is one of the most popular choices, I decided to use Netdata, si
     </item>
     <item>
       <title>Tailscale, making WireGuard simpler for home networks</title>
-      <link>http://10.1.1.205:1313/posts/tailscale/</link>
+      <link>https://earvingad.github.io/posts/tailscale/</link>
       <pubDate>Mon, 06 Jun 2022 19:46:42 -0500</pubDate>
-      <guid>http://10.1.1.205:1313/posts/tailscale/</guid>
+      <guid>https://earvingad.github.io/posts/tailscale/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://tailscale.com/static/images/marketing/home-illustration-2080w.webp&#34;/&gt; 
 &lt;/figure&gt;
 
-Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the &lt;a href=&#34;http://10.1.1.205:1313/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tor a hidden friend to SSH your home network&lt;/span&gt;&lt;/a&gt; entry. However, I recommended to use &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;WireGuard&lt;/span&gt;&lt;/a&gt; to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.&lt;/p&gt;</description>
+Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tor a hidden friend to SSH your home network&lt;/span&gt;&lt;/a&gt; entry. However, I recommended to use &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;WireGuard&lt;/span&gt;&lt;/a&gt; to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tor a hidden friend to SSH your home network</title>
-      <link>http://10.1.1.205:1313/posts/torssh/</link>
+      <link>https://earvingad.github.io/posts/torssh/</link>
       <pubDate>Sun, 22 May 2022 18:55:17 -0500</pubDate>
-      <guid>http://10.1.1.205:1313/posts/torssh/</guid>
+      <guid>https://earvingad.github.io/posts/torssh/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.torproject.org/static/images/tor-project-logo-onions.png&#34;/&gt; 
@@ -176,9 +176,9 @@ These darknets can be small peer-to-peer networks or large as the &lt;a href=&#3
     </item>
     <item>
       <title>AdGuardHome, like Pi-hole but...better(?)</title>
-      <link>http://10.1.1.205:1313/posts/adguardhome/</link>
+      <link>https://earvingad.github.io/posts/adguardhome/</link>
       <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
-      <guid>http://10.1.1.205:1313/posts/adguardhome/</guid>
+      <guid>https://earvingad.github.io/posts/adguardhome/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://adguard.com/en/welcome.html&#34;&gt;AdGuard Home&lt;/a&gt; is a…&lt;/p&gt;
 &lt;blockquote&gt;
@@ -186,15 +186,15 @@ These darknets can be small peer-to-peer networks or large as the &lt;a href=&#3
 &lt;p&gt;
 Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a &lt;a href=&#34;https://openwrt.org/docs/guide-user/services/dns/adguard-home&#34;&gt;package&lt;/a&gt; for OpenWrt. We will focus on the latter, I wrote briefly about it the &lt;a href=&#34;http://10.1.1.205:1313/posts/adblocking/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Ad Blocking, simple &amp;amp; fast&lt;/span&gt;&lt;/a&gt; entry.&lt;/p&gt;
+&lt;p&gt;It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a &lt;a href=&#34;https://openwrt.org/docs/guide-user/services/dns/adguard-home&#34;&gt;package&lt;/a&gt; for OpenWrt. We will focus on the latter, I wrote briefly about it the &lt;a href=&#34;https://earvingad.github.io/posts/adblocking/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Ad Blocking, simple &amp;amp; fast&lt;/span&gt;&lt;/a&gt; entry.&lt;/p&gt;
 &lt;p&gt;
 This post is based on &lt;a href=&#34;https://forum.openwrt.org/t/howto-running-adguard-home-on-openwrt/51678&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;this&lt;/span&gt;&lt;/a&gt; forum entry. The only difference is that it will be installed in an external HDD connected to the OpenWrt router.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenWrt or How to give your router steroids</title>
-      <link>http://10.1.1.205:1313/posts/openwrt/</link>
+      <link>https://earvingad.github.io/posts/openwrt/</link>
       <pubDate>Fri, 06 May 2022 14:14:48 -0500</pubDate>
-      <guid>http://10.1.1.205:1313/posts/openwrt/</guid>
+      <guid>https://earvingad.github.io/posts/openwrt/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -205,9 +205,9 @@ Have you ever hated your wireless router so much that you wanted to smash it to 
     </item>
     <item>
       <title>Ad Blocking, simple &amp; fast</title>
-      <link>http://10.1.1.205:1313/posts/adblocking/</link>
+      <link>https://earvingad.github.io/posts/adblocking/</link>
       <pubDate>Wed, 27 Apr 2022 21:24:55 -0500</pubDate>
-      <guid>http://10.1.1.205:1313/posts/adblocking/</guid>
+      <guid>https://earvingad.github.io/posts/adblocking/</guid>
       <description>&lt;p&gt;
 We all hate ads.&lt;/p&gt;
 &lt;p&gt;
@@ -228,9 +228,9 @@ Browser extensions
     </item>
     <item>
       <title>Syncthing</title>
-      <link>http://10.1.1.205:1313/posts/syncthing/</link>
+      <link>https://earvingad.github.io/posts/syncthing/</link>
       <pubDate>Sun, 24 Apr 2022 18:30:09 -0500</pubDate>
-      <guid>http://10.1.1.205:1313/posts/syncthing/</guid>
+      <guid>https://earvingad.github.io/posts/syncthing/</guid>
       <description>&lt;p&gt;I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.&lt;/p&gt;
 &lt;p&gt;
 So, Let&amp;#39;s start with the entry:&lt;/p&gt;

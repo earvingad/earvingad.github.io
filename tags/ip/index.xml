@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ip on Nerd things and more...</title>
-    <link>http://10.1.1.205:1313/tags/ip/</link>
+    <link>https://earvingad.github.io/tags/ip/</link>
     <description>Recent content in Ip on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Thu, 23 Feb 2023 20:51:55 -0600</lastBuildDate>
-    <atom:link href="http://10.1.1.205:1313/tags/ip/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://earvingad.github.io/tags/ip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DuckDNS, forget your ip</title>
-      <link>http://10.1.1.205:1313/posts/duckdns/</link>
+      <link>https://earvingad.github.io/posts/duckdns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/duckdns/</guid>
+      <guid>https://earvingad.github.io/posts/duckdns/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.duckdns.org/img/ducky_icon.png&#34;/&gt; 
 &lt;/figure&gt;
@@ -30,7 +30,7 @@ In other words, you can create:&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;that will point to the ip of your homelab or VPS.&lt;/p&gt;
 &lt;p&gt;
-Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;http://10.1.1.205:1313/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;http://10.1.1.205:1313/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
+Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

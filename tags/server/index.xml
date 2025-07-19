@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Server on Nerd things and more...</title>
-    <link>http://10.1.1.205:1313/tags/server/</link>
+    <link>https://earvingad.github.io/tags/server/</link>
     <description>Recent content in Server on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Jun 2025 14:33:20 -0600</lastBuildDate>
-    <atom:link href="http://10.1.1.205:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jul 2025 13:19:47 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Folder share from Proxmox to LXC, for Samba</title>
-      <link>http://10.1.1.205:1313/posts/nas_share_proxmox/</link>
-      <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/nas_share_proxmox/</guid>
-      <description>&lt;p&gt;
-Since I installed Proxmox for my small home server, I struggled a bit with nas shares due to user ownership and permissions, but after searching a bit I encountered a tutorial (I can remember where) to do it easily. So, before I forget it I will write here how I nailed it.&lt;/p&gt;
-&lt;p&gt;
-It works to share a mountpoint from Proxmox to the LXCs, so if you have an ssd/hdd in that directory, it will share the whole disk.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Reverse proxy</title>
-      <link>http://10.1.1.205:1313/posts/reverseproxy/</link>
-      <pubDate>Sat, 30 Mar 2024 14:19:47 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/reverseproxy/</guid>
+      <title>Reverse proxy, no more 192.168.1.25:8080</title>
+      <link>https://earvingad.github.io/posts/reverseproxy/</link>
+      <pubDate>Sat, 19 Jul 2025 13:19:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/reverseproxy/</guid>
       <description>&lt;p&gt;
 From &lt;a href=&#34;https://en.m.wikipedia.org/wiki/Reverse_proxy&#34;&gt;Wikipedia&lt;/a&gt;;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A proxy server that appears to any client to be an ordinary web server, but in reality merely acts as an intermediary that forwards the client&amp;#39;s requests to one or more ordinary web servers.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;
-In other words, it is like a man in the middle that redirects traffic. The most common case is for visiting severs for a name or fully qualified domain name (FQDN), like &lt;code&gt;www.enchilada.org&lt;/code&gt;, instead of the ip of the server (e.g. &lt;code&gt;192.168.1.25&lt;/code&gt;).&lt;/p&gt;</description>
+In other words, it is like a man in the middle that redirects traffic. The most common case is for visiting severs for a name or fully qualified domain name (FQDN), like &lt;code&gt;www.enchilada.lan&lt;/code&gt;, instead of the ip of the server (e.g. &lt;code&gt;192.168.1.25&lt;/code&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Folder share from Proxmox to LXC, for Samba</title>
+      <link>https://earvingad.github.io/posts/nas_share_proxmox/</link>
+      <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/nas_share_proxmox/</guid>
+      <description>&lt;p&gt;
+Since I installed Proxmox for my small home server, I struggled a bit with nas shares due to user ownership and permissions, but after searching a bit I encountered a tutorial (I can remember where) to do it easily. So, before I forget it I will write here how I nailed it.&lt;/p&gt;
+&lt;p&gt;
+It works to share a mountpoint from Proxmox to the LXCs, so if you have an ssd/hdd in that directory, it will share the whole disk.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Home-Assistant, being lazy at home</title>
-      <link>http://10.1.1.205:1313/posts/homeassistant/</link>
+      <link>https://earvingad.github.io/posts/homeassistant/</link>
       <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/homeassistant/</guid>
+      <guid>https://earvingad.github.io/posts/homeassistant/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt; 
 &lt;/figure&gt;
@@ -51,9 +51,9 @@ HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;h
     </item>
     <item>
       <title>DuckDNS, forget your ip</title>
-      <link>http://10.1.1.205:1313/posts/duckdns/</link>
+      <link>https://earvingad.github.io/posts/duckdns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/duckdns/</guid>
+      <guid>https://earvingad.github.io/posts/duckdns/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.duckdns.org/img/ducky_icon.png&#34;/&gt; 
 &lt;/figure&gt;
@@ -66,13 +66,13 @@ In other words, you can create:&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;that will point to the ip of your homelab or VPS.&lt;/p&gt;
 &lt;p&gt;
-Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;http://10.1.1.205:1313/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;http://10.1.1.205:1313/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
+Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Netdata, real-time server monitoring</title>
-      <link>http://10.1.1.205:1313/posts/netdata/</link>
+      <link>https://earvingad.github.io/posts/netdata/</link>
       <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
-      <guid>http://10.1.1.205:1313/posts/netdata/</guid>
+      <guid>https://earvingad.github.io/posts/netdata/</guid>
       <description>&lt;p&gt;
 If you have a server, you know it is useful to have information of your server to troubleshoot and detect problems or bad configurations, usage of the CPU, ram, network and health of the HDD.&lt;/p&gt;
 &lt;p&gt;
