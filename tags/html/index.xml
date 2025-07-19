@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Html on Nerd things and more...</title>
-    <link>http://localhost:1313/tags/html/</link>
+    <link>http://10.1.1.205:1313/tags/html/</link>
     <description>Recent content in Html on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 19 Nov 2023 11:19:59 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Read the org</title>
-      <link>http://localhost:1313/posts/readtheorg/</link>
+      <link>http://10.1.1.205:1313/posts/readtheorg/</link>
       <pubDate>Sun, 19 Nov 2023 11:19:59 -0600</pubDate>
-      <guid>http://localhost:1313/posts/readtheorg/</guid>
+      <guid>http://10.1.1.205:1313/posts/readtheorg/</guid>
       <description>&lt;p&gt;
 Recently I wrote about using org-reveal to make presentations with emacs and org-mode, but org-mode actually can export the org document to an html file by using &lt;code&gt;SPC m e h o&lt;/code&gt; it will open the generated html.&lt;/p&gt;
 &lt;p&gt;
