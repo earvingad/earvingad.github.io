@@ -2,329 +2,350 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://earvingad.github.io/categories/</loc>
+    <loc>http://10.1.1.205:1313/categories/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/homelab/</loc>
+    <loc>http://10.1.1.205:1313/categories/homelab/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/samba_systemctl/</loc>
+    <loc>http://10.1.1.205:1313/posts/samba_systemctl/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/nas/</loc>
+    <loc>http://10.1.1.205:1313/tags/nas/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/</loc>
+    <loc>http://10.1.1.205:1313/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/</loc>
+    <loc>http://10.1.1.205:1313/posts/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/samba/</loc>
+    <loc>http://10.1.1.205:1313/tags/samba/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/server/</loc>
+    <loc>http://10.1.1.205:1313/categories/server/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/systemctl/</loc>
+    <loc>http://10.1.1.205:1313/tags/systemctl/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/</loc>
+    <loc>http://10.1.1.205:1313/tags/</loc>
     <lastmod>2025-06-22T12:01:43-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/nas_share_proxmox/</loc>
+    <loc>http://10.1.1.205:1313/posts/nas_share_proxmox/</loc>
     <lastmod>2025-06-21T14:33:20-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/lxc/</loc>
+    <loc>http://10.1.1.205:1313/tags/lxc/</loc>
     <lastmod>2025-06-21T14:33:20-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/proxmox/</loc>
+    <loc>http://10.1.1.205:1313/tags/proxmox/</loc>
     <lastmod>2025-06-21T14:33:20-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/server/</loc>
+    <loc>http://10.1.1.205:1313/tags/server/</loc>
     <lastmod>2025-06-21T14:33:20-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/emacs/</loc>
+    <loc>http://10.1.1.205:1313/tags/caddy/</loc>
+    <lastmod>2024-03-30T14:19:47-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/tags/proxy/</loc>
+    <lastmod>2024-03-30T14:19:47-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/posts/reverseproxy/</loc>
+    <lastmod>2024-03-30T14:19:47-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/tags/web/</loc>
+    <lastmod>2024-03-30T14:19:47-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/categories/emacs/</loc>
+    <lastmod>2023-11-19T11:19:59-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/tags/emacs/</loc>
+    <lastmod>2023-11-19T11:19:59-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/tags/html/</loc>
+    <lastmod>2023-11-19T11:19:59-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/categories/orgmode/</loc>
+    <lastmod>2023-11-19T11:19:59-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/tags/orgmode/</loc>
+    <lastmod>2023-11-19T11:19:59-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/posts/readtheorg/</loc>
+    <lastmod>2023-11-19T11:19:59-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/tags/template/</loc>
+    <lastmod>2023-11-19T11:19:59-06:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.205:1313/posts/orgreveal/</loc>
     <lastmod>2023-11-15T19:00:25-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/emacs/</loc>
+    <loc>http://10.1.1.205:1313/tags/reveal/</loc>
     <lastmod>2023-11-15T19:00:25-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/orgreveal/</loc>
-    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/categories/orgmode/</loc>
-    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/orgmode/</loc>
-    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/reveal/</loc>
-    <lastmod>2023-11-15T19:00:25-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/categories/blog/</loc>
+    <loc>http://10.1.1.205:1313/categories/blog/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/blog/</loc>
+    <loc>http://10.1.1.205:1313/tags/blog/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/blogcommentsutterance/</loc>
+    <loc>http://10.1.1.205:1313/posts/blogcommentsutterance/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/github/</loc>
+    <loc>http://10.1.1.205:1313/categories/github/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/github/</loc>
+    <loc>http://10.1.1.205:1313/tags/github/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/hugo/</loc>
+    <loc>http://10.1.1.205:1313/categories/hugo/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/hugo/</loc>
+    <loc>http://10.1.1.205:1313/tags/hugo/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/utterance/</loc>
+    <loc>http://10.1.1.205:1313/categories/utterance/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/utterance/</loc>
+    <loc>http://10.1.1.205:1313/tags/utterance/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/automate/</loc>
+    <loc>http://10.1.1.205:1313/tags/automate/</loc>
     <lastmod>2023-10-29T12:08:13-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/automatewithpython/</loc>
+    <loc>http://10.1.1.205:1313/posts/automatewithpython/</loc>
     <lastmod>2023-10-29T12:08:13-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/programming/</loc>
+    <loc>http://10.1.1.205:1313/categories/programming/</loc>
     <lastmod>2023-10-29T12:08:13-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/programming/</loc>
+    <loc>http://10.1.1.205:1313/tags/programming/</loc>
     <lastmod>2023-10-29T12:08:13-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/python/</loc>
+    <loc>http://10.1.1.205:1313/categories/python/</loc>
     <lastmod>2023-10-29T12:08:13-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/python/</loc>
+    <loc>http://10.1.1.205:1313/tags/python/</loc>
     <lastmod>2023-10-29T12:08:13-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/coffee/</loc>
+    <loc>http://10.1.1.205:1313/tags/coffee/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/esphome/</loc>
+    <loc>http://10.1.1.205:1313/tags/esphome/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/homeassistant/</loc>
+    <loc>http://10.1.1.205:1313/categories/homeassistant/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/homeassistant/</loc>
+    <loc>http://10.1.1.205:1313/tags/homeassistant/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/iot/</loc>
+    <loc>http://10.1.1.205:1313/tags/iot/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/level/</loc>
+    <loc>http://10.1.1.205:1313/tags/level/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/smartdumbcoffe/</loc>
+    <loc>http://10.1.1.205:1313/posts/smartdumbcoffe/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/sensor/</loc>
+    <loc>http://10.1.1.205:1313/tags/sensor/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/smart/</loc>
+    <loc>http://10.1.1.205:1313/tags/smart/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/smarthome/</loc>
+    <loc>http://10.1.1.205:1313/categories/smarthome/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/sonoff/</loc>
+    <loc>http://10.1.1.205:1313/tags/sonoff/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/switch/</loc>
+    <loc>http://10.1.1.205:1313/tags/switch/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/water/</loc>
+    <loc>http://10.1.1.205:1313/tags/water/</loc>
     <lastmod>2023-08-20T12:58:52-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/light/</loc>
+    <loc>http://10.1.1.205:1313/tags/light/</loc>
     <lastmod>2023-07-26T19:06:18-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/sonoffminir2repair/</loc>
+    <loc>http://10.1.1.205:1313/posts/sonoffminir2repair/</loc>
     <lastmod>2023-07-26T19:06:18-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/tasmota/</loc>
+    <loc>http://10.1.1.205:1313/tags/tasmota/</loc>
     <lastmod>2023-07-26T19:06:18-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/esphometasmota/</loc>
+    <loc>http://10.1.1.205:1313/posts/esphometasmota/</loc>
     <lastmod>2023-07-23T12:13:58-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/libretiny/</loc>
+    <loc>http://10.1.1.205:1313/tags/libretiny/</loc>
     <lastmod>2023-07-23T12:13:58-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/libretuya/</loc>
+    <loc>http://10.1.1.205:1313/tags/libretuya/</loc>
     <lastmod>2023-07-23T12:13:58-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/openbeken/</loc>
+    <loc>http://10.1.1.205:1313/tags/openbeken/</loc>
     <lastmod>2023-07-23T12:13:58-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/remote/</loc>
+    <loc>http://10.1.1.205:1313/tags/remote/</loc>
     <lastmod>2023-07-23T12:13:58-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/homeassistant/</loc>
+    <loc>http://10.1.1.205:1313/posts/homeassistant/</loc>
     <lastmod>2023-07-16T12:52:44-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/headscale/</loc>
+    <loc>http://10.1.1.205:1313/tags/headscale/</loc>
     <lastmod>2023-02-25T12:15:56-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/headscale/</loc>
+    <loc>http://10.1.1.205:1313/posts/headscale/</loc>
     <lastmod>2023-02-25T12:15:56-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/netmaker/</loc>
+    <loc>http://10.1.1.205:1313/tags/netmaker/</loc>
     <lastmod>2023-02-25T12:15:56-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/openwrt/</loc>
+    <loc>http://10.1.1.205:1313/categories/openwrt/</loc>
     <lastmod>2023-02-25T12:15:56-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/openwrt/</loc>
+    <loc>http://10.1.1.205:1313/tags/openwrt/</loc>
     <lastmod>2023-02-25T12:15:56-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/ssh/</loc>
+    <loc>http://10.1.1.205:1313/tags/ssh/</loc>
     <lastmod>2023-02-25T12:15:56-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/tailscale/</loc>
+    <loc>http://10.1.1.205:1313/tags/tailscale/</loc>
     <lastmod>2023-02-25T12:15:56-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/vpn/</loc>
+    <loc>http://10.1.1.205:1313/tags/vpn/</loc>
     <lastmod>2023-02-25T12:15:56-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/zerotier/</loc>
+    <loc>http://10.1.1.205:1313/tags/zerotier/</loc>
     <lastmod>2023-02-25T12:15:56-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/dns/</loc>
+    <loc>http://10.1.1.205:1313/tags/dns/</loc>
     <lastmod>2023-02-23T20:51:55-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/duckdns/</loc>
+    <loc>http://10.1.1.205:1313/tags/duckdns/</loc>
     <lastmod>2023-02-23T20:51:55-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/duckdns/</loc>
+    <loc>http://10.1.1.205:1313/posts/duckdns/</loc>
     <lastmod>2023-02-23T20:51:55-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/ip/</loc>
+    <loc>http://10.1.1.205:1313/tags/ip/</loc>
     <lastmod>2023-02-23T20:51:55-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/data/</loc>
+    <loc>http://10.1.1.205:1313/tags/data/</loc>
     <lastmod>2022-09-02T13:06:12-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/monitor/</loc>
+    <loc>http://10.1.1.205:1313/tags/monitor/</loc>
     <lastmod>2022-09-02T13:06:12-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/netdata/</loc>
+    <loc>http://10.1.1.205:1313/tags/netdata/</loc>
     <lastmod>2022-09-02T13:06:12-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/netdata/</loc>
+    <loc>http://10.1.1.205:1313/posts/netdata/</loc>
     <lastmod>2022-09-02T13:06:12-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/tailscale/</loc>
+    <loc>http://10.1.1.205:1313/posts/tailscale/</loc>
     <lastmod>2022-06-06T19:46:42-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/tor/</loc>
+    <loc>http://10.1.1.205:1313/tags/tor/</loc>
     <lastmod>2022-05-22T18:55:17-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/torssh/</loc>
+    <loc>http://10.1.1.205:1313/posts/torssh/</loc>
     <lastmod>2022-05-22T18:55:17-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/adblock/</loc>
+    <loc>http://10.1.1.205:1313/tags/adblock/</loc>
     <lastmod>2022-05-15T13:23:58-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/adguardhome/</loc>
+    <loc>http://10.1.1.205:1313/posts/adguardhome/</loc>
     <lastmod>2022-05-15T13:23:58-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/linux/</loc>
+    <loc>http://10.1.1.205:1313/tags/linux/</loc>
     <lastmod>2022-05-15T13:23:58-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/router/</loc>
+    <loc>http://10.1.1.205:1313/tags/router/</loc>
     <lastmod>2022-05-15T13:23:58-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/openwrt/</loc>
+    <loc>http://10.1.1.205:1313/posts/openwrt/</loc>
     <lastmod>2022-05-06T14:14:48-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/adblocking/</loc>
+    <loc>http://10.1.1.205:1313/posts/adblocking/</loc>
     <lastmod>2022-04-27T21:24:55-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/backup/</loc>
+    <loc>http://10.1.1.205:1313/tags/backup/</loc>
     <lastmod>2022-04-24T18:30:09-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/synchronization/</loc>
+    <loc>http://10.1.1.205:1313/tags/synchronization/</loc>
     <lastmod>2022-04-24T18:30:09-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/syncthing/</loc>
+    <loc>http://10.1.1.205:1313/posts/syncthing/</loc>
     <lastmod>2022-04-24T18:30:09-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/blogwithhugo/</loc>
+    <loc>http://10.1.1.205:1313/posts/blogwithhugo/</loc>
     <lastmod>2021-01-03T19:37:05-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/git/</loc>
+    <loc>http://10.1.1.205:1313/tags/git/</loc>
     <lastmod>2021-01-03T19:37:05-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/android/</loc>
+    <loc>http://10.1.1.205:1313/tags/android/</loc>
     <lastmod>2020-06-11T22:13:00-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/dropbox/</loc>
+    <loc>http://10.1.1.205:1313/tags/dropbox/</loc>
     <lastmod>2020-06-11T22:13:00-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/mobile/</loc>
+    <loc>http://10.1.1.205:1313/tags/mobile/</loc>
     <lastmod>2020-06-11T22:13:00-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/orgzly/</loc>
+    <loc>http://10.1.1.205:1313/tags/orgzly/</loc>
     <lastmod>2020-06-11T22:13:00-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/orgzly/</loc>
+    <loc>http://10.1.1.205:1313/posts/orgzly/</loc>
     <lastmod>2020-06-11T22:13:00-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/org/</loc>
+    <loc>http://10.1.1.205:1313/tags/org/</loc>
     <lastmod>2020-05-26T22:18:24-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/org_roam_windows/</loc>
+    <loc>http://10.1.1.205:1313/posts/org_roam_windows/</loc>
     <lastmod>2020-05-26T22:18:24-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/roam/</loc>
+    <loc>http://10.1.1.205:1313/categories/roam/</loc>
     <lastmod>2020-05-26T22:18:24-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/roam/</loc>
+    <loc>http://10.1.1.205:1313/tags/roam/</loc>
     <lastmod>2020-05-26T22:18:24-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/windows/</loc>
+    <loc>http://10.1.1.205:1313/categories/windows/</loc>
     <lastmod>2020-05-26T22:18:24-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/windows/</loc>
+    <loc>http://10.1.1.205:1313/tags/windows/</loc>
     <lastmod>2020-05-26T22:18:24-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/zettelkasten/</loc>
+    <loc>http://10.1.1.205:1313/tags/zettelkasten/</loc>
     <lastmod>2020-05-26T22:18:24-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/org_mode/</loc>
+    <loc>http://10.1.1.205:1313/posts/org_mode/</loc>
     <lastmod>2020-05-24T17:38:08-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/doom/</loc>
+    <loc>http://10.1.1.205:1313/tags/doom/</loc>
     <lastmod>2020-05-22T20:10:08-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/doom_emacs_windows/</loc>
+    <loc>http://10.1.1.205:1313/posts/doom_emacs_windows/</loc>
     <lastmod>2020-05-22T20:10:08-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/doomemacs/</loc>
+    <loc>http://10.1.1.205:1313/categories/doomemacs/</loc>
     <lastmod>2020-05-22T20:10:08-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/about/</loc>
+    <loc>http://10.1.1.205:1313/about/</loc>
     <lastmod>2020-05-21T19:24:09-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/in-the-beginning/</loc>
+    <loc>http://10.1.1.205:1313/posts/in-the-beginning/</loc>
     <lastmod>2020-05-20T22:25:18-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/tags/introduction/</loc>
+    <loc>http://10.1.1.205:1313/tags/introduction/</loc>
     <lastmod>2020-05-20T22:25:18-05:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/posts/img/orgreveal/orgreveal/</loc>
+    <loc>http://10.1.1.205:1313/posts/img/orgreveal/orgreveal/</loc>
   </url><url>
-    <loc>https://earvingad.github.io/archives/</loc>
+    <loc>http://10.1.1.205:1313/archives/</loc>
   </url>
 </urlset>

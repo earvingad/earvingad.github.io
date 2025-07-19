@@ -2,449 +2,484 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Nerd things and more...</title>
-    <link>https://earvingad.github.io/tags/</link>
+    <link>http://10.1.1.205:1313/tags/</link>
     <description>Recent content in Tags on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Jun 2025 12:01:43 -0600</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nas</title>
-      <link>https://earvingad.github.io/tags/nas/</link>
+      <link>http://10.1.1.205:1313/tags/nas/</link>
       <pubDate>Sun, 22 Jun 2025 12:01:43 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/nas/</guid>
+      <guid>http://10.1.1.205:1313/tags/nas/</guid>
       <description></description>
     </item>
     <item>
       <title>Samba</title>
-      <link>https://earvingad.github.io/tags/samba/</link>
+      <link>http://10.1.1.205:1313/tags/samba/</link>
       <pubDate>Sun, 22 Jun 2025 12:01:43 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/samba/</guid>
+      <guid>http://10.1.1.205:1313/tags/samba/</guid>
       <description></description>
     </item>
     <item>
       <title>Systemctl</title>
-      <link>https://earvingad.github.io/tags/systemctl/</link>
+      <link>http://10.1.1.205:1313/tags/systemctl/</link>
       <pubDate>Sun, 22 Jun 2025 12:01:43 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/systemctl/</guid>
+      <guid>http://10.1.1.205:1313/tags/systemctl/</guid>
       <description></description>
     </item>
     <item>
       <title>LXC</title>
-      <link>https://earvingad.github.io/tags/lxc/</link>
+      <link>http://10.1.1.205:1313/tags/lxc/</link>
       <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/lxc/</guid>
+      <guid>http://10.1.1.205:1313/tags/lxc/</guid>
       <description></description>
     </item>
     <item>
       <title>Proxmox</title>
-      <link>https://earvingad.github.io/tags/proxmox/</link>
+      <link>http://10.1.1.205:1313/tags/proxmox/</link>
       <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/proxmox/</guid>
+      <guid>http://10.1.1.205:1313/tags/proxmox/</guid>
       <description></description>
     </item>
     <item>
       <title>Server</title>
-      <link>https://earvingad.github.io/tags/server/</link>
+      <link>http://10.1.1.205:1313/tags/server/</link>
       <pubDate>Sat, 21 Jun 2025 14:33:20 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/server/</guid>
+      <guid>http://10.1.1.205:1313/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Caddy</title>
+      <link>http://10.1.1.205:1313/tags/caddy/</link>
+      <pubDate>Sat, 30 Mar 2024 14:19:47 -0600</pubDate>
+      <guid>http://10.1.1.205:1313/tags/caddy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxy</title>
+      <link>http://10.1.1.205:1313/tags/proxy/</link>
+      <pubDate>Sat, 30 Mar 2024 14:19:47 -0600</pubDate>
+      <guid>http://10.1.1.205:1313/tags/proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>http://10.1.1.205:1313/tags/web/</link>
+      <pubDate>Sat, 30 Mar 2024 14:19:47 -0600</pubDate>
+      <guid>http://10.1.1.205:1313/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Emacs</title>
-      <link>https://earvingad.github.io/tags/emacs/</link>
-      <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/emacs/</guid>
+      <link>http://10.1.1.205:1313/tags/emacs/</link>
+      <pubDate>Sun, 19 Nov 2023 11:19:59 -0600</pubDate>
+      <guid>http://10.1.1.205:1313/tags/emacs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>http://10.1.1.205:1313/tags/html/</link>
+      <pubDate>Sun, 19 Nov 2023 11:19:59 -0600</pubDate>
+      <guid>http://10.1.1.205:1313/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Orgmode</title>
-      <link>https://earvingad.github.io/tags/orgmode/</link>
-      <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/orgmode/</guid>
+      <link>http://10.1.1.205:1313/tags/orgmode/</link>
+      <pubDate>Sun, 19 Nov 2023 11:19:59 -0600</pubDate>
+      <guid>http://10.1.1.205:1313/tags/orgmode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Template</title>
+      <link>http://10.1.1.205:1313/tags/template/</link>
+      <pubDate>Sun, 19 Nov 2023 11:19:59 -0600</pubDate>
+      <guid>http://10.1.1.205:1313/tags/template/</guid>
       <description></description>
     </item>
     <item>
       <title>Reveal</title>
-      <link>https://earvingad.github.io/tags/reveal/</link>
+      <link>http://10.1.1.205:1313/tags/reveal/</link>
       <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/reveal/</guid>
+      <guid>http://10.1.1.205:1313/tags/reveal/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://earvingad.github.io/tags/blog/</link>
+      <link>http://10.1.1.205:1313/tags/blog/</link>
       <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/blog/</guid>
+      <guid>http://10.1.1.205:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>https://earvingad.github.io/tags/github/</link>
+      <link>http://10.1.1.205:1313/tags/github/</link>
       <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/github/</guid>
+      <guid>http://10.1.1.205:1313/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://earvingad.github.io/tags/hugo/</link>
+      <link>http://10.1.1.205:1313/tags/hugo/</link>
       <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/hugo/</guid>
+      <guid>http://10.1.1.205:1313/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Utterance</title>
-      <link>https://earvingad.github.io/tags/utterance/</link>
+      <link>http://10.1.1.205:1313/tags/utterance/</link>
       <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/utterance/</guid>
+      <guid>http://10.1.1.205:1313/tags/utterance/</guid>
       <description></description>
     </item>
     <item>
       <title>Automate</title>
-      <link>https://earvingad.github.io/tags/automate/</link>
+      <link>http://10.1.1.205:1313/tags/automate/</link>
       <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/automate/</guid>
+      <guid>http://10.1.1.205:1313/tags/automate/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://earvingad.github.io/tags/programming/</link>
+      <link>http://10.1.1.205:1313/tags/programming/</link>
       <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/programming/</guid>
+      <guid>http://10.1.1.205:1313/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://earvingad.github.io/tags/python/</link>
+      <link>http://10.1.1.205:1313/tags/python/</link>
       <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/python/</guid>
+      <guid>http://10.1.1.205:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Coffee</title>
-      <link>https://earvingad.github.io/tags/coffee/</link>
+      <link>http://10.1.1.205:1313/tags/coffee/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/coffee/</guid>
+      <guid>http://10.1.1.205:1313/tags/coffee/</guid>
       <description></description>
     </item>
     <item>
       <title>Esphome</title>
-      <link>https://earvingad.github.io/tags/esphome/</link>
+      <link>http://10.1.1.205:1313/tags/esphome/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/esphome/</guid>
+      <guid>http://10.1.1.205:1313/tags/esphome/</guid>
       <description></description>
     </item>
     <item>
       <title>Homeassistant</title>
-      <link>https://earvingad.github.io/tags/homeassistant/</link>
+      <link>http://10.1.1.205:1313/tags/homeassistant/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/homeassistant/</guid>
+      <guid>http://10.1.1.205:1313/tags/homeassistant/</guid>
       <description></description>
     </item>
     <item>
       <title>Iot</title>
-      <link>https://earvingad.github.io/tags/iot/</link>
+      <link>http://10.1.1.205:1313/tags/iot/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/iot/</guid>
+      <guid>http://10.1.1.205:1313/tags/iot/</guid>
       <description></description>
     </item>
     <item>
       <title>Level</title>
-      <link>https://earvingad.github.io/tags/level/</link>
+      <link>http://10.1.1.205:1313/tags/level/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/level/</guid>
+      <guid>http://10.1.1.205:1313/tags/level/</guid>
       <description></description>
     </item>
     <item>
       <title>Sensor</title>
-      <link>https://earvingad.github.io/tags/sensor/</link>
+      <link>http://10.1.1.205:1313/tags/sensor/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/sensor/</guid>
+      <guid>http://10.1.1.205:1313/tags/sensor/</guid>
       <description></description>
     </item>
     <item>
       <title>Smart</title>
-      <link>https://earvingad.github.io/tags/smart/</link>
+      <link>http://10.1.1.205:1313/tags/smart/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/smart/</guid>
+      <guid>http://10.1.1.205:1313/tags/smart/</guid>
       <description></description>
     </item>
     <item>
       <title>Sonoff</title>
-      <link>https://earvingad.github.io/tags/sonoff/</link>
+      <link>http://10.1.1.205:1313/tags/sonoff/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/sonoff/</guid>
+      <guid>http://10.1.1.205:1313/tags/sonoff/</guid>
       <description></description>
     </item>
     <item>
       <title>Switch</title>
-      <link>https://earvingad.github.io/tags/switch/</link>
+      <link>http://10.1.1.205:1313/tags/switch/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/switch/</guid>
+      <guid>http://10.1.1.205:1313/tags/switch/</guid>
       <description></description>
     </item>
     <item>
       <title>Water</title>
-      <link>https://earvingad.github.io/tags/water/</link>
+      <link>http://10.1.1.205:1313/tags/water/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/water/</guid>
+      <guid>http://10.1.1.205:1313/tags/water/</guid>
       <description></description>
     </item>
     <item>
       <title>Light</title>
-      <link>https://earvingad.github.io/tags/light/</link>
+      <link>http://10.1.1.205:1313/tags/light/</link>
       <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/light/</guid>
+      <guid>http://10.1.1.205:1313/tags/light/</guid>
       <description></description>
     </item>
     <item>
       <title>Tasmota</title>
-      <link>https://earvingad.github.io/tags/tasmota/</link>
+      <link>http://10.1.1.205:1313/tags/tasmota/</link>
       <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/tasmota/</guid>
+      <guid>http://10.1.1.205:1313/tags/tasmota/</guid>
       <description></description>
     </item>
     <item>
       <title>Libretiny</title>
-      <link>https://earvingad.github.io/tags/libretiny/</link>
+      <link>http://10.1.1.205:1313/tags/libretiny/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/libretiny/</guid>
+      <guid>http://10.1.1.205:1313/tags/libretiny/</guid>
       <description></description>
     </item>
     <item>
       <title>Libretuya</title>
-      <link>https://earvingad.github.io/tags/libretuya/</link>
+      <link>http://10.1.1.205:1313/tags/libretuya/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/libretuya/</guid>
+      <guid>http://10.1.1.205:1313/tags/libretuya/</guid>
       <description></description>
     </item>
     <item>
       <title>Openbeken</title>
-      <link>https://earvingad.github.io/tags/openbeken/</link>
+      <link>http://10.1.1.205:1313/tags/openbeken/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/openbeken/</guid>
+      <guid>http://10.1.1.205:1313/tags/openbeken/</guid>
       <description></description>
     </item>
     <item>
       <title>Remote</title>
-      <link>https://earvingad.github.io/tags/remote/</link>
+      <link>http://10.1.1.205:1313/tags/remote/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/remote/</guid>
+      <guid>http://10.1.1.205:1313/tags/remote/</guid>
       <description></description>
     </item>
     <item>
       <title>Headscale</title>
-      <link>https://earvingad.github.io/tags/headscale/</link>
+      <link>http://10.1.1.205:1313/tags/headscale/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/headscale/</guid>
+      <guid>http://10.1.1.205:1313/tags/headscale/</guid>
       <description></description>
     </item>
     <item>
       <title>Netmaker</title>
-      <link>https://earvingad.github.io/tags/netmaker/</link>
+      <link>http://10.1.1.205:1313/tags/netmaker/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/netmaker/</guid>
+      <guid>http://10.1.1.205:1313/tags/netmaker/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenWrt</title>
-      <link>https://earvingad.github.io/tags/openwrt/</link>
+      <link>http://10.1.1.205:1313/tags/openwrt/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/openwrt/</guid>
+      <guid>http://10.1.1.205:1313/tags/openwrt/</guid>
       <description></description>
     </item>
     <item>
       <title>Ssh</title>
-      <link>https://earvingad.github.io/tags/ssh/</link>
+      <link>http://10.1.1.205:1313/tags/ssh/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/ssh/</guid>
+      <guid>http://10.1.1.205:1313/tags/ssh/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailscale</title>
-      <link>https://earvingad.github.io/tags/tailscale/</link>
+      <link>http://10.1.1.205:1313/tags/tailscale/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/tailscale/</guid>
+      <guid>http://10.1.1.205:1313/tags/tailscale/</guid>
       <description></description>
     </item>
     <item>
       <title>Vpn</title>
-      <link>https://earvingad.github.io/tags/vpn/</link>
+      <link>http://10.1.1.205:1313/tags/vpn/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/vpn/</guid>
+      <guid>http://10.1.1.205:1313/tags/vpn/</guid>
       <description></description>
     </item>
     <item>
       <title>Zerotier</title>
-      <link>https://earvingad.github.io/tags/zerotier/</link>
+      <link>http://10.1.1.205:1313/tags/zerotier/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/zerotier/</guid>
+      <guid>http://10.1.1.205:1313/tags/zerotier/</guid>
       <description></description>
     </item>
     <item>
       <title>Dns</title>
-      <link>https://earvingad.github.io/tags/dns/</link>
+      <link>http://10.1.1.205:1313/tags/dns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/dns/</guid>
+      <guid>http://10.1.1.205:1313/tags/dns/</guid>
       <description></description>
     </item>
     <item>
       <title>Duckdns</title>
-      <link>https://earvingad.github.io/tags/duckdns/</link>
+      <link>http://10.1.1.205:1313/tags/duckdns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/duckdns/</guid>
+      <guid>http://10.1.1.205:1313/tags/duckdns/</guid>
       <description></description>
     </item>
     <item>
       <title>Ip</title>
-      <link>https://earvingad.github.io/tags/ip/</link>
+      <link>http://10.1.1.205:1313/tags/ip/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/ip/</guid>
+      <guid>http://10.1.1.205:1313/tags/ip/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>https://earvingad.github.io/tags/data/</link>
+      <link>http://10.1.1.205:1313/tags/data/</link>
       <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/data/</guid>
+      <guid>http://10.1.1.205:1313/tags/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Monitor</title>
-      <link>https://earvingad.github.io/tags/monitor/</link>
+      <link>http://10.1.1.205:1313/tags/monitor/</link>
       <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/monitor/</guid>
+      <guid>http://10.1.1.205:1313/tags/monitor/</guid>
       <description></description>
     </item>
     <item>
       <title>Netdata</title>
-      <link>https://earvingad.github.io/tags/netdata/</link>
+      <link>http://10.1.1.205:1313/tags/netdata/</link>
       <pubDate>Fri, 02 Sep 2022 13:06:12 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/netdata/</guid>
+      <guid>http://10.1.1.205:1313/tags/netdata/</guid>
       <description></description>
     </item>
     <item>
       <title>Tor</title>
-      <link>https://earvingad.github.io/tags/tor/</link>
+      <link>http://10.1.1.205:1313/tags/tor/</link>
       <pubDate>Sun, 22 May 2022 18:55:17 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/tor/</guid>
+      <guid>http://10.1.1.205:1313/tags/tor/</guid>
       <description></description>
     </item>
     <item>
       <title>Adblock</title>
-      <link>https://earvingad.github.io/tags/adblock/</link>
+      <link>http://10.1.1.205:1313/tags/adblock/</link>
       <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/adblock/</guid>
+      <guid>http://10.1.1.205:1313/tags/adblock/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://earvingad.github.io/tags/linux/</link>
+      <link>http://10.1.1.205:1313/tags/linux/</link>
       <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/linux/</guid>
+      <guid>http://10.1.1.205:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Router</title>
-      <link>https://earvingad.github.io/tags/router/</link>
+      <link>http://10.1.1.205:1313/tags/router/</link>
       <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/router/</guid>
+      <guid>http://10.1.1.205:1313/tags/router/</guid>
       <description></description>
     </item>
     <item>
       <title>Backup</title>
-      <link>https://earvingad.github.io/tags/backup/</link>
+      <link>http://10.1.1.205:1313/tags/backup/</link>
       <pubDate>Sun, 24 Apr 2022 18:30:09 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/backup/</guid>
+      <guid>http://10.1.1.205:1313/tags/backup/</guid>
       <description></description>
     </item>
     <item>
       <title>Synchronization</title>
-      <link>https://earvingad.github.io/tags/synchronization/</link>
+      <link>http://10.1.1.205:1313/tags/synchronization/</link>
       <pubDate>Sun, 24 Apr 2022 18:30:09 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/synchronization/</guid>
+      <guid>http://10.1.1.205:1313/tags/synchronization/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://earvingad.github.io/tags/git/</link>
+      <link>http://10.1.1.205:1313/tags/git/</link>
       <pubDate>Sun, 03 Jan 2021 19:37:05 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/git/</guid>
+      <guid>http://10.1.1.205:1313/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>https://earvingad.github.io/tags/android/</link>
+      <link>http://10.1.1.205:1313/tags/android/</link>
       <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/android/</guid>
+      <guid>http://10.1.1.205:1313/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Dropbox</title>
-      <link>https://earvingad.github.io/tags/dropbox/</link>
+      <link>http://10.1.1.205:1313/tags/dropbox/</link>
       <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/dropbox/</guid>
+      <guid>http://10.1.1.205:1313/tags/dropbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile</title>
-      <link>https://earvingad.github.io/tags/mobile/</link>
+      <link>http://10.1.1.205:1313/tags/mobile/</link>
       <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/mobile/</guid>
+      <guid>http://10.1.1.205:1313/tags/mobile/</guid>
       <description></description>
     </item>
     <item>
       <title>Orgzly</title>
-      <link>https://earvingad.github.io/tags/orgzly/</link>
+      <link>http://10.1.1.205:1313/tags/orgzly/</link>
       <pubDate>Thu, 11 Jun 2020 22:13:00 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/orgzly/</guid>
+      <guid>http://10.1.1.205:1313/tags/orgzly/</guid>
       <description></description>
     </item>
     <item>
       <title>Org</title>
-      <link>https://earvingad.github.io/tags/org/</link>
+      <link>http://10.1.1.205:1313/tags/org/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/org/</guid>
+      <guid>http://10.1.1.205:1313/tags/org/</guid>
       <description></description>
     </item>
     <item>
       <title>Roam</title>
-      <link>https://earvingad.github.io/tags/roam/</link>
+      <link>http://10.1.1.205:1313/tags/roam/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/roam/</guid>
+      <guid>http://10.1.1.205:1313/tags/roam/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>https://earvingad.github.io/tags/windows/</link>
+      <link>http://10.1.1.205:1313/tags/windows/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/windows/</guid>
+      <guid>http://10.1.1.205:1313/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Zettelkasten</title>
-      <link>https://earvingad.github.io/tags/zettelkasten/</link>
+      <link>http://10.1.1.205:1313/tags/zettelkasten/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/zettelkasten/</guid>
+      <guid>http://10.1.1.205:1313/tags/zettelkasten/</guid>
       <description></description>
     </item>
     <item>
       <title>Doom</title>
-      <link>https://earvingad.github.io/tags/doom/</link>
+      <link>http://10.1.1.205:1313/tags/doom/</link>
       <pubDate>Fri, 22 May 2020 20:10:08 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/doom/</guid>
+      <guid>http://10.1.1.205:1313/tags/doom/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>https://earvingad.github.io/tags/introduction/</link>
+      <link>http://10.1.1.205:1313/tags/introduction/</link>
       <pubDate>Wed, 20 May 2020 22:25:18 -0500</pubDate>
-      <guid>https://earvingad.github.io/tags/introduction/</guid>
+      <guid>http://10.1.1.205:1313/tags/introduction/</guid>
       <description></description>
     </item>
   </channel>

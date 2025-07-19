@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Reveal on Nerd things and more...</title>
-    <link>https://earvingad.github.io/tags/reveal/</link>
+    <link>http://10.1.1.205:1313/tags/reveal/</link>
     <description>Recent content in Reveal on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Wed, 15 Nov 2023 19:00:25 -0600</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/tags/reveal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/reveal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make elegant presentations with org and reveal</title>
-      <link>https://earvingad.github.io/posts/orgreveal/</link>
+      <link>http://10.1.1.205:1313/posts/orgreveal/</link>
       <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/orgreveal/</guid>
+      <guid>http://10.1.1.205:1313/posts/orgreveal/</guid>
       <description>&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
 &lt;p&gt;Please see the &lt;a href=&#34;https://earvingad.github.io/posts/img/orgreveal/orgreveal.html&#34;&gt;presentation version of this post&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;

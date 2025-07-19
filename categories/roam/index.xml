@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Roam on Nerd things and more...</title>
-    <link>https://earvingad.github.io/categories/roam/</link>
+    <link>http://10.1.1.205:1313/categories/roam/</link>
     <description>Recent content in Roam on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Tue, 26 May 2020 22:18:24 -0500</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/categories/roam/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/categories/roam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Org-roam &amp; Windows</title>
-      <link>https://earvingad.github.io/posts/org_roam_windows/</link>
+      <link>http://10.1.1.205:1313/posts/org_roam_windows/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      <guid>https://earvingad.github.io/posts/org_roam_windows/</guid>
+      <guid>http://10.1.1.205:1313/posts/org_roam_windows/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 Org-roam
