@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Remote on Nerd things and more...</title>
-    <link>https://earvingad.github.io/tags/remote/</link>
+    <link>http://10.1.1.205:1313/tags/remote/</link>
     <description>Recent content in Remote on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Jul 2023 12:13:58 -0600</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/tags/remote/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/remote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IoT devices, local control</title>
-      <link>https://earvingad.github.io/posts/esphometasmota/</link>
+      <link>http://10.1.1.205:1313/posts/esphometasmota/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
+      <guid>http://10.1.1.205:1313/posts/esphometasmota/</guid>
       <description>&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Home-Assistant, being lazy at home</title>
-      <link>https://earvingad.github.io/posts/homeassistant/</link>
+      <link>http://10.1.1.205:1313/posts/homeassistant/</link>
       <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/homeassistant/</guid>
+      <guid>http://10.1.1.205:1313/posts/homeassistant/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt; 
 &lt;/figure&gt;
@@ -35,9 +35,9 @@ HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;h
     </item>
     <item>
       <title>DuckDNS, forget your ip</title>
-      <link>https://earvingad.github.io/posts/duckdns/</link>
+      <link>http://10.1.1.205:1313/posts/duckdns/</link>
       <pubDate>Thu, 23 Feb 2023 20:51:55 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/duckdns/</guid>
+      <guid>http://10.1.1.205:1313/posts/duckdns/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.duckdns.org/img/ducky_icon.png&#34;/&gt; 
 &lt;/figure&gt;
@@ -50,7 +50,7 @@ In other words, you can create:&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;that will point to the ip of your homelab or VPS.&lt;/p&gt;
 &lt;p&gt;
-Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
+Why? Well, I already wrote about how to access remotely to your homelab &lt;a href=&#34;http://10.1.1.205:1313/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;using the Tor network&lt;/span&gt;&lt;/a&gt;. Also how it can be simplified using &lt;a href=&#34;http://10.1.1.205:1313/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tailscale&lt;/span&gt;&lt;/a&gt; and to avoid sending data to tailscale servers you could use &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; to selfhost.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

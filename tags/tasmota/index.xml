@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tasmota on Nerd things and more...</title>
-    <link>https://earvingad.github.io/tags/tasmota/</link>
+    <link>http://10.1.1.205:1313/tags/tasmota/</link>
     <description>Recent content in Tasmota on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Wed, 26 Jul 2023 19:06:18 -0600</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/tags/tasmota/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/tasmota/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sonoff mini r2, my screw up and repair</title>
-      <link>https://earvingad.github.io/posts/sonoffminir2repair/</link>
+      <link>http://10.1.1.205:1313/posts/sonoffminir2repair/</link>
       <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/sonoffminir2repair/</guid>
+      <guid>http://10.1.1.205:1313/posts/sonoffminir2repair/</guid>
       <description>&lt;p&gt;I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…&lt;/p&gt;</description>
     </item>
     <item>
       <title>IoT devices, local control</title>
-      <link>https://earvingad.github.io/posts/esphometasmota/</link>
+      <link>http://10.1.1.205:1313/posts/esphometasmota/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
+      <guid>http://10.1.1.205:1313/posts/esphometasmota/</guid>
       <description>&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;</description>
     </item>
   </channel>

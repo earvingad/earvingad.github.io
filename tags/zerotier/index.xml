@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Zerotier on Nerd things and more...</title>
-    <link>https://earvingad.github.io/tags/zerotier/</link>
+    <link>http://10.1.1.205:1313/tags/zerotier/</link>
     <description>Recent content in Zerotier on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sat, 25 Feb 2023 12:15:56 -0600</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/tags/zerotier/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/zerotier/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Headscale, how to self-host tailscale</title>
-      <link>https://earvingad.github.io/posts/headscale/</link>
+      <link>http://10.1.1.205:1313/posts/headscale/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/headscale/</guid>
+      <guid>http://10.1.1.205:1313/posts/headscale/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/juanfont/headscale/main/docs/logo/headscale3_header_stacked_left.png&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
-Previously, we spoke of how easy is to set a mesh network between your devices with &lt;a href=&#34;https://earvingad.github.io/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;tailscale&lt;/span&gt;&lt;/a&gt;. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to &lt;a href=&#34;https://www.reddit.com/r/selfhosted/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;selfhost&lt;/span&gt;&lt;/a&gt; this kind of services of their &lt;a href=&#34;https://www.reddit.com/r/homelab/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;homelab&lt;/span&gt;&lt;/a&gt;). Luckily, &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; exist as &lt;em&gt;An open source, self-hosted implementation of the Tailscale control server.&lt;/em&gt; It has support for most of the OS&amp;#39;s&lt;/p&gt;</description>
+Previously, we spoke of how easy is to set a mesh network between your devices with &lt;a href=&#34;http://10.1.1.205:1313/posts/tailscale/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;tailscale&lt;/span&gt;&lt;/a&gt;. Usually, that will work for most of the people, but in the view that you are using a third party server that might log your activity you would probably want to avoid that and maybe self host the mesh management (there are huge communities that like to &lt;a href=&#34;https://www.reddit.com/r/selfhosted/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;selfhost&lt;/span&gt;&lt;/a&gt; this kind of services of their &lt;a href=&#34;https://www.reddit.com/r/homelab/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;homelab&lt;/span&gt;&lt;/a&gt;). Luckily, &lt;a href=&#34;https://github.com/juanfont/headscale&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;headscale&lt;/span&gt;&lt;/a&gt; exist as &lt;em&gt;An open source, self-hosted implementation of the Tailscale control server.&lt;/em&gt; It has support for most of the OS&amp;#39;s&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tailscale, making WireGuard simpler for home networks</title>
-      <link>https://earvingad.github.io/posts/tailscale/</link>
+      <link>http://10.1.1.205:1313/posts/tailscale/</link>
       <pubDate>Mon, 06 Jun 2022 19:46:42 -0500</pubDate>
-      <guid>https://earvingad.github.io/posts/tailscale/</guid>
+      <guid>http://10.1.1.205:1313/posts/tailscale/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://tailscale.com/static/images/marketing/home-illustration-2080w.webp&#34;/&gt; 
 &lt;/figure&gt;
 
-Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the &lt;a href=&#34;https://earvingad.github.io/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tor a hidden friend to SSH your home network&lt;/span&gt;&lt;/a&gt; entry. However, I recommended to use &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;WireGuard&lt;/span&gt;&lt;/a&gt; to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.&lt;/p&gt;</description>
+Recently I wrote about how to use the Tor network as a free VPN and how to make as secure as possible in the &lt;a href=&#34;http://10.1.1.205:1313/posts/torssh/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Tor a hidden friend to SSH your home network&lt;/span&gt;&lt;/a&gt; entry. However, I recommended to use &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;WireGuard&lt;/span&gt;&lt;/a&gt; to connect securely and fast to your home network if you could set port forwarding on your router and leave Tor as a last option, since it is slow and its main goal is to serve as a circumvent censorship tool rather than a VPN.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
