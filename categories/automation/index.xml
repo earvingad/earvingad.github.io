@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Automation on Nerd things and more...</title>
+    <link>https://earvingad.github.io/categories/automation/</link>
+    <description>Recent content in Automation on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Jul 2025 09:22:34 -0600</lastBuildDate>
+    <atom:link href="https://earvingad.github.io/categories/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>:esp -&gt; espanso, text expansion everywhere</title>
+      <link>https://earvingad.github.io/posts/espanso/</link>
+      <pubDate>Sun, 27 Jul 2025 09:22:34 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/espanso/</guid>
+      <description>&lt;p&gt;
+Ever had to send the same email again and again? This is very common in office environments and we have a way to avoid this hassle (apart from just copy and paste). While in coding we rely on snippets like &lt;a href=&#34;https://joaotavora.github.io/yasnippet/&#34;&gt;YASnippet&lt;/a&gt; in emacs or &lt;a href=&#34;https://github.com/SirVer/ultisnips&#34;&gt;UltiSnips&lt;/a&gt;/&lt;a href=&#34;https://github.com/L3MON4D3/LuaSnip&#34;&gt;LuaSnip&lt;/a&gt; for vim/neovim to save time and write code easily and quick, I haven&amp;#39;t seen an alternative for system global snippets.&lt;/p&gt;
+&lt;p&gt;
+In this context, a snippet is a short keyword that expands to a complete text or function. For example, typing &lt;code&gt;src&lt;/code&gt; in org-mode in emacs using YASnippet, will expand to a source block:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automating with Python: A start</title>
+      <link>https://earvingad.github.io/posts/automatewithpython/</link>
+      <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/automatewithpython/</guid>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.python.org/static/img/python-logo.png&#34;/&gt; 
+&lt;/figure&gt;
+
+I remember once hearing &amp;#34;No matter what you do for living, learn a programming language it will ease your life.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+Although, using Linux takes you to a long trip of practicing scripting with bash, I was never really into programming (still not, eventhough I would have liked at some point).&lt;/p&gt;
+&lt;p&gt;
+From my school years, I think the first programming language I was in touch with was C++ in highschool.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IoT devices, local control</title>
+      <link>https://earvingad.github.io/posts/esphometasmota/</link>
+      <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
+      <description>&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Home-Assistant, being lazy at home</title>
+      <link>https://earvingad.github.io/posts/homeassistant/</link>
+      <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/homeassistant/</guid>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;em&gt;Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;https://en.wikipedia.org/wiki/Internet_of_things&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;IoT&lt;/span&gt;&lt;/a&gt; devices (e.g. smart switches, cameras, smart led lights, sensors, TVs, etc.) of your home, to be controlled locally from a friendly UI, with ability to create automations to be executed at specific times and/or events. I will just cover the basics.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Desktop on Nerd things and more...</title>
+    <link>http://10.1.1.205:1313/tags/desktop/</link>
+    <description>Recent content in Desktop on Nerd things and more...</description>
+    <image>
+      <title>Nerd things and more...</title>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Jul 2025 09:22:34 -0600</lastBuildDate>
+    <atom:link href="http://10.1.1.205:1313/tags/desktop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Espanso</title>
+      <link>http://10.1.1.205:1313/espanso/</link>
+      <pubDate>Sun, 27 Jul 2025 09:22:34 -0600</pubDate>
+      <guid>http://10.1.1.205:1313/espanso/</guid>
+      <description>&lt;p&gt;
+Ever being tired of rewriting the same email again and again? This is very common in office environments. While in coding we rely on snippets like &lt;a href=&#34;https://joaotavora.github.io/yasnippet/&#34;&gt;YASnippet&lt;/a&gt; in emacs or &lt;a href=&#34;https://github.com/SirVer/ultisnips&#34;&gt;UltiSnips&lt;/a&gt;/&lt;a href=&#34;https://github.com/L3MON4D3/LuaSnip&#34;&gt;LuaSnip&lt;/a&gt; for vim/neovim, I haven&amp;#39;t seen an alternative for system global snippets.&lt;/p&gt;
+&lt;p&gt;
+In this contex, a snippet is a short keyword that expands to a complete text or function. For example, typing &lt;code&gt;ex&lt;/code&gt; in org-mode in emacs using YASnippet, will expand to an example block:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Jul 2025 13:19:47 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 09:22:34 -0600</lastBuildDate>
     <atom:link href="https://earvingad.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation</title>
+      <link>https://earvingad.github.io/categories/automation/</link>
+      <pubDate>Sun, 27 Jul 2025 09:22:34 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer Tools</title>
+      <link>https://earvingad.github.io/categories/developer-tools/</link>
+      <pubDate>Sun, 27 Jul 2025 09:22:34 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/developer-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://earvingad.github.io/categories/productivity/</link>
+      <pubDate>Sun, 27 Jul 2025 09:22:34 -0600</pubDate>
+      <guid>https://earvingad.github.io/categories/productivity/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Homelab</title>
       <link>https://earvingad.github.io/categories/homelab/</link>

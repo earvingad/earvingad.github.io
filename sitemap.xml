@@ -2,19 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://earvingad.github.io/posts/espanso/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/automation/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/automation/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/developer-tools/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/espanso/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/posts/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/categories/productivity/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/productivity/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
+    <loc>https://earvingad.github.io/tags/text-expansion/</loc>
+    <lastmod>2025-07-27T09:22:34-06:00</lastmod>
+  </url><url>
     <loc>https://earvingad.github.io/tags/caddy/</loc>
     <lastmod>2025-07-19T13:19:47-06:00</lastmod>
   </url><url>
-    <loc>https://earvingad.github.io/categories/</loc>
-    <lastmod>2025-07-19T13:19:47-06:00</lastmod>
-  </url><url>
     <loc>https://earvingad.github.io/categories/homelab/</loc>
-    <lastmod>2025-07-19T13:19:47-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/</loc>
-    <lastmod>2025-07-19T13:19:47-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/posts/</loc>
     <lastmod>2025-07-19T13:19:47-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/proxy/</loc>
@@ -27,9 +54,6 @@
     <lastmod>2025-07-19T13:19:47-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/server/</loc>
-    <lastmod>2025-07-19T13:19:47-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/</loc>
     <lastmod>2025-07-19T13:19:47-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/tags/web/</loc>
@@ -100,9 +124,6 @@
   </url><url>
     <loc>https://earvingad.github.io/tags/utterance/</loc>
     <lastmod>2023-11-05T11:41:24-06:00</lastmod>
-  </url><url>
-    <loc>https://earvingad.github.io/tags/automate/</loc>
-    <lastmod>2023-10-29T12:08:13-06:00</lastmod>
   </url><url>
     <loc>https://earvingad.github.io/posts/automatewithpython/</loc>
     <lastmod>2023-10-29T12:08:13-06:00</lastmod>
