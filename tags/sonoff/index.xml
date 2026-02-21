@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sonoff on Nerd things and more...</title>
-    <link>http://10.1.1.205:1313/tags/sonoff/</link>
+    <link>https://earvingad.github.io/tags/sonoff/</link>
     <description>Recent content in Sonoff on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 20 Aug 2023 12:58:52 -0600</lastBuildDate>
-    <atom:link href="http://10.1.1.205:1313/tags/sonoff/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://earvingad.github.io/tags/sonoff/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make smart a dumb coffee machine with ESPHome</title>
-      <link>http://10.1.1.205:1313/posts/smartdumbcoffe/</link>
+      <link>https://earvingad.github.io/posts/smartdumbcoffe/</link>
       <pubDate>Sun, 20 Aug 2023 12:58:52 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/smartdumbcoffe/</guid>
+      <guid>https://earvingad.github.io/posts/smartdumbcoffe/</guid>
       <description>&lt;p&gt;
 &lt;em&gt;As a Coffee lover…&lt;/em&gt; of course this post had to start that way.&lt;/p&gt;
 &lt;p&gt;
@@ -25,9 +25,9 @@ I have a dumb coffee machine for my morning coffee on my way to work. It is just
     </item>
     <item>
       <title>Sonoff mini r2, my screw up and repair</title>
-      <link>http://10.1.1.205:1313/posts/sonoffminir2repair/</link>
+      <link>https://earvingad.github.io/posts/sonoffminir2repair/</link>
       <pubDate>Wed, 26 Jul 2023 19:06:18 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/sonoffminir2repair/</guid>
+      <guid>https://earvingad.github.io/posts/sonoffminir2repair/</guid>
       <description>&lt;p&gt;I bought a sonoff mini r2 with the intention to automate my bedroom light. It requires a neutral wire to work, so it was quite difficult to use in my room due to light is connected in a two way switch and it does not have neutral wire. Eventually, I sorted it out by pulling a neutral from a plug close to one of the switches. However, in the process I screwed it up…&lt;/p&gt;</description>
     </item>
   </channel>

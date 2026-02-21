@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Productivity on Nerd things and more...</title>
-    <link>http://10.1.1.205:1313/categories/productivity/</link>
+    <link>https://earvingad.github.io/categories/productivity/</link>
     <description>Recent content in Productivity on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Jul 2025 09:22:34 -0600</lastBuildDate>
-    <atom:link href="http://10.1.1.205:1313/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://earvingad.github.io/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>:esp -&gt; espanso, text expansion everywhere</title>
-      <link>http://10.1.1.205:1313/posts/espanso/</link>
+      <link>https://earvingad.github.io/posts/espanso/</link>
       <pubDate>Sun, 27 Jul 2025 09:22:34 -0600</pubDate>
-      <guid>http://10.1.1.205:1313/posts/espanso/</guid>
+      <guid>https://earvingad.github.io/posts/espanso/</guid>
       <description>&lt;p&gt;
 Ever had to send the same email again and again? This is very common in office environments and we have a way to avoid this hassle (apart from just copy and paste). While in coding we rely on snippets like &lt;a href=&#34;https://joaotavora.github.io/yasnippet/&#34;&gt;YASnippet&lt;/a&gt; in emacs or &lt;a href=&#34;https://github.com/SirVer/ultisnips&#34;&gt;UltiSnips&lt;/a&gt;/&lt;a href=&#34;https://github.com/L3MON4D3/LuaSnip&#34;&gt;LuaSnip&lt;/a&gt; for vim/neovim to save time and write code easily and quick, I haven&amp;#39;t seen an alternative for system global snippets.&lt;/p&gt;
 &lt;p&gt;

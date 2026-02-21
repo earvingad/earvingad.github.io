@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tor on Nerd things and more...</title>
-    <link>http://10.1.1.205:1313/tags/tor/</link>
+    <link>https://earvingad.github.io/tags/tor/</link>
     <description>Recent content in Tor on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 May 2022 18:55:17 -0500</lastBuildDate>
-    <atom:link href="http://10.1.1.205:1313/tags/tor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://earvingad.github.io/tags/tor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tor a hidden friend to SSH your home network</title>
-      <link>http://10.1.1.205:1313/posts/torssh/</link>
+      <link>https://earvingad.github.io/posts/torssh/</link>
       <pubDate>Sun, 22 May 2022 18:55:17 -0500</pubDate>
-      <guid>http://10.1.1.205:1313/posts/torssh/</guid>
+      <guid>https://earvingad.github.io/posts/torssh/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.torproject.org/static/images/tor-project-logo-onions.png&#34;/&gt; 
