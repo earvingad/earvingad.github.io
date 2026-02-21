@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Automation on Nerd things and more...</title>
-    <link>https://earvingad.github.io/categories/automation/</link>
+    <link>http://10.1.1.205:1313/categories/automation/</link>
     <description>Recent content in Automation on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Jul 2025 09:22:34 -0600</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/categories/automation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/categories/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>:esp -&gt; espanso, text expansion everywhere</title>
-      <link>https://earvingad.github.io/posts/espanso/</link>
+      <link>http://10.1.1.205:1313/posts/espanso/</link>
       <pubDate>Sun, 27 Jul 2025 09:22:34 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/espanso/</guid>
+      <guid>http://10.1.1.205:1313/posts/espanso/</guid>
       <description>&lt;p&gt;
 Ever had to send the same email again and again? This is very common in office environments and we have a way to avoid this hassle (apart from just copy and paste). While in coding we rely on snippets like &lt;a href=&#34;https://joaotavora.github.io/yasnippet/&#34;&gt;YASnippet&lt;/a&gt; in emacs or &lt;a href=&#34;https://github.com/SirVer/ultisnips&#34;&gt;UltiSnips&lt;/a&gt;/&lt;a href=&#34;https://github.com/L3MON4D3/LuaSnip&#34;&gt;LuaSnip&lt;/a&gt; for vim/neovim to save time and write code easily and quick, I haven&amp;#39;t seen an alternative for system global snippets.&lt;/p&gt;
 &lt;p&gt;
@@ -25,9 +25,9 @@ In this context, a snippet is a short keyword that expands to a complete text or
     </item>
     <item>
       <title>Automating with Python: A start</title>
-      <link>https://earvingad.github.io/posts/automatewithpython/</link>
+      <link>http://10.1.1.205:1313/posts/automatewithpython/</link>
       <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/automatewithpython/</guid>
+      <guid>http://10.1.1.205:1313/posts/automatewithpython/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.python.org/static/img/python-logo.png&#34;/&gt; 
 &lt;/figure&gt;
@@ -40,16 +40,16 @@ From my school years, I think the first programming language I was in touch with
     </item>
     <item>
       <title>IoT devices, local control</title>
-      <link>https://earvingad.github.io/posts/esphometasmota/</link>
+      <link>http://10.1.1.205:1313/posts/esphometasmota/</link>
       <pubDate>Sun, 23 Jul 2023 12:13:58 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/esphometasmota/</guid>
+      <guid>http://10.1.1.205:1313/posts/esphometasmota/</guid>
       <description>&lt;p&gt;If you started to install smart devices, you realized that you need apps to manage the devices. The more popular are Tuya, Smart life and eWeLink. However, they come with a drawback: They rely on the third party cloud, if you loss internet connection you won&amp;#39;t be able to control the devices. In order to solve that you can re-flash the devices with another software. In other words, override the software of the device which will allow you to control the device locally. I&amp;#39;ll discuss some I&amp;#39;ve used just for put them in your radar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Home-Assistant, being lazy at home</title>
-      <link>https://earvingad.github.io/posts/homeassistant/</link>
+      <link>http://10.1.1.205:1313/posts/homeassistant/</link>
       <pubDate>Sun, 16 Jul 2023 12:52:44 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/homeassistant/</guid>
+      <guid>http://10.1.1.205:1313/posts/homeassistant/</guid>
       <description>&lt;p&gt;&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://www.home-assistant.io/images/favicon-192x192-full.png&#34;/&gt; 
 &lt;/figure&gt;

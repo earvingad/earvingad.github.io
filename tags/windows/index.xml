@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Windows on Nerd things and more...</title>
-    <link>https://earvingad.github.io/tags/windows/</link>
+    <link>http://10.1.1.205:1313/tags/windows/</link>
     <description>Recent content in Windows on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Tue, 26 May 2020 22:18:24 -0500</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Org-roam &amp; Windows</title>
-      <link>https://earvingad.github.io/posts/org_roam_windows/</link>
+      <link>http://10.1.1.205:1313/posts/org_roam_windows/</link>
       <pubDate>Tue, 26 May 2020 22:18:24 -0500</pubDate>
-      <guid>https://earvingad.github.io/posts/org_roam_windows/</guid>
+      <guid>http://10.1.1.205:1313/posts/org_roam_windows/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 Org-roam
@@ -36,10 +36,12 @@ In simple words: Org-roam allows you to make connections between your notes, in 
     </item>
     <item>
       <title>Doom, Emacs &amp; Windows</title>
-      <link>https://earvingad.github.io/posts/doom_emacs_windows/</link>
+      <link>http://10.1.1.205:1313/posts/doom_emacs_windows/</link>
       <pubDate>Fri, 22 May 2020 20:10:08 -0500</pubDate>
-      <guid>https://earvingad.github.io/posts/doom_emacs_windows/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/hlissner/doom-emacs&#34;&gt;Doom-emacs&lt;/a&gt;. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.&lt;/p&gt;
+      <guid>http://10.1.1.205:1313/posts/doom_emacs_windows/</guid>
+      <description>&lt;p&gt;Last update: Feb 21st, 2026. Tested emacs 30.2&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/hlissner/doom-emacs&#34;&gt;Doom-emacs&lt;/a&gt;. It&amp;#39;s a configuration framework for Emacs. Basically, it overrides the Emacs keybindings with most of vim&amp;#39;s.&lt;/p&gt;
 &lt;p&gt;
 As I mentioned in the last post. I started using Emacs at work due to org-mode… and work PC&amp;#39;s use windows behind a Firewall, so using git, pip, melpa and some more are useless in my work desktop (In the Laptop all of them work if I connect to another network, which was what I did).&lt;/p&gt;</description>
     </item>

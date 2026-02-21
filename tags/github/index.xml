@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Github on Nerd things and more...</title>
-    <link>https://earvingad.github.io/tags/github/</link>
+    <link>http://10.1.1.205:1313/tags/github/</link>
     <description>Recent content in Github on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 05 Nov 2023 11:41:24 -0600</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enable blog comments in GitHub pages with utterance</title>
-      <link>https://earvingad.github.io/posts/blogcommentsutterance/</link>
+      <link>http://10.1.1.205:1313/posts/blogcommentsutterance/</link>
       <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/blogcommentsutterance/</guid>
+      <guid>http://10.1.1.205:1313/posts/blogcommentsutterance/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://avatars3.githubusercontent.com/u/27908738?v=3&amp;amp;s=88&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
-It&amp;#39;s been three years since I started this blog using &lt;a href=&#34;https://earvingad.github.io/posts/blogwithhugo/&#34;&gt;Hugo and GitHub pages&lt;/a&gt;, but I never enabled comments since this blog makes use of static pages, some users commented my posts using github issues and I thought it was a good idea. There were many workarounds to enable comments in github pages, but I wasn&amp;#39;t convinced. Luckily, yesterday I found out about &lt;a href=&#34;https://utteranc.es/&#34;&gt;utterances&lt;/a&gt;.&lt;/p&gt;
+It&amp;#39;s been three years since I started this blog using &lt;a href=&#34;http://10.1.1.205:1313/posts/blogwithhugo/&#34;&gt;Hugo and GitHub pages&lt;/a&gt;, but I never enabled comments since this blog makes use of static pages, some users commented my posts using github issues and I thought it was a good idea. There were many workarounds to enable comments in github pages, but I wasn&amp;#39;t convinced. Luckily, yesterday I found out about &lt;a href=&#34;https://utteranc.es/&#34;&gt;utterances&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A lightweight comments widget built on GitHub issues. Use GitHub issues for blog comments, wiki pages and more!&lt;/p&gt;</description>
     </item>

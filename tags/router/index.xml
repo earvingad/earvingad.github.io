@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Router on Nerd things and more...</title>
-    <link>https://earvingad.github.io/tags/router/</link>
+    <link>http://10.1.1.205:1313/tags/router/</link>
     <description>Recent content in Router on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 May 2022 13:23:58 -0500</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/tags/router/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/router/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AdGuardHome, like Pi-hole but...better(?)</title>
-      <link>https://earvingad.github.io/posts/adguardhome/</link>
+      <link>http://10.1.1.205:1313/posts/adguardhome/</link>
       <pubDate>Sun, 15 May 2022 13:23:58 -0500</pubDate>
-      <guid>https://earvingad.github.io/posts/adguardhome/</guid>
+      <guid>http://10.1.1.205:1313/posts/adguardhome/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://adguard.com/en/welcome.html&#34;&gt;AdGuard Home&lt;/a&gt; is a…&lt;/p&gt;
 &lt;blockquote&gt;
@@ -25,15 +25,15 @@
 &lt;p&gt;
 Free and open source, powerful network-wide ads &amp;amp; trackers blocking DNS server.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a &lt;a href=&#34;https://openwrt.org/docs/guide-user/services/dns/adguard-home&#34;&gt;package&lt;/a&gt; for OpenWrt. We will focus on the latter, I wrote briefly about it the &lt;a href=&#34;https://earvingad.github.io/posts/adblocking/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Ad Blocking, simple &amp;amp; fast&lt;/span&gt;&lt;/a&gt; entry.&lt;/p&gt;
+&lt;p&gt;It has a windows, Mac, Android and iOS app. Also a web extension, it is also offering a DNS service, VPN service and a &lt;a href=&#34;https://openwrt.org/docs/guide-user/services/dns/adguard-home&#34;&gt;package&lt;/a&gt; for OpenWrt. We will focus on the latter, I wrote briefly about it the &lt;a href=&#34;http://10.1.1.205:1313/posts/adblocking/&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Ad Blocking, simple &amp;amp; fast&lt;/span&gt;&lt;/a&gt; entry.&lt;/p&gt;
 &lt;p&gt;
 This post is based on &lt;a href=&#34;https://forum.openwrt.org/t/howto-running-adguard-home-on-openwrt/51678&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;this&lt;/span&gt;&lt;/a&gt; forum entry. The only difference is that it will be installed in an external HDD connected to the OpenWrt router.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenWrt or How to give your router steroids</title>
-      <link>https://earvingad.github.io/posts/openwrt/</link>
+      <link>http://10.1.1.205:1313/posts/openwrt/</link>
       <pubDate>Fri, 06 May 2022 14:14:48 -0500</pubDate>
-      <guid>https://earvingad.github.io/posts/openwrt/</guid>
+      <guid>http://10.1.1.205:1313/posts/openwrt/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;The OpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application(…)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -44,9 +44,9 @@ Have you ever hated your wireless router so much that you wanted to smash it to 
     </item>
     <item>
       <title>Ad Blocking, simple &amp; fast</title>
-      <link>https://earvingad.github.io/posts/adblocking/</link>
+      <link>http://10.1.1.205:1313/posts/adblocking/</link>
       <pubDate>Wed, 27 Apr 2022 21:24:55 -0500</pubDate>
-      <guid>https://earvingad.github.io/posts/adblocking/</guid>
+      <guid>http://10.1.1.205:1313/posts/adblocking/</guid>
       <description>&lt;p&gt;
 We all hate ads.&lt;/p&gt;
 &lt;p&gt;

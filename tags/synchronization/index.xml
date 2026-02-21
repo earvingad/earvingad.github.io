@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Synchronization on Nerd things and more...</title>
-    <link>https://earvingad.github.io/tags/synchronization/</link>
+    <link>http://10.1.1.205:1313/tags/synchronization/</link>
     <description>Recent content in Synchronization on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 24 Apr 2022 18:30:09 -0500</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/tags/synchronization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.205:1313/tags/synchronization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Syncthing</title>
-      <link>https://earvingad.github.io/posts/syncthing/</link>
+      <link>http://10.1.1.205:1313/posts/syncthing/</link>
       <pubDate>Sun, 24 Apr 2022 18:30:09 -0500</pubDate>
-      <guid>https://earvingad.github.io/posts/syncthing/</guid>
+      <guid>http://10.1.1.205:1313/posts/syncthing/</guid>
       <description>&lt;p&gt;I have been very very busy with work. Regardless COVID, I did homeoffice for about 2 weeks (and only due to suspicion of infection), work load increased considerably and therefore, I really abandoned this blog and I regret it, but I will try to keep writting it regardless the work.&lt;/p&gt;
 &lt;p&gt;
 So, Let&amp;#39;s start with the entry:&lt;/p&gt;

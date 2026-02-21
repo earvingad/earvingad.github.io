@@ -2,22 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Emacs on Nerd things and more...</title>
-    <link>https://earvingad.github.io/categories/emacs/</link>
+    <link>http://10.1.1.205:1313/categories/emacs/</link>
     <description>Recent content in Emacs on Nerd things and more...</description>
     <image>
       <title>Nerd things and more...</title>
-      <url>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://earvingad.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://10.1.1.205:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Nov 2023 19:00:25 -0600</lastBuildDate>
-    <atom:link href="https://earvingad.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 11:19:59 -0600</lastBuildDate>
+    <atom:link href="http://10.1.1.205:1313/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read the org</title>
+      <link>http://10.1.1.205:1313/posts/readtheorg/</link>
+      <pubDate>Sun, 19 Nov 2023 11:19:59 -0600</pubDate>
+      <guid>http://10.1.1.205:1313/posts/readtheorg/</guid>
+      <description>&lt;p&gt;
+Recently I wrote about using org-reveal to make presentations with emacs and org-mode, but org-mode actually can export the org document to an html file by using &lt;code&gt;SPC m e h o&lt;/code&gt; it will open the generated html.&lt;/p&gt;
+&lt;p&gt;
+The results is pretty simple html file, but you can customize it by adding a custom &lt;a href=&#34;https://orgmode.org/manual/In_002dbuffer-Settings.html#index-SETUPFILE_002c-keyword-1&#34;&gt;setup file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+One of my favorites is the &lt;a href=&#34;https://docs.readthedocs.io/en/latest/&#34;&gt;read the docs&lt;/a&gt; theme. It is pretty elegant and lean, in my opinion.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Make elegant presentations with org and reveal</title>
-      <link>https://earvingad.github.io/posts/orgreveal/</link>
+      <link>http://10.1.1.205:1313/posts/orgreveal/</link>
       <pubDate>Wed, 15 Nov 2023 19:00:25 -0600</pubDate>
-      <guid>https://earvingad.github.io/posts/orgreveal/</guid>
+      <guid>http://10.1.1.205:1313/posts/orgreveal/</guid>
       <description>&lt;div class=&#34;center-block&#34; style=&#34;text-align: center; margin-left: auto; margin-right: auto;&#34;&gt;
 &lt;p&gt;Please see the &lt;a href=&#34;https://earvingad.github.io/posts/img/orgreveal/orgreveal.html&#34;&gt;presentation version of this post&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -34,9 +46,9 @@ Org-Reveal
     </item>
     <item>
       <title>Org-mode</title>
-      <link>https://earvingad.github.io/posts/org_mode/</link>
+      <link>http://10.1.1.205:1313/posts/org_mode/</link>
       <pubDate>Sun, 24 May 2020 17:38:08 -0500</pubDate>
-      <guid>https://earvingad.github.io/posts/org_mode/</guid>
+      <guid>http://10.1.1.205:1313/posts/org_mode/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;https://orgmode.org/&#34;&gt;Org-mode&lt;/a&gt; is an Emacs mode for note taking, project planing and making TODO lists (because we all need TODO lists to &lt;a href=&#34;https://en.wikipedia.org/wiki/Getting_Things_Done&#34;&gt;GTD&lt;/a&gt;). It can handle more things: Calendar, diary, agenda and export you Org documents to other file extensions. I am not going do talk about all can do with org-mode, you can google yourself for further information. I am going to focus in note taking and export.&lt;/p&gt;
 &lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
