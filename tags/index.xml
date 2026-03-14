@@ -11,13 +11,27 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Jul 2025 09:22:34 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 08:51:49 -0600</lastBuildDate>
     <atom:link href="https://earvingad.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
       <link>https://earvingad.github.io/tags/automation/</link>
-      <pubDate>Sun, 27 Jul 2025 09:22:34 -0600</pubDate>
+      <pubDate>Sat, 14 Mar 2026 08:51:49 -0600</pubDate>
       <guid>https://earvingad.github.io/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://earvingad.github.io/tags/programming/</link>
+      <pubDate>Sat, 14 Mar 2026 08:51:49 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://earvingad.github.io/tags/python/</link>
+      <pubDate>Sat, 14 Mar 2026 08:51:49 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/python/</guid>
       <description></description>
     </item>
     <item>
@@ -151,20 +165,6 @@
       <link>https://earvingad.github.io/tags/utterance/</link>
       <pubDate>Sun, 05 Nov 2023 11:41:24 -0600</pubDate>
       <guid>https://earvingad.github.io/tags/utterance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>https://earvingad.github.io/tags/programming/</link>
-      <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://earvingad.github.io/tags/python/</link>
-      <pubDate>Sun, 29 Oct 2023 12:08:13 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/python/</guid>
       <description></description>
     </item>
     <item>

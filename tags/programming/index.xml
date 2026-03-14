@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Oct 2023 12:08:13 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 08:51:49 -0600</lastBuildDate>
     <atom:link href="https://earvingad.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MouseJiggler</title>
+      <link>https://earvingad.github.io/posts/mousejiggler/</link>
+      <pubDate>Sat, 14 Mar 2026 08:51:49 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/mousejiggler/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;https://github.com/KMKfw/kmk_firmware&#34;&gt;KMK&lt;/a&gt; there is a module called &lt;a href=&#34;https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/mouse_jiggler.md&#34;&gt;Mouse Jiggler&lt;/a&gt; which allows you to &amp;#34;&lt;em&gt;periodically jiggle the mouse cursor, keeping the host system from idling or sleeping&lt;/em&gt;.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+It works really fine, since the keyboard sends HID commands to move the mouse and all apps in Windows recognize the movement. But what if I do not have my keyboard around me all the time? can&amp;#39;t I just make an script to jiggle the mouse?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Automating with Python: A start</title>
       <link>https://earvingad.github.io/posts/automatewithpython/</link>

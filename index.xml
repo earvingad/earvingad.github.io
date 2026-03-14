@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Jul 2025 09:22:34 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 08:51:49 -0600</lastBuildDate>
     <atom:link href="https://earvingad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MouseJiggler</title>
+      <link>https://earvingad.github.io/posts/mousejiggler/</link>
+      <pubDate>Sat, 14 Mar 2026 08:51:49 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/mousejiggler/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;https://github.com/KMKfw/kmk_firmware&#34;&gt;KMK&lt;/a&gt; there is a module called &lt;a href=&#34;https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/mouse_jiggler.md&#34;&gt;Mouse Jiggler&lt;/a&gt; which allows you to &amp;#34;&lt;em&gt;periodically jiggle the mouse cursor, keeping the host system from idling or sleeping&lt;/em&gt;.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+It works really fine, since the keyboard sends HID commands to move the mouse and all apps in Windows recognize the movement. But what if I do not have my keyboard around me all the time? can&amp;#39;t I just make an script to jiggle the mouse?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>:esp -&gt; espanso, text expansion everywhere</title>
       <link>https://earvingad.github.io/posts/espanso/</link>
@@ -169,8 +178,10 @@ HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;h
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
       <guid>https://earvingad.github.io/posts/headscale/</guid>
       <description>&lt;p&gt;
+THIS GUIDE IS OUTDATED. KEPT JUST FOR REFERENCE.&lt;/p&gt;
+&lt;p&gt;
 &lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/juanfont/headscale/main/docs/logo/headscale3_header_stacked_left.png&#34;/&gt; 
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/juanfont/headscale/main/docs/assets/logo/headscale3_header_stacked_left.png&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
