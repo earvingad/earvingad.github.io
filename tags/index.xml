@@ -11,8 +11,57 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Mar 2026 08:51:49 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 08:21:47 -0600</lastBuildDate>
     <atom:link href="https://earvingad.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Headscale</title>
+      <link>https://earvingad.github.io/tags/headscale/</link>
+      <pubDate>Sun, 15 Mar 2026 08:21:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/headscale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxy</title>
+      <link>https://earvingad.github.io/tags/proxy/</link>
+      <pubDate>Sun, 15 Mar 2026 08:21:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server</title>
+      <link>https://earvingad.github.io/tags/server/</link>
+      <pubDate>Sun, 15 Mar 2026 08:21:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ssh</title>
+      <link>https://earvingad.github.io/tags/ssh/</link>
+      <pubDate>Sun, 15 Mar 2026 08:21:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/ssh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tailscale</title>
+      <link>https://earvingad.github.io/tags/tailscale/</link>
+      <pubDate>Sun, 15 Mar 2026 08:21:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/tailscale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vpn</title>
+      <link>https://earvingad.github.io/tags/vpn/</link>
+      <pubDate>Sun, 15 Mar 2026 08:21:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/vpn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://earvingad.github.io/tags/web/</link>
+      <pubDate>Sun, 15 Mar 2026 08:21:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/tags/web/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Automation</title>
       <link>https://earvingad.github.io/tags/automation/</link>
@@ -60,27 +109,6 @@
       <link>https://earvingad.github.io/tags/caddy/</link>
       <pubDate>Sat, 19 Jul 2025 13:19:47 -0600</pubDate>
       <guid>https://earvingad.github.io/tags/caddy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Proxy</title>
-      <link>https://earvingad.github.io/tags/proxy/</link>
-      <pubDate>Sat, 19 Jul 2025 13:19:47 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/proxy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Server</title>
-      <link>https://earvingad.github.io/tags/server/</link>
-      <pubDate>Sat, 19 Jul 2025 13:19:47 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/server/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web</title>
-      <link>https://earvingad.github.io/tags/web/</link>
-      <pubDate>Sat, 19 Jul 2025 13:19:47 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/web/</guid>
       <description></description>
     </item>
     <item>
@@ -280,13 +308,6 @@
       <description></description>
     </item>
     <item>
-      <title>Headscale</title>
-      <link>https://earvingad.github.io/tags/headscale/</link>
-      <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/headscale/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Netmaker</title>
       <link>https://earvingad.github.io/tags/netmaker/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
@@ -298,27 +319,6 @@
       <link>https://earvingad.github.io/tags/openwrt/</link>
       <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
       <guid>https://earvingad.github.io/tags/openwrt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ssh</title>
-      <link>https://earvingad.github.io/tags/ssh/</link>
-      <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/ssh/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tailscale</title>
-      <link>https://earvingad.github.io/tags/tailscale/</link>
-      <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/tailscale/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vpn</title>
-      <link>https://earvingad.github.io/tags/vpn/</link>
-      <pubDate>Sat, 25 Feb 2023 12:15:56 -0600</pubDate>
-      <guid>https://earvingad.github.io/tags/vpn/</guid>
       <description></description>
     </item>
     <item>

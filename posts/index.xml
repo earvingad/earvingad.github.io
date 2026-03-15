@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Mar 2026 08:51:49 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 08:21:47 -0600</lastBuildDate>
     <atom:link href="https://earvingad.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Headscale &#43; SWAG</title>
+      <link>https://earvingad.github.io/posts/headscaleswag/</link>
+      <pubDate>Sun, 15 Mar 2026 08:21:47 -0600</pubDate>
+      <guid>https://earvingad.github.io/posts/headscaleswag/</guid>
+      <description>&lt;p&gt;
+In a previous post: &lt;a href=&#34;https://earvingad.github.io/posts/headscale/&#34;&gt;Headscale, how to self-host tailscale&lt;/a&gt;, I explained how to configure headscale in server; now it is outdated. At that time the only way to install it was using the &lt;code class=&#34;verbatim&#34;&gt;.deb&lt;/code&gt; or &lt;code class=&#34;verbatim&#34;&gt;binary&lt;/code&gt; file, but now we can use a simpler method. This time we will focus on: Docker, headscale and SWAG.&lt;/p&gt;
+&lt;p&gt;
+SWAG (Secure Web Application Gateway) sets up an Nginx reverse proxy with built-in cerbot for SSL certificates using Let&amp;#39;s Encrypt. I already wrote a litter bit about it &lt;a href=&#34;https://earvingad.github.io/posts/reverseproxy/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>MouseJiggler</title>
       <link>https://earvingad.github.io/posts/mousejiggler/</link>
@@ -179,6 +189,8 @@ HomeAssistant is basically an OS (?) where you can add all the &lt;a href=&#34;h
       <guid>https://earvingad.github.io/posts/headscale/</guid>
       <description>&lt;p&gt;
 THIS GUIDE IS OUTDATED. KEPT JUST FOR REFERENCE.&lt;/p&gt;
+&lt;p&gt;
+PLEASE SEE: &lt;a href=&#34;https://earvingad.github.io/posts/headscaleswag/&#34;&gt;Headscale + SWAG&lt;/a&gt; FOR AN UPDATED VERSION&lt;/p&gt;
 &lt;p&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/juanfont/headscale/main/docs/assets/logo/headscale3_header_stacked_left.png&#34;/&gt; 
